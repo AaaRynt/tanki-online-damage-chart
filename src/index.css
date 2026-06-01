@@ -186,12 +186,7 @@
 }
 
 body {
-  background-image:
-    linear-gradient(
-      var(--darkreader-background-1e394ef5, rgba(24, 46, 62, 0.96)) 0%,
-      var(--darkreader-background-1e394ef5, rgba(24, 46, 62, 0.96)) 100%
-    ),
-    url(background.png);
+  background-image: linear-gradient(rgba(24, 46, 62, 0.96) 0%, rgba(24, 46, 62, 0.96) 100%), url(background.png);
   background-color: initial;
   background-repeat: repeat;
 }
