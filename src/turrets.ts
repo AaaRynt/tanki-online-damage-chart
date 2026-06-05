@@ -2,7 +2,8 @@
 // https://en.tankiwiki.com/Turrets
 // [June 4th (Update 832)](https://en.tankiwiki.com/Updates)
 
-export type turrets = {
+export type TTurrets = {
+  name: string
   damage: number
   critical?: number
   add?: number[]
@@ -12,7 +13,8 @@ export type turrets = {
   isBurst: boolean
 }
 // https://en.tankiwiki.com/Firebird#Characteristics
-export const Firebird: turrets = {
+export const Firebird: TTurrets = {
+  name: 'Firebird',
   damage: 300,
   critical: 385,
   add: [4, 150],
@@ -22,7 +24,8 @@ export const Firebird: turrets = {
   isBurst: true,
 }
 // https://en.tankiwiki.com/Freeze#Characteristics
-export const Freeze: turrets = {
+export const Freeze: TTurrets = {
+  name: 'Freeze',
   damage: 300,
   critical: 760,
   reloadTime: [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.375], // 16 shoots in 4s
@@ -31,7 +34,8 @@ export const Freeze: turrets = {
   isBurst: true,
 }
 // https://en.tankiwiki.com/Isida#Characteristics
-export const Isida: turrets = {
+export const Isida: TTurrets = {
+  name: 'Isida',
   damage: 260,
   critical: 300,
   reloadTime: [0.25],
@@ -40,7 +44,8 @@ export const Isida: turrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Scatter#Characteristics
-export const Tesla: turrets = {
+export const Tesla: TTurrets = {
+  name: 'Tesla',
   damage: 400,
   critical: 1160,
   reloadTime: [0, 1],
@@ -49,7 +54,8 @@ export const Tesla: turrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Hammer#Characteristics
-export const Hammer: turrets = {
+export const Hammer: TTurrets = {
+  name: 'Hammer',
   damage: 920,
   critical: 1160,
   reloadTime: [0, 0.7, 0.7, 2.5],
@@ -58,7 +64,8 @@ export const Hammer: turrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Flare#Characteristics
-export const Twins: turrets = {
+export const Twins: TTurrets = {
+  name: 'Twins',
   damage: 240,
   critical: 480,
   reloadTime: [0, 0.26],
@@ -67,7 +74,8 @@ export const Twins: turrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Ricochet#Characteristics
-export const Ricochet: turrets = {
+export const Ricochet: TTurrets = {
+  name: 'Ricochet',
   damage: 340,
   critical: 480,
   reloadTime: [0, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.67, 0.78], // 15 shoots in 7.5s
@@ -76,7 +84,8 @@ export const Ricochet: turrets = {
   isBurst: true,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Smoky: turrets = {
+export const Smoky: TTurrets = {
+  name: 'Smoky',
   damage: 700,
   critical: 900,
   reloadTime: [0, 1.1],
@@ -84,14 +93,16 @@ export const Smoky: turrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Quake#Characteristics
-export const Striker: turrets = {
+export const Striker: TTurrets = {
+  name: 'Striker',
   damage: 900,
   critical: 1160,
   reloadTime: [0, 1.7],
   isBurst: false,
 }
 // https://en.tankiwiki.com/Vulcan#Characteristics
-export const Vulcan: turrets = {
+export const Vulcan: TTurrets = {
+  name: 'Vulcan',
   damage: 100,
   critical: 120,
   reloadTime: [
@@ -103,7 +114,8 @@ export const Vulcan: turrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Thunder#Characteristics
-export const Thunder: turrets = {
+export const Thunder: TTurrets = {
+  name: 'Thunder',
   damage: 900,
   critical: 1160,
   reloadTime: [0, 2],
@@ -111,7 +123,8 @@ export const Thunder: turrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Tsunami: turrets = {
+export const Tsunami: TTurrets = {
+  name: 'Tsunami',
   damage: 700,
   critical: 1160,
   add: [2, 400],
@@ -119,7 +132,8 @@ export const Tsunami: turrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Scorpion: turrets = {
+export const Scorpion: TTurrets = {
+  name: 'Scorpion',
   damage: 1160,
   critical: 1400,
   reloadTime: [0, 2.7],
@@ -127,7 +141,8 @@ export const Scorpion: turrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Railgun: turrets = {
+export const Railgun: TTurrets = {
+  name: 'Railgun',
   damage: 1400,
   critical: 1740,
   reloadTime: [1.2, 3.7, 3.7, 3.7, 3.7, 3.7, 3.7],
@@ -135,14 +150,16 @@ export const Railgun: turrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Magnum: turrets = {
+export const Magnum: TTurrets = {
+  name: 'Magnum',
   damage: 1400,
   critical: 1740,
   reloadTime: [0, 2.5],
   isBurst: false,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Gauss: turrets = {
+export const Gauss: TTurrets = {
+  name: 'Gauss',
   damage: 700,
   critical: 900,
   reloadTime: [0, 1.3],
@@ -150,7 +167,8 @@ export const Gauss: turrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Shaft: turrets = {
+export const Shaft: TTurrets = {
+  name: 'Shaft',
   damage: 700,
   critical: 900,
   reloadTime: [0, 1.8],

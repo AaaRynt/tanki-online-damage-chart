@@ -4,7 +4,11 @@ source: 'https://en.tankiwiki.com/Updates'
 created: 2026-06-05
 ---
 
-## June 4th (Update 832)
+# Updates
+
+## 2026
+
+### June 4th (Update 832)
 
 List of Changes:
 
@@ -12,7 +16,7 @@ List of Changes:
   - (Note) We are developing a new technical support website where we can assist you without the need for email communication. Access to this site works via a QR code with an embedded authorization token. You will not need to log in separately; simply scanning the QR code with your phone will suffice. The site is still a work in progress. In the future, we plan to send you notifications directly in the game when you receive a response from technical support.
 - A final achievement has been added to Steam for obtaining all existing achievements.
 
-## May 29th (Update 831)
+### May 29th (Update 831)
 
 List of Changes:
 
@@ -33,7 +37,7 @@ List of Fixes:
 
 - Fixed an issue where an Apple account would become automatically unlinked 24 hours after registration or login.
 
-## May 15th (Update 830)
+### May 15th (Update 830)
 
 List of Changes:
 
@@ -48,7 +52,7 @@ List of Fixes:
 - Fixed an anticheat issue related to projectile ricochet, where damage was disabled in cases of sequential ricochet from a horizontal surface followed by a vertical surface.
 - Fixed an issue where dynamic lighting on 3D bushes was not working correctly.
 
-## April 30th (Update 829)
+### April 30th (Update 829)
 
 List of Changes:
 
@@ -71,7 +75,7 @@ List of Fixes:
 
 - Fixed an error that caused incorrect mission progress status for rank-up missions.
 
-## April 10th (Update 827)
+### April 10th (Update 827)
 
 List of Changes:
 
@@ -85,7 +89,7 @@ List of Fixes:
 - Fixed clan member sorting by rank when viewing a profile of a clan that is not your own.
 - Fixed localization issues for CS and HI.
 
-## April 3rd (Update 826)
+### April 3rd (Update 826)
 
 List of Changes:
 
@@ -115,7 +119,7 @@ List of Fixes:
 - Fixed auto-scrolling in the garage to the equipped weapon.
 - Fixed an issue where the rarity filter stopped working in the paints section.
 
-## March 27th (Update 825)
+### March 27th (Update 825)
 
 List of Changes:
 
@@ -149,7 +153,7 @@ List of Changes:
     - Visual size of the repair special effect increased by +10%;
 - Increased the text size on the game login screen for mobile devices
 
-## March 12th (Update 824)
+### March 12th (Update 824)
 
 List of changes:
 
@@ -178,7 +182,7 @@ List of Fixes:
   - (Note) Already in the game.
 - The 26,000 Tankoins bundle is back on sale in the iOS version.
 
-## March 6th (Update 823)
+### March 6th (Update 823)
 
 List of Changes:
 
@@ -235,7 +239,7 @@ List of Fixes:
     - Fixed the appearance of new skins recently added to the game.
     - Fixed various minor bugs found.
 
-## February 19th (Update 822)
+### February 19th (Update 822)
 
 List of changes:
 
@@ -243,7 +247,7 @@ List of changes:
   - (Note) Fog on the Remastered maps was already working before this with its own distance and intensity settings.
     - (Note) We remind you that fog can be disabled in the game settings
 
-## February 6th (Update 821)
+### February 6th (Update 821)
 
 List of changes:
 
@@ -280,7 +284,7 @@ List of fixes:
 
 - The icons of “Explosive Rounds” augment for Smoky and “Explosive Shells” augment for Scorpion are updated to not intersect with the “Vacuum Shells” augments icons
 
-## January 23rd (Update 820)
+### January 23rd (Update 820)
 
 List of changes:
 
@@ -314,7 +318,9 @@ List of changes:
     - 0,416% → 0,278% or 240 → 360 sec for full overdrive charge
 - The “Classic” battle format in PRO battles is turned off
 
-## December 19th (Update 818)
+## 2025
+
+### December 19th (Update 818)
 
 List of changes:
 
@@ -330,7 +336,7 @@ List of fixes:
 - Refinements of Parma and Highland Remastered maps
 - Old New Year maps are now supported by the Unity client
 
-## November 27th (Update 817)
+### November 27th (Update 817)
 
 List of changes:
 
@@ -494,7 +500,7 @@ List of fixes:
 - Fixed issues in the out-of-bounds area of the Parma Remastered map.
 - Fixed shadows on the Parma Remastered map.
 
-## November 7th (Update 816)
+### November 7th (Update 816)
 
 List of changes:
 
@@ -502,7 +508,7 @@ List of changes:
   - Added shell casings to the firing animation
 - Changed iOS account creation screen design to meet Apple guidelines
 
-## November 7th (Update 814)
+### November 7th (Update 814)
 
 List of Changes:
 
@@ -517,7 +523,7 @@ List of Fixes:
 - Fixed the issue of increased camera sensitivity with touch controls when lowering the rendering resolution.
 - In Spectator Mode, the technical information (bottom right) can now be hidden along with the rest of the UI.
 
-## October 24th (Update 813)
+### October 24th (Update 813)
 
 List of changes:
 
@@ -536,7 +542,7 @@ List of fixes:
 - Fixed incorrect display of the settings interface in Safari on iOS
 - Slightly adjusted the position of interface elements on the battle loading screen so that the “Loading” text is no longer overlapped by the system bar on iPhones
 
-## October 10th (Update 812)
+### October 10th (Update 812)
 
 List of changes:
 
@@ -571,7 +577,7 @@ List of fixes in the console version:
 - Removed unnecessary timers in the limited offers section of the Shop and added timers for special offers related to Challenges.
 - Optimized tank physics.
 
-## October 3rd (Update 811)
+### October 3rd (Update 811)
 
 List of changes:
 
@@ -582,7 +588,7 @@ List of changes:
   - «Stellarator» augment
     - Added a decrease of Charge rate by -20%
 
-## September 26th (Update 810)
+### September 26th (Update 810)
 
 List of changes:
 
@@ -615,7 +621,7 @@ List of Fixes:
 - The GS table is now displayed in the Garage even for items with zero GS.
 - Improved the Promo Codes screen in the Shop.
 
-## September 5th (Update 809)
+### September 5th (Update 809)
 
 List of changes:
 
@@ -633,7 +639,7 @@ List of fixes:
 - Fixed the display of acceleration effect trails for the Titan GT skin.
 - Fixed the display of missions in the Supermissions block for cases where the mission progress unit count exceeded 1000.
 
-## August 29th (Update 808)
+### August 29th (Update 808)
 
 List of changes:
 
@@ -664,7 +670,7 @@ List of fixes:
 - Fixed Shop malfunctions when confirming purchases via iFrame technology for certain payment systems
 - Fixed descriptions of certain Missions in various languages
 
-## August 8th (Update 807)
+### August 8th (Update 807)
 
 List of changes:
 
@@ -696,7 +702,7 @@ List of fixes:
 - Fixed currency display in Steam Shop
 - Fixed "Earn Reputation points in battle" Encore mission not counting toward weekly missions
 
-## July 25th (Update 806)
+### July 25th (Update 806)
 
 List of changes:
 
@@ -759,7 +765,7 @@ List of changes:
   - Armadillo is now available for purchase in the Garage starting from Commander for 275 000 crystals
 - Updated icons of creating and managing a group in the Lobby
 
-## July 4th (Update 804)
+### July 4th (Update 804)
 
 List of changes:
 
@@ -788,7 +794,7 @@ List of fixes:
 - Now, self-destructing in battle is sufficient to fix issues like missing damage or being unable to pick up drops during the match
 - Fixed errors in texts in different languages
 
-## June 27th (Update 803)
+### June 27th (Update 803)
 
 List of changes:
 
@@ -832,7 +838,7 @@ List of fixes:
 
 - Fixed the bug that caused a shadow of “MAX” badge in the list of Garage equipment to be slightly shifted
 
-## June 20th (Update 802)
+### June 20th (Update 802)
 
 List of changes:
 
@@ -872,7 +878,7 @@ List of fixes:
   - (Note) This applies to Crusader and Ares hulls
 - It is now impossible to return to a Matchmaking battle after being kicked out of it
 
-## May 30th (Update 801)
+### May 30th (Update 801)
 
 List of changes:
 
@@ -890,7 +896,7 @@ List of changes:
 - Iran map was updated and received a Winter version
 - Added a new Parma Remastered map
 
-## May 27th (Update 800)
+### May 27th (Update 800)
 
 List of changes:
 
@@ -908,7 +914,7 @@ List of fixes:
 - Fixed Striker’s rocket damage when shooting stationary tanks, or shooting from small distances.
 - Fixed the crash which happened when you go to Tankoins purchase screen when you tried to purchase a special offer in a pop-up window, but didn’t have enough Tankoins to do so
 
-## May 16th (Update 799)
+### May 16th (Update 799)
 
 List of changes:
 
@@ -1125,7 +1131,7 @@ List of fixes:
 - Improved textures of Ares XT Skin.
 - Animation of coolers on the tank, dust and exhaust now do not depend on the duration of individual frames.
 
-## April 30th (Update 798)
+### April 30th (Update 798)
 
 List of changes:
 
@@ -1141,7 +1147,7 @@ List of changes:
   - Smoky’s “Camper” augment
     - Viking’s “Grenadier” augment
 
-## April 25th (Update 797)
+### April 25th (Update 797)
 
 List of changes:
 
@@ -1195,7 +1201,7 @@ List of fixes:
 - Fixed the values of damage and rate of fire when Viking’s overdrive is activated for some augments
 - Performed technical maintenance in PRO-Battles; functionality is being restored with the release of this update.
 
-## April 17th (Update 796)
+### April 17th (Update 796)
 
 List of changes:
 
@@ -1239,7 +1245,7 @@ Hammer turret's hotfix (20/04)
 - "Heavy Slugger" augment
   - Added a decrease to Impact force by -50%;
 
-## April 11th (Update 795)
+### April 11th (Update 795)
 
 List of changes:
 
@@ -1317,7 +1323,7 @@ List of fixes:
 - Fixed a bug that could cause the game client to crash when accessing the Garage, then the list of Garage items (for example, turrets) and then Supplies
 - Inactivity timeout in tutorial battles is now 300 seconds
 
-## March 28th (Update 794)
+### March 28th (Update 794)
 
 List of changes:
 
@@ -1359,7 +1365,7 @@ List of fixes:
 - The system for caching bonus boxes in battle has been improved.
 - Fixed a bug that caused shop offers in the Showcase category in the Shop not to be issued after ranking up.
 
-## February 14th (Update 793)
+### February 14th (Update 793)
 
 List of changes:
 
@@ -1464,7 +1470,7 @@ List of changes:
 - Fixed the horizontal auto-aim behaviour for shells that can ricochet
 - Fixed the action of some status effect on the tank once the tank becomes a Juggernaut.
 
-## February 14th (Update 790)
+### February 14th (Update 790)
 
 List of changes:
 
@@ -1569,7 +1575,7 @@ List of changes:
 - Shaft’s «Quasar» augment was added to Common and Epic containers
 - Added CAPTCHA check for the «Hyper» format battles when entering and re-entering a battle
 
-## January 24th (Update 788)
+### January 24th (Update 788)
 
 List of changes:
 
@@ -1705,7 +1711,7 @@ List of changes:
     - The number of points you get from modules changed from 0 - 300 to 25 - 250
     - The number of points you get from legendary hull augments changed from 300 to 200
 
-## January 17th (Update 787)
+### January 17th (Update 787)
 
 List of changes:
 
@@ -1725,7 +1731,9 @@ List of fixes:
 - Fixed the bug that caused the barrels of the Hammer (with the GT skin equipped) to be pointing at the sky when you see it at long distance
 - Fixed the bug that caused the mobile client to get bugged when you shoot projectiles that can ricochet
 
-## December 6th (Update 785)
+## 2024
+
+### December 6th (Update 785)
 
 List of changes:
 
@@ -1752,7 +1760,7 @@ List of changes:
 - The number of mines in the battle is limited to 10 000. In case this number is reached, it will not be possible to put any more mines. The button for placing the mine will be inactivated.
   - (Note) This is a necessary addition in order to increase the stability of servers and to get rid of accompanying errors.
 
-## November 29th (Update 784)
+### November 29th (Update 784)
 
 List of changes:
 
@@ -1834,7 +1842,7 @@ List of fixes:
 - The text on the Supermission button has been fixed.
 - Improvements to the Shop UI.
 
-## November 22nd (Update 783)
+### November 22nd (Update 783)
 
 List of changes:
 
@@ -1912,7 +1920,7 @@ List of changes:
 - List of fixes:
   - Improvements to some payment systems.
 
-## November 14th (Update 782)
+### November 14th (Update 782)
 
 List of changes:
 
@@ -1933,7 +1941,7 @@ List of fixes:
   - (Note) This will allow for more precise hover rotation, which will be very useful for Crusader, for example
 - Fixed displaying the self-destruct launch progress bar when holding the button after self-destruction has already been launched.
 
-## November 8th (Update 781)
+### November 8th (Update 781)
 
 List of changes:
 
@@ -1960,7 +1968,7 @@ List of fixes:
 - Fixed previews of all Early Access packs that were not updated to HD version when a respective turret’s skin was updated.
 - Minor text changes, mainly for Japanese.
 
-## November 1st (Update 780)
+### November 1st (Update 780)
 
 List of changes:
 
@@ -1981,7 +1989,7 @@ List of fixes:
 - Fixed navigation issues in the Shop
 - Fixed typos in texts
 
-## October 25th (Update 779)
+### October 25th (Update 779)
 
 List of changes:
 
@@ -2009,12 +2017,12 @@ List of changes:
     - This drone can no longer be received from Containers
 - Added a VFX effect when activating the «Speed boost» supply for Crisis and Oracle drones.
 
-## List of fixes:
+### List of fixes:
 
 - Fixed a bug that caused the rocket trail effect of the Scorpion to change its color.
 - In the sniper mode of Shaft, the «Boosted damage» supply’s effect is no longer displayed if Crisis or Oracle drone is equipped.
 
-## October 18th (Update 778)
+### October 18th (Update 778)
 
 List of changes:
 
@@ -2032,7 +2040,7 @@ List of changes:
 - Tank health level for triggering the «Repair Kit» supply with activated supply auto-activation setting decreased from 34% to 25%.
 - Temporarily blocked the option to unequip drones. You now always have any drone equipped.
 
-## List of fixes:
+### List of fixes:
 
 - With the release of the Android client update in Google Play to version 2.1.0, players no longer need to set Chrome as the default browser in their phone settings for stable client operation. The game itself finds the installed Chrome browser and uses it if is available.
 - Fixed the bug that caused the player to have 0 grenades in a tutorial battle, even if they were issued.
@@ -2040,7 +2048,7 @@ List of changes:
 - The background of the «Contracts» section in the Shop has been fixed.
 - Fixed texts of some categories in the Shop.
 
-## October 11th (Update 777)
+### October 11th (Update 777)
 
 List of changes:
 
@@ -2080,13 +2088,13 @@ List of changes:
 - Changed images of packs of crystals, Tankoins and stars
 - Updated Shop prices for some regions
 
-## List of fixes:
+### List of fixes:
 
 - Fixed the bug which caused the camera to remain in first-person mode when using the centered version of the interface, after a quick shot in Shaft's sniper mode
 - Fixed the bug which caused tank outlines to stop working and break the auto-fire in mobile controls, after a quick shot in Shaft's sniper mode
 - Fixed the bug which caused tank outlines to remain white in Shaft's sniping mode even if the target had already lost invulnerability
 
-## October 4th (Update776)
+### October 4th (Update776)
 
 List of changes:
 
@@ -2112,13 +2120,13 @@ List of changes:
 - Added a warning window about low Gear Score when starting the search for a Matchmaking battle
   - (Note) The pop-up window appears no more than once a day.
 
-## List of fixes:
+### List of fixes:
 
 - Fixed the bug which caused Juggernaut bots to shoot at allied tanks if they used Isida before
 - Fixed the bug which caused bots being allocated inequitably in teams for a battle with only one player and bots
 - Fixed the bug which caused bots being able to use multiple protection modules in a single protection module slot
 
-## September 27th (Update 775)
+### September 27th (Update 775)
 
 List of changes:
 
@@ -2166,13 +2174,13 @@ List of changes:
 - Brutus drone was added to Containers.
 - Bots now appear in battles for high ranks (27+, including Legend), but only when it takes too long to find a battle without bots.
 
-## List of fixes:
+### List of fixes:
 
 - Fixed a bug due to which the grenade disappeared under certain conditions after changing equipment in a battle.
 - Fixed an error due to which the first bot in the tutorial did not stand still and began to move even if the player \*was in sight.
 - Minor errors in the grenade model were fixed.
 
-## September 13th (Update 774)
+### September 13th (Update 774)
 
 List of changes:
 
@@ -2196,7 +2204,7 @@ List of changes:
 - Red error notifications in the client have been moved to the upper left corner
   - (Note) Some changes are best left a mystery
 
-## List of fixes:
+### List of fixes:
 
 - Camera control when pressing the grenade button has been fixed on the mobile version.
 - Fixed the bug that prevented special offers from displaying in the Shop for new players.
@@ -2205,7 +2213,7 @@ List of changes:
 - Fixed the position of the base in the «RGB» mode on the «Silence» map for the defending team to protect from a Hopper’s exploit
 - Fixed missing notifications in missions for new accounts
 
-## September 6th (Update 773)
+### September 6th (Update 773)
 
 List of changes:
 
@@ -2261,7 +2269,7 @@ Magnum «Harpoon» augment
   - (Note) When the re-certification of the game for Steam Deck is completed, there will be no need to manually switch compatibility mode
 - Bots have been added the ability to use protection modules instead of health boost they had
 
-## List of fixes:
+### List of fixes:
 
 - Fixed the bug that caused groups to get stuck in a long search in matchmaking.
 - Fixed the indication of supply use buttons in the HUD when they are reassigned by the player in the settings
@@ -2274,7 +2282,7 @@ Magnum «Harpoon» augment
 - Fixed the behaviour of the grenade throw button for mobile controls.
 - Fixed a bug due to which, when changing equipment during a battle, new items could not be equipped on the tank.
 
-## August 23rd (Update 772)
+### August 23rd (Update 772)
 
 List of changes:
 
@@ -2285,13 +2293,13 @@ List of changes:
 - The algorithm for distributing players into teams when creating a battle depending on their GearScore has been changed.
 - Bots in battle can now be encountered up to (including) the General rank (26).
 
-## List of fixes:
+### List of fixes:
 
 - Fixed the bug that could cause menu items in the game lobby to disappear or become blocked.
 - After leaving a training battle, the results screen is skipped so as not to cause a situation where the "Play" button is blocked until re-entering the missions section.
 - Fixed the bug that could cause the mechanism of adding players to ongoing Legend rank battles to work incorrectly.
 
-## August 16th (Update 771)
+### August 16th (Update 771)
 
 List of changes:
 
@@ -2304,11 +2312,11 @@ List of changes:
 - Changed rewards of some of tutorial missions and entry bonus missions
 - Chance of getting equipment from regular containers decreased from 100% to 70%
 
-## List of fixes:
+### List of fixes:
 
 - Translation updates
 
-## August 9th (Update 770)
+### August 9th (Update 770)
 
 The list of changes:
 
@@ -2341,11 +2349,11 @@ Regular and critical damage increase changed from +23% to +20%;
 - Changed bases and respawns in the ASL mode for the «Year 2042» map
 - Changed geometry of the «Year 2042» map
 
-## The list of fixes:
+### The list of fixes:
 
 - Fixed the bug that caused creating clans be available even before a player reaches the rank that unlocks access to the clans system
 
-## August 2nd (Update 769)
+### August 2nd (Update 769)
 
 List of changes:
 
@@ -2368,7 +2376,7 @@ List of fixes:
 
 - Announcement can be scrolled with the mouse wheel
 
-## July 26th (Update 768)
+### July 26th (Update 768)
 
 List of changes:
 
@@ -2389,7 +2397,7 @@ List of fixes:
 - Layout fixes for the Contracts screen in the Missions section.
 - Minor fixes to the Wasp GT skin.
 
-## July 12th (Update 767)
+### July 12th (Update 767)
 
 List of changes:
 
@@ -2411,7 +2419,7 @@ List of fixes:
 - Improved the recoil of Crusader’s overdrive shot.
 - Magnum’s “Harpoon” augment added to Regular and Epic Containers.
 
-## June 28th (Update 766)
+### June 28th (Update 766)
 
 List of changes:
 
@@ -2428,7 +2436,7 @@ List of fixes:
 - Fixed the bug not allowing to open the profile of one clan while viewing the profile of another clan.
 - Fixed the bug with sign up form not working as expected when you enter a nickname that already exists.
 
-## May 31st (Update 764)
+### May 31st (Update 764)
 
 - Added a new «Thunder XT» skin to Epic Containers.
 - Changed the reward of Tanki Birthday special cake Gold Box from 15 000 crystals to 15 tankoins.
@@ -2464,7 +2472,7 @@ List of fixes:
 - Fixed the behavior of metal parts on some XT skins in night versions of maps.
 - Added a permanent announcement that lets you read the recent patch notes.
 
-## May 17th (Update 763)
+### May 17th (Update 763)
 
 - Updated the sound of the Railgun’s «Magic» shot effect
 - The logic of the Miner augment has been changed for all hulls.
@@ -2580,14 +2588,14 @@ List of fixes:
 - Fixed minor bugs in the tutorial
 - Updated Shop prices for some regions
 
-## April 27th (Update 762)
+### April 27th (Update 762)
 
 - Added a battle tutorial for new players to teach them how to control their tank and how to fight
 - Fixed the bug when upgrading equipment, which compared parameter changes to the next modification instead of the next level
 - Fixed the bug which prevented the purchase of to some special offers in Steam
 - Fixed the bug with the selected map changing when changing filters in the battle creation menu
 
-## April 19th (Update 761)
+### April 19th (Update 761)
 
 - Remastered the tank explosion effect
 - Horizontal auto-aim performance optimised for ricocheting shells
@@ -2633,7 +2641,7 @@ List of fixes:
     - «Vacuum core» augment
     - Added an Amplification time increase by +20%
 
-## April 12th (Update 760)
+### April 12th (Update 760)
 
 - Added a new Railgun’s «Magic» shot effect to Epic Containers:
   - (Note) This is the first new shot effect in a long time. We will try to prepare a new shot effect for each turret that already has a remastered version of the standard shot effect. We also remind you that shot effects only affect visuals.
@@ -2644,7 +2652,7 @@ List of fixes:
 - Fixed the problem where sounds of the game stopped working if you switch to another app on Android
 - Fixed Google payments in India
 
-## March 29th (Update 758)
+### March 29th (Update 758)
 
 - Added a new Twins augment to Epic Containers - «Plasmatron»
   - (Note) This augment makes Twins become a two-barrel Thunder. Plasma balls fly faster and deal a lot of damage. However, recharge time between launched plasma balls is greatly increased.
@@ -2653,7 +2661,7 @@ List of fixes:
 - Increased price in crystals for packs of keys in the Shop’s showcase
 - Fixed duplicate textures of battle interface icons
 
-## March 22th (Update 757)
+### March 22th (Update 757)
 
 - You no longer see pop-ups of special offers if you just ranked up or were kicked from a battle
   - (Note) You will see them the next time you enter the Lobby
@@ -2678,7 +2686,7 @@ List of fixes:
 - Removed the option to Report messages in clan chats
 - Optimised the render system in the HTML5 client
 
-## March 7th (Update 755)
+### March 7th (Update 755)
 
 - Added a new Magnum augment to Epic Containers - «Stunning Core».
   - (Note) Critical damage applies the «Stun» status effect to an enemy tank for a short time.
@@ -2727,12 +2735,12 @@ List of fixes:
     - TJR 10 → 15
 - Time before flags appear in CTF battle mode 60 → 90 s
 
-## February 22nd (Update 753)
+### February 22nd (Update 753)
 
 - Fixed the bug that didn't give extra stars for playing using the «Quick battle» button when playing in group
 - Fixed a problem with videos in tips, and with the animation of Container opening on iOS
 
-## February 16th (Update 752)
+### February 16th (Update 752)
 
 - Added a new Vulcan augment to Epic Containers — «Magnetic Band».
   - (Note) Critical damage applies the «EMP» status effect to the enemy tank.
@@ -2841,7 +2849,7 @@ List of fixes:
 - Added experimental support for the game on Safari browser
   - (Note) The HTML-5 version of the game can now be launched from an iPhone via a direct link.
 
-## January 19th (Update 751)
+### January 19th (Update 751)
 
 - Added a new Striker augment to Epic Containers — «Missile Launcher ”Meteor”»
   - (Note) Increased damage when you hit a target. Splash damage is greatly reduced, but impact force is increased.
@@ -2898,7 +2906,9 @@ List of fixes:
 - Added icons for the «Extreme Lightweight Construction» augments to make it possible to see them in the TAB window
   - (Note) If you want to get these parkour augments, you just need to redeem this promocode: TNK00-00000-0674E-PO3LP-PFNYX
 
-## December 22nd (Update 750)
+## 2023
+
+### December 22nd (Update 750)
 
 - Keys
   - Instead of Regular Containers, players now receive Common Keys
@@ -2920,7 +2930,7 @@ List of fixes:
   - (Note) This is to compensate for the lack of tankoins in Rare Containers which replaced Weekly Containers.
 - Improved the captcha feature.
 
-## December 15th (Update 749)
+### December 15th (Update 749)
 
 - Fixed mission icons for daily and weekly missions
 - Changed the time when in-game V-LOG announcements appear
@@ -2931,7 +2941,7 @@ List of fixes:
 - Optimized the system of in-game announcements
 - Updated Shop prices for some regions
 
-## December 8th (Update 748)
+### December 8th (Update 748)
 
 - Remastered the Missions screen
   - Added a button to collect rewards of all completed missions within one section.
@@ -2986,7 +2996,7 @@ List of fixes:
 - Minor improvements in the Garage interface
 - Optimization in HTML5 graphic rendering
 
-## December 1st (Update 747)
+### December 1st (Update 747)
 
 - Added a new Railgun augment to Ultra Containers — «Shotgun rounds»
   - (Note) Deals more damage up close than it does farther away. Standard damage is increased, while the range of fire is decreased.
@@ -3082,7 +3092,7 @@ List of fixes:
 - Upgraded UI animations in the Garage
 - Fixed the bug, because of which the image of the tank in the Garage was narrowed after the end of the battle
 
-## October 13th (Update 744)
+### October 13th (Update 744)
 
 - Added a new Isida augment to Ultra Containers — «Stunning Nanobots»
   - (Note) Critical damage applies the «Stun» status effect to the enemy tank for a short time.
@@ -3178,7 +3188,7 @@ List of fixes:
 - Fixed a bug due to which equipment upgrades did not count sometimes because of quick button presses. Now there is a small delay between upgrade steps.
 - Fixed the bug due to which players would sometimes get an error when editing clan description. Now the clan description character count is limited to 3000 symbols.
 
-## October 13th (Update 741)
+### October 13th (Update 741)
 
 - Added a new Hammer augment to Ultra Containers — «Hunter Duplet»
   - (Note) This augment is a long-range version of the current Duplet augment
@@ -3224,7 +3234,7 @@ List of fixes:
 - Fixed the bug with the Back button when purchasing items over the battle screen
 - Added support for linking your Twitch account with partnering sites (other sites you can play Tanki Online on)
 
-## September 29th (Update 740)
+### September 29th (Update 740)
 
 - Fixed the poor performance of the MacOS version after recent updates
 - Visual fixes to the action log
@@ -3235,7 +3245,7 @@ List of fixes:
 - Added a notification about server restart
 - Decreased the time needed for the game to stop trying to find a matchmaking battle from 900 to 300 seconds
 
-## September 22th (Update 739)
+### September 22th (Update 739)
 
 - Added a new Striker augment to Ultra Containers — «Missile Launcher “Faust”»
   - (Note) This augment limits range of fire to just 40 meters, but instead it gives you reduced aim and reload time by 50%
@@ -3264,7 +3274,7 @@ List of fixes:
     - Added flickering to the flag and ball icons near the battle score when a ball or a flag is being carried by a player
     - The flickering rate slows down if a ball or flag is dropped.
 
-## September 8th (Update 738)
+### September 8th (Update 738)
 
 - Added a new Striker augment to Ultra Containers — «Missile Launcher “Faust”»
   - (Note) This augment limits range of fire to just 40 meters, but instead it gives you reduced aim and reload time by 50%
@@ -3293,7 +3303,7 @@ List of fixes:
     - Added flickering to the flag and ball icons near the battle score when a ball or a flag is being carried by a player
     - The flickering rate slows down if a ball or flag is dropped.
 
-## September 8th (Update 738)
+### September 8th (Update 738)
 
 - Magnum
   - The number of steps of charging decreased from 100 to 50 units
@@ -3310,13 +3320,13 @@ List of fixes:
 - Memory usage optimization in battles
 - Updated Shop prices for some regions
 
-## September 1st (Update 737)
+### September 1st (Update 737)
 
 - Added a new Magnum augment to Ultra Containers — «Vacuum Core»
   - (Note) This augment does less damage on a direct hit to the enemy, but deals significantly more damage at the maximum splash distance from the epicenter of the projectile's explosion.
 - Completing a regular mission is now counted in the Supermission progress only after you claim rewards for that mission
 
-## August 11th (Update 735)
+### August 11th (Update 735)
 
 - Added a new Hammer augment to Ultra Containers — «Heavy Slugger»
   - (Note) This augment acts like an upgraded slugger. Pellets fly much farther, but the turret rotation speed is reduced.
@@ -3343,7 +3353,7 @@ List of fixes:
 - To increase security, players’ authorization resets every 30 days even if they have 2FA enabled.
 - Improvements in the UI of the mobile HTML5 version of the game.
 
-## August 4th (Update 734)
+### August 4th (Update 734)
 
 - Added a new augment to Ultra Containers for Isida — «Magnetic Nanobots»
   - (Note) This augment disables opponents’ supplies with critical hits.
@@ -3390,7 +3400,7 @@ List of fixes:
 - Fixes and improvements to the mobile HTML5 client interface
   - (Note) Optimization and performance improvements of the mobile client will come in next updates
 
-## July 28th (Update 733)
+### July 28th (Update 733)
 
 - Fixed bots’ weird behaviour
   - (Note) This bug usually appeared in the evening and made bots drive backward, not move, not shoot, etc.
@@ -3445,7 +3455,7 @@ List of fixes:
 - Spider protection module
   - The minimum rank required is decreased from General (26) to Recruit (1)
 
-## July 21st (Update 732)
+### July 21st (Update 732)
 
 - Added a new augment for Gauss to Ultra Containers — «Hyperspeed Shells»
   - (Note) The shell damage is reduced by 50% at close range. The greater the distance, the more damage you deal, allowing you to deliver up to 300% of the regular shell damage at the maximum distance. Shells fly faster, however critical damage is completely removed.
@@ -3461,7 +3471,7 @@ List of fixes:
     - Amount of Tankoins obtainable from Skin Containers has been reduced from 3990 to 1001.
 - Minor text improvements
 
-## July 14th (Update 731)
+### July 14th (Update 731)
 
 - A new augment for Magnum has been added to Ultra Containers — «Magnetic Core»
   - (Note) Every shot applies the «EMP» status effect to all targets caught in the explosion radius. With critical hits, the duration of the effect increases.
@@ -3485,7 +3495,7 @@ List of fixes:
 - Added an option to change your nickname for free if you do it for the first time
 - Fixed the bugs with wrong mission progress on the battle end screen
 
-## July 7th (Update 730)
+### July 7th (Update 730)
 
 - Removed all modifications on protection modules but one
   - Their price is now 55 000 crystals
@@ -3497,7 +3507,7 @@ List of fixes:
 - Shortened account block reasons to meet the new requirements of maximum chat message length
 - Fixed the bug that let you leave a battle while loading into it, making it impossible to search for a new battle
 
-## June 23rd (Update 728)
+### June 23rd (Update 728)
 
 - Added a system of hiding mission categories
   - You no longer see the Tutorial category after having completed all the missions in it
@@ -3515,7 +3525,7 @@ List of fixes:
 - Added a special version of the Daily Tankoins Pass offer with a 90% discount
   - Note: This special offer is only available for new accounts, registered after 23.06.2023. It can only be purchased once.
 
-## June 16th (Update 727)
+### June 16th (Update 727)
 
 - Upgrade prices in Tankoins decreased by half for all MK7 turrets, hulls, and drones (except Brutus)
 - Tesla
@@ -3541,7 +3551,7 @@ List of fixes:
 - The TJR mode is now available starting from the Master Corporal rank
 - Redesigned the announcement widget on the lower right side of the lobby
 
-## June 2nd (Update 726)
+### June 2nd (Update 726)
 
 - New XT skin for Viking added to Ultra Containers
   - (Note) This is a new HD version of the Viking XT skin. The previous version will stay in the Garages of its owners and will not be removed. We do see your requests about replacing the old XT skin with the new XT HD skin. Though we understand your emotions, we cannot do it due to the huge difference in the costs of production between old and new skins. Besides that, you often ask us to keep the old versions of skins instead of replacing them. Therefore, launching a new XT HD lineup of skins will be beneficial for everyone.
@@ -3561,7 +3571,7 @@ List of fixes:
   - (Note) Availability of turrets and hulls in this section follows the same rule as it did in Product Kits — 7 ranks earlier than they become available in the Garage.
 - Added additional bundle options for stars in the Shop
 
-## May 26th (Update 725)
+### May 26th (Update 725)
 
 - A new augment for Thunder has been added to Ultra Containers — «Anvil Shells».
   - (Note) This augment works the same way as the «Sledgehammer Rounds» augment, but it can also deal critical damage, even with splash damage.
@@ -3581,7 +3591,7 @@ List of fixes:
   - The rank at which Mk1-Mk6 modules become available increased from Lieutenant Colonel (21) to Lieutenant General (25)
 - Players who haven’t entered the game for at least 300 days in a row, get a special bonus upon entering the game.
 
-## May 19th (Update 724)
+### May 19th (Update 724)
 
 - Scorpion
   - Critical hit chance decreased from 30% to 23%
@@ -3592,7 +3602,7 @@ List of fixes:
 - Modules have been removed from the Shop kits
 - Minor text improvements
 
-## May 12th (Update 723)
+### May 12th (Update 723)
 
 - Vulcan
   - Self-heating increased from 0.15 to 0.25 temp/sec
@@ -3609,7 +3619,7 @@ List of fixes:
   - Removed missions on finishing a battle in a specific mode from the Tutorial missions section
 - Updated descriptions of in-game items.
 
-## April 28th (Update 722)
+### April 28th (Update 722)
 
 - A new augment for Gauss has been added to Ultra Containers — «Stunning Salvo».
   - (Note) Critical damage and salvo shots apply the «Stun» status effect to the target.
@@ -3643,7 +3653,7 @@ List of fixes:
 - Fixed the issue with linebreak for titles of Mission Categories.
 - Fixed the Overdrive icons for hulls used in special events.
 
-## April 14th (Update 721)
+### April 14th (Update 721)
 
 - A new augment for Shaft has been added to Ultra Containers — «Incendiary Sight».
   - (Note) This augment ignites the target on critical arcade shots and on any sniper mode shots.
@@ -3707,7 +3717,7 @@ List of fixes:
     - No longer uses batteries
 - Two-factor authentication now works not for the account of the player, but for their device.
 
-## March 31st (Update 720)
+### March 31st (Update 720)
 
 - Battle duration decreased from 15 to 13 minutes
 - A new augment for Isida has been added to Ultra Containers — «Jamming nanobots»
@@ -3770,7 +3780,7 @@ List of fixes:
   - Batteries removed from all old weekly containers
     - (Note) if you read the patch notes before March 31st, hurry up and open them all to get batteries that will be later converted to supplies.
 
-## March 17th (Update 719)
+### March 17th (Update 719)
 
 - A new augment for Magnum has been added to Ultra Containers — «Incendiary core»
   - (Note) This augment applies the «Burning» status effect to all opponents caught in the explosion radius. Critical hits ignite tanks even more.
@@ -3858,7 +3868,7 @@ List of fixes:
     - The number of battle points for destroying a Juggernaut increased from 50 to 80 - The number of experience points for destroying a Juggernaut decreased from 60 to 40 - The number of experience points for assistance in destroying a Juggernaut decreased from 40 to 20
 - Minor text changes
 
-## March 3rd (Update 717)
+### March 3rd (Update 717)
 
 - A new augment for Gauss has been added to Ultra Containers — «Super Solenoids»
   - (Note) This augment increases salvo damage but splash radius is minimal
@@ -3924,7 +3934,7 @@ List of fixes:
   - No longer applies the «Armor-Piercing» status effect
     - Duration increased from 15 to 20 s
 
-## February 22 (Update 716)
+### February 22 (Update 716)
 
 - A new augment for Scorpion has been added to Ultra Containers —«Stun shells»
   - (Note) This augment applies the «Stun» status effect to an opponent with critical damage on arcade shots and with each missile hit
@@ -3976,7 +3986,7 @@ List of fixes:
 - Altered background sounds in the Garage
 - Minor text changes
 
-## February 10 (Update 715)
+### February 10 (Update 715)
 
 - A new augment for Railgun has been added to Ultra Containers — «Hyperspeed rounds»
   - (Note) Not to be confused with «Hyperspace rounds»! This is a new augment that increases damage over distance but reduces damage up close.
@@ -4033,7 +4043,7 @@ List of fixes:
   - Additional Boosted armor bonus changed from 25-50% to 10%-70%
 - Respawn protection in team battles decreased from 5 to 4.5 s
 
-## February 3 (Update 714)
+### February 3 (Update 714)
 
 - A new augment for Thunder has been added to Ultra Containers — «Peacekeeper» shells
   - (Note) This augment applies the «Stun» status effect on critical hits
@@ -4102,7 +4112,7 @@ List of fixes:
 - It is no longer possible to report a player in the «Parkour» format of PRO battles
 - Minor text changes
 
-## January 20th (Update #713)
+### January 20th (Update #713)
 
 - Added multiple Pulsar augments to Ultra Containers
 - Firebird
@@ -4138,7 +4148,7 @@ List of fixes:
   - Increased GS for «Epic» category augments for turrets from 200 to 300 GS
 - Updated Shop prices for some platforms
 
-## January 13th (Update #712)
+### January 13th (Update #712)
 
 - A new augment for Scorpion has been added to Ultra Containers — «EMP shells»
   - (Note) This augment applies the «EMP» status effect to an opponent on an arcade critical hit and on each rocket hit
@@ -4220,7 +4230,9 @@ List of fixes:
 - Removed product kits with drones
 - Minor changes in texts
 
-## December 23th (Update #711)
+## 2022
+
+### December 23th (Update #711)
 
 - New skins have been added to Ultra Containers — Hornet GT and Isida GT
   - (Note) Together with them, the previously added Viking GT and Thunder GT can also be obtained from Ultra Containers
@@ -4280,7 +4292,7 @@ List of fixes:
 - Fixed Tesla Legacy skin’s bug — the claws of the emitters were moving in the wrong direction, not like it works on the HD skin
 - Minor changes in in-game texts
 
-## December 16th (Update #710)
+### December 16th (Update #710)
 
 - A new augment for Scorpion has been added to Ultra Containers — «Armour-piercing shells»
   - (Note) This augment applies the «Armour-piercing» on critical arcade shots and with each rocket.
@@ -4320,7 +4332,7 @@ List of fixes:
 - Fixed the bug with the size of a destroyed tank
   - (Note) Now it is not that small.
 
-## December 9th (Update #709)
+### December 9th (Update #709)
 
 - Changed the order of buttons in the Lobby: Containers > Missions > Garage
   - (Note) This change is needed for new players, according to our research on how they complete the new contextual tutorial. We are also working on a new Lobby screen.
@@ -4356,7 +4368,7 @@ List of fixes:
 - Added smoke effects for the default version of Dictator
 - Improved the texture of a destroyed tank
 
-## November 11th (Update #707)
+### November 11th (Update #707)
 
 - A new augment for Thunder has been added to the Ultra Containers — «Magneto»
   - (Note) This augment applies the EMP status effect to all targets with within the splash damage radius
@@ -4388,7 +4400,7 @@ List of fixes:
 - Protection modules
   - All Mk1 and Mk2 protection modules are available starting from the rank of First Sergeant (9)
 
-## October 28th (Update #705)
+### October 28th (Update #705)
 
 - Some rare skins haven been added to Ultra Containers — Wasp Demonic and Firebird Demonic
 - Fixed the tank controls bug; if you have only «Keyboard» in Settings, your mouse won’t be active
@@ -4438,7 +4450,7 @@ List of fixes:
     - Daily limit of experience for players with «Premium Pass» decreased to 22 000
 - The following augments for the «Twins» turret have been added to Containers: «Tectonic Plasma», «Plasma Injector», «Plasma Disruptor», and «Plasma Turbo Accelerators»
 
-## October 21st (Update #704)
+### October 21st (Update #704)
 
 - A new augment for Scorpion has been added to Ultra Containers — «Cryo Shells»
   - (Note) This augment applies «Freezing» status effect on critical hits and rocket salvos
@@ -4526,7 +4538,7 @@ List of fixes:
     - (Note) Now the only thing you need to earn more stars is to show your best till the end of a battle and it doesn’t matter in which team you are. Let's see if this will affect the problem of early (before the balancer reacts) exits from battles if a player is in a weak team.
 - Fixed the animation issue with the Ricochet HD skin that caused the turret energy tank to keep rotating after reload
 
-## October 14th (Update #703)
+### October 14th (Update #703)
 
 - A new augment for Scorpion has been added to the Ultra Containers — «Incendiary shells»
   - (Note) There are two ways this augment ignites a target: critical damage from an arcade shot and any damage from a rocket salvo.
@@ -4538,7 +4550,7 @@ List of fixes:
 - Updated Skin containers: added GT skins and Scorpion XT
 - Updated shop prices for some regions
 
-## September 23rd (Update #701)
+### September 23rd (Update #701)
 
 - A new shot effect for Twins has been added to Ultra Containers — «Blaster»
   - (Note) This is an altered version of Ricochet’s «Blaster» shot effect but with the color changed to match Twins’ traditional shot effect. We recommend using it with the «Plasma Turbo Accelerators» augment.
@@ -4550,7 +4562,7 @@ List of fixes:
     - No longer affects range of minimum and maximum damage in arcade mode - (Note) There may be more changes to the parameters of this augment later. That's just how much it changes the turret's gameplay.
 - Updated prices in the Shop for some regions.
 
-## September 2nd (Update #699)
+### September 2nd (Update #699)
 
 - «Steampunk» set of skins for Twins and Mammoth added to the Ultra Containers
 - A player stops getting experience points once they rank up and until they leave the battle
@@ -4586,7 +4598,7 @@ List of fixes:
 - Fixed the bug with Chaos damage being counted as Critical damage in missions
 - Now inactive accounts need to play 3 battles in order to get access, not only to the Lobby chat but to the Battle chats too.
 
-## August 26th (Update #698)
+### August 26th (Update #698)
 
 - New skin added to the updated Ultra Containers — Scorpion XT
 - The «Scorpion» turret added to the regular Containers in «Epic» category. With this update, your current and regular Containers will become old regular Containers. You can only get Scorpion from containers you obtain after the release.
@@ -4621,7 +4633,7 @@ List of fixes:
 - The «Jack-in-the-box» effect now also appears when finishing an opponent with Chaos damage
   - (Note) Did you think that we added Chaos damage to add protection from overdrives later? Huh! We just enjoy how cool it looks when turrets fly.
 
-## August 19th (Update #697)
+### August 19th (Update #697)
 
 - Updated Skin Container
   - In the new skin container you will find the following new skins: Hammer Legacy, Shaft Legacy, Titan Legacy, Dictator Legacy
@@ -4653,7 +4665,7 @@ List of fixes:
 - You will no longer get a notification icon each time you get new units of supplies
 - Improved resources loading
 
-## August 12th (Update #696)
+### August 12th (Update #696)
 
 - New augment for Thunder added to the updated Ultra Containers — «Strict Ammunition Load»
   - (Note) This augment guarantees critical damage on the first shot after you spawn in a map, and every third shot thereafter.
@@ -4665,7 +4677,7 @@ List of fixes:
 - Improved the anti-cheat system for Striker, Gauss, Terminator and Scorpion
 - Added an option to enable boosted funds and experience in PRO battles during events
 
-## August 5th (Update #695)
+### August 5th (Update #695)
 
 - New augment for Thunder added to the updated Ultra Containers — «Noise» shells
   - (Note) With each shot, this augment applies the «Jammer» status effect to all the affected targets for 3 seconds. Only direct shots apply the status effect
@@ -4718,7 +4730,7 @@ List of fixes:
   - (Note) It means that maximum horizontal aim angle is decreased by two: from 4 to 2 degrees
 - Updated the flags, now with the new Tanki logo
 
-## July 22nd (Update #694)
+### July 22nd (Update #694)
 
 - New augment for Thunder added to the updated Ultra Containers — «Hyperspeed shells»
   - (Note) The shell damage is reduced by 50% but only at close range. The greater the distance, the more damage you deal, up to 400% of regular damage. Shells fly faster, but critical damage is completely removed.
@@ -4763,7 +4775,7 @@ List of fixes:
     - Masquerade
 - Updated tankoin and crystal packs in the Shop. We haven’t changed the prices of any tankoin or crystal offers; we just changed the quantity per package
 
-## July 1st (Update #693)
+### July 1st (Update #693)
 
 - New augment for Thunder added to the updated UItra Containers — «Salamander shells»
   - (Note) Critical hit ignites the target. Critical damage will be dealt only to the first affected target, but other tanks in the range of splash damage will be ignited too
@@ -4771,7 +4783,7 @@ List of fixes:
 - Updated previews of some maps in PRO battles
 - Updated Shop prices for some regions
 
-## June 24th (Update #692)
+### June 24th (Update #692)
 
 - New turret added to Ultra Containers — Scorpion Mk1
   - (Note) That’s the Early Access to the «Scorpion» turret. Its balance and visuals are subject to change, and its mechanics may be improved.
@@ -4833,7 +4845,7 @@ List of fixes:
 - Added music for PRO battles menu
 - Added previous Space maps to PRO battles
 
-## June 17th (Update #691)
+### June 17th (Update #691)
 
 - A new augment for Ricochet — «Jamming field» — can now be received from Ultra Containers.
   - (Note) The augment is an improved version of the «Minus-field stabilization» augment. Each shot applies the «Jammer» status effect on the opponent, disabling their overdrive and drone.
@@ -4866,7 +4878,7 @@ List of fixes:
 - Minor interface improvements
 - Removed the «Contests» chat channel
 
-## June 10th (Update #690)
+### June 10th (Update #690)
 
 - The «PLAY» button has been updated!
   - Now, upon clicking the button, it shows three main options: Quick battle, Event mode and PRO battles.
@@ -4937,7 +4949,7 @@ List of fixes:
   - No longer grants additional speed boost, only increases maximum speed.
 - Horizontal auto-aim angle for Android client decreased from 6 to 4 degrees.
 
-## May 27th (Update #688)
+### May 27th (Update #688)
 
 - A new augment for Thunder that can be received from a special offer — «Pulsar»
   - (Note) It is similar to Ricochet’s version, but it differs in status effect durations and critical damage is halved. Also, Thunder’s «Pulsar» can apply status effects with splash damage.
@@ -5020,7 +5032,7 @@ List of fixes:
   - (Note) Don’t forget, any supply-related mission can be completed not only by activating the supply, but also by taking the respective bonus box;
 - Updated the old «Tanki Online» logo that you see while entering the game with the new modern one.
 
-## May 20th (Update #687)
+### May 20th (Update #687)
 
 - A new augment for Ricochet has been added to Ultra Containers — «Tectonic field».
   - (Note) This is an improved version of the «Destabilized plasma» augment. It applies the «Stun» status effect for 1 second on a critical hit.
@@ -5056,7 +5068,7 @@ List of fixes:
   - Additional boosted damage power increased from 30-60% to 50%-100%
     - Additional boosted armour power increased from 30%-90% to 100%-200%
 
-## May 13th (Update #686)
+### May 13th (Update #686)
 
 - A new augment has been added for Firebird — «Toxic mix»
   - \[Note\] This augment applies the «Armour-piercing» status effect with any shot, not only critical hits.
@@ -5114,7 +5126,7 @@ List of fixes:
 - The following skins have been added to the skin container: Hunter Legacy, Wasp Legacy, Twins Legacy, and Smoky Legacy.
 - Fixed the bug with «fireflies» caused by the dynamic lighting.
 
-## April 29th (Update #685)
+### April 29th (Update #685)
 
 - A new augment for Twins has been added to Ultra Containers — «Plasma Injector».
   - (Note) This augment applies «Armour-piercing» status effect on critical shots and disables splash damage
@@ -5242,7 +5254,7 @@ List of fixes:
 - Requirements for the «Collect Repair kit boxes» are increased from 2/5/7 to 5/10/15;
 - Delay between dropping supply boxes decreased from 104 to 84 s.;
 
-## April 22nd (Update #684)
+### April 22nd (Update #684)
 
 - A new augment for Ricochet has been added to Ultra Containers — «Cryo field».
   - (Note) Just like Vaporizer ignites a target, this new augment freezes it. We have seen your comments that these augments should also have an explosion or ricochet. We might add such features in the future.
@@ -5304,7 +5316,7 @@ List of fixes:
 - Fixed the bug on low resolution screens where the tank in the Garage was displayed on top of the interface.
 - In Rugby mode, the speed of a parachute with a ball has been increased by a third.
 
-## April 8th (Update 683)
+### April 8th (Update 683)
 
 - A new augment for Ricochet has been added to Ultra Containers — «Helios».
   - (Note) This augment doesn’t apply any status effects and doesn’t increase critical damage chance. With this augment, this is no longer Ricochet.
@@ -5362,7 +5374,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - PRO battle equipment change cooldown decreased from 9 to 8 minutes.
 - Updated shop prices for some regions
 
-## April 1st (Update 682)
+### April 1st (Update 682)
 
 - A new augment for Twins added to the Ultra Containers — «Plasma Disruptor».
   - \[Note\] This augment slightly increases the range of fire and applies the Jammer status effect for 1 second on each hit.
@@ -5405,7 +5417,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Weekly «Get into the TOP-3 of the winning team» mission’s requirement on the number of battles is now 3/4/5 battles instead of 5/7/10 battles. The mission is now only available from the «Warrant Officer 5» rank.
 - Weekly «Complete 3 daily missions» mission can now be received in any slot of weekly missions.
 
-## March 18th (Update 681)
+### March 18th (Update 681)
 
 - A new augment for Firebird added to the Ultra Containers — «Magnetic Mix».
   - \[Note\] Settings are pretty similar to Paralyzing mix augment. The duration of the «EMP» status effect applied on critical shots is 2 seconds.
@@ -5427,7 +5439,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Equipment change cooldown is removed for Parkour mode battles.
 - Added the nickname change form for inactive accounts.
 
-## March 4th (Update 680)
+### March 4th (Update 680)
 
 - A new augment for Freeze added to the Ultra Containers — «Paralyzing Mix».
   - \[Note\] Adds a paralyzing mixture into the cooling agent. A critical concentration of the mixture may cause all the target's systems to be paralyzed. Freezing power and critical damage reduced.
@@ -5465,7 +5477,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Fixed the bug with the allowed number of players per team being exceeded when new players enter a battle.
 - The feature to get bonuses for watching ads in the mobile version of the game is disabled due to the lack of opportunity to ensure the stability of its operation for all users.
 
-## February 18th (Update 679)
+### February 18th (Update 679)
 
 - A new augment for Firebird added to the Ultra Containers — «Jamming mix».
   - \[Note\] It always applies the «Jammer» status effect when you deal damage but heating is decreased.
@@ -5505,7 +5517,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Fixed the browser’s «Back» button behavior.
 - Now you see large previews of drones when you get them from containers.
 
-## February 11th (Update 678)
+### February 11th (Update 678)
 
 - A new augment for Firebird added to the Ultra Containers — «Paralyzing mix».
   - \[Note\] This augment stuns the enemy with critical damage for a short time. Heating power and critical damage are reduced.
@@ -5592,7 +5604,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Fixed the notification settings.
 - Small previews of Mk1 turrets from containers are replaced with large ones.
 
-## January 28th (Update 677)
+### January 28th (Update 677)
 
 - Added a new augment into Ultra Containers: Twins’ «Plasma Turbo Accelerators» augment
   - Note: This augment significantly increases both rate and range of fire. Main damage will be being dealt with critical hits.
@@ -5648,7 +5660,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Fixed the bug in the mobile version with tank physics where two ball lightnings would self-destruct on the map.
 - Changed the way the anti-cheat system reacts to movement, jumps, and flights in the «Parkour» mode.
 
-## January 21st (Update 676)
+### January 21st (Update 676)
 
 - Added a new augment into Ultra Containers — Freeze’s «Magnetic Mix» augment
   - Note: Critical shots apply the «EMP» status effect, but damage is decreased by 50%.
@@ -5699,7 +5711,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Premium paint is no longer a perk of Premium Pass and has been added to Containers under the EPIC category
 - The «Go back» button in a browser now works as the «Go back» button in the game client
 
-## January 14th (Update 675)
+### January 14th (Update 675)
 
 - Added a new augment into Ultra Containers: Twins’ «Tectonic Plasma» augment
   - (Note) This augment applies a micro «Stun» effect to an opponent with each critical shot. The micro «Stun» effect is less effective in stopping opponents than the normal one but can be used to disable some abilities that take time to be activated (some overdrives and Vulcan’s barrel startup)
@@ -5772,7 +5784,9 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Removed DR, XP, and BP formats. The XP/BP format is kept;
 - Updated Shop prices for particular countries.
 
-## December 24th (Update 674)
+## 2021
+
+### December 24th (Update 674)
 
 - Added the New Year’s Garage with special music
 - Updated the default appearance of the Freeze turret with the HD version
@@ -5788,7 +5802,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Added more detailed information about the drone's effect on supply reloading and consumption of additional supplies and about how upgrades affect a drone
     - The description for the «Brutus» drone even emphasizes that it does NOT use batteries.
 
-## December 10th (Update 672)
+### December 10th (Update 672)
 
 - New Twins’ «Cryotron» augment available in Ultra Containers:
   - Critical shots freeze a target by 50%;
@@ -5858,7 +5872,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
   - Overdrive charge duration has been decreased from 180 seconds to 150 seconds.
 - Crisis drone now consume additional units of «Repair kit» and «Mine» supplies when they are used.
 
-## December 3rd (Update 671)
+### December 3rd (Update 671)
 
 - Updated the standard skin for Twins to the HD version
 - Updated the shot sound effects of Twins
@@ -5942,7 +5956,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Fixed the bug with battle interface glitches after changing equipment.
 - Fixed the bug with the search bar of the «Friends» list.
 
-## November 19th (Update 669)
+### November 19th (Update 669)
 
 - The Paladin hull is available for purchase in the garage with crystals.
 - The Paladin XT skin is now available in the updated Ultra Containers.
@@ -6017,7 +6031,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Improved notification system for invitations to battles if the game tab is inactive.
 - Improved the textures of the standard Smoky skin.
 
-## November 4th (Update 668)
+### November 4th (Update 668)
 
 - Updated Ultra Containers with the new Paladin Mk1 hull in early access and the newly released augment for the Tesla turret — «Superconducting discharge»:
   - With this augment equipped, electric discharges become so powerful that tank electronics fail and disable activated supplies. It's absolutely safe for its owner and teammates: the innovative aiming system blocks the effect of ball lightning towards them. However, the ball flies so fast that it's almost impossible to use it for chain lightning.
@@ -6092,7 +6106,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Fixed a bug that didn’t let to use ball lightnings of teammates to make lightning chains in Android
 - Fixes and optimizations of the remastered maps on the Android client.
 
-## October 22nd (Update 667)
+### October 22nd (Update 667)
 
 - Updated Ultra Containers with the new Mk1 Paladin hull in early access and the newly released augment for the Tesla turret — «Jamming discharge»
   - A modification with fast-moving ball lightning that restarts the overdrive system of any tank on contact, instantly destroying enemy powers.
@@ -6159,7 +6173,7 @@ Gauss:
 - Fixed a bug where the supply cooldown timer wasn’t working as expected when interacting with Support drones.
 - Fixed memory leaks in the Android version of the game.
 
-## October 15th (Update 666)
+### October 15th (Update 666)
 
 - Updated Ultra Containers with the new Mk1 Paladin hull in early access and the newly released augment for the Tesla turret — «Shocking Lightning»
   - Tired of opponents destroying you? Need to quickly freeze an enemy? If so, this augment will help you greatly. Technology inherited from Hunter's OD lets the ball of lightning stop fast-moving opponents for a brief period of time.
@@ -6198,7 +6212,7 @@ Gauss:
   - Speed Boost bonus has been increased from 15%-30% to 20%-40%.
 - The map «Archipelago MM» has been removed from the matchmaking pool.
 
-## October 8th (Update 665)
+### October 8th (Update 665)
 
 - Updated Ultra Containers with the new «Paladin» hull Mk1 and the new Tesla’s «Armour-piercing discharge» augment inside:
   - With this augment equipped, Tesla shoots ball lightning that flies as fast as the one Electroturret shoots. It applies the AP status effect for 5 seconds, but deals less damage.
@@ -6286,7 +6300,7 @@ Gauss:
 - Wasp, Hornet and Hopper hulls now have a speed of 9-12 m/s.
 - Updated icons of all «Jammer Immunity» augments.
 
-## October 1st (Update 664)
+### October 1st (Update 664)
 
 - Updated Ultra Containers with the «Paladin» Mk1 hull in early access and the new Tesla’s «Endothermic Lightning» augment.
 - It shoots ball lightning with the same speed as Electroturret does, but freezes an opponent and deals less damage.
@@ -6312,7 +6326,7 @@ Gauss:
 - Fixed the bug where several actions in the Clans section were leading to eternal loading.
 - Fixed the bug where several actions in the downloadable client were leading to eternal loading.
 
-## September 24th (Update 663)
+### September 24th (Update 663)
 
 - Starting from 2 AM UTC September 24th till 2 AM UTC September 27th the battle duration will be increased to 15 minutes.
 - Updated Ultra Containers with the new Paladin hull Mk1 inside;
@@ -6359,7 +6373,7 @@ Ares:
 - Updated the prices in some regions.
 - Updated the Tankoin prices of crystals, containers and gold box packs.
 
-## September 11th (Update 662)
+### September 11th (Update 662)
 
 - Matchmaking system considers a player’s GS score instead of a number of average battle points for last matches;
 - Fixed the bug where you were not able to log in to your account if it is linked to a social media account, and you have changed your nickname;
@@ -6367,7 +6381,7 @@ Ares:
 - Lobby loading optimization;
 - Removed generation of some textures that are not needed.
 
-## September 3rd (Update 661)
+### September 3rd (Update 661)
 
 Patch Update #661 - Released 3rd September 2021
 
@@ -6406,7 +6420,7 @@ Patch Update #661 - Released 3rd September 2021
 - Now you need to enter your 2FA one-time code to disable two-factor authentication.
 - Improvements to the anti-cheat engine.
 
-## August 27th (Update 660)
+### August 27th (Update 660)
 
 - Ultra Weekend and updated Ultra Containers;
 - Added Hammer's new «Stunning Pellets» augment. The last shot in the ammo clip stuns every target hit by its pellets;
@@ -6416,7 +6430,7 @@ Patch Update #661 - Released 3rd September 2021
   - Till this moment we were trying to find the right balance between «Burning» and «Freezing» status effects. After recent changes it became clear that Freezing status effects needed special treatment and shouldn't have that huge difference in damage in comparison with Burning status effects;
 - Anti-cheat improvements.
 
-## August 20th (Update 659)
+### August 20th (Update 659)
 
 - Starting from 02:00 UTC August 20, till 02:00 UTC August 23 matchmaking battle time duration will be increased to 15 minutes.
 - Updated weekly missions:
@@ -6430,7 +6444,7 @@ Patch Update #661 - Released 3rd September 2021
 - Disabled the option to choose the billing country manually. Contact the customer support department to change it. You will need to explain why you want to change it.
 - Anti-cheat system improvements.
 
-## August 13th (Update 658)
+### August 13th (Update 658)
 
 - Carnival — missions and discounts.
 - Starting from 02:00 UTC August 13, till 02:00 UTC August 16 matchmaking battle time duration will be increased to 15 minutes.
@@ -6463,7 +6477,7 @@ Patch Update #661 - Released 3rd September 2021
 - Improved Tesla ball lightning loading mechanism to improve visual effects of launching a ball lightning.
 - Fixed the bug regarding Crusader’s behavior on mines.
 
-## August 6th (Update 657)
+### August 6th (Update 657)
 
 - Ultra Weekend - new missions and special events.
 - The «Tesla XT» skin and Tesla’s new «Electroturret» augment have been added to Ultra Containers
@@ -6503,7 +6517,7 @@ Patch Update #661 - Released 3rd September 2021
 - Fixed a bug where slow projectiles dealt no damage if you rotated your hull.
 - Fixed a bug where stunned tanks weren’t being damaged if they moved from the place where they were stunned.
 
-## July 30th (Update 656)
+### July 30th (Update 656)
 
 - Updated Ultra Containers:
   - Added the new «Tesla XT» skin;
@@ -6530,7 +6544,7 @@ Patch Update #661 - Released 3rd September 2021
     - Vulcan deals x5 damage while Viking’s OD is activated instead of x3.
 - Updated shop prices for certain currencies.
 
-## July 16th (Update 655)
+### July 16th (Update 655)
 
 - The Summer Sport Games event and the new «Arms race» game mode are in the game!
 - Added the new Hammer’s «Magnetic Pellets» augment, the last shot in the ammo clip disables the activated supplies of hit enemies.
@@ -6548,7 +6562,7 @@ Patch Update #661 - Released 3rd September 2021
     - Dictator
     - Radius of effect is increased from 20 meters to 25 meters.
 
-## July 9th (Update 654)
+### July 9th (Update 654)
 
 - Updated the prices and contents of Tankoin, premium, and gold box bundles in the Shop.
 - «Stun» effect doesn’t make you drop flags or balls anymore.
@@ -6580,14 +6594,14 @@ Patch Update #661 - Released 3rd September 2021
 - Paint scaling for HD hulls was increased to make paints look the same on both SD and HD skins.
 - Improved the in-game announcements system; now, you won’t miss the most important news.
 
-## July 2nd (Update 653)
+### July 2nd (Update 653)
 
 - Added the two-factor authentication feature in the «Security» section of the «Settings» menu.
 - Fixes to the damage dealing system;
 - Improvements to the anti-cheat system for Tesla;
 - Improvements to the shot effects for Tesla.
 
-## June 25th (Update 652)
+### June 25th (Update 652)
 
 - List of changes:
   - UFO day - New missions and special events are already in the game.
@@ -6608,7 +6622,7 @@ Patch Update #661 - Released 3rd September 2021
     - The maximum number of points/flags in MM battles was increased:
     - DM: 30 → 50; - TDM: 70 → 100; - CP: 30 → 50; - CTF: 5 → 7; - ASL: 70 → 100; - RGB: 5 → 7; - TJR: 7 → 10; - SGE: 5 → 7; - JGR: 100 → 100.
 
-## May 28th (Update 648)
+### May 28th (Update 648)
 
 - Starting Tanki Online's Birthday celebrations!
 - Updated the default Viking skin to HD version.
@@ -6618,7 +6632,7 @@ Patch Update #661 - Released 3rd September 2021
     - Added all the released Ultra skins.
 - Fixed the bug that Crusader overdrive's icicle exploded randomly
 
-## May 21 (Update 647)
+### May 21 (Update 647)
 
 - Ultra Weekend - New missions and special events are already in the game.
 - Updated Ultra Containers with the new «Mammoth Ultra» skin.
@@ -6637,7 +6651,7 @@ Patch Update #661 - Released 3rd September 2021
 - Merged the «Buy» and «Upgrade» buttons.
 - Updated prices of some Shop items.
 
-## May 14 (Update 646)
+### May 14 (Update 646)
 
 - Ultra Weekend - New missions and special events are already in the game.
 - Updated Ultra Containers:
@@ -6674,7 +6688,7 @@ Patch Update #661 - Released 3rd September 2021
 - You can click on tankoin and crystal buttons when the Garage is opened in a battle.
 - Added Openbucks payment method for USA gift/pre-paid cards.
 
-## April 30 (Update 645)
+### April 30 (Update 645)
 
 - May Holidays - New missions and special events are already in the game.
 - Added Isida’s «Vampire nanobots» augment to Ultra Containers.
@@ -6702,7 +6716,7 @@ Patch Update #661 - Released 3rd September 2021
     - After you open a battle, it will have a different colour in the Battle List.
     - Other minor changes
 
-## April 23 (Update 644)
+### April 23 (Update 644)
 
 - Ultra Weekend - new missions and special events are already in the game.
 - Added the new «Striker Ultra» skin.
@@ -6727,7 +6741,7 @@ Patch Update #661 - Released 3rd September 2021
 - Spectrum A now has 30% resistance instead of 25% and Spectrum M has 25% instead of 22%.
 - Added 4th protection module slot.
 
-## April 9 (Update 643)
+### April 9 (Update 643)
 
 - Starting «Cosmonautics day» event;
 - Added new temporary event currency;
@@ -6745,7 +6759,7 @@ Patch Update #661 - Released 3rd September 2021
 - Fixed the bug with a filter in the MM group invite screen that lets you choose to show only clan mates in the list of players you can invite.
 - Many fixes of UI for main screen, battle List, Shop and clans.
 
-## April 1 (Update 642)
+### April 1 (Update 642)
 
 - All armor piercing augments now apply this status effect only while dealing critical damage;
 - Railgun changes.
@@ -6766,7 +6780,7 @@ Patch Update #661 - Released 3rd September 2021
 - Critical healing is indicated in blue;
 - Critical and kill damage indicators are increased in size to differentiate from regular damage indicators.
 
-## March 26 (Update 641)
+### March 26 (Update 641)
 
 - Easter in Tanki Online!
 - Updated ultra containers, added resistance module with protection against critical damage;
@@ -6813,7 +6827,7 @@ Patch Update #661 - Released 3rd September 2021
     - Mk7+: from 2 250 000 to 6 750 000 crystals depending on how fast you upgrade it.
 - Fixes and changes of UI.
 
-## March 19 (Update 640)
+### March 19 (Update 640)
 
 List of changes:
 
@@ -6825,7 +6839,7 @@ List of changes:
 - Fixed the bug that let a tanker unequip a protection module during its cooldown.
 - Updated descriptions for the following paints: Green Quads, Trapped Inside, Carbon stars, Constellation, NanoHUD, Pixel Plasma, Offensive, Pink Elephant, Orange urchin, PCB.
 
-## March 4 (Update 638)
+### March 4 (Update 638)
 
 - List of changes:
   - Hunter's standard skin got updated to HD.
@@ -6854,7 +6868,7 @@ List of changes:
 - When shooting a tank that has immunity from a status effect you were going to apply, an “Immunity” indicator will appear above the tank.
 - Some fixes of the «Back» button in the battle list.
 
-## February 18 (Update 637)
+### February 18 (Update 637)
 
 - List of changes:
   - Updated Railgun's default skin to HD quality.
@@ -6887,7 +6901,7 @@ List of changes:
     - Removed the “Vote” option from the battle end screen.
     - Small changes in the clan section.
 
-## February 5 (Update 636)
+### February 5 (Update 636)
 
 - When searching for a battle, the range of ranks for a group of players can only go up, and cannot go down.
 - Changed the number of players on the following maps:
@@ -6949,7 +6963,7 @@ List of changes:
 - Ability to ignore the players in the chat via the context menu is added.
 - Now getting stunned results in inability to turn on supplies for the whole duration of this status
 
-## January 29 (Update 635)
+### January 29 (Update 635)
 
 - Smoky’s standard skin received an upgrade to HD.
 - Added animation, new shot effects and new projectile mechanics.
@@ -6986,7 +7000,7 @@ List of changes:
 - When invited to a PRO-battle, you will get a notification to say whether the battle is available at your rank or not;
 - In the list of battles, the entered text is saved in the battle name field if you return from the battle lobby or from the garage.
 
-## January 15 (Update 634)
+### January 15 (Update 634)
 
 - List of changes:
   - Crusader is now available for crystals in Garage;
@@ -6998,7 +7012,9 @@ List of changes:
     - Now you can use ESC keyboard button to leave a battle from the battle results screen;
     - Now you can use «Leave» button after clicking on «Continue» button in PRO battles.
 
-## December 25 (Update 633)
+## 2020
+
+### December 25 (Update 633)
 
 - Starting festive season celebrations
 - Replaced current default Hornet's skin with the brand new HD one
@@ -7016,7 +7032,7 @@ List of changes:
 - Fixed the layout issues with long nicknames in team battles and context menus
 - Fixed animation of Silver Bricks and Holiday Lights animated paints
 
-## December 11 (Update 631)
+### December 11 (Update 631)
 
 - Ultra Weekend - The new missions and events are already in the game.
 - Early access period for Crusader! Get the new hull before anyone else by opening Ultra Containers!
@@ -7025,12 +7041,12 @@ List of changes:
 - Improved matchmaking group invites, including adding the ability to invite a player to your group even if the player is already in another group.
 - Fixed the problems with large nicknames in the friends menu.
 
-## November 27 (Update 629)
+### November 27 (Update 629)
 
 - Now you can see the special text tips when you apply any status effect to an opponent's tank or when it is applied on your tank.
 - Fixed aiming speed for Shafts scope mode.
 
-## November 20 (Update 628)
+### November 20 (Update 628)
 
 - Added textures quality scaling to the game settings.
 - Added an option to get direct chat messages from players that are in your friend's lists. You can now have it enabled in the game settings.
@@ -7045,7 +7061,7 @@ List of changes:
 - Now after leaving a PRO battle, you will be in the lobby of this battle.
 - Now when you hover your cursor over a nickname in the lobby chat or battle statistics, it shows that the nickname is clickable.
 
-## November 4 (Update 627)
+### November 4 (Update 627)
 
 - List of changes:
   - Launched experimental gameplay changes;
@@ -7053,7 +7069,7 @@ List of changes:
     - Modified Gear Score color scheme to better delineate between higher and lower values;
     - Spectator mode improvements.
 
-## October 29 (Update 626)
+### October 29 (Update 626)
 
 - List of changes:
   - Added new Armor-Piercing (AP) status effect.
@@ -7065,13 +7081,13 @@ List of changes:
     - Added permanent immunity to all status effects for Juggernaut.
     - Respawn protection now also protects you from all status effects.
 
-## October 23 (Update 625)
+### October 23 (Update 625)
 
 - Changed the behavior of hover tanks while strafing.
 - Fixed the bug with losing the ability to control your tank in a battle.
 - Fixed the bug with a drone being shown above a tank in the garage when it is not equipped.
 
-## October 16 (Update 624)
+### October 16 (Update 624)
 
 - Fixed the bug with equipping augments in battles;
 - Decreased the time to open the Garage from the Lobby;
@@ -7081,7 +7097,7 @@ List of changes:
 - Your drone now shows in all screens where tank model is shown, for example, the scores screen at the end of a battle;
 - Fixed information about crystals in the tutorial.
 
-## October 9 (Update 623)
+### October 9 (Update 623)
 
 - Added Hopper to the «All hulls and turrets» product kit;
 - Improved Spectator mode in the HTML5 version;
@@ -7108,7 +7124,7 @@ List of changes:
 - Made the K/D ratio column wider in the clan statistics table;
 - Added a tooltip when you hover over the clan search input;
 
-## October 1 (Update 622)
+### October 1 (Update 622)
 
 - Added stars to daily, weekly and special missions. Complete ongoing challenges by completing missions!
 - Doubled the difficulty of daily and weekly missions that require earning crystals in battles.
@@ -7123,7 +7139,7 @@ List of changes:
 - Additional fixes with the memory leak problems.
 - Changed the number of stars in the bundles found in the Shop.
 
-## September 25 (Update 621)
+### September 25 (Update 621)
 
 - All modifications of hulls and turrets now look the same.
   - We have started to update the game's interface and graphics (HTML5 interface, 3D bushes, ultra skins). In the future, we are going to remaster skins one by one for each turret and hull and make them more modern. There will still only be one default skin but they will be much better. In order to do this, we have had to choose only one modification skin for all turrets and hulls to remaster and this is the M3 (Mk7) modification skin. That's a technical requirement and is the first step towards implementing the plan.
@@ -7138,7 +7154,7 @@ List of changes:
 - You can now buy «Frost» and «Golden star» paints without having a Premium Pass.
 - Fixed memory leak when a tanker goes from a battle to the lobby or garage or vice versa.
 
-## September 17 (Update 620)
+### September 17 (Update 620)
 
 - List of changes:
   - Magnum:
@@ -7151,14 +7167,14 @@ List of changes:
     - Fixed the delay while respawning after a pause or visiting the garage.
     - Updated icons for augments and skins.
 
-## September 4 (Update 618)
+### September 4 (Update 618)
 
 - List of changes:
   - You can now refresh your showcase using tankoins.
     - Fixed how the hover tank’s speed depended on camera POV.
     - Fixed and added back dust from tracks.
 
-## August 28 (Update 617)
+### August 28 (Update 617)
 
 - List of changes in HTML5:
   - Ares:
@@ -7175,7 +7191,7 @@ List of changes:
 - List of changes in Flash:
   - Missions screen is replaced with a pop-up about migration to HTML5.
 
-## August 14 (Update 616)
+### August 14 (Update 616)
 
 - List of changes:
   - Added the heavy hovering Ares hull.
@@ -7198,7 +7214,7 @@ List of changes:
     - Fixed header from "Battle Pass" to "Challenges" in one of the screens.
     - Changed texts of modal windows which appear when you confirm your password/email.
 
-## July 1 (Update 609)
+### July 1 (Update 609)
 
 - List of changes:
   - Updated coinboxes.
@@ -7220,7 +7236,7 @@ List of changes:
     - Shaft’s «Rapid-fire mode» augment:
     - Increased maximum rate of fire from 270 ms to 375 ms. - Energy reload speed decrease is now 50% instead of 40%.
 
-## June 19 (Update 608)
+### June 19 (Update 608)
 
 - List of changes:
   - “Adrenaline” Augments for all turrets are now available for crystals.
@@ -7243,7 +7259,7 @@ List of changes:
     - Improvements in clan lists for players with different positions.
     - Fixed challenge widget for Firefox browser.
 
-## June 4 (Update 606)
+### June 4 (Update 606)
 
 - List of changes:
   - Returned crystal boxes with experience points for first ranks: Recruit — Sergeant-Major.
@@ -7261,7 +7277,7 @@ List of changes:
     - Significantly increased loading speed for the first entry to the Garage.
     - «Hyperion drone»’s enabling supplies consumption was decreased by 2.
 
-## May 29 (Update 605)
+### May 29 (Update 605)
 
 - List of changes:
   - Fixed a bug that generated daily missions without rewards.
@@ -7273,7 +7289,7 @@ List of changes:
     - Fixed “Connection lost” window.
     - Layout fixes.
 
-## May 21 (Update 604)
+### May 21 (Update 604)
 
 - List of changes:
   - The addition of positive and negative effects indication (except the Flash client).
@@ -7288,12 +7304,12 @@ List of changes:
   - Added indication of the status of other players’ overdrives.
     - Fixed layout issues.
 
-## May 8 (Update 601)
+### May 8 (Update 601)
 
 - Returned turret and added hull augments to the Garage.
 - Railgun’s «Round stabilization» augment moved to «Rare» category in containers.
 
-## April 30 (Update 600)
+### April 30 (Update 600)
 
 - List of changes:
   - The regular container has been replaced with a new one that contains augments for turrets and hulls.
@@ -7348,7 +7364,7 @@ List of changes:
 - Changes in HTML5:
   - Changes in layouts.
 
-## April 24 (Update 599)
+### April 24 (Update 599)
 
 - List of changes:
   - Released 8 hull alterations for Hunter.
@@ -7364,7 +7380,7 @@ List of changes:
     - Added some translations.
     - Fixed Chinese characters readability in battle chats.
 
-## April 10 (Update 597)
+### April 10 (Update 597)
 
 - List of changes:
   - Paints were removed from the Shop.
@@ -7382,7 +7398,7 @@ List of changes:
     - The “Invite” button in the menu will not be shown anymore if you don't have at least 1 friend.
     - Battle names are no longer case-sensitive.
 
-## April 1 (Update 595)
+### April 1 (Update 595)
 
 - List of changes in the HTML5 version:
   - Improved completed mission indicators.
@@ -7392,7 +7408,7 @@ List of changes:
     - Fixed displaying clan tags in chat.
     - Changed order of context menu.
 
-## March 20 (Update 594)
+### March 20 (Update 594)
 
 - List of changes:
   - Changed the formula used for calculating damage when a player has many multipliers enabled.
@@ -7413,7 +7429,7 @@ List of changes:
     - Removed «Soft shadows» setting.
     - Returned «Dynamic lights» setting.
 
-## March 6 (Update 593)
+### March 6 (Update 593)
 
 - List of changes in HTML5:
   - Added festive special missions.
@@ -7424,7 +7440,7 @@ List of changes:
     - Fixed point “capturing” indicator.
     - Added experimental optimized lighting system on the Arena map.
 
-## February 28 (Update 592)
+### February 28 (Update 592)
 
 - List of changes in HTML5:
   - Added «Special Missions».
@@ -7433,7 +7449,7 @@ List of changes:
     - Made battle interface scalable
     - Changes in the interface
 
-## February 21 (Update 591)
+### February 21 (Update 591)
 
 - List of changes:
   - Changes in Vulcan’s balance:
@@ -7455,7 +7471,7 @@ List of changes:
     - Fixed glitches on animated paints.
     - Improved readability of rank icons.
 
-## February 7 (Update 589)
+### February 7 (Update 589)
 
 - Changes in the main client:
   - Improved information tooltip about Premium status.
@@ -7463,7 +7479,7 @@ List of changes:
     - Fixed wrong rank icons for Warrant-Officer 2 and Warrant-Officer 3 ranks.
     - Fixed joints for animated paints
 
-## January 31 (Update 588)
+### January 31 (Update 588)
 
 - Changes in all versions:
   - Fixed the bug that decreased effective radius of Striker projectile’s splash
@@ -7477,7 +7493,7 @@ List of changes:
     - Music volume in the lobby is set to 50% by default.
     - Changes in texts
 
-## January 24 (Update 587)
+### January 24 (Update 587)
 
 - Changes in all versions:
   - Changed vanilla skins for modifications of turrets and hulls.
@@ -7488,7 +7504,7 @@ List of changes:
     - Added subdomains support. Just add something like your username before.tankinonline.com (e.g. player123.tankionline.com) for each of your accounts and switch between them.
     - Added nickname suggestions when you try to register an existing nickname.
 
-## January 17 (Update 586)
+### January 17 (Update 586)
 
 - Changes:
   - Number of modifications for all turrets, hulls and protection modules increased from 4 to 7.
@@ -7504,7 +7520,9 @@ List of changes:
     - The old HTML5 version is discontinued and replaced with the new one.
     - Released downloadable HTML5 client.
 
-## December 26 (Update 584)
+## 2019
+
+### December 26 (Update 584)
 
 - Changes:
   - Titan:
@@ -7525,7 +7543,7 @@ List of changes:
     - Sounds:
     - Fixed crackling; - Added multiple sounds for engines of hulls.
 
-## December 20 (Update 581)
+### December 20 (Update 581)
 
 - List of changes:
   - Added new «Siege» game mode and daily missions for it.
@@ -7534,7 +7552,7 @@ List of changes:
 - Changes in the HTML5 version:
   - Your team is now always shown as blue.
 
-## November 29 (Update 580)
+### November 29 (Update 580)
 
 - List of changes:
   - Added re-designed Prime skins for Thunder and Viking
@@ -7616,7 +7634,7 @@ List of changes:
     - Updated battle markers;
     - List of available items from container is now scrollable.
 
-## November 15 (Update 579)
+### November 15 (Update 579)
 
 - List of changes:
   - Overdrive recharge status remains after a player stops being Juggernaut or rejoins a battle.
@@ -7633,7 +7651,7 @@ List of changes:
     - Supply box zones are no longer darkened on night mode maps.
     - Added news to the communicator.
 
-## October 31 (Update 577)
+### October 31 (Update 577)
 
 - Changes in Overdrives:
   - Mammoth's overdrive:
@@ -7662,7 +7680,7 @@ List of changes:
     - Added WebGL1 support;
     - UI changes.
 
-## October 25 (Update 575)
+### October 25 (Update 575)
 
 - Changes:
   - Missions:
@@ -7677,7 +7695,7 @@ List of changes:
   - Fixed a bug when friend's status (in group / in battle) was shown incorrectly.
     - Multiple changes to user interface and translations.
 
-## October 11 (Update 574)
+### October 11 (Update 574)
 
 - Changes in the new HTML5 and Flash versions
   - Updated how Gear Score is calculated.
@@ -7698,7 +7716,7 @@ List of changes:
     - Multiple changes in translations.
     - Multiple changes in the UI.
 
-## October 2 (Update 573)
+### October 2 (Update 573)
 
 - Changes:
   - Fixed a critical error in Flash version when any player with Gauss turret leaves a battle;
@@ -7718,7 +7736,7 @@ List of changes:
     - Fixed a bug with supplies reload indicators when a player uses a drone;
     - Many changes of images and buttons location.
 
-## September 26 (Update 572)
+### September 26 (Update 572)
 
 - Changes in the new HTML5 and Flash versions
   - Added Team Juggernaut mode;
@@ -7736,7 +7754,7 @@ List of changes:
     - Decreased sound volume level for turret’s rotation in mouse camera control mode;
     - Fixed a game crash when a bonus box appeared without a parachute
 
-## September 19 (Update 562)
+### September 19 (Update 562)
 
 - Added camera inertia to keyboard camera control mode
 - Added dedicated reticles for Striker, Gauss and Juggernaut
@@ -7756,31 +7774,31 @@ List of changes:
 - Fixed a bug in displaying information in friends menu and inviting to a MM group
 - Added battle information for PRO battles
 
-## August 30 (Update 561)
+### August 30 (Update 561)
 
 - Added Magnum shot colors to Containers (except Crimson).
 - Added unique items from the August challenge to the Containers.
 
-## August 23 (Update 560)
+### August 23 (Update 560)
 
 - Adjusted Tankоin prices for the following currencies: IRR, CNY
 - Fixed a bug where the Battle Pass was not removed after the Challenge ended
 - Removed individual discounts
 
-## August 9 (Update 559)
+### August 9 (Update 559)
 
 - New weekly containers with Tankoins have been added to the game.
 - Old weekly containers have been renamed and can no longer be received.
 - Updated prices for Tankoins in UAH.
 
-## August 1 (Update 558)
+### August 1 (Update 558)
 
 - Accrual of battle points in DM matchmaking battles:
   - The number of frag points has been reduced from 15 to 10.
     - The self-destruct penalty has been turned off.
 - Fixed the “flying house” bug on the Molotov map.
 
-## July 18 (Update 564)
+### July 18 (Update 564)
 
 - Changes in the balance of turrets and overdrives:
 - Gauss:
@@ -7821,7 +7839,7 @@ List of changes:
   - Added “Owl” module to the "Anti-camper" protection modules kit
     - Added 48 hours to the July Challenge and WAR for Space to make up for starting them late.
 
-## June 13 (Update 556)
+### June 13 (Update 556)
 
 - Gauss bug fixes:
   - Fixed incorrect calculation of damage and impact force in the splash zone of special shot.
@@ -7861,7 +7879,7 @@ List of changes:
   - Removed one of the Nuclear Energy drop zones for some modes in Stadium.
     - Reduced the overall height of the map and changed the ramps on Highway.
 
-## April 10 (Update 551)
+### April 10 (Update 551)
 
 - Vulcan:
   - Reduced damage after overheating:
@@ -7889,16 +7907,16 @@ List of changes:
 - Updated effects on existing supplies - Added 11th April
   - Now, Repair Kit, Double Damage (DD), Double Armour (DA), or Speed Boost have their respective visual effects when activated, which will show up on the tank at any distance. This will provide valuable tactical and strategic information for the attentive tanker.
 
-## March 29 (Update 550)
+### March 29 (Update 550)
 
 - Minor changes in turret control when playing with the mouse or keyboard.
 
-## March 15 (Update 549)
+### March 15 (Update 549)
 
 - Matchmaking changes that should prevent sabotage from groups.
 - Added the option to register and authorise via Google account in the browser version of the game.
 
-## March 1 (Update 547)
+### March 1 (Update 547)
 
 - Changes to Turrets:
   - Firebird:
@@ -7921,12 +7939,12 @@ List of changes:
     - Railgun:
     - Round Destabilization: Now increases max damage by 70% instead of 90%. - Death Herald: Now does not affect the reload time but increases charging time by 10%.
 
-## February 22 (Update 542)
+### February 22 (Update 542)
 
 - Added themed decorations and items for Iron Day
 - Added game tips to loading screen
 
-## February 1 (Update 541)
+### February 1 (Update 541)
 
 - Duration of matchmaking battles reduced from 8 to 7 minutes.
 - Minimum wait time between equipment changes in all the battles reduced from 5 to 3 minutes.
@@ -7942,7 +7960,7 @@ List of changes:
   - Changed map landscape;
     - CTF and RGB now available.
 
-## January 25 (Update 540)
+### January 25 (Update 540)
 
 - Changes in the characteristics of turrets and alterations:
   - Magnum:
@@ -7968,13 +7986,15 @@ List of changes:
 - Changed rewards for weekly quests: Completing all 3 quests now gives a total of 6 weekly containers and 3 regular, instead of 3 weekly and 6 regular.
 - Reduced the length of the matchmaking version of the Highway map.
 
-## January 17 (Update 539)
+### January 17 (Update 539)
 
 - Fixed number of upgrade steps for Hornet M0.
   - Hornet M0 now has 20 upgrade stages (instead of just 10), just like other M0 hulls.
     - All existing upgrade steps will be converted i.e. If your Hornet M0 was at upgrade step 7, the update will convert it to step 14.
 
-## November 3 (Update 534)
+## 2018
+
+### November 3 (Update 534)
 
 - 44 new shot effects added to the game for Firebird, Freeze, Isida, Twins, Ricochet, Striker, Railgun and Shaft turrets.
 - Alterations balance changes:
@@ -7992,7 +8012,7 @@ List of changes:
     - now mine placed by a shot is active for 30 seconds.
 - Added indication for the player’s alteration above the tank in battle.
 
-## October 31 (Update 533)
+### October 31 (Update 533)
 
 - 30 new gameplay alterations added to the game.
 - Changes to current alterations balance:
@@ -8029,7 +8049,7 @@ List of changes:
 - Now only one gameplay alteration can be equipped for each turret.
 - Now standard color of the turret shot doesn’t rely on its modification.
 
-## October 30 (Update 532)
+### October 30 (Update 532)
 
 - Mission system reworked:
   - Mission chains replaced with weekly missions.
@@ -8060,7 +8080,7 @@ List of changes:
     - Supplier:
     - now available for purchase from the Captain rank, instead of WO5; - price increased from 50,000 to 90,000 crystals.
 
-## October 19 (Update 530)
+### October 19 (Update 530)
 
 - Changes to drone mechanics:
   - “Engineer” in addition to its standard mechanic now activates the effect of the picked up supplies for all allies in the battle.
@@ -8068,7 +8088,7 @@ List of changes:
 - Currently equipped drone is now displayed above your tank in the Garage.
 - The color of the overdrive activation effect is now green for your allies and blue for your enemies.
 
-## October 16 (Update 529)
+### October 16 (Update 529)
 
 - Turret balance changes:
   - Freeze:
@@ -8093,7 +8113,7 @@ List of changes:
         - energy for an aimed shot increased from 250 to 1000 on all modifications.
 - Changed the standard texture for Holiday paint.
 
-## October 10 (Update 528)
+### October 10 (Update 528)
 
 - Time required for M0 turret and hull MicroUpgrades reduced by 3 times;
 - Redesigned configuration of the MM-version of the map Future:
@@ -8102,7 +8122,7 @@ List of changes:
     - removed the ascending pathway to the bridge near the Red base: now the bridge continues to the end of the map, and can be used to reach the roof of the big house.
 - The length of Matchmaking battles reduced from 9 to 8 minutes.
 
-## September 25 (Update 527)
+### September 25 (Update 527)
 
 - Turret balance changes:
   - Ricochet:
@@ -8123,7 +8143,7 @@ List of changes:
 - Adapted versions of «Cologne», «Parma», «Magistral» and «Bobruisk» maps added to the list of Matchmaking and PRO-battle maps.
 - \*Changes to the reload mechanic for Magnum will appear in the game a day later, than the main release — with server restart 02:00 UTC September 26th.
 
-## September 6 (Update 525)
+### September 6 (Update 525)
 
 - Turret balance changes:
   - Smoky:
@@ -8148,7 +8168,7 @@ List of changes:
 - Added an option to Settings to allow gifts from all players, not just friends.
 - “Fall leaves” animated paint added to containers.
 
-## August 10 (Update 521)
+### August 10 (Update 521)
 
 - Changes to turret and alteration balance:
   - Firebird:
@@ -8178,7 +8198,7 @@ List of changes:
 - Batteries added to rewards for completing daily missions.
 - Adapted version of Sandbox map added to the list of Matchmaking and PRO battles.
 
-## July 28 (Update 519)
+### July 28 (Update 519)
 
 - Changes to Juggernaut mode:
   - reduced damage, armor and healing from Juggernaut’s overdrive: on lower ranks -- reduced more, on medium and high ranks -- reduced less.
@@ -8192,7 +8212,7 @@ List of changes:
 - The number of score points for delivering the flag in Matchmaking CTF battles increased from 50 to 100.
 - Changed the geometry of the Matchmaking version of Tribute.
 
-## July 20 (Update 518)
+### July 20 (Update 518)
 
 - A new “Juggernaut” mode added to the game (available from the Sergeant rank).
 - An updated version of Sandal map added to the list of Matchmaking maps.
@@ -8207,13 +8227,13 @@ List of changes:
     - Shaft:
     - slightly reduced the recharge time between shots while NOT in Sniper mode; - slightly increased the maximum range of shots NOT in Sniper mode. - reduced by two times the range of minimal impact of shots while NOT in Sniper mode; - reduced by two times the percentage of weak impact shots while NOT in Sniper mode; - the amount of energy per shot slightly reduced, and the parameter is no longer upgradable.
 
-## June 30 (Update 516)
+### June 30 (Update 516)
 
 - Daily missions to earn experience points were replaced with missions to earn score in battles.
 - Fixed error in Matchmaking when several battle groups could be put onto the same team, and at the same time no battle group would be placed on the opposing team.
 - The number of player reports required for the battle to be highlighted for battle moderators to check was lowered from 25% to 15% of the number of players in the battle.
 
-## June 23 (Update 515)
+### June 23 (Update 515)
 
 - Balance changes in turrets:
   - Freeze — damage increased on all modifications:
@@ -8231,7 +8251,7 @@ List of changes:
 - Updated paint descriptions for “Champion”, “Silver”, “Bronze”, “Acid” and “Gladiator”.
 - Iraq and Palestine added to the list of countries for clan’s selection.
 
-## June 5 (Update 513)
+### June 5 (Update 513)
 
 - The size of battle groups in Matchmaking is now limited to 3 players;
 - After creating a battle group protection modules of group members are no longer shown in Matchmaking;
@@ -8240,13 +8260,13 @@ List of changes:
 - Mechanic now applies to all nearby allies a full healing effect of the Repair Kit, and not its own bonus healing effect;
 - Fixed the bug when supply cooldowns would not reset directly after the respawn.
 
-## May 18 (Update 511)
+### May 18 (Update 511)
 
 - 12 new paints added to containers.
 - New animated paint “Canyon Hero” (can be found in containers).
 - Flag limit in CTF and score limit in RGB increased from 5 to 7.
 
-## April 27 (Update 510)
+### April 27 (Update 510)
 
 - Changes to time and score limits in standard, non-PRO battles:
   - Time limit reduced from 15 minutes to 10 minutes;
@@ -8259,7 +8279,7 @@ List of changes:
     - Reward for completing the maximum level of mission chains now includes 1 more container.
 - Slightly reduced Overdrive cooldown.
 
-## February 6 (Update 502)
+### February 6 (Update 502)
 
 - Changes to Rugby mode:
   - When the ball is caught, it will now spin above the tank;
@@ -8270,7 +8290,7 @@ List of changes:
 - Other updates:
   - The sound volume when rotating the turret is lowered.
 
-## January 26 (Update 501)
+### January 26 (Update 501)
 
 - New game mode «Rugby».
 - 23 new paints for containers.
@@ -8278,7 +8298,9 @@ List of changes:
 - Disabled new super missions «Destroy 9999 enemies» and «Earn 99999 experience» from appearing in new daily missions.
 - Disabled battle notifications at the center of the screen.
 
-## December 28 (Update 500)
+## 2017
+
+### December 28 (Update 500)
 
 - Changes to Assault mode:
   - Blue Team no longer receives score points for controlling the point;
@@ -8287,7 +8309,7 @@ List of changes:
 - Added new daily mission “Finish among top 3 of the winning team in a battle”. Mission can be completed in any mode;
 - Added new effects when opening containers.
 
-## December 7 (Update 496)
+### December 7 (Update 496)
 
 - Friends List Changes:
   - Added player limit on Friends List — 300 tankers;
@@ -8300,11 +8322,11 @@ List of changes:
 - Added new protection against jump hacks to the anti-cheat system;
 - Removed notification for players in battle that a cheater was reported.
 
-## November 16 (Update 493)
+### November 16 (Update 493)
 
 - Disabled the option to show your Premium Account status to the other players (Statistics screen and Premium-bonus).
 
-## October 20 (Update 486)
+### October 20 (Update 486)
 
 - Lobby Screen has been reworked to make it easier to join battles for specific modes.
 - Rank limits for standard (non-PRO) and PRO battles decreased.
@@ -8312,7 +8334,7 @@ List of changes:
 - “PRO Battle” Pass now unlocks at the rank of Master Corporal.
 - “New Players” chat channel and Battle Chat now unlock at the rank of Gefreiter.
 
-## October 12 (Update 485)
+### October 12 (Update 485)
 
 - Added to the game:
   - Unified Battle List;
@@ -8323,20 +8345,20 @@ List of changes:
     - «Finish 1st in a battle 0/3»;
     - «Collect Gold Box 0/1».
 
-## October 5 (Update 484)
+### October 5 (Update 484)
 
 - Unlock ranks for maps changed.
 - Unlock ranks for paints in Garage changed.
 - Fixed bug with forbidden dot character when using Rename Pass.
 - New special offers added to Shop.
 
-## August 18 (Update 477)
+### August 18 (Update 477)
 
 - All Garage paints are now available from the rank of Recruit.
 - New bundle “All turrets and hulls M0” added to Shop (available from Recruit).
 - Fixed bug with tank’s semi-transparent state during respawn.
 
-## August 4 (Update 473)
+### August 4 (Update 473)
 
 - New unlock ranks for M0 hulls and turrets:
   - Available from Recruit: Smoky, Firebird, Wasp, Hunter;
@@ -8347,14 +8369,14 @@ List of changes:
 - 4 kits for beginners (“Almighty”, “Yin-Yang”, “Commando”, “Universal soldier”) no longer available to purchase.
 - Fixed bug with the Beginner’s Pass.
 
-## July 13 (Update 470)
+### July 13 (Update 470)
 
 - Multiple bug fixes, indluding:
   - Frozen loading screen after joining a battle;
     - Ranking up effect.
 - Revision of the payment section for Ukrainian users.
 
-## July 12 (Update 469)
+### July 12 (Update 469)
 
 - New feature - “Overdrive” added to the game.
   - This Overdrive activates all 5 supplies (except gold boxes) for you and your teammates nearby;
@@ -8386,12 +8408,12 @@ List of changes:
   - Now you will be able to open Garage while being in a battle by pressing a key.
 - Fixed bugs in “Odnoklassniki” app.
 
-## July 6 (Update 467)
+### July 6 (Update 467)
 
 - “Promo Codes” option added to Shop (Under “Other” section).
 - Fixed bug with invisible tank parts.
 
-## May 26 (Update 461)
+### May 26 (Update 461)
 
 - Released Bonus and Discount Cards:
   - Kits Discount Card;
@@ -8403,14 +8425,14 @@ List of changes:
     - Premium Account Bonus Card;
     - Crystals Bonus Card.
 
-## May 18 (Update 460)
+### May 18 (Update 460)
 
 - 9 brand new paints added to the Shop.
 - All European game servers (RU, EN, DE, PL) grouped into one category.
 - Anti-cheat improvements.
 - Multiple bug fixes.
 
-## April 21 (Update 456)
+### April 21 (Update 456)
 
 - Balance changes for Firebird, "Compact tanks" alteration, Isida, Hammer, “Slugger” alteration, Smoky, Striker, Thunder and Magnum.
 - Additional Daily Bonus in Premium Account:
@@ -8435,7 +8457,7 @@ List of changes:
     - Problem with Valley Space
     - Problem with authorization via VKontakte
 
-## April 14 (Update 455)
+### April 14 (Update 455)
 
 - Changes to the lobby chat section:
   - The lobby chat section has been renamed to “Communicator”;
@@ -8444,7 +8466,7 @@ List of changes:
 - Fixed some bugs with map previews and “Space” theme.
 - “Space” theme will remain forever for all maps.
 
-## April 7 (Update 453)
+### April 7 (Update 453)
 
 - Changes to Daily Missions:
   - Rewards for missions increased by another 10% compared to rewards before Patch Update #451;
@@ -8457,7 +8479,7 @@ List of changes:
 - Prices of Product Kits in the Shop decreased.
 - Various server optimizations.
 
-## March 29 (Update 451)
+### March 29 (Update 451)
 
 - Changes to microupgrades:
   - Number of steps for M2 hulls, turrets and modules decreased to 10;
@@ -8476,7 +8498,7 @@ List of changes:
 - Critical errors disabled:
   - Up until now, when the Tanki Online client received a “strange” instruction, it would spit out a Critical Error and throw you out of the game. With this update, we’ll be disabling the Critical Error (when bugs will go off you will not be disconnected from the server).
 
-## March 23 (Update 450)
+### March 23 (Update 450)
 
 - New turret “Magnum” released.
 - New protection modules with Magnum protection released:
@@ -8511,7 +8533,7 @@ List of changes:
 - Improvements in payment error form and handling.
 - “Critical error” optimization.
 
-## March 16 (Update 449)
+### March 16 (Update 449)
 
 - Changes to all M0 hulls and turrets:
   - All M0 hulls and turrets are now available from the rank of Recruit;
@@ -8536,7 +8558,7 @@ List of changes:
     - Garage Info about product kits’ content simplified.
     - Bonus supplies removed from the kits in the garage.
 
-## March 2 (Update 445)
+### March 2 (Update 445)
 
 - Changes to micro-upgrades of M0 hulls and turrets:
   - Number of steps decreased from 50 to 10.
@@ -8544,7 +8566,7 @@ List of changes:
     - Speed up cost is 2 times higher than step cost on each step.
     - The aggregate value of step and speed up remains the same.
 
-## February 16 (Update 441)
+### February 16 (Update 441)
 
 - Bug fix for incorrect creation and joining battles.
 - Changes in the balance of Shaft, Hammer and Isida and their alterations:
@@ -8553,7 +8575,7 @@ List of changes:
 - Shaft arcade shot damage now decreases over distance.
 - New flags added for clans - Romania, Turkey, Iran.
 
-## February 10 (Update 439)
+### February 10 (Update 439)
 
 - Balance changes for Twins, Ricochet and Vulcan.
 - Alterations for Twins and Ricochet.
@@ -8562,7 +8584,7 @@ List of changes:
 - Bug fixes in the Clan system.
 - Bug fix for battles without Micro-upgrades.
 
-## February 1 (Update 437)
+### February 1 (Update 437)
 
 - Player Ratings.
 - Supply drop zones are now visible from everywhere on the map.
@@ -8570,7 +8592,7 @@ List of changes:
 - New settings window.
 - Fixed kick exploitation bug.
 
-## January 26 (Update 436)
+### January 26 (Update 436)
 
 - Clan System:
   - First iteration of clan system.
@@ -8584,12 +8606,12 @@ List of changes:
     - Decreased critical damage.
 - User Interface - When clicking on the garage button during a battle, players will no longer be asked whether they want to leave the battle, and will instead be taken directly to the garage without leaving the battle.
 
-## January 19 (Update 435)
+### January 19 (Update 435)
 
 - Changes in the referral interface for the game client.
 - Minor fixes in Client optimization.
 
-## January 11 (Update 431)
+### January 11 (Update 431)
 
 - Changes in Striker:
   - Increased grace period for recovering focus on a lost target when attempting to lock-on.
@@ -8611,7 +8633,9 @@ List of changes:
 - Fixed previews with Raider and Stalker kits in the Shop.
 - PayPal bundle removed from the Shop.
 
-## December 23 (Update 430)
+## 2016
+
+### December 23 (Update 430)
 
 - Striker turret has been added to the game.
 - New protection modules with Striker protection released:
@@ -8645,18 +8669,18 @@ List of changes:
     - Snow Globe.
     - Gingerbread Tank.
 
-## December 8
+### December 8
 
 - The maps Magadan, Deck-9 and Canyon have been returned to the game and are only accessible using a Pro Battle Pass or Premium account.
 - Smoky’s critical damage will no longer be affected by distance from target.
 - The «Battle» button will no longer send players to maps that are unavailable at their rank.
 - Map-specific missions have been removed from the game.
 
-## Mid-October
+### Mid-October
 
 - Global update of the game balance. (update is being prepared for release)
 
-## November 30 (Update 428)
+### November 30 (Update 428)
 
 - Parameter tweaks on Vulcan, Firebird, Compact Cylinders alteration, Freeze, Isida, and the Broadband Transducers alteration.
 - Added "Continue" button — users will be kicked if he/she doesn’t click the "Continue" button when the battle resets.
@@ -8664,11 +8688,11 @@ List of changes:
 - Alert bug fixed.
 - Minor changes in the shop interface.
 
-## November 30 (Update 427)
+### November 30 (Update 427)
 
 - The option to create battles is now only for Premium users and PRO Battle Pass holders.
 
-## November 16 (Update 426)
+### November 16 (Update 426)
 
 - Implemented system for managing multiple accounts on login
 - Implemented “Battle” button for Quick Battles. The button will automatically send the player to a battle on that server that best fits that player’s rank. Please note that this system:
@@ -8695,188 +8719,190 @@ List of changes:
 - Range for default battle created by Colonel reduced to captain.
 - Range for default battle created by Lieutenant colonel reduced to Second Lieutenant.
 
-## September 22
+### September 22
 
 - Alterations, Kits and Supply kits.
 
-## September 13
+### September 13
 
 - Update to the contents of the in-game shop.
 
-## September 9
+### September 9
 
 - Downloadable client.
 
-## August 12
+### August 12
 
 - New paints and modules.
 
-## July 29
+### July 29
 
 - DM-tournaments and the “Gold box” supply.
 
-## July 21
+### July 21
 
 - New shop and paints.
 
-## July 14
+### July 14
 
 - Paint and module separation.
 
-## July 1
+### July 1
 
 - Newbie’s pass, double-click on items in garage and coloured buttons when switching from battle to garage/lobby.
 
-## June 23
+### June 23
 
 - DM system testing, change to rank requirement for lobby chat access, increase of garage loading speed when opening it in-battle, new gifts.
 
-## June 3
+### June 3
 
 - Renovated garage look.
 
-## April 14
+### April 14
 
 - Mechanism for deleting unused nicknames.
 
-## March 17
+### March 17
 
 - Improvement in account security and changes in chats.
 
-## March 3
+### March 3
 
 - Mission chains, chat improvement and other changes.
 
-## February 19
+### February 19
 
 - Ability to disable Gold boxes in PRO-battles.
 
-## February 12
+### February 12
 
 - Early battle finish system.
 
-## January 28
+### January 28
 
 - Private messages in chats.
 - New gifts.
 
-## December 25
+## 2015
+
+### December 25
 
 - New XT items and special New Year game mode.
 
-## December 10
+### December 10
 
 - Paint preview and new sorting mechanism in the garage.
 
-## December 3
+### December 3
 
 - Changes to the garage and reworked CP mode.
 
-## November 12
+### November 12
 
 - Changes to micro-upgrades.
 
-## October 29
+### October 29
 
 - Personal profiles, ratings and achievements.
 
-## October 21
+### October 21
 
 - Premium accounts.
 
-## October 8
+### October 8
 
 - Changes to the forum post and topic rating mechanism.
 
-## October 1
+### October 1
 
 - Test drives and personal discounts system.
 
-## September 17
+### September 17
 
 - The latest unlocked modification of equipment is available to purchase directly, discounts for purchase of similar equipment type sets.
 
-## September 10
+### September 10
 
 - New additions to the list of XT-items
 
-## September 3 (Update 362)
+### September 3 (Update 362)
 
 - Updated textures for Vulcan
 - Updated visual effects for Vulcan
 - Bug fixes
 
-## August 27 (Update 361)
+### August 27 (Update 361)
 
 - Score caps for standard battles
 - Bug fixes
 
-## August 6 (Update 358)
+### August 6 (Update 358)
 
 - 50% decrease in the price of changing a daily mission
 - Automatic country detection for the Payment Section
 
-## July 30 (Update 357)
+### July 30 (Update 357)
 
 - Changes in Daily Missions rewards
 - New crystal packages
 - Removal of the ability to select a custom sum of crystals when buying
 
-## July 23 (Update 356)
+### July 23 (Update 356)
 
 - Changes in SMS payment fees
 
-## July 14 (Update 355)
+### July 14 (Update 355)
 
 - Daily Missions
 - Changes in maximum range of Firebird, Freeze and Isida
 
-## July 1 (Update 354)
+### July 1 (Update 354)
 
 - Changes in turret and hull parameters
 - Changes in the way supplies and gold boxes work
 - Battle and server chat icons for chat candidates, moderators and administrators
 - Ability to manually adjust the speed of turret rotation camera
 
-## June 18 (Update 353)
+### June 18 (Update 353)
 
 - Payment section fixes
 - Experimental increase in the speed of turret rotation camera
 
-## May 28 (Update 351)
+### May 28 (Update 351)
 
 - Anti-cheat and lag fixes
 
-## May 22 (Update 350)
+### May 22 (Update 350)
 
 - Improved micro-upgrades
 
-## May 15 (Update 349)
+### May 15 (Update 349)
 
 - Anti-cheat on jump hack
 
-## April 30 (Update 348)
+### April 30 (Update 348)
 
 - Mouse controls bug fixes
 - Anti-cheat on instant acceleration
 
-## April 23 (Update 347)
+### April 23 (Update 347)
 
 - Changes in the parameters of turrets and hulls
 - Reworked Forest and Sandbox
 - Supply bonuses for beginners
 - Improved system for changing equipment in battle
 
-## April 16 (Update 346)
+### April 16 (Update 346)
 
 - Bug fixes for the mouse controls
 
-## April 9 (Update 345)
+### April 9 (Update 345)
 
 - Mouse Controls
 - Changes in auto-aim mechanism
 
-## March 3 (Update 331)
+### March 3 (Update 331)
 
 - Reworked system for early battle termination
 - Increased funds for lower ranks
@@ -8884,53 +8910,55 @@ List of changes:
 - Increased HP for medium and heavy hulls
 - New Score Multiplier Passes
 
-## February 6 (Update 317)
+### February 6 (Update 317)
 
 - Vulcan turret
 - Protective paints from Vulcan and Hammer
 - Updated looks for Hammer
 
-## January 30 (Update 312)
+### January 30 (Update 312)
 
 - Paints with Hammer protections
 
-## January 26 (Update 310)
+### January 26 (Update 310)
 
 - Aleksandrovsk map
 - Changes in rank limits for mid and higher ranks
 - Decrease in impact force of Smoky and Railgun
 
-## December 27 (Update 302)
+## 2014
+
+### December 27 (Update 302)
 
 - Battles with obvious outcome now might end sooner
 - Players are now automatically sent to specific servers based on their current rank
 
-## December 24 (Update 301)
+### December 24 (Update 301)
 
 - Support for the most demanded formats (Hornet+Railgun, Wasp+Railgun, Hornet/Wasp+Railgun, Parkour)
 
-## December 19 (Update 300)
+### December 19 (Update 300)
 
 - Changes to lengths of standard battles
 
-## December 17 (Update 299)
+### December 17 (Update 299)
 
 - New Hammer turret
 
-## December 16 (Update 298)
+### December 16 (Update 298)
 
 - Further changes to the list of battles
 
-## December 12 (Update 297)
+### December 12 (Update 297)
 
 - Updated list of battles
 
-## December 4 (Update 296)
+### December 4 (Update 296)
 
 - Laser scope for Shaft
 - Night mode for maps
 
-## November 27 (Update 294)
+### November 27 (Update 294)
 
 - Changes in battle fund distribution
 - Fixed lengths for non-PRO battles
@@ -8939,53 +8967,53 @@ List of changes:
 - Further changes in Isida’s updated visual effect
 - Ability to disable drop zone marks in settings
 
-## November 18 (Update 292)
+### November 18 (Update 292)
 
 - Predictable drop zones
 
-## November 12 (Update 291)
+### November 12 (Update 291)
 
 - New visual effects for Railgun and Isida
 
-## October 30 (Update 288)
+### October 30 (Update 288)
 
 - New Product Kits system.
 
-## October 10 (Update 287)
+### October 10 (Update 287)
 
 - New design of gold boxes
 
-## October 3 (Update 285)
+### October 3 (Update 285)
 
 - Advanced tips on fixing issues occurring in the game
 - Improved battle chat for team modes
 
-## September 29 (Update 284)
+### September 29 (Update 284)
 
 - Smart Cooldowns for supplies
 - New icons for supplies both in the game and its interface
 - Improved indication of supplies that are active or being recharged
 
-## September 25 (Update 283)
+### September 25 (Update 283)
 
 - Micro-upgrade speed ups now get cheaper depending on the remaining wait time
 
-## September 19 (Update 282)
+### September 19 (Update 282)
 
 - Ability to switch between servers right in the game
 - Optimization of 3D-engine that lead to a significant decrease in chances of a Fatal Error
 - Player’s rating is no longer displayed
 
-## August 7 (Update 277)
+### August 7 (Update 277)
 
 - New anti-flood system
 
-## July 2 (Update 270)
+### July 2 (Update 270)
 
 - Changes in the game balance
 - New garage descriptions
 
-## June 3 (Update 264)
+### June 3 (Update 264)
 
 - Updated CP mode (changed mechanics, CP is now supported by every CTF map);
 - Fort Knox is now available from Corporal rank;
@@ -8997,174 +9025,176 @@ List of changes:
 - Ability to disable main chat in Settings;
 - Each skybox now consists of 6 separate textures, which makes the image clearer and brighter.
 
-## April 23 (Update 254)
+### April 23 (Update 254)
 
 - Changes in the balance of turrets and hulls.
 
-## April 1 (Update 245)
+### April 1 (Update 245)
 
 - Automatic problem detection system.
 
-## March 25 (Update 242)
+### March 25 (Update 242)
 
 - Ability to change equipment without having to leave the battle.
 
-## February 19 (Update 229)
+### February 19 (Update 229)
 
 - Numerous fixes and improvements of the game’s client part. Critical error issue has been fixed.
 
-## February 14 (Update 227)
+### February 14 (Update 227)
 
 - Slight changes in maps. Previews of maps have been updated
 
-## February 10 (Update 224)
+### February 10 (Update 224)
 
 - Registering a new nickname is a lot easier now. If the nick you want to have is already used, the system will automatically suggest several nicknames instead of it by adding various postfixes.
 - New progress bar
 
-## February 7 (Update 222)
+### February 7 (Update 222)
 
 - Ability to enter Tanki Online using a Facebook account.
 
-## January 31 (Update 220)
+### January 31 (Update 220)
 
 - Existing maps have been reworked.
 
-## January 14 (Update 214)
+### January 14 (Update 214)
 
 - Winter holidays in Tanki Online are over. All the holiday elements have been removed from the game.
 
-## December 31 (Update 213)
+## 2013
+
+### December 31 (Update 213)
 
 - 50% discount on all items in the garage except for MUs and kits.
 - The color of Speed Up button in Micro-upgrades menu has been changed to prevent players from accidentally clicking it.
 
-## December 24 (Update 210)
+### December 24 (Update 210)
 
 - Minor changes in the interface of micro-upgrades
 - The graphics engine has been optimized. Now, if you use hardware acceleration, your FPS should increase.
 
-## December 19 (Update 208)
+### December 19 (Update 208)
 
 - Micro-upgrades — ability to constantly upgrade certain parameters of your items.
 - PRO Battles: more options when creating battles, including the ability to disable MUs.
 - Visual effect of rank up.
 - Crystals given to players for achieving each new rank. Crystals for previously achieved rank have been also given.
 
-## December 14 (Update 207)
+### December 14 (Update 207)
 
 - New product kits have been added to the game.
 - Light effects from Thunder and Smoky hits have been changed.
 
-## December 12 (Update 206)
+### December 12 (Update 206)
 
 - Brightness of lighting without shadows has been decreased.
 
-## December 11 (Update 205)
+### December 11 (Update 205)
 
 - New physics model for tanks.
 - Improvements in anti-cheat system.
 - Reducing traffic between client part and server part of the game.
 - The order of items in Garage has been changed.
 
-## December 9 (Update 204)
+### December 9 (Update 204)
 
 - Ability of inviting friends to battles has been further improved.
 
-## December 7 (Update 203)
+### December 7 (Update 203)
 
 - Bottom ranks of supplies have been changed. «Nitro», «Double Power» and «Double Armor» are now available from Gefreiter, both in the shop and in daily gifts.
 
-## December 4 (Update 200)
+### December 4 (Update 200)
 
 - Lighting from gunshots has been added to the game.
 - Now you can disable Anti-aliasing in settings.
 - Viewing angles on monitors with different aspect ratios are now the same.
 - Overall color correction of maps. Lighting without shadows has become brighter.
 
-## December 2 (Update 199)
+### December 2 (Update 199)
 
 - From Christmas to Christmas event has started, 2014 crystals gold boxes have been added to the game.
 
-## November 27 (Update 196)
+### November 27 (Update 196)
 
 - Ability to invite friends to battles has been added.
 
-## November 21 (Update 193)
+### November 21 (Update 193)
 
 - Protections of some paints have been changed: Acid gives 18% from all weapons, Champion’s protections are now 25%.
 - Daily gifts are now available from 1 am (UTC+0)
 
-## October 31 (Update 190)
+### October 31 (Update 190)
 
 - Halloween. Special flags, billboards, holiday paint, 3000 gold boxes and Halloween map have been added to the game.
 
-## October 10 (Update 188)
+### October 10 (Update 188)
 
 - Farewell to Moon Silence event is over. Moon Silence map and holiday billboards have been removed from the game. Moonwalker paint has been removed from the shop.
 
-## October 3 (Update 187)
+### October 3 (Update 187)
 
 - Beginning of Farewell to Moon Silence event. Moonwalker paint and holiday billboards have been added to the game. Value of gold boxes on Moon Silence has been increased to 3,000 crystals. The chance of it being dropped has been increased by half.
 
-## September 28 (Update 186)
+### September 28 (Update 186)
 
 - New product kits have been added to the game.
 
-## September 2 (Update 181)
+### September 2 (Update 181)
 
 - Holiday billboards and a special paint for Tankman’s Day have been added to the game.
 
-## August 19 (Update 180)
+### August 19 (Update 180)
 
 - «Platform» map has been removed from the game.
 
-## August 15 (Update 179)
+### August 15 (Update 179)
 
 - Descriptions in the Garage and texts on loading screens in the English version of the game have been corrected.
 
-## August 13 (Update 178)
+### August 13 (Update 178)
 
 - Special paints for forum moderators, cybersport representatives and members of the Creative League have been added to the game.
 
-## August 1 (Update 176)
+### August 1 (Update 176)
 
 - Changes to the rules of the game have been made: now it is forbidden to post referral links in the chat and in the forum.
 
-## July 20 (Update 173)
+### July 20 (Update 173)
 
 - Some visual errors on Future, Factory and Platform maps have been fixed.
 
-## July 19 (Update 172)
+### July 19 (Update 172)
 
 - Maps of winners of Looking for a Level Designer contest have been added to the game.
 - «Future» with CTF, DM and TDM modes.
 - «Factory» with CTF, DM and TDM modes.
 - «Platform» with CTF, DM and TDM modes.
 
-## July 18 (Update 171)
+### July 18 (Update 171)
 
 - Some errors in Friends System have been fixed. There were problems with loading players' names in battle statistics and «New Friend» indicator.
 - Sound loading problem has been solved.
 
-## July 16 (Update 169)
+### July 16 (Update 169)
 
 - Friends System and player context menu have been added.
 - Now team vote removes a player from no-supplies battles.
 
-## July 4 (Update 166)
+### July 4 (Update 166)
 
 - Glide paint for crew making Tanki Online parkour tutorials has been added.
 - Lucky 7 paint for winners of Lucky 7 tournament has been added. The paint has 15% protection against all turrets.
 - Zeus paint description has been changed.
 
-## June 27 (Update 165)
+### June 27 (Update 165)
 
 - Traceur paint has been added to Garage. The paint is temporary and will be removed once the Masters of Parkour contest is over.
 - Crash and Gallery maps have been switched off.
 - Minor updates in the payment section.
 
-## June 18 (Update 163)
+### June 18 (Update 163)
 
 - Resists of Champion paint have been changed. Now it has 22% protection against all turrets.
 - New award paints have been added:
@@ -9173,60 +9203,60 @@ List of changes:
 - Gladiator — Twins (25%), Railgun (20%), Thunder (20%), Firebird (20%);
 - Veteran — protection against all turrets (20%).
 
-## June 17 (Update 162)
+### June 17 (Update 162)
 
 - Anti-cheat system has been updated
 
-## June 11 (Update 161)
+### June 11 (Update 161)
 
 - Tanki Online Birthday is over
 - Rank limits for battles have been extended for several ranks.
 
-## June 4 (Update 160)
+### June 4 (Update 160)
 
 - Tanki Online’s birthday: holiday paint and billboards, changed look of flags, launch of the Discount Week.
 
-## May 16 (Update 154)
+### May 16 (Update 154)
 
 - In-game and chat system messages for German community players have been improved.
 
-## May 15 (Update 153)
+### May 15 (Update 153)
 
 - Victory in Europe Day is over: Holiday paint and billboards are set to standard, gold boxes are back to default value.
 
-## May 14 (Update 152)
+### May 14 (Update 152)
 
 - Procedure of paying with credit cards has been simplified.
 
-## May 9 (Update 151)
+### May 9 (Update 151)
 
 - Victory in Europe Day in Tanki Online: holiday paint and billboards, 3000 gold boxes, 25% discount in Garage (everything except product kits).
 
-## May 7 (Update 150)
+### May 7 (Update 150)
 
 - May Day is over: Holiday paint and billboards are set to standard, gold boxes are back to default value.
 
-## May 1 (Update 149)
+### May 1 (Update 149)
 
 - Gold box sound notification has been added.
 
-## April 29 (Update 148)
+### April 29 (Update 148)
 
 - Notification that tells about gold box being dropped soon has been added. Drop zones for the bonus have been reworked.
 
-## April 17 (Update 144)
+### April 17 (Update 144)
 
 - Funds in the game have been increased by 60%.
 
-## April 16 (Update 143)
+### April 16 (Update 143)
 
 - «Team kick by vote» system’s testing has been completed.
 
-## April 12 (Update 142)
+### April 12 (Update 142)
 
 - An ability to buy crystal in packages and receive bonus crystals has been added.
 
-## April 9 (Update 138)
+### April 9 (Update 138)
 
 - An ability to kick a player from a team by voting has been added.
 - New product kits have been added.
@@ -9236,39 +9266,39 @@ List of changes:
 - Now items are equipped automatically after the purchase in your garage.
 - Resource loading has been optimized. You can join a battle a lot faster.
 
-## April 1 (Update 137)
+### April 1 (Update 137)
 
 - Updated internal statistics system.
 
-## March 28 (Update 136)
+### March 28 (Update 136)
 
 - Added a new chat command #news, which creates a link to «Russian Portal NEWS».
 - Added a new chat command #teams, which makes reference to the «Team» section of the forum.
 
-## March 27 (Update 135)
+### March 27 (Update 135)
 
 - Added the effect of «dynamic shadows» on the visual effect of the «dust from the track»
 
-## March 21 (Update 134)
+### March 21 (Update 134)
 
 - Added a separate checkbox to enable or disable the «dust» in the game options screen.
 
-## March 20 (Update 133)
+### March 20 (Update 133)
 
 - Visual dust effect is added under tank tracks.
 - A tank in garage now has a shadow.
 - The holiday of «March 8» is over. Holiday paint and billboards are set to standard.
 - White rectangle tank bug in the garage is fixed.
 
-## March 14 (Update 132)
+### March 14 (Update 132)
 
 - Fixed the display of the active filter buttons below the battle list.
 
-## March 12 (Update 130)
+### March 12 (Update 130)
 
 - A feature to filter the battles list by game mode was added.
 
-## March 7 (Update 129)
+### March 7 (Update 129)
 
 - Preparations for the, «March 8» holiday
 - Turned off the «Fort Knox» map
@@ -9279,19 +9309,19 @@ List of changes:
 - Improved the map «Edinburgh»
 - Improved the map «Fort Knox»
 
-## February 26 (Update 128)
+### February 26 (Update 128)
 
 - Improved the «anti-flood».
 - Information about buying crystals.
 - Improved the calculator in the payment section.
 
-## February 22 (Update 127)
+### February 22 (Update 127)
 
 - Iron Days in Tanki Online.
 - Holiday paints and billboards.
 - 25% Discount on all hulls in the game.
 
-## February 21 (Update 126)
+### February 21 (Update 126)
 
 - Improved the «anti-cheat» system.
 - In the «Payment Terminals», «Russia» is selected by default.
@@ -9300,20 +9330,20 @@ List of changes:
 - Fixed: the incorrect display of the buttons in the WebMoney payment section.
 - Fixed: the absence of supplies in the garage, which made them unusable.
 
-## February 19 (Update 125)
+### February 19 (Update 125)
 
 - Removed the holiday billboards and paint.
 - Updated the server platform version.
 - Removed the calculator from the DAOPAY payment option.
 
-## February 14 (Update 124)
+### February 14 (Update 124)
 
 - Holiday «Valentine’s Day».
 - Billboards and festive paint.
 - 50% Discount on all Firebird grades.
 - Initial achievement set at 200 crystals.
 
-## February 13 (Update 123)
+### February 13 (Update 123)
 
 - Changed the economic system of the game.
 - Added a lag smoothing effect when destroying enemy tanks.
@@ -9327,30 +9357,30 @@ List of changes:
 - Fixed — enemy mines displayed after self-destruction.
 - Fixed a bug in which players had a negative number of mines in the garage.
 
-## February 5 (Update 122)
+### February 5 (Update 122)
 
 - Turn off the system, which required E-mail to register.
 
-## February 1 (Update 121.3)
+### February 1 (Update 121.3)
 
 - Fixed Railgun and Isida.
 - Fixed a bug that caused de-synchronization of game servers
 
-## January 31 (Update 121.2)
+### January 31 (Update 121.2)
 
 - Setting up of the new server platform.
 
-## January 30 (Update 121.1)
+### January 30 (Update 121.1)
 
 - Correction of errors in the new platform.
 - Fixed the ban system on the forum.
 - Fixed bug report system in the payments section.
 
-## January 28 (Update 121)
+### January 28 (Update 121)
 
 - Translation of «Tanki Online» to a new server platform.
 
-## January 24 (Update 120)
+### January 24 (Update 120)
 
 - Smoothed and reduced the lag effect. Tanks do not chop while driving.
 - Fixed a bug in which auto-target did not work from afar.
@@ -9359,79 +9389,81 @@ List of changes:
 - Fixed errors in the speed of rotation of the Shaft turret in scope mode.
 - The power indicator Dual Energy in scope mode now appears correctly.
 
-## January 16 (Update 119)
+### January 16 (Update 119)
 
 - Further development on the anti-cheat.
 
-## January 10 (Update 118)
+### January 10 (Update 118)
 
 - Changes in the payment section.
 
-## December 29 (Update 117)
+## 2012
+
+### December 29 (Update 117)
 
 - Gold Box value at 200 crystals until the morning January 9th, 2013!
 - Body «Hunter M0» free for all. Changing recruit Kit.
 - Mysterious clues on maps.
 
-## December 26 (Update 116)
+### December 26 (Update 116)
 
 - Changed the logic of bonus boxes.
 
-## December 25 (Update 115)
+### December 25 (Update 115)
 
 - Christmas mood in «Tanki Online»! Paint, billboards, boxes, flags!
 
-## December 17 (Update 114)
+### December 17 (Update 114)
 
 - rebalance is introduced...
 
-## December 12 (Update 113)
+### December 12 (Update 113)
 
 - Introduced two test maps in new style, Gallery and Crash.
 
-## December 7 (Update 112)
+### December 7 (Update 112)
 
 - Improvements in the anti-cheat system.
 - Changing the logic behind the release of bonus boxes in the battle.
 
-## November 29 (Update 111)
+### November 29 (Update 111)
 
 - In the payment section added a credit cards payment button.
 - Removed the «Consultants' battle» paint.
 - Reactivated control points mode on the map «Kungur».
 
-## November 21 (Update 1.110.0)
+### November 21 (Update 1.110.0)
 
 - Added a system for auto-tuning graphic settings for the game.
 - Disabled «The first fight before registration." A tutorial replaced it.
 
-## November 8 (Update 1.108.0)
+### November 8 (Update 1.108.0)
 
 - Fixed a bug that caused false «kick for inactivity» out of the battle
 - Fixed the link for «Other» in the payment section
 
-## October 30 (Update 1.107.0)
+### October 30 (Update 1.107.0)
 
 - Hosted «Halloween» at «Tanki Online»
 
-## October 24 (Update 1.106.0)
+### October 24 (Update 1.106.0)
 
 - Ability to login and register through «VKontakte».
 - Fixed a bug in the email validation system.
 
-## October 11 (Update 1.105.0)
+### October 11 (Update 1.105.0)
 
 - The «soft particles» are disabled by default.
 - Maps and AtraI AtraII have been combined. The maximum number of players in the Atra increased to 8 in DM mode and up to 4/4 for team battles. The map is also refined in terms of performance and gameplay.
 - Improved the 2042 map. Changes have affected the performance and gameplay. Also in 2042 was added the «control points» mode.
 
-## October 4 (Update 1.104.0)
+### October 4 (Update 1.104.0)
 
 - Added a new «Dynamic shadows» function!
 - Improved the system of getting bonuses in the game TDM.
 - Changed the texture of guns Freeze, Ricochet and Shaft
 
-## September 6 (Update 1.100.0)
+### September 6 (Update 1.100.0)
 
 - New game mode «control points."
 - Updated graphics in «Tanki Online».
@@ -9445,27 +9477,27 @@ List of changes:
 - Corrected the description of the «Holiday» paint.
 - Made some changes on the map «Sandal».
 
-## August 22 (Update 1.99.4)
+### August 22 (Update 1.99.4)
 
 - In the payment section the button Webbilling was added!
 - Fixed the ability to send a chat message containing only spaces.
 - Fixed the function of going to an element of the garage from a banner showing the new things available.
 
-## August 16 (Update 1.99.3)
+### August 16 (Update 1.99.3)
 
 - Added a paint «Engineer», to the group of testers.
 - Fixed the CTF mode on maps, Massacre, Atra II, Monte Carlo, Industrial Zone, Solikamsk (winter / summer).
 
-## August 15 (Update 1.99.2)
+### August 15 (Update 1.99.2)
 
 - Fixed the CTF mode on the map Massacre
 - At the request of the clan movement representatives, on the map Tribute the dropping zone of bonuses have been change.
 
-## August 11 (Update 1.99.1)
+### August 11 (Update 1.99.1)
 
 - CTF mode is temporarily disabled on the map Massacre (summer) and (winter), until all its errors are fixed.
 
-## August 9 (Update 1.99.0)
+### August 9 (Update 1.99.0)
 
 - Improved the anti-cheat system.
 - The map Dusseldorf was optimized. Now playing on it would be more comfortable.
@@ -9475,7 +9507,7 @@ List of changes:
 - Fixed a bug with the rotating of the shaft gun. Now, tankmen can see where the shaft is really aiming at.
 - Fixed a bug which caused tanks with Shaft to move jerkily after the targeting mod.
 
-## August 2 (Update 1.98.0)
+### August 2 (Update 1.98.0)
 
 - New billboards for the «Tankiada» competition.
 - We can now press and hold counters in the garage and in the payment section. The figure will continue to change in the selected direction.
@@ -9483,19 +9515,19 @@ List of changes:
 - Fixed a bug where the button «Other» in the payment section had no inscription on low-resolution screens.
 - The situation in the tournament, «Conquer the map» will now be monitored in real time.
 
-## July 26 (Update 1.97.0)
+### July 26 (Update 1.97.0)
 
 - Fixed the order of things in the garage.
 - Paints sorted in descending order according to protection.
 - Added a «OneCard» button to the payment system in the EN and DE versions.
 
-## July 20 (Update 1.96.0)
+### July 20 (Update 1.96.0)
 
 - Fixed a visual bug on the map in 2042 winter and summer themes.
 - Banned players, can no longer complain about the offender in the battle.
 - Fixed a bug that allowed players to send a number of complaints per person.
 
-## July 17 (Update 1.95.0)
+### July 17 (Update 1.95.0)
 
 - Updated the links to the Xsolla payment system.
 - In the payment section, a new «Beeline» button appeared, which will make prompt payments for subscribers of this particular mobile operator.
@@ -9508,11 +9540,11 @@ List of changes:
 - Changed the skybox algorithm upload at the entrance to the battle. They do not blink anymore.
 - Fixed auto entrance in the list of battles.
 
-## July 5 (Update 1.94.0)
+### July 5 (Update 1.94.0)
 
 - Preparations for competitive events.
 
-## July 3 (Update 1.93.0)
+### July 3 (Update 1.93.0)
 
 - In the game we added optimized shadows under the tanks.
 - Added the ability to complain about a player in battle through a battle command.
@@ -9520,7 +9552,7 @@ List of changes:
 - Fixed a bug that sometimes causes illuminations to display incorrectly.
 - The speed of the camera movement by the keys PgUp and PgDown no longer depends on FPS.
 
-## June 26 (Update 1.91.0)
+### June 26 (Update 1.91.0)
 
 - In the garage added a product «1000 experience», which allows you to buy gaming experience points.
 - Subscription «score multiplayer pass» will now receive experience points faster by 30% instead of 25%.
@@ -9530,7 +9562,7 @@ List of changes:
 - Removed the logo contest, «Conquer the map».
 - Removed the CTF game mode on the map «Polygon».
 
-## June 18 (Update 1.90.0)
+### June 18 (Update 1.90.0)
 
 - A player who has created a private battle, now sees it in the list, even if he is not a moderator.
 - Added a mode for CTF, «Garder».
@@ -9538,38 +9570,38 @@ List of changes:
 - Fixed a mechanism to create private battles.
 - Made modifications to monitoring the battle using the spectator mode.
 
-## June 14 (Update 1.89.0)
+### June 14 (Update 1.89.0)
 
 - Fixed a bug that did not save the last created map.
 - Fixed a bug that did not display information about the battle, after getting out of it.
 
-## June 8 (Update 1.88.0)
+### June 8 (Update 1.88.0)
 
 - Holiday Euro 2012.
 - Holiday gold boxes.
 
-## June 6 (Update 1.87.0)
+### June 6 (Update 1.87.0)
 
 - Paint, billboards and a gold box on the map «Opposition» returned to the everyday kind.
 - Improved the anti-cheat system.
 
-## June 4 (Update 1.86.0)
+### June 4 (Update 1.86.0)
 
 - Launched a holiday dedicated to the third birthday of «Tanki Online!»
 
-## June 1 (Update 1.85.1)
+### June 1 (Update 1.85.1)
 
 - Added paint, for the group helpers «consultants».
 - Fixed a bug about that links to the battle did not work.
 
-## May 31 (Update 1.85.0)
+### May 31 (Update 1.85.0)
 
 - Added and improved the anti-cheat system.
 - Added additional emission locations of Gold Boxes on the maps: Polygon, Sandal, Bridges, Madness, Iran.
 - Added monitoring of the battle (spectator mode for moderators).
 - Fixed errors on maps in 2042.
 
-## May 24 (Update 1.84.0)
+### May 24 (Update 1.84.0)
 
 - Fixed a bug that allowed the gun to fire Shaft with maximum damage immediately after the spawn tank.
 - Fixed a bug where the forum was not accessible after being unbanned.
@@ -9578,11 +9610,11 @@ List of changes:
 - Consultants can no longer be banned for flooding in the chat.
 - On the maps of Silence and Silence II fixes and moved drop zone crystal boxes.
 
-## May 23 (Update 1.83.0)
+### May 23 (Update 1.83.0)
 
 - Changed the map preview for the 2042 summer and winter themes.
 
-## May 18 (Update 1.82.0)
+### May 18 (Update 1.82.0)
 
 - Improved the anti-cheat system.
 - Tank shadows added to the game.
@@ -9606,18 +9638,18 @@ List of changes:
 - Removed the ability to create DM battles for 0 persons.
 - Worked on the payment section. Fixed internal links and descriptions.
 
-## May 3 (Update 1.79.1)
+### May 3 (Update 1.79.1)
 
 - Fixed a bug where links to restore and change the password were not working.
 - Improved the anti-cheat system
 
-## April 28 (Update 1.79.0)
+### April 28 (Update 1.79.0)
 
 - The «Best of May» competition started!
 - Increased rank-limit during battle creation for higher ranks.
 - Refined the anti-cheat system.
 
-## April 26 (Update 1.78.0)
+### April 26 (Update 1.78.0)
 
 - The logic of the falling of bonus, crystal boxes and gold boxes changed.
 - Fixed a bug in the list of battles, when the selection of a new battle became impossible, as the indicator kept changing back to the previous battle.
@@ -9625,7 +9657,7 @@ List of changes:
 - Localized and fixed a memory leak. Now the server will work more reliably.
 - Worked on more anti-cheat system settings.
 
-## April 19 (Update 1.77.0)
+### April 19 (Update 1.77.0)
 
 - Started a new campaign: «share the confiscated goods!».
 - Added a system that will send important reminders about account security in the chat.
@@ -9634,22 +9666,22 @@ List of changes:
 - Changed the logic of the rank-limit slider used during battle creation.
 - Changed the rank-limits.
 
-## April 12
+### April 12
 
 - When you create a battle, the rank limit is now tied to the creator’s rank.
 - The victory conditions selected when creating a battle have been change and the maximum time is 300 minutes, 100 flags and 999 kills.
 - Blocked players can now see the reason why they were blocked, when trying to log into the game.
 
-## April 4
+### April 4
 
 - Improved the blocking system of external links in the chat.
 - Released a system that blocks the instantaneous delivery of flags.
 
-## March 28
+### March 28
 
 - In the game, hardware acceleration support was added.
 
-## March 7
+### March 7
 
 - Optimized the operation of the system, which blocks the external links in the chat.
 - A number of guns had correction of drop damage and projectile force of the impact, depending on the distance to the target.
@@ -9662,7 +9694,7 @@ List of changes:
 - Added warning message when the Gold Box is being taken.
 - Check box «Remember me» on login form is now enabled by default, and stores the selected state.
 
-## January 27
+### January 27
 
 - The level of protection from the use of third-party software in the game has grown considerably.
 - The newbies reward for «Creating a battle» has been removed from the game.
@@ -9699,17 +9731,19 @@ List of changes:
     - Wave Winter
     - Zone Winter
 
-## October 17
+## 2011
+
+### October 17
 
 - Amendments made to the «Shaft» gun.
 
-## September 23
+### September 23
 
 - The incorrect display of «Shaft» performance in the garage has been fixed. All purchased guns have been removed, and the crystals paid for them refunded.
 - A new map was added -«Labyrinth».
 - In the list of tips that appear when loading a game, a new recommendation— «Do not talk.»
 
-## September 22
+### September 22
 
 - Shaft gun re-balancing was finished. Previous version of the gun was confiscated from all players who bought it and spent crystals were repaid.
 - In new version of the gun we:
@@ -9722,25 +9756,25 @@ List of changes:
     - Four new paints added to the Garage: Irbis, Jade, Lead, Needle
     - added new map Highways from MonkeyMagic.
 
-## September 9
+### September 9
 
 - We have added «Registration» button to first battle interface. Now new player can register, not finishing the first battle. User still can achieve the first rank and get reward for this during the first fight or in any other battle.
 - Password length was limited to 32 symbols.
 
-## September 1
+### September 1
 
 - Payments for crystals using Paypal have resumed.
 - The cost of all payments through SMS are now include VAT.
 - The minimum payment through SMS payment for MTC subscribers has been set at 300 roubles. This change was made by the service provider itself. In the past an error could be experienced when attempting to make a payment less than 300 roubles.
 - The ability to make a one symbol password without an e-mail has been excluded.
 
-## August 25
+### August 25
 
 - The registration form has been improved. It has become smaller, more convenient — nicer.
 - Battle creation has been optimized for newbies, thanks to that fact in such battles there will be more players.
 - In the loading screen «TV grid» has been replaced with the game logo.
 
-## August 18
+### August 18
 
 - We have changed the formula of user rating calculating. Now it doesn’t count crystals bought for real money. The rating of all users will be recalculated in two days.
 - We have simplified the game entering mechanics. Now after clicking the Start
@@ -9808,12 +9842,12 @@ the bridge.
 
 players soon!
 
-## July 19
+### July 19
 
 - Secret Gold Box event launched.
 - Debug mode turned off
 
-## June 29
+### June 29
 
 - Shaft gun went on sale!
 - Daily gift from now on are given to players from the first rank.
@@ -9822,53 +9856,53 @@ players soon!
 - Battle found sharing was fixed for those cases, when the first and the second winners have the same amount of points.
 - Bug at Esplanade map, resulted in tank sticking, was fixed.
 
-## May 26
+### May 26
 
 - We have added three new paints with turret protection effect to the Garage. They are Inferno, Emerald and Zeus.
 - We have added «re:" command to the chat. If you type «re:" (Without quotes) and space, nickname of the last person who wrote you appears in the text field.
 - Text in the header of payment section was rewritten.
 - EasyPay button was removed from payment section.
 
-## May 23
+### May 23
 
 - Now you can use Q and E keys as well as PgUp/PgDown for camera control.
 - Freeze shooting effect was visually modified.
 - We have added new maps: Atra II and Rift by Flanagun.
 
-## April 21
+### April 21
 
 - Now you can’t take the flag lying under the bridge while you are on the bridge.
 - We have connected Gate2Shop payment system for VISA cards. Now you can make payments all over the world.
 - Maximal amount of players in Massacre map increased from 3 per team in team matches and 6 in Deathmatch to 5 per team and 10 respectively.
 - After temporary outage in-game news alert was turned on again.
 
-## April 11
+### April 11
 
 - New version of «Madness» map in space style and with the gravity close to zero.
 - We have added an in-game alert about fresh news.
 - Minor changes in registration form.
 
-## March 31
+### March 31
 
 - We have fixed problem with Paysafecard payment cards.
 - We have updated Courage map. Walls were put away, platforms became wider.
 
-## March 23
+### March 23
 
 - New registration form.
 
-## March 21
+### March 21
 
 - We have realized sources storage in local SharedObject of Flash Player. It allows us to abandon browser caching system, which is not very reliable. For example, sources could disappear from browser cache because of its limited size. Now sources are downloaded from the server only if they were changed. It can drastically reduce time of game loading.
 
-## March 4
+### March 4
 
 - We have enhanced Anti-cheat system.
 - We have installed special billboards, added Holiday paint to the Garage and replaced flags with the bouquets in CTF mode in honour of International Women’s Day, which is celebrated on the 8th of March.
 - We have corrected the Nitro effect for the frozen tank. Now you will be better able to feel this effect.
 - Four new servers are launched.
 
-## February 22
+### February 22
 
 - A problem with the «Add More» button has been fixed.
 - A problem with the preview picture in the message concerning new hull-buying has been fixed.
@@ -9876,19 +9910,19 @@ players soon!
 - We have installed holiday billboards.
 - From now on every first-time crystal buyer will receive an additional 100 crystals as a bonus.
 
-## February 17
+### February 17
 
 - We initiated rank limit for forum authorization. Now tankman gathered less than 500 points in the game can not post messages at the forum. However he can freely read others posts.
 - Registration and authorization system in the game was optimized.
 
-## February 15
+### February 15
 
 - We connected new emitter for collecting VISA/MasterCard payments — Uniteller.
 - We changed PayPal aggregator. Now we accept PayPal payments through OnlineDengi.
 - Unique gun Smoky XT became more powerful. Now it makes not 16–36 but 26–46 damage points. Also we increased the power of a blow of Smoky XT’s shell to 2.2.
 - We fixed «Double crystal» bonus card overview. Now it includes the following info: bonus crystals are not taken into account in referral transfers, in transition to Tanki Online 2.0 they will be counted like ordinary crystals but not like bought ones.
 
-## February 11
+### February 11
 
 - We’ve added new item in your daily presents — the «Double Crystal» discount card. This card allows you to get double your money’s worth for crystals.
 - You’ll notice holiday billboards and seasonally themed paint in honour of St. Valentine’s Day.
@@ -9901,7 +9935,7 @@ players soon!
 - We’ve solved the problem that occurred when a players would gain 1,000,000 points during a battle, but would not achieve the Marshall rank until they re-entered the battle.
 - We’ve also solved the problem of when supply icons blinking even after the effect of the supply was over.
 
-## February 3
+### February 3
 
 - One of the errors causing the appearance of so-called «invisibles» has been eliminated
 - All New Year’s decorations including, Christmas trees (which had replaced flags), holiday parachutes, wrapped presents, and holiday-themed billboards have been removed.
@@ -9911,18 +9945,18 @@ players soon!
 - We have launched a notification system that notifies players the moment they achieve a new rank. The message is displayed during battle.
 - We have also launched an alert system, informing players about new items available for purchase in the Garage. A message displaying the icons of these items will appear when a players receives a new rank and leaves battle or enters the game. Click on the icon guides to the description of the item in the Garage.
 
-## February 1
+### February 1
 
 - Overloaded database, caused game instability, was modified. Now all player’s achievements are not only saved but also stored through Redis. This solves a lot of issues. Due to this update search logic in the Hall of Fame is temporarily changed. To find user, you should type his full nickname, not part of it.
 
-## January 28
+### January 28
 
 - Problem with missing letter for e-mail (password) change was solved.
 - Problem with inability to enter private battle through the link was solved.
 - Problem with referral links malfunction was solved.
 - Winter versions of Barda, Berlin, Boombox II, Brest II and Island maps are active again.
 
-## January 26
+### January 26
 
 - Battle creation form was modified:
   - droplist became longer;
@@ -9933,23 +9967,25 @@ players soon!
 - Error messages are more detailed now. This helps find and solve problems more promptly.
 - Hash for server entering without password during evacuation and hash for permanent server entering without password are differ now. It increases protection level of the game.
 
-## January 18
+### January 18
 
 - Button for bonus administrating in No-Supplies battles was restored. Players, who bought No-Supplies battles pass in the period when the button was absent, got their crystals back.
 - Loader picture was changed.
 - Payments check system now sends letters to users from general tech support e-mail address help@tankionline.com. It means you can contact technical support team to get info about your request just by answering received e-mail.
 
-## January 2
+### January 2
 
 - Protection system from hash pickup was enhanced. Generating algorithm was changed, time between trials to enter by hash was increased. Besides, all tankers entering the game will get new hash automatically.
 
-## January 1
+### January 1
 
 - New maps: «Courage» by Flanagun and «Valley» by 123egor
 - Winter came to maps «Combe», «Island», «Ping-Pong», «Wolfenstein» and «Fort Knox»
 - Payment bug report system was upgraded. Now when player sends payment bug report, system automatically checks if this payment was successful or not. If it was, player receives confirmation letter. If it wasn’t, tech support team automatically gets task and player receives a letter about that. Note: if player made a few identical payments, it is necessary to specify that in payment bug report form.
 
-## December 27
+## 2010
+
+### December 27
 
 - To enhance the level of protection we added CAPTCHA to the registration form
 - Speed hack protection system was upgraded
@@ -9957,12 +9993,12 @@ players soon!
 - Bug-report form for SMS-payments was enhanced
 - Hints for newbies now stay on the screen for several first battles — it makes knowing of Tanki Online much easier
 
-## December 21
+### December 21
 
 - TDM and CTF modes were added to Fort Knox III
 - Map «Old Silence» was added to the game
 
-## December 14
+### December 14
 
 - Warning about long first loading in loader.
 - Old winter props where upgraded.
@@ -9974,15 +10010,15 @@ players soon!
 - Meter of online activity was upgraded so now it shows amount of users in the chat more precisely.
 - Stats for long battles (with fund not less than 200 crystals) now are uploaded to file. It allows to save information about fund of battle. Attention! Could be differences in figures as far as stats are saved every minute but not every second.
 
-## October 21
+### October 21
 
 - Updates on the map «Garder» from Nobius
 
-## October 19
+### October 19
 
 - Updates on the map «Camp» from Figishe
 
-## October 18
+### October 18
 
 - Tank is no longer a barrier for Freeze or Firebird streams.
 - If you were forcibly disconnected from server you can not connect to this server for 5 minutes. But you can connect to any other server immediately.
@@ -9990,32 +10026,32 @@ players soon!
 - Added alternate camera behaviour which slightly improves view under low ceilings by pitching camera up. To turn on the mode check «Alternate camera behaviour» option in the settings dialog.
 - Now if player gets automatic ban for flood his chat history is cleared.
 
-## October 5
+### October 5
 
 - Solved the problem which led to unfreezing starting simultaneously with freezing. Now unfreezing starts right after it.
 
-## October 4
+### October 4
 
 - Freezes were taken away from your garages, crystals have been returned.
 - Updates of map «Madness».
 
-## October 1
+### October 1
 
 - Increase of freezing speed. Freezes will be returned within 3 days after the release.
 - Updates on the map «Silence» from Figishe
 
-## September 29
+### September 29
 
 - Setting of mip-mapping turn-on(off) function, which will bring down picture quality, but will raise performance and reduce the use of working memory. View the demo with mip-mapping function here (use Space to turn on/off).
 - Eliminated vulnerabilities which led to the following problems: destroyed or invisible tank which could shoot and move.
 
-## September 27
+### September 27
 
 - «Hall of Fame " was transported to a separate server. This improvement solved the problem with uneven achievement changes in hall of fame, raised game servers' performance and speeded servers' restarts greatly, but there will be a delay with rate upgrade (up to 15 minutes).
 - Now the size of activated and gathered first-aid kits is summed up.
 - Eliminated vulnerabilities which led to the following troubles: supplies' re-use; tanks' acceleration.
 
-## August 26
+### August 26
 
 - We have made traffic encryption. Cheat users are detected. They will be fined to 25% of all achievements, crystals on the account and stuff in the garage.
 - Client side of the game was optimized to solve some problems with game performance.
@@ -10034,13 +10070,13 @@ players soon!
 - The problem of displaying previews which don’t correspond to maps was solved.
 - Now the size of explosion depends on the size of tank.
 
-## July 30
+### July 30
 
 - CTF mode for Ping-pong map was added
 - New maps: Opposition from Hans_Rose, Madness from Flanagun
 - Sound of explosion was changed
 
-## July 29
+### July 29
 
 - New coats including coats with resists to different guns (another pack of coats will arrive soon)
 - New principle of medkit functioning
@@ -10055,11 +10091,11 @@ players soon!
 - Banned player now see not only the time of ban but also the reason for ban
 - When you change password or e-mail through special form the link for password recovery (hash) is changed too
 
-## July 15
+### July 15
 
 - Time of unfreezing reduced twofold.
 
-## July 13
+### July 13
 
 - These problems were successfully solved:
   - if game loading was interrupted player didn’t get a gift;
@@ -10069,11 +10105,11 @@ players soon!
     - search system cleared valid search results;
     - click to the battle link from the Garage or Hall of Fame opened information about other battle.
 
-## July 10
+### July 10
 
 - We have made server optimization to reduce the amount of lags.
 
-## July 8
+### July 8
 
 - There are two new guns: Freeze and Ricochet.
 - Each hull now has its own weight.
@@ -10092,7 +10128,7 @@ players soon!
 - Evacuation system was improved. Battles migrate to other server gradually not overloading receiving server with great amount of players at a time.
 - Hornet M1 hull price cut to 1350 crystals.
 
-## June 4
+### June 4
 
 - New gift system. Now you can find one of three different presents in the daily bonus. It can be supplies (1 or 2), crystals or one day no-supplies battles pass. Players get the gifts starting from the third rank only.
 - We took away buttons PayPal (temporarily), LiqPay (temporarily), EasyPay and RBK Money from payment section.
@@ -10109,7 +10145,7 @@ players soon!
 - One month no-supplies battles pass price cut. Now it costs 500 crystals only.
 - There are new maps: 2042 by GT-Razer, Island by Figishe, Combe by Figishe, Desert by Figishe, Gravity by M0ONL1ght, Pass by Figishe, Deck-9 by M0ONL1ght, Canyon by M0ONL1ght, Polygon by Figishe and Plato by Figishe.
 
-## May 21
+### May 21
 
 - Now a nick is checked against prohibited words during registration;
 - Public command #feedback added — it is a switch to the system of ideas and suggestions feedback.tankionline.com;
@@ -10119,27 +10155,27 @@ players soon!
 - Changed one of alternative buttons — (similar to Del), now Ctrl+ is the analog of Del;
 - Candidate moderators can give 5-minute bans now.
 
-## May 8
+### May 8
 
 - Fixed a bug in the 3D engine, which led to a critical error in the battle.
 
-## May 1
+### May 1
 
 - Sound of shot of Thunder is 30% quieter now.
 - Sound of shot of Twins is 20% quieter now.
 - There is no ban for links to battles containing single letter many times (like fffffffffffff).
 
-## April 27
+### April 27
 
 - Mammoth — a new armour available.
 - A limit for players amount on Zone — 12 players.
 
-## April 24
+### April 24
 
 - Hornet — a new armour is available.
 - Different appearance for grades of Titan.
 
-## April 23
+### April 23
 
 - Thunder — a new weapon is available.
 - Viking — a new armour is available.
@@ -10156,7 +10192,7 @@ players soon!
 - Minor changes in Smoky M2 specs.
 - Titan М3 costs 900 crystals now.
 
-## April 1
+### April 1
 
 - Second stage of server optimization has been finished. Lags were greatly reduced. Lags are network latencies during which tanks switch positions, bonuses and flags are taken with delay.
 - Purchase or improvement requires confirmation now.
@@ -10166,11 +10202,11 @@ players soon!
 - Now bonus crystals for invited friends can be viewed on «Invitation statistics» button.
 - Fixed bug with crystals receiving for invited friends. They will be accounted today.
 
-## March 30
+### March 30
 
 - First stage of server optimization has been finished. Lags should reduce. Lags are network latencies during which tanks switch positions, bonuses and flags are taken with delay.
 
-## March 19
+### March 19
 
 - Now the distance between a flag carrier and the base is taken into account during crystal calculation for flag return in CTF.
 - Now bug report can be sent by testers only. If you have a problem with payment, fill in the form and send a message from payment section. All other problems and questions are discussed at forum.
@@ -10181,11 +10217,11 @@ players soon!
 - Maps which used to be available to low ranks are now available for higher ones also: Boombox II, Sandal II and Short Bridge II.
 - New orders appeared (#levels — switch to forum topic «Ranks», #clans — switch to forum thread «Clans»).
 
-## March 10
+### March 10
 
 - Experimentally reduced points for Isida cure. Coefficient was reduced from 2 to 1,5. Experiment will last for a week.
 
-## March 5
+### March 5
 
 - Button «Improve» is placed next to «Set» in the Garage.
 - Every modification of turrets and shells is described now in a special table which is placed in the Garage.
@@ -10197,7 +10233,7 @@ players soon!
 - Modifications of Railgun and Twins look differently now.
 - Now the Mine is included in everyday present.
 
-## February 10
+### February 10
 
 - Added new consumable — mine. View details in FAQ.
 - Done effects visualization. View details in FAQ.
@@ -10213,7 +10249,7 @@ players soon!
 - Now you can use alternative payment system for VISA/MasterCard in payment section.
 - Solved bug when points were not accounted when you kill Isida owner or a patient during cure.
 
-## January 22
+### January 22
 
 - Finally accepted modification of Twins: vertical angle of aiming increased greatly (two degrees up, one down), lowered speed of bullets, finally accepted damage
 - Introduced paid battles with no consumables.
@@ -10229,36 +10265,38 @@ players soon!
 - Fixed bug of mismatch between number of players in the battle list and battle info (9/11).
 - Changed the sound of Twins shooting.
 
-## January 16
+### January 16
 
 - Experimental changes in the Twins gun: the vertical angle for automatic targeting is now increased (3 degrees upwards, 3 downwards), speed of flight of the individual shells is lowered.
 
-## January 14
+### January 14
 
 - Eliminated a vulnerability that allowed to increase the speed in battles (aka speed hack). Now if you somehow speed up the tank, you’ll be automatically kicked from the battle.
 
-## January 12
+### January 12
 
 - Twins is experimentally strengthened for one week. You can discuss the current stats and post your impressions/suggestions here
 - The referral banned display problem is now solved.
 
-## December 31
+## 2009
+
+### December 31
 
 - It’s the New Year’s eve, and all the guns have gone crazy!
 
-## December, 30
+### December, 30
 
 - Fixed an issue with Isida’s healing action. Previously, healing was done in percent and not in HP.
 - Added an option to enable/disable the battle chat. If the combat chat is turned off, messages will not be displayed. However, you may press enter to view all the messages you missed as well as to write one yourself.
 
-## December 29
+### December 29
 
 - Changed aggregator of payment terminals. Now we receive payments through terminals in four countries
 - Redesigned section for crystal purchasing
 - Improved ban system
 - Added new SMS-payment aggregator. Now we receive payments in 67 countries
 
-## December 25
+### December 25
 
 - Fixed bug with automatic naming of battle creation
 - Changed #plans, #faq и #rules considering new forum
@@ -10266,7 +10304,7 @@ players soon!
 - Links to new forum are automatically changed into clickable ones
 - Changed tree-flag design
 
-## December 23
+### December 23
 
 - Winter came to all the maps
 - Flags were temporarily turned into fir-trees
@@ -10276,7 +10314,7 @@ players soon!
 - In Chat when entering #plans appears conversion into clickable link to the corresponding Forum thread. in Chat #plans is displayed as Задачи и планы разработчиков in Russian localization and Developers’ missions and plans in English one
 - Maps Wolfenstein and Fort Knox were temporarily disconnected to be prepared for winter
 
-## December 18
+### December 18
 
 - In Chat when entering #faq or #rules appears conversion into clickable link to the corresponding Forum thread. In Chat #faq is displayed as FAQ for Russian and English localization, and #rules is displayed as Правила in Russian localization and Rules in the English one
 - In Chat the links to the forum are clickable
@@ -10286,7 +10324,7 @@ players soon!
 - Added new maps: Cross from eras, Skylark from DJ_Efreitor, Wolfenstein from GrUm, Fort Knox from GrUm, Bobruisk from DJ_Efreitor.
 - Improved checking of items use frequency
 
-## December 11
+### December 11
 
 - Now in battles with bigger funds a golden box with 100 crystals instead of 1000 crystals appears
 - Hall of fame is functioning again
@@ -10294,7 +10332,7 @@ players soon!
 - Network acceleration, now the servers can be used by larger number of tankers
 - Changed Nitro icon in the battle
 
-## December 3
+### December 3
 
 - Added three maps: Serpuhov from DukePlatinum, Siege from Stefman, Short Bridge from eras
 - The pause was added to the game, now during respawn you don’t leave transparent mode until you start being active. The pause is limited by autokick for inactivity (5 minutes)
@@ -10302,22 +10340,22 @@ players soon!
 - The colour of the sky is now blue-grey
 - Now a golden box with 1000 crystals can appear in battles with bigger funds
 
-## November 12
+### November 12
 
 - Changed design of Nitro item
 - Increased screenshot size when sending bugs through bugtracker, now full-screen screenshot is sent
 - Fixed bug with missing of upper menu after sending bug through bug tracker
 
-## November 3
+### November 3
 
 - Corrected damage dispersal range of all the weapons
 
-## October 27
+### October 27
 
 - Adopted improved 3D engine. Your FPS will become higher
 - Fixed bug when the player could enter CTF battle with complete team
 
-## October 16
+### October 16
 
 - Adopted Russian localization
 - Now in the Garage you can purchase «DoubleScore» which will double your points. Lifetime — 6 or 72 hours from the moment of purchasing
@@ -10332,44 +10370,44 @@ players soon!
 - Added new map Duel from Stefman
 - Added new map Magistral from DukePlatinum
 
-## October 14
+### October 14
 
 - Isida damage returned to previous position, self-healing switched off
 
-## October 10
+### October 10
 
 - Isida damage and self-healing lowered to 20%
 
-## October 9
+### October 9
 
 - Now payment through Web Money allows entering five-place number of crystals
 - Any method of payment allows using your nick
 - Double Damage renamed to Double Power because of the new gun Isida. Now it doesn’t matter what gun you use — Double Power will reinforce any gun.
 
-## October 8
+### October 8
 
 - Now players receive presents (several single-use items) every day
 - Fixed bug with suction boxes on Monte Carlo
 - Changed function of payment through SMS. Now the message should contain the text «BTL+nick»
 
-## October 5
+### October 5
 
 - Added new map Osa from DukePlatinum
 
-## October 2
+### October 2
 
 - Decreased recoil force while shooting with Twins and Fear Machine, to compensate the new aiming system
 - Decreased wealth weight in rate formula, possible shifts in Hall of Fame
 - Isida now can use self-healing if you shoot free
 
-## October 1
+### October 1
 
 - According to the results of the contest, added new colour which gives protection from various guns
 - Added map Sandal (for beginners)
 - Changed map Monte Carlo (earlier Deathtrack with red background)
 - Added map Deathtrack (totally new)
 
-## September 28
+### September 28
 
 - Added new weapon. Code name — Isida, cures friends and exhausts enemies (at the same time restores own tank).
 - Rewrote server part, now there shouldn’t be any lags and the server should sustain about 2000 players (buzzes possible — fixing in process)
@@ -10387,7 +10425,7 @@ players soon!
 - Fixed bug with respawn on map Brest
 - Fixed bug in private battle auto-choice
 
-## September 8
+### September 8
 
 - Added possibility to create private battles
 - Added possibility to buy any number of items pressing «Buy» button
@@ -10398,14 +10436,14 @@ players soon!
 - Fixed different bugs on the client
 - Various alterations on maps
 
-## September 2
+### September 2
 
 - Experimentally added possibility of payment through Paypal
 - Map Ergach renamed to Kolhoz
 - Altered bug of messages highlight in chat
 - Corrected texture inequality in modders' maps, updated picture of map Brest
 
-## September 1
+### September 1
 
 - Added map from DukePlatinum: Solikamsk
 - Added map from ZeRUS: Ergach (will be renamed to Kolhoz)
@@ -10417,13 +10455,13 @@ players soon!
 - Altered incorrect function of «Inverse turn controls» flag
 - Various alterations on maps
 
-## August 27
+### August 27
 
 - Lessened time of autokick for inactivity to 5 minutes
 - Increased time of respown by 1,5 seconds (experimentally)
 - Increased Twins return and kick by 25%
 
-## August 26
+### August 26
 
 - Added new maps from DukePlatinum: Brest and Gubakha
 - Completed firebird effect
@@ -10432,11 +10470,11 @@ players soon!
 - Interface improvements
 - Improved variance of players in the battle's list and info
 
-## August 25
+### August 25
 
 - Accelerated Twins by 15%
 
-## August 7
+### August 7
 
 - Added chat orders to block messages from users:
   - /block name – block messages from the player (works in lobby and battle chat).
@@ -10451,11 +10489,11 @@ The list of blocked users is kept in Shared Objects, so if you enter the game fr
 - Altered messages color scheme in CTF mode. Positive messages for the team are yellow, negative ones - green.
 - Various bugs corrections
 
-## August 6
+### August 6
 
 - Reduced time of dropped flag return to 30 seconds
 
-## August 4
+### August 4
 
 - Corrected bug with incorrect account in CTF-battle info
 - Altered flag icon in team account (was: skull)
@@ -10465,7 +10503,7 @@ The list of blocked users is kept in Shared Objects, so if you enter the game fr
 - Partly altered variance of users' info in the list and its details
 - Corrected several interface bugs
 
-## July 31
+### July 31
 
 - Added game mode “Capture the Flag”
 - Added new maps (author: niak_ris): Red Alert, Parma
@@ -10479,11 +10517,11 @@ The list of blocked users is kept in Shared Objects, so if you enter the game fr
 - In settings added possibility to disconnect background sound in the battle
 - Added alternative key of tower centration - “/”
 
-## July, 17
+### July, 17
 
 - Added new map Tribute (created according to the game prototype)
 
-## July, 16
+### July, 16
 
 - Set the limit of 8 players on maps Sandbox and Magadan
 - Alterations of Fear Machine:
@@ -10491,22 +10529,22 @@ The list of blocked users is kept in Shared Objects, so if you enter the game fr
 - Increased time of Fear Machine recharge: 6400 - 6200 - 6000 – 5800
 - Added Twins hit (push)
 
-## July 15
+### July 15
 
 - Lessened autosight angle: 6 degrees up, 9 – down
 - Increased firebird distance to 20 meters
 - Increased time of Fear Machine charging to 2 seconds (experimentally, sound is not correct yet)
 - Added new map from niak_ris. Work title Magadan.
 
-## July 14
+### July 14
 
 - Increased Dictator's armour 60 - 70 - 90 - 120 (like Titan)
 
-## July 10
+### July 10
 
 - Increased firebird distance to 17,5 meters
 
-## July 9
+### July 9
 
 - Increased Twins gun ~10%
 - Smoky gets less harm depending on the distance:
@@ -10519,7 +10557,7 @@ The list of blocked users is kept in Shared Objects, so if you enter the game fr
 - from 50 to 100m – harm gradually decreases to 20%
 - more than 100m – 20%
 
-## July 8
+### July 8
 
 - Experimentally lessened rail's autosight angle by 2 degrees (2-up, 2-down) – all in all, 17 degrees
 - Lessened kick (physical kick, not harm) from rail's shot by a quarter
@@ -10527,7 +10565,7 @@ The list of blocked users is kept in Shared Objects, so if you enter the game fr
 - Last four colours are available with Master Corporal and cost 200 crystals
 - Increased single-use items' cost
 
-## July 6
+### July 6
 
 - Improved the system of respown. Just appeared tank is invulnerable for certain time – it is indicated by the transparent skin without colour. Invulnerable tank cannot shoot and gather bonuses. -- Till the new tank crosses normal ones, its skin is half transparent and collisions with others are not taken into account.
 - Preparation for Fear Machine shot is reflected on weapon indicator
@@ -10543,7 +10581,7 @@ The list of blocked users is kept in Shared Objects, so if you enter the game fr
 - Various maps alterations
 - Various interface improvements
 
-## June, 29
+### June, 29
 
 - Viewport size remains the same between sessions
 - Altered texture of “stronger hit” bonus
