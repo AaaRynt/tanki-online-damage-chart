@@ -1,17 +1,119 @@
 ---
 title: 'Updates - Tanki Online Wiki'
 source: 'https://en.tankiwiki.com/Updates'
-author:
-published:
-created: 2026-05-31
-description:
-tags:
-  - 'clippings'
+created: 2026-06-05
 ---
 
-_see also_: [Main Page](https://en.tankiwiki.com/Main_Page 'Main Page'), [Development Plans](https://en.tankiwiki.com/Development_Plans 'Development Plans') and [Mobile Updates](https://en.tankiwiki.com/Mobile_Updates 'Mobile Updates')
+## June 4th (Update 832)
 
-All of the information listed below can also be found in the [Patch Notes section](http://en.tankiforum.com/index.php?showforum=246) and the [News Archive section](http://en.tankiforum.com/index.php?showforum=203).
+List of Changes:
+
+- A Support section has been added to the Settings menu, providing access to the new technical support website with authorization.
+  - (Note) We are developing a new technical support website where we can assist you without the need for email communication. Access to this site works via a QR code with an embedded authorization token. You will not need to log in separately; simply scanning the QR code with your phone will suffice. The site is still a work in progress. In the future, we plan to send you notifications directly in the game when you receive a response from technical support.
+- A final achievement has been added to Steam for obtaining all existing achievements.
+
+## May 29th (Update 831)
+
+List of Changes:
+
+- The first-purchase bonus for Tankoin packs has been reset.
+  - Each Tankoin pack now includes a bonus number of Tankoins that can be obtained on the first purchase of that pack.
+    - Upon repeat purchase of the same pack, the bonus will no longer apply.
+    - Each of the six Tankoin packs has its own separate bonus.
+- The following have been added to Standard and Epic Containers:
+  - Tsunami turret
+    - "Needle Gun" augment for Hammer
+    - "Increased Voltage" augment for Tesla
+- The following skins have been added to Legendary Containers:
+  - Striker DK
+- The "Raven" protection module (providing protection against Tsunami) has been added to the Garage.
+- The Medic Grenade has been added for sale for crystals in the Garage.
+
+List of Fixes:
+
+- Fixed an issue where an Apple account would become automatically unlinked 24 hours after registration or login.
+
+## May 15th (Update 830)
+
+List of Changes:
+
+- Tsunami Turret
+  - Added a special effect indicating bonus damage when all shells from a salvo hit a single tank.
+    - Bonus damage when all shells from a salvo hit a single tank increased from 75-100 to 300-400 HP
+
+List of Fixes:
+
+- Fixed an issue where projectile speed after ricochet was calculated incorrectly
+- Fixed an issue with projectile ricochet behavior that could cause damage to disappear if the distance between multiple ricochet points was very small.
+- Fixed an anticheat issue related to projectile ricochet, where damage was disabled in cases of sequential ricochet from a horizontal surface followed by a vertical surface.
+- Fixed an issue where dynamic lighting on 3D bushes was not working correctly.
+
+## April 30th (Update 829)
+
+List of Changes:
+
+- The following augments have been added to Common and Epic Containers:
+  - Scorpion’s "Vacuum Shell" augment
+    - Thunder’s "Yamato" augment
+- The following skins have been added to Legendary Containers:
+  - Hopper DK
+    - Hammer GT
+    - Shaft GT
+- For password-protected PRO Battles, the ability to set a password to restrict entry to the battle has been added. The password can be set by the battle creator via chat commands.
+  - The /setPassword chat command generates a password for the battle and copies it to the player's clipboard for sharing in chats.
+    - The /deletePassword chat command removes the password from the battle.
+    - The /getPassword chat command repeats the current password and copies it to the clipboard again.
+    - (Note) Passwords for password-protected PRO Battles are part of the future Authorial PRO Battles mechanic, which we once discussed in a vlog. Please test how the system works and leave your feedback so that we can decide on developing additional self-moderation features for Authorial PRO Battles.
+- The selection screens for augments, skins, and shot effects now display all items in a more compact layout with vertical scrolling.
+  - (Note) The number of augments per turret has consistently exceeded 20 items, so we hope the new display format will be more convenient for you.
+
+List of Fixes:
+
+- Fixed an error that caused incorrect mission progress status for rank-up missions.
+
+## April 10th (Update 827)
+
+List of Changes:
+
+- Tsunami turret is now available for purchase.
+- WebGL 1.0 support has been discontinued for the browser version of the project.
+- Registration and authorization via foreign services have been disabled for RU users.
+
+List of Fixes:
+
+- Fixed the "Online" status for the local tank in a group.
+- Fixed clan member sorting by rank when viewing a profile of a clan that is not your own.
+- Fixed localization issues for CS and HI.
+
+## April 3rd (Update 826)
+
+List of Changes:
+
+- The "Hide your profile" setting is now enabled by default for all players.
+  - (Note) You can change this setting in the Security section of the game settings.
+- General Chat
+  - Private messages can now only be sent to and received from friends.
+    - (Note) The corresponding setting has been removed and this behavior cannot be changed.
+    - Publicly addressing another player in chat no longer returns a message about that player's status (e.g., whether they are in battle or offline).
+- Friend System
+  - The friend list no longer shows which battle format a player is currently in.
+    - (Note) This mechanic was originally designed for battle list and is now obsolete.
+    - The friend system is now available starting from the rank of Master Corporal (Rank 5).
+- Clans
+  - The clan member list now only displays the names and roles of players in the clan.
+    - (Note) Additional statistics, including the date of last activity, are only visible to clan members with the role of Veteran or higher.
+    - Outgoing clan invitations now only show the invited player's nickname, without their detailed statistics.
+    - The clan info screen no longer displays aggregated kill and assist statistics for clan members.
+- Achievements have been added to the Steam version of the game.
+
+List of Fixes:
+
+- Fixed an issue where explosion damage was missing when firing at certain specific surfaces in battle.
+- Fixed an issue where the shell ricochet mechanic dealt no damage after the first ricochet when using certain turret augments.
+- Fixed an issue where the Shaft dealt arcade damage instead of sniper damage if the player remained scoped for longer than 5 seconds.
+- Fixed an issue where the Ricochet dealt no self-damage when firing directly into a wall at a perpendicular angle.
+- Fixed auto-scrolling in the garage to the equipped weapon.
+- Fixed an issue where the rarity filter stopped working in the paints section.
 
 ## March 27th (Update 825)
 
@@ -10468,3 +10570,5 @@ The list of blocked users is kept in Shared Objects, so if you enter the game fr
 - Changed frames' speed and mobility
 - Various alterations of user and server
 - Various interface alterations
+
+Last Edit: Emrakul 6/4/2026

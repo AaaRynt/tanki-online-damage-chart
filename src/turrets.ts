@@ -1,6 +1,7 @@
 // src/turrets.ts
 // https://en.tankiwiki.com/Turrets
-// 2026-06-01 [(Update 825)](https://en.tankiwiki.com/Updates)
+// [June 4th (Update 832)](https://en.tankiwiki.com/Updates)
+
 export type turrets = {
   damage: number
   critical?: number
