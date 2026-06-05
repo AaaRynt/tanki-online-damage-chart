@@ -13,7 +13,7 @@ export type TTurrets = {
   isBurst: boolean
 }
 // https://en.tankiwiki.com/Firebird#Characteristics
-export const Firebird: TTurrets = {
+const Firebird: TTurrets = {
   name: 'Firebird',
   damage: 300,
   critical: 385,
@@ -24,7 +24,7 @@ export const Firebird: TTurrets = {
   isBurst: true,
 }
 // https://en.tankiwiki.com/Freeze#Characteristics
-export const Freeze: TTurrets = {
+const Freeze: TTurrets = {
   name: 'Freeze',
   damage: 300,
   critical: 760,
@@ -34,7 +34,7 @@ export const Freeze: TTurrets = {
   isBurst: true,
 }
 // https://en.tankiwiki.com/Isida#Characteristics
-export const Isida: TTurrets = {
+const Isida: TTurrets = {
   name: 'Isida',
   damage: 260,
   critical: 300,
@@ -44,7 +44,7 @@ export const Isida: TTurrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Scatter#Characteristics
-export const Tesla: TTurrets = {
+const Tesla: TTurrets = {
   name: 'Tesla',
   damage: 400,
   critical: 1160,
@@ -54,7 +54,7 @@ export const Tesla: TTurrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Hammer#Characteristics
-export const Hammer: TTurrets = {
+const Hammer: TTurrets = {
   name: 'Hammer',
   damage: 920,
   critical: 1160,
@@ -64,7 +64,7 @@ export const Hammer: TTurrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Flare#Characteristics
-export const Twins: TTurrets = {
+const Twins: TTurrets = {
   name: 'Twins',
   damage: 240,
   critical: 480,
@@ -74,7 +74,7 @@ export const Twins: TTurrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Ricochet#Characteristics
-export const Ricochet: TTurrets = {
+const Ricochet: TTurrets = {
   name: 'Ricochet',
   damage: 340,
   critical: 480,
@@ -84,7 +84,7 @@ export const Ricochet: TTurrets = {
   isBurst: true,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Smoky: TTurrets = {
+const Smoky: TTurrets = {
   name: 'Smoky',
   damage: 700,
   critical: 900,
@@ -93,7 +93,7 @@ export const Smoky: TTurrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Quake#Characteristics
-export const Striker: TTurrets = {
+const Striker: TTurrets = {
   name: 'Striker',
   damage: 900,
   critical: 1160,
@@ -101,7 +101,7 @@ export const Striker: TTurrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Vulcan#Characteristics
-export const Vulcan: TTurrets = {
+const Vulcan: TTurrets = {
   name: 'Vulcan',
   damage: 100,
   critical: 120,
@@ -114,7 +114,7 @@ export const Vulcan: TTurrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Thunder#Characteristics
-export const Thunder: TTurrets = {
+const Thunder: TTurrets = {
   name: 'Thunder',
   damage: 900,
   critical: 1160,
@@ -123,7 +123,7 @@ export const Thunder: TTurrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Tsunami: TTurrets = {
+const Tsunami: TTurrets = {
   name: 'Tsunami',
   damage: 700,
   critical: 1160,
@@ -132,7 +132,7 @@ export const Tsunami: TTurrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Scorpion: TTurrets = {
+const Scorpion: TTurrets = {
   name: 'Scorpion',
   damage: 1160,
   critical: 1400,
@@ -141,7 +141,7 @@ export const Scorpion: TTurrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Railgun: TTurrets = {
+const Railgun: TTurrets = {
   name: 'Railgun',
   damage: 1400,
   critical: 1740,
@@ -150,7 +150,7 @@ export const Railgun: TTurrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Magnum: TTurrets = {
+const Magnum: TTurrets = {
   name: 'Magnum',
   damage: 1400,
   critical: 1740,
@@ -158,7 +158,7 @@ export const Magnum: TTurrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Gauss: TTurrets = {
+const Gauss: TTurrets = {
   name: 'Gauss',
   damage: 700,
   critical: 900,
@@ -167,7 +167,7 @@ export const Gauss: TTurrets = {
   isBurst: false,
 }
 // https://en.tankiwiki.com/Smoky#Characteristics
-export const Shaft: TTurrets = {
+const Shaft: TTurrets = {
   name: 'Shaft',
   damage: 700,
   critical: 900,
@@ -175,3 +175,9 @@ export const Shaft: TTurrets = {
   maxRange: 120,
   isBurst: false,
 }
+
+export const meleeRangeTurrets: TTurrets[] = [Firebird, Freeze, Isida, Tesla, Hammer]
+export const mediumRangeTurrets: TTurrets[] = [Twins, Ricochet, Vulcan, Smoky, Striker, Thunder]
+export const longRangeTurrets: TTurrets[] = [Tsunami, Scorpion, Magnum, Railgun, Gauss, Shaft]
+export const allTurrets: TTurrets[] = [...meleeRangeTurrets, ...mediumRangeTurrets, ...longRangeTurrets]
+export const sort: string[] = allTurrets.map((turret) => turret.name)
