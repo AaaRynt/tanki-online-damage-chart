@@ -43,7 +43,7 @@ const Isida: TTurrets = {
   maxRange: 25,
   isBurst: false,
 }
-// https://en.tankiwiki.com/Scatter#Characteristics
+// https://en.tankiwiki.com/Tesla#Characteristics
 const Tesla: TTurrets = {
   name: 'Tesla',
   damage: 400,
@@ -63,7 +63,7 @@ const Hammer: TTurrets = {
   maxRange: 25,
   isBurst: false,
 }
-// https://en.tankiwiki.com/Flare#Characteristics
+// https://en.tankiwiki.com/Twins#Characteristics
 const Twins: TTurrets = {
   name: 'Twins',
   damage: 240,
@@ -92,7 +92,7 @@ const Smoky: TTurrets = {
   maxRange: 60,
   isBurst: false,
 }
-// https://en.tankiwiki.com/Quake#Characteristics
+// https://en.tankiwiki.com/Striker#Characteristics
 const Striker: TTurrets = {
   name: 'Striker',
   damage: 900,
@@ -122,7 +122,7 @@ const Thunder: TTurrets = {
   maxRange: 90,
   isBurst: false,
 }
-// https://en.tankiwiki.com/Smoky#Characteristics
+// https://en.tankiwiki.com/Tsunami#Characteristics
 const Tsunami: TTurrets = {
   name: 'Tsunami',
   damage: 700,
@@ -131,7 +131,7 @@ const Tsunami: TTurrets = {
   reloadTime: [0, 1, 2],
   isBurst: false,
 }
-// https://en.tankiwiki.com/Smoky#Characteristics
+// https://en.tankiwiki.com/Scorpion#Characteristics
 const Scorpion: TTurrets = {
   name: 'Scorpion',
   damage: 1160,
@@ -140,7 +140,7 @@ const Scorpion: TTurrets = {
   maxRange: 120,
   isBurst: false,
 }
-// https://en.tankiwiki.com/Smoky#Characteristics
+// https://en.tankiwiki.com/Railgun#Characteristics
 const Railgun: TTurrets = {
   name: 'Railgun',
   damage: 1400,
@@ -149,7 +149,7 @@ const Railgun: TTurrets = {
   maxRange: 180,
   isBurst: false,
 }
-// https://en.tankiwiki.com/Smoky#Characteristics
+// https://en.tankiwiki.com/Magnum#Characteristics
 const Magnum: TTurrets = {
   name: 'Magnum',
   damage: 1400,
@@ -157,7 +157,7 @@ const Magnum: TTurrets = {
   reloadTime: [0, 2.5],
   isBurst: false,
 }
-// https://en.tankiwiki.com/Smoky#Characteristics
+// https://en.tankiwiki.com/Gauss#Characteristics
 const Gauss: TTurrets = {
   name: 'Gauss',
   damage: 700,
@@ -166,7 +166,7 @@ const Gauss: TTurrets = {
   maxRange: 90,
   isBurst: false,
 }
-// https://en.tankiwiki.com/Smoky#Characteristics
+// https://en.tankiwiki.com/Shaft#Characteristics
 const Shaft: TTurrets = {
   name: 'Shaft',
   damage: 700,

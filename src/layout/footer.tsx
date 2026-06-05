@@ -10,7 +10,7 @@ export function Footer() {
           rel="noreferrer"
           className="hover:text-foreground text-primary-foreground transition-colors duration-300"
         >
-          June 4th (Update 832)
+          June 4th, 2026 (Update 832)
         </a>
       </p>
     </footer>
