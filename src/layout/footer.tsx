@@ -8,7 +8,7 @@ export function Footer() {
           href="https://en.tankiwiki.com/Updates"
           target="_blank"
           rel="noreferrer"
-          className="hover:text-foreground text-primary-foreground transition-colors duration-300"
+          className="hover:text-foreground text-primary-foreground transition-colors duration-300 hover:underline"
         >
           June 4th, 2026 (Update 832)
         </a>

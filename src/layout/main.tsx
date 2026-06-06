@@ -7,7 +7,7 @@ const SELECTED_TURRETS_PARAM = 'turrets'
 const turretByName = new Map(allTurrets.map((turret) => [turret.name, turret]))
 
 function normalizeSelectedTurretNames(turretNames: string[]) {
-  return sort.filter((name) => turretNames.includes(name)).map((name) => name)
+  return sort.filter((name) => turretNames.includes(name))
 }
 
 function getSelectedTurretNamesFromUrl() {
@@ -23,7 +23,7 @@ function getSelectedTurretNamesFromUrl() {
       .filter(Boolean) ?? [],
   )
 
-  return sort.filter((name) => selectedTurretSlugs.has(name.toLowerCase())).map((name) => name)
+  return sort.filter((name) => selectedTurretSlugs.has(name.toLowerCase()))
 }
 
 function updateSelectedTurretsUrl(turretNames: string[], mode: 'push' | 'replace') {
@@ -41,12 +41,8 @@ function updateSelectedTurretsUrl(turretNames: string[], mode: 'push' | 'replace
     return
   }
 
-  if (mode === 'replace') {
-    window.history.replaceState(null, '', nextUrl)
-    return
-  }
-
-  window.history.pushState(null, '', nextUrl)
+  if (mode === 'replace') window.history.replaceState(null, '', nextUrl)
+  else window.history.pushState(null, '', nextUrl)
 }
 
 export function Main() {

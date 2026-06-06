@@ -67,7 +67,7 @@ function Checkbox({
   return (
     <button
       aria-pressed={checked}
-      className="size-12 rounded-lg border border-(--turret-border) bg-(--turret-background) p-2 shadow-md backdrop-blur-md transition-colors hover:cursor-pointer hover:bg-(--turret-hover)"
+      className="size-12 rounded-lg border border-(--turret-border) bg-(--turret-background) p-1 shadow-lg backdrop-blur-sm transition-colors select-none hover:cursor-pointer hover:bg-(--turret-hover)"
       style={
         {
           '--turret-background': checked ? turret.color + '10' : '#ffffff05',
