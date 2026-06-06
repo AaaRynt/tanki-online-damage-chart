@@ -29,13 +29,13 @@ function getSelectedTurretNamesFromUrl() {
 function updateSelectedTurretsUrl(turretNames: string[], mode: 'push' | 'replace') {
   const url = new URL(window.location.href)
   const selectedTurretSlugs = normalizeSelectedTurretNames(turretNames).map((name) => name.toLowerCase())
-  const nextUrl = `${url.pathname}${url.search}${url.hash}`
 
   if (selectedTurretSlugs.length === 0) {
     url.searchParams.delete(SELECTED_TURRETS_PARAM)
   } else {
     url.searchParams.set(SELECTED_TURRETS_PARAM, selectedTurretSlugs.join(','))
   }
+  const nextUrl = `${url.pathname}${url.search}${url.hash}`
 
   if (nextUrl === `${window.location.pathname}${window.location.search}${window.location.hash}`) {
     return

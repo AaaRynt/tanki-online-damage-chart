@@ -1,8 +1,14 @@
 // src/features/grid.tsx
 // https://en.tankiwiki.com/Turrets
+import type { CSSProperties } from 'react'
 import type { TTurrets } from '@/turrets'
 
 type TTurretName = TTurrets['name']
+type TCheckboxStyle = {
+  '--turret-background': string
+  '--turret-border': string
+  '--turret-hover': string
+} & CSSProperties
 
 export function Grid({
   meleeRangeTurrets,
@@ -19,9 +25,9 @@ export function Grid({
 }) {
   return (
     <div className="flex flex-row gap-5">
-      <Row turretArr={meleeRangeTurrets} selected={selected} onToggleTurret={handleSelected} />
-      <Row turretArr={mediumRangeTurrets} selected={selected} onToggleTurret={handleSelected} />
-      <Row turretArr={longRangeTurrets} selected={selected} onToggleTurret={handleSelected} />
+      <Row turretArr={meleeRangeTurrets} selected={selected} handleSelected={handleSelected} />
+      <Row turretArr={mediumRangeTurrets} selected={selected} handleSelected={handleSelected} />
+      <Row turretArr={longRangeTurrets} selected={selected} handleSelected={handleSelected} />
     </div>
   )
 }
@@ -29,11 +35,11 @@ export function Grid({
 function Row({
   turretArr,
   selected,
-  onToggleTurret,
+  handleSelected,
 }: {
   turretArr: TTurrets[]
   selected: TTurretName[]
-  onToggleTurret: (turretName: TTurretName) => void
+  handleSelected: (turretName: TTurretName) => void
 }) {
   return (
     <div className="flex gap-2">
@@ -42,7 +48,7 @@ function Row({
           key={turret.name}
           turret={turret}
           checked={selected.includes(turret.name)}
-          onToggleTurret={onToggleTurret}
+          handleSelected={handleSelected}
         />
       ))}
     </div>
@@ -52,21 +58,26 @@ function Row({
 function Checkbox({
   turret,
   checked,
-  onToggleTurret,
+  handleSelected,
 }: {
   turret: TTurrets
   checked: boolean
-  onToggleTurret: (turretName: TTurretName) => void
+  handleSelected: (turretName: TTurretName) => void
 }) {
   return (
     <button
       aria-pressed={checked}
-      className={`hover:bg-primary-foreground/8 size-12 rounded-lg border bg-white/2 p-2 shadow-md backdrop-blur-md transition-colors hover:cursor-pointer ${
-        checked ? 'border-primary-foreground/80' : 'border-border'
-      }`}
-      onClick={() => onToggleTurret(turret.name)}
+      className="size-12 rounded-lg border border-(--turret-border) bg-(--turret-background) p-2 shadow-md backdrop-blur-md transition-colors hover:cursor-pointer hover:bg-(--turret-hover)"
+      style={
+        {
+          '--turret-background': checked ? turret.color + '10' : '#ffffff05',
+          '--turret-border': checked ? turret.color + 'd0' : 'var(--color-border)',
+          '--turret-hover': turret.color + '20',
+        } as TCheckboxStyle
+      }
+      onClick={() => handleSelected(turret.name)}
     >
-      <img src={`icon/${turret.name}_logo.png`} alt={turret.name} />
+      <img src={`icon/${turret.name}.svg`} alt={turret.name} />
     </button>
   )
 }
