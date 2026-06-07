@@ -7,8 +7,8 @@ export type TTurrets = {
   color: string
   damage: number
   critical?: number
-  add?: number[]
-  reloadTime: number[]
+  add?: [number[], number]
+  reloadTime: number[] // -1:prev; -2:loop
   range?: number
   maxRange?: number
   isBurst: boolean
@@ -17,10 +17,10 @@ export type TTurrets = {
 const Firebird: TTurrets = {
   name: 'Firebird',
   color: '#FF6600',
-  damage: 300,
+  damage: 400,
   critical: 385,
-  add: [4, 150],
-  reloadTime: [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.375], // 12 shoots in 3s
+  add: [[0.25, -1], 100],
+  reloadTime: [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.375, -1], // 12 shoots in 3s
   range: 25,
   maxRange: 10,
   isBurst: true,
@@ -31,7 +31,9 @@ const Freeze: TTurrets = {
   color: '#0080FF',
   damage: 300,
   critical: 760,
-  reloadTime: [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.375], // 16 shoots in 4s
+  reloadTime: [
+    0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.375, -1,
+  ], // 16 shoots in 4s
   range: 25,
   maxRange: 10,
   isBurst: true,
@@ -42,7 +44,7 @@ const Isida: TTurrets = {
   color: '#13BF4C',
   damage: 260,
   critical: 300,
-  reloadTime: [0.25],
+  reloadTime: [0.25, 0.25, -1],
   range: 25,
   maxRange: 25,
   isBurst: false,
@@ -51,9 +53,9 @@ const Isida: TTurrets = {
 const Tesla: TTurrets = {
   name: 'Tesla',
   color: '#00D4FF',
-  damage: 400,
+  damage: 800,
   critical: 1160,
-  reloadTime: [0, 1],
+  reloadTime: [0, 1, -1],
   range: 25,
   maxRange: 25,
   isBurst: false,
@@ -64,7 +66,7 @@ const Hammer: TTurrets = {
   color: '#609FBF',
   damage: 920,
   critical: 1160,
-  reloadTime: [0, 0.7, 0.7, 2.5],
+  reloadTime: [0, 0.7, 0.7, 2.5, -2],
   range: 40,
   maxRange: 25,
   isBurst: false,
@@ -75,7 +77,7 @@ const Twins: TTurrets = {
   color: '#55FF00',
   damage: 240,
   critical: 480,
-  reloadTime: [0, 0.26],
+  reloadTime: [0, 0.26, -1],
   range: 125,
   maxRange: 60,
   isBurst: false,
@@ -86,7 +88,7 @@ const Ricochet: TTurrets = {
   color: '#FFE57F',
   damage: 340,
   critical: 480,
-  reloadTime: [0, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.67, 0.78], // 15 shoots in 7.5s
+  reloadTime: [0, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.67, 0.78, -1], // 15 shoots in 7.5s
   range: 125,
   maxRange: 90,
   isBurst: true,
@@ -97,7 +99,7 @@ const Smoky: TTurrets = {
   color: '#FFCC00',
   damage: 700,
   critical: 900,
-  reloadTime: [0, 1.1],
+  reloadTime: [0, 1.1, -1],
   maxRange: 60,
   isBurst: false,
 }
@@ -107,7 +109,7 @@ const Striker: TTurrets = {
   color: '#9999FF',
   damage: 900,
   critical: 1160,
-  reloadTime: [0, 1.7],
+  reloadTime: [0, 1.7, -1],
   isBurst: false,
 }
 // https://en.tankiwiki.com/Vulcan#Characteristics
@@ -119,7 +121,7 @@ const Vulcan: TTurrets = {
   reloadTime: [
     0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1,
     0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1,
-    0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 1,
+    0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 1, -2,
   ], // 60 shoots in 6s
   maxRange: 90,
   isBurst: false,
@@ -130,7 +132,7 @@ const Thunder: TTurrets = {
   color: '#FF8800',
   damage: 900,
   critical: 1160,
-  reloadTime: [0, 2],
+  reloadTime: [0, 2, -1],
   maxRange: 90,
   isBurst: false,
 }
@@ -140,8 +142,8 @@ const Tsunami: TTurrets = {
   color: '#FFCC00',
   damage: 700,
   critical: 1160,
-  add: [2, 400],
-  reloadTime: [0, 1, 2],
+  add: [[1, 3, -1], 400],
+  reloadTime: [0, 1, 2, -2],
   isBurst: false,
 }
 // https://en.tankiwiki.com/Scorpion#Characteristics
@@ -150,7 +152,7 @@ const Scorpion: TTurrets = {
   color: '#FF4040',
   damage: 1160,
   critical: 1400,
-  reloadTime: [0, 2.7],
+  reloadTime: [0, 2.7, -1],
   maxRange: 120,
   isBurst: false,
 }
@@ -160,7 +162,7 @@ const Railgun: TTurrets = {
   color: '#FFAA00',
   damage: 1400,
   critical: 1740,
-  reloadTime: [1.2, 3.7, 3.7, 3.7, 3.7, 3.7, 3.7],
+  reloadTime: [1.2, 3.7, -1],
   maxRange: 180,
   isBurst: false,
 }
@@ -170,7 +172,7 @@ const Magnum: TTurrets = {
   color: '#FF5500',
   damage: 1400,
   critical: 1740,
-  reloadTime: [0, 2.5],
+  reloadTime: [0, 5, -1],
   isBurst: false,
 }
 // https://en.tankiwiki.com/Gauss#Characteristics
@@ -179,7 +181,7 @@ const Gauss: TTurrets = {
   color: '#00FFAA',
   damage: 700,
   critical: 900,
-  reloadTime: [0, 1.3],
+  reloadTime: [0, 1.3, -1],
   maxRange: 90,
   isBurst: false,
 }
@@ -189,7 +191,7 @@ const Shaft: TTurrets = {
   color: '#FF4040',
   damage: 700,
   critical: 900,
-  reloadTime: [0, 1.8],
+  reloadTime: [0, 1.8, -1],
   maxRange: 120,
   isBurst: false,
 }
