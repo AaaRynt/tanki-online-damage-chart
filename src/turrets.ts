@@ -17,7 +17,7 @@ export type TTurrets = {
 const Firebird: TTurrets = {
   name: 'Firebird',
   color: '#FF6600',
-  damage: 400,
+  damage: 300,
   critical: 385,
   add: [[0.25, -1], 100],
   reloadTime: [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.375, -1], // 12 shoots in 3s

@@ -70,9 +70,9 @@ function Checkbox({
       className="size-12 rounded-lg border border-(--turret-border) bg-(--turret-background) p-1 shadow-lg backdrop-blur-sm transition-colors select-none hover:cursor-pointer hover:bg-(--turret-hover)"
       style={
         {
-          '--turret-background': checked ? turret.color + '10' : '#ffffff05',
+          '--turret-background': checked ? turret.color + '10' : 'var(--color-cover)',
           '--turret-border': checked ? turret.color + 'd0' : 'var(--color-border)',
-          '--turret-hover': turret.color + '20',
+          '--turret-hover': turret.color + '16',
         } as TCheckboxStyle
       }
       onClick={() => handleSelected(turret.name)}
