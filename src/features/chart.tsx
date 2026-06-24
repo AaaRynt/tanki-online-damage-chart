@@ -1,9 +1,21 @@
 // src/features/chart.tsx
-import { Legend, Line, LineChart, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
+//https://recharts.github.io/en-US/guide/
+import {
+  CartesianGrid,
+  Legend,
+  Line,
+  LineChart,
+  ReferenceLine,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from 'recharts'
 import type { TTurrets } from '@/turrets'
 
 const DURATION = 10
 const X_AXIS_TICK_INTERVAL = 0.5
+const TOOLTIP_INTERVAL = 0.01
 const X_AXIS_TICKS = Array.from(
   { length: DURATION / X_AXIS_TICK_INTERVAL + 1 },
   (_, index) => index * X_AXIS_TICK_INTERVAL,
@@ -13,6 +25,11 @@ const EPSILON = 0.01
 type TDamagePoint = {
   time: number
   damage: number
+}
+
+type TChartPoint = {
+  time: number
+  [turretName: string]: number
 }
 
 function roundTime(value: number) {
@@ -60,7 +77,44 @@ function buildTurretDamagePoints(turret: TTurrets): TDamagePoint[] {
   return extendDamagePointsToDuration(points)
 }
 
-export function Chart({ selectedTurrets }: { selectedTurrets: TTurrets[] }) {
+function getDamageAtTime(points: TDamagePoint[], time: number) {
+  let damage = 0
+
+  for (const point of points) {
+    if (point.time > time + EPSILON) {
+      break
+    }
+
+    damage = point.damage
+  }
+
+  return damage
+}
+
+function buildChartData(selectedTurrets: TTurrets[]): TChartPoint[] {
+  const damagePointsByTurret = new Map(selectedTurrets.map((turret) => [turret.name, buildTurretDamagePoints(turret)]))
+  const times = new Set(
+    Array.from({ length: DURATION / TOOLTIP_INTERVAL + 1 }, (_, index) => roundTime(index * TOOLTIP_INTERVAL)),
+  )
+
+  damagePointsByTurret.forEach((points) => {
+    points.forEach((point) => times.add(point.time))
+  })
+
+  return [...times]
+    .sort((firstTime, secondTime) => firstTime - secondTime)
+    .map((time) => {
+      const chartPoint: TChartPoint = { time }
+
+      damagePointsByTurret.forEach((points, turretName) => {
+        chartPoint[turretName] = getDamageAtTime(points, time)
+      })
+
+      return chartPoint
+    })
+}
+
+export function Chart({ selectedTurrets, showTooltip }: { selectedTurrets: TTurrets[]; showTooltip: boolean }) {
   if (selectedTurrets.length === 0) {
     return (
       <div className="border-border text-muted-foreground flex h-80 w-full items-center justify-center rounded-xl border">
@@ -68,9 +122,13 @@ export function Chart({ selectedTurrets }: { selectedTurrets: TTurrets[] }) {
       </div>
     )
   }
+
+  const chartData = buildChartData(selectedTurrets)
+
   return (
-    <ResponsiveContainer width="100%" height="100%">
-      <LineChart margin={{ top: 16, right: 24, bottom: 16, left: 8 }}>
+    <ResponsiveContainer width="100%" height="100%" className="[&_.recharts-surface:focus]:outline-none">
+      <LineChart data={chartData} margin={{ top: 16, right: 24, bottom: 16, left: 8 }}>
+        <CartesianGrid stroke="var(--color-border)" vertical={false} />
         <XAxis
           dataKey="time"
           type="number"
@@ -81,32 +139,34 @@ export function Chart({ selectedTurrets }: { selectedTurrets: TTurrets[] }) {
         />
         <YAxis tickMargin={8} />
         {[2000, 3000, 4000].map((damage) => (
-          <ReferenceLine key={damage} y={damage} stroke="#ffffff80" ifOverflow="extendDomain" />
+          <ReferenceLine key={damage} y={damage} stroke="var(--color-foreground)" ifOverflow="extendDomain" />
         ))}
-        <Tooltip
-          cursor={false}
-          contentStyle={{
-            color: 'var(--foreground)',
-            backgroundColor: 'color-mix(in srgb, var(--color-cover) 90%, transparent)',
-            border: '1px solid var(--color-cover)',
-            borderRadius: '0.2rem',
-            backdropFilter: 'blur(6px)',
-            WebkitBackdropFilter: 'blur(6px)',
-          }}
-          labelFormatter={(value) => `${value}s`}
-          formatter={(value, name) => [value, name]}
-        />
+        {showTooltip && (
+          <Tooltip
+            cursor={false}
+            contentStyle={{
+              color: 'var(--foreground)',
+              backgroundColor: 'color-mix(in srgb, var(--color-cover) 90%, transparent)',
+              border: '1px solid var(--color-cover)',
+              borderRadius: '0.2rem',
+              backdropFilter: 'blur(6px)',
+              WebkitBackdropFilter: 'blur(6px)',
+            }}
+            labelFormatter={(value) => `${value}s`}
+            formatter={(value, name) => [value, name]}
+          />
+        )}
+
         {selectedTurrets.map((turret) => (
           <Line
             key={turret.name}
             type="stepAfter"
-            dataKey="damage"
+            dataKey={turret.name}
             name={turret.name}
             stroke={turret.color}
             strokeWidth={2}
             dot={false}
             activeDot={{ r: 2 }}
-            data={buildTurretDamagePoints(turret)}
             isAnimationActive={true}
           />
         ))}
@@ -128,7 +188,3 @@ function TurretLegend({ selectedTurrets }: { selectedTurrets: TTurrets[] }) {
     </div>
   )
 }
-
-// function TTK({ selectedTurrets }: { selectedTurrets: TTurrets[] }) {
-//   return <section className="bg-cover"></section>
-// }

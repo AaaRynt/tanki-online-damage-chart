@@ -1,6 +1,6 @@
 // src/layout/main.tsx
 import { useEffect, useState } from 'react'
-import { Chart, Grid } from '@/features/index'
+import { Chart, Control, Grid, TTK } from '@/features/index'
 import { allTurrets, longRangeTurrets, mediumRangeTurrets, meleeRangeTurrets, sort } from '@/turrets'
 
 const SELECTED_TURRETS_PARAM = 'turrets'
@@ -47,6 +47,7 @@ function updateSelectedTurretsUrl(turretNames: string[], mode: 'push' | 'replace
 
 export function Main() {
   const [selected, setSelected] = useState<string[]>(getSelectedTurretNamesFromUrl)
+  const [showTooltip, setShowTooltip] = useState(true)
 
   const selectedTurrets = sort.flatMap((name) => {
     const turret = turretByName.get(name)
@@ -73,6 +74,9 @@ export function Main() {
     setSelected(nextSelected)
     updateSelectedTurretsUrl(nextSelected, 'push')
   }
+  function handleShowTooltip(nextShowTooltip: boolean) {
+    setShowTooltip(nextShowTooltip)
+  }
   return (
     <main className="flex w-full max-w-4xl flex-1 flex-col items-center gap-2 p-4">
       <Grid
@@ -82,7 +86,9 @@ export function Main() {
         selected={selected}
         handleSelected={handleSelected}
       />
-      <Chart selectedTurrets={selectedTurrets} />
+      <Chart selectedTurrets={selectedTurrets} showTooltip={showTooltip} />
+      <Control showTooltip={showTooltip} handleShowTooltip={handleShowTooltip} />
+      <TTK />
     </main>
   )
 }
