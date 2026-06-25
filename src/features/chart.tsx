@@ -15,14 +15,19 @@ import type { TTurrets } from '@/turrets'
 
 const DURATION = 10
 const X_AXIS_TICK_INTERVAL = 0.5
-const TOOLTIP_INTERVAL = 0.01
 const X_AXIS_TICKS = Array.from(
   { length: DURATION / X_AXIS_TICK_INTERVAL + 1 },
   (_, index) => index * X_AXIS_TICK_INTERVAL,
 )
-const EPSILON = 0.01
+const HULL_REFERENCE_LINES = [
+  { protection: 2000, label: 'Light Hulls' },
+  { protection: 3000, label: 'Medium Hulls' },
+  { protection: 4000, label: 'Heavy Hulls' },
+]
+const TIME_PRECISION = 3
+const EPSILON = 0.0001
 
-type TDamagePoint = {
+type TDamageEvent = {
   time: number
   damage: number
 }
@@ -33,72 +38,109 @@ type TChartPoint = {
 }
 
 function roundTime(value: number) {
-  return Number(value.toFixed(2))
+  const roundedTime = Number(value.toFixed(TIME_PRECISION))
+
+  return Object.is(roundedTime, -0) ? 0 : roundedTime
 }
 
-function extendDamagePointsToDuration(points: TDamagePoint[]) {
-  const lastPoint = points[points.length - 1]
+function getPatternIntervals(pattern: number[]) {
+  const repeatModeIndex = pattern.findIndex((interval) => interval === -1 || interval === -2)
 
-  if (!lastPoint || lastPoint.time >= DURATION) {
-    return points
+  if (repeatModeIndex === -1) {
+    return {
+      intervals: pattern.filter((interval) => interval >= 0),
+      repeatMode: undefined,
+    }
   }
 
-  return [...points, { time: DURATION, damage: lastPoint.damage }]
+  return {
+    intervals: pattern.slice(0, repeatModeIndex).filter((interval) => interval >= 0),
+    repeatMode: pattern[repeatModeIndex],
+  }
 }
 
-function buildTurretDamagePoints(turret: TTurrets): TDamagePoint[] {
-  const [firstShotTime, reloadTime] = turret.reloadTime
+function getRepeatIntervals(intervals: number[], repeatMode?: number) {
+  if (repeatMode === -1) {
+    const lastInterval = intervals[intervals.length - 1]
 
-  if (reloadTime <= 0) {
-    return extendDamagePointsToDuration([
-      {
-        time: firstShotTime,
-        damage: turret.damage,
-      },
-    ])
+    return lastInterval === undefined ? [] : [lastInterval]
   }
 
-  const points: TDamagePoint[] = []
-  let shotIndex = 0
+  if (repeatMode === -2) {
+    return intervals[0] === 0 ? intervals.slice(1) : intervals
+  }
+
+  return []
+}
+
+function expandIntervals(pattern: number[], duration: number): number[] {
+  const { intervals, repeatMode } = getPatternIntervals(pattern)
+  const times: number[] = []
+  let currentTime = 0
+
+  for (const interval of intervals) {
+    currentTime = roundTime(currentTime + interval)
+
+    if (currentTime > duration + EPSILON) {
+      return times
+    }
+
+    times.push(currentTime)
+  }
+
+  const repeatIntervals = getRepeatIntervals(intervals, repeatMode)
+
+  if (repeatIntervals.length === 0 || repeatIntervals.every((interval) => interval === 0)) {
+    return times
+  }
+
+  let repeatIndex = 0
 
   while (true) {
-    const time = roundTime(firstShotTime + shotIndex * reloadTime)
+    currentTime = roundTime(currentTime + repeatIntervals[repeatIndex])
 
-    if (time > DURATION + EPSILON) break
-
-    points.push({
-      time,
-      damage: (shotIndex + 1) * turret.damage,
-    })
-
-    shotIndex += 1
-  }
-
-  return extendDamagePointsToDuration(points)
-}
-
-function getDamageAtTime(points: TDamagePoint[], time: number) {
-  let damage = 0
-
-  for (const point of points) {
-    if (point.time > time + EPSILON) {
+    if (currentTime > duration + EPSILON) {
       break
     }
 
-    damage = point.damage
+    times.push(currentTime)
+    repeatIndex = (repeatIndex + 1) % repeatIntervals.length
   }
 
-  return damage
+  return times
 }
 
-function buildChartData(selectedTurrets: TTurrets[]): TChartPoint[] {
-  const damagePointsByTurret = new Map(selectedTurrets.map((turret) => [turret.name, buildTurretDamagePoints(turret)]))
-  const times = new Set(
-    Array.from({ length: DURATION / TOOLTIP_INTERVAL + 1 }, (_, index) => roundTime(index * TOOLTIP_INTERVAL)),
-  )
+function buildTurretDamageEvents(turret: TTurrets, duration = DURATION): TDamageEvent[] {
+  const baseDamageEvents = expandIntervals(turret.reloadTime, duration).map((time) => ({
+    time,
+    damage: turret.damage,
+  }))
 
-  damagePointsByTurret.forEach((points) => {
-    points.forEach((point) => times.add(point.time))
+  if (!turret.add) {
+    return baseDamageEvents
+  }
+
+  const [additionalDamagePattern, additionalDamage] = turret.add
+  const additionalDamageEvents = expandIntervals(additionalDamagePattern, duration).map((time) => ({
+    time,
+    damage: additionalDamage,
+  }))
+
+  return [...baseDamageEvents, ...additionalDamageEvents].sort(
+    (firstEvent, secondEvent) => firstEvent.time - secondEvent.time,
+  )
+}
+
+function buildChartData(selectedTurrets: TTurrets[], duration = DURATION): TChartPoint[] {
+  const damageEventsByTurret = new Map(
+    selectedTurrets.map((turret) => [turret.name, buildTurretDamageEvents(turret, duration)]),
+  )
+  const eventIndexesByTurret = new Map(selectedTurrets.map((turret) => [turret.name, 0]))
+  const cumulativeDamageByTurret = new Map(selectedTurrets.map((turret) => [turret.name, 0]))
+  const times = new Set([0, duration])
+
+  damageEventsByTurret.forEach((events) => {
+    events.forEach((event) => times.add(event.time))
   })
 
   return [...times]
@@ -106,15 +148,26 @@ function buildChartData(selectedTurrets: TTurrets[]): TChartPoint[] {
     .map((time) => {
       const chartPoint: TChartPoint = { time }
 
-      damagePointsByTurret.forEach((points, turretName) => {
-        chartPoint[turretName] = getDamageAtTime(points, time)
+      selectedTurrets.forEach((turret) => {
+        const events = damageEventsByTurret.get(turret.name) ?? []
+        let eventIndex = eventIndexesByTurret.get(turret.name) ?? 0
+        let cumulativeDamage = cumulativeDamageByTurret.get(turret.name) ?? 0
+
+        while (eventIndex < events.length && events[eventIndex].time <= time + EPSILON) {
+          cumulativeDamage += events[eventIndex].damage
+          eventIndex += 1
+        }
+
+        eventIndexesByTurret.set(turret.name, eventIndex)
+        cumulativeDamageByTurret.set(turret.name, cumulativeDamage)
+        chartPoint[turret.name] = cumulativeDamage
       })
 
       return chartPoint
     })
 }
 
-export function Chart({ selectedTurrets, showTooltip }: { selectedTurrets: TTurrets[]; showTooltip: boolean }) {
+export function Chart({ selectedTurrets, showTooltip = true }: { selectedTurrets: TTurrets[]; showTooltip?: boolean }) {
   if (selectedTurrets.length === 0) {
     return (
       <div className="border-border text-muted-foreground flex h-80 w-full items-center justify-center rounded-xl border">
@@ -123,11 +176,9 @@ export function Chart({ selectedTurrets, showTooltip }: { selectedTurrets: TTurr
     )
   }
 
-  const chartData = buildChartData(selectedTurrets)
-
   return (
     <ResponsiveContainer width="100%" height="100%" className="[&_.recharts-surface:focus]:outline-none">
-      <LineChart data={chartData} margin={{ top: 16, right: 24, bottom: 16, left: 8 }}>
+      <LineChart data={buildChartData(selectedTurrets)} margin={{ top: 16, right: 24, bottom: 16, left: 8 }}>
         <CartesianGrid stroke="var(--color-border)" vertical={false} />
         <XAxis
           dataKey="time"
@@ -138,8 +189,19 @@ export function Chart({ selectedTurrets, showTooltip }: { selectedTurrets: TTurr
           tickMargin={8}
         />
         <YAxis tickMargin={8} />
-        {[2000, 3000, 4000].map((damage) => (
-          <ReferenceLine key={damage} y={damage} stroke="var(--color-foreground)" ifOverflow="extendDomain" />
+        {HULL_REFERENCE_LINES.map(({ protection, label }) => (
+          <ReferenceLine
+            key={protection}
+            y={protection}
+            stroke="var(--color-foreground)"
+            ifOverflow="extendDomain"
+            label={{
+              value: label,
+              position: 'insideTopRight',
+              fill: 'var(--color-foreground)',
+              fontSize: 12,
+            }}
+          />
         ))}
         {showTooltip && (
           <Tooltip
