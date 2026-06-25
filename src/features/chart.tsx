@@ -25,6 +25,7 @@ const HULL_REFERENCE_LINES = [
   { protection: 4000, label: 'Heavy Hulls' },
 ]
 const TIME_PRECISION = 3
+const DAMAGE_PRECISION = 3
 const EPSILON = 0.0001
 
 type TDamageEvent = {
@@ -41,6 +42,10 @@ function roundTime(value: number) {
   const roundedTime = Number(value.toFixed(TIME_PRECISION))
 
   return Object.is(roundedTime, -0) ? 0 : roundedTime
+}
+
+function scaleDamage(damage: number, factor: number) {
+  return Number((damage * factor).toFixed(DAMAGE_PRECISION))
 }
 
 function getPatternIntervals(pattern: number[]) {
@@ -110,10 +115,10 @@ function expandIntervals(pattern: number[], duration: number): number[] {
   return times
 }
 
-function buildTurretDamageEvents(turret: TTurrets, duration = DURATION): TDamageEvent[] {
+function buildTurretDamageEvents(turret: TTurrets, factor = 1, duration = DURATION): TDamageEvent[] {
   const baseDamageEvents = expandIntervals(turret.reloadTime, duration).map((time) => ({
     time,
-    damage: turret.damage,
+    damage: scaleDamage(turret.damage, factor),
   }))
 
   if (!turret.add) {
@@ -123,7 +128,7 @@ function buildTurretDamageEvents(turret: TTurrets, duration = DURATION): TDamage
   const [additionalDamagePattern, additionalDamage] = turret.add
   const additionalDamageEvents = expandIntervals(additionalDamagePattern, duration).map((time) => ({
     time,
-    damage: additionalDamage,
+    damage: scaleDamage(additionalDamage, factor),
   }))
 
   return [...baseDamageEvents, ...additionalDamageEvents].sort(
@@ -131,9 +136,9 @@ function buildTurretDamageEvents(turret: TTurrets, duration = DURATION): TDamage
   )
 }
 
-function buildChartData(selectedTurrets: TTurrets[], duration = DURATION): TChartPoint[] {
+function buildChartData(selectedTurrets: TTurrets[], factor = 1, duration = DURATION): TChartPoint[] {
   const damageEventsByTurret = new Map(
-    selectedTurrets.map((turret) => [turret.name, buildTurretDamageEvents(turret, duration)]),
+    selectedTurrets.map((turret) => [turret.name, buildTurretDamageEvents(turret, factor, duration)]),
   )
   const eventIndexesByTurret = new Map(selectedTurrets.map((turret) => [turret.name, 0]))
   const cumulativeDamageByTurret = new Map(selectedTurrets.map((turret) => [turret.name, 0]))
@@ -167,7 +172,15 @@ function buildChartData(selectedTurrets: TTurrets[], duration = DURATION): TChar
     })
 }
 
-export function Chart({ selectedTurrets, showTooltip = true }: { selectedTurrets: TTurrets[]; showTooltip?: boolean }) {
+export function Chart({
+  selectedTurrets,
+  showTooltip = true,
+  factor = 1,
+}: {
+  selectedTurrets: TTurrets[]
+  showTooltip?: boolean
+  factor?: number
+}) {
   if (selectedTurrets.length === 0) {
     return (
       <div className="border-border text-muted-foreground flex h-80 w-full items-center justify-center rounded-xl border">
@@ -178,7 +191,7 @@ export function Chart({ selectedTurrets, showTooltip = true }: { selectedTurrets
 
   return (
     <ResponsiveContainer width="100%" height="100%" className="[&_.recharts-surface:focus]:outline-none">
-      <LineChart data={buildChartData(selectedTurrets)} margin={{ top: 16, right: 24, bottom: 16, left: 8 }}>
+      <LineChart data={buildChartData(selectedTurrets, factor)} margin={{ top: 16, right: 24, bottom: 16, left: 8 }}>
         <CartesianGrid stroke="var(--color-border)" vertical={false} />
         <XAxis
           dataKey="time"

@@ -48,6 +48,7 @@ function updateSelectedTurretsUrl(turretNames: string[], mode: 'push' | 'replace
 export function Main() {
   const [selected, setSelected] = useState<string[]>(getSelectedTurretNamesFromUrl)
   const [showTooltip, setShowTooltip] = useState(true)
+  const [factor, setFactor] = useState<number>(1)
 
   const selectedTurrets = sort.flatMap((name) => {
     const turret = turretByName.get(name)
@@ -74,9 +75,6 @@ export function Main() {
     setSelected(nextSelected)
     updateSelectedTurretsUrl(nextSelected, 'push')
   }
-  function handleShowTooltip(nextShowTooltip: boolean) {
-    setShowTooltip(nextShowTooltip)
-  }
   return (
     <main className="flex w-full max-w-4xl flex-1 flex-col items-center gap-2 p-4">
       <Grid
@@ -86,8 +84,8 @@ export function Main() {
         selected={selected}
         handleSelected={handleSelected}
       />
-      <Chart selectedTurrets={selectedTurrets} showTooltip={showTooltip} />
-      <Control showTooltip={showTooltip} handleShowTooltip={handleShowTooltip} />
+      <Chart selectedTurrets={selectedTurrets} showTooltip={showTooltip} factor={factor} />
+      <Control showTooltip={showTooltip} setShowTooltip={setShowTooltip} factor={factor} setFactor={setFactor} />
       <TTK />
     </main>
   )
