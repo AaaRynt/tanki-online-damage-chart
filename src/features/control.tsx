@@ -48,7 +48,7 @@ function debounce<TArgs extends unknown[]>(
 
 export function Control({ factor, setFactor, showTooltip, setShowTooltip, showTTK, setShowTTK }: TControlProps) {
   return (
-    <section className="flex w-full items-center justify-end gap-4">
+    <section className="absolute right-8 bottom-4 flex w-full items-center justify-end gap-2">
       <Factor factor={factor} setFactor={setFactor} />
       <MySwitch name="Tooltip" boolean={showTooltip} handle={setShowTooltip} />
       <MySwitch name="TTK" boolean={showTTK} handle={setShowTTK} />
@@ -56,7 +56,7 @@ export function Control({ factor, setFactor, showTooltip, setShowTooltip, showTT
   )
 }
 
-export function Factor({ factor, setFactor }: TFactorProps) {
+function Factor({ factor, setFactor }: TFactorProps) {
   const [factorValue, setFactorValue] = useState(String(factor))
   const debouncedsetFactor = useMemo(
     () =>
@@ -95,7 +95,7 @@ export function Factor({ factor, setFactor }: TFactorProps) {
   }
 
   return (
-    <div className="flex flex-row gap-2">
+    <div className="border-border flex items-center gap-1 rounded-lg border bg-(--color-cover) px-3 py-2 shadow-md backdrop-blur-md">
       <label htmlFor="factor" id="factor-label" className="text-foreground cursor-help text-sm font-medium">
         Factor
       </label>

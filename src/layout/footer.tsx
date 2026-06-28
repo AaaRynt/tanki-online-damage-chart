@@ -1,7 +1,7 @@
 // src/layout/footer.tsx
 export function Footer() {
   return (
-    <footer className="border-border w-full border-t-2 bg-cover p-4 text-center">
+    <footer className="border-border flex h-8 w-full items-center justify-center border-t-2 bg-cover">
       <p className="text-sm">
         Base on{' '}
         <a

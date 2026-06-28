@@ -79,16 +79,13 @@ export function TTK({
   if (!showTTK) return null
 
   return (
-    <section className="border-border flex h-full min-h-0 w-136 min-w-120 flex-col overflow-hidden rounded-lg border bg-(--color-cover) shadow-md backdrop-blur-md">
-      <div className="border-border border-b px-3 py-2">
-        <h2 className="text-foreground text-sm font-semibold">TTK</h2>
-      </div>
+    <section className="border-border flex h-[calc(100%-3rem)] min-h-0 w-136 min-w-99 flex-col overflow-hidden rounded-lg border bg-(--color-cover) shadow-md backdrop-blur-md">
       <ScrollArea.Root className="min-h-0 flex-1 overflow-hidden">
         <ScrollArea.Viewport className="h-full w-full">
           <table className="w-full border-separate border-spacing-0 text-left text-sm">
             <thead className="bg-background sticky top-0">
               <tr>
-                <th scope="col" className="border-border border-b px-3 py-2 font-medium">
+                <th scope="col" className="border-border border-b p-2 text-left font-medium">
                   Turret
                 </th>
                 {HULL_REFERENCE_LINES.map(({ protection, label }) => {
@@ -99,12 +96,12 @@ export function TTK({
                       key={protection}
                       scope="col"
                       aria-sort={isActive ? 'ascending' : 'none'}
-                      className="border-border border-b p-0 font-medium hover:cursor-pointer"
+                      className="border-border border-b font-medium hover:cursor-pointer"
                       onClick={() => setSortProtection(protection)}
                     >
                       <button
                         type="button"
-                        className={`h-full w-full px-3 py-2 text-left transition-colors hover:cursor-pointer hover:bg-white/2 ${
+                        className={`h-full w-full rounded-md p-2 text-center transition-colors hover:cursor-pointer hover:bg-white/2 ${
                           isActive ? 'text-primary-foreground' : 'text-foreground'
                         }`}
                         onClick={(event) => {
@@ -112,7 +109,7 @@ export function TTK({
                           setSortProtection(protection)
                         }}
                       >
-                        <span>{label}</span>
+                        {label}
                       </button>
                     </th>
                   )
@@ -122,20 +119,22 @@ export function TTK({
             <tbody>
               {rows.length === 0 ? (
                 <tr>
-                  <td colSpan={HULL_REFERENCE_LINES.length + 1} className="text-muted-foreground px-3 py-6 text-center">
+                  <td colSpan={HULL_REFERENCE_LINES.length + 1} className="text-muted-foreground pt-6 text-center">
                     Select turrets to show TTK
                   </td>
                 </tr>
               ) : (
                 rows.map(({ turret, timeToKill }) => (
                   <tr key={turret.name} className="hover:bg-white/2">
-                    <th scope="row" className="border-border border-b px-3 py-2 font-medium">
-                      <div className="flex items-center gap-2">
-                        <span style={{ color: turret.color }}>{turret.name}</span>
-                      </div>
+                    <th
+                      scope="row"
+                      className="border-border border-b p-2 text-left font-medium"
+                      style={{ color: turret.color }}
+                    >
+                      {turret.name}
                     </th>
                     {HULL_REFERENCE_LINES.map(({ protection }) => (
-                      <td key={protection} className="border-border border-b px-3 py-2 tabular-nums">
+                      <td key={protection} className="border-border border-b py-2 text-center tabular-nums">
                         {formatTimeToKill(timeToKill[protection])}
                       </td>
                     ))}

@@ -39,7 +39,7 @@ export function Chart({
 
   return (
     <ResponsiveContainer width="100%" height="100%" className="[&_.recharts-surface:focus]:outline-none">
-      <LineChart data={buildChartData(selectedTurrets, factor)} margin={{ top: 16, right: 24, bottom: 16, left: 8 }}>
+      <LineChart data={buildChartData(selectedTurrets, factor)} margin={{ top: 8, right: 0, bottom: 8, left: 0 }}>
         <CartesianGrid stroke="var(--color-border)" vertical={false} />
         <XAxis
           dataKey="time"
@@ -58,7 +58,7 @@ export function Chart({
             ifOverflow="extendDomain"
             label={{
               value: label,
-              position: 'insideTopRight',
+              position: 'insideBottomLeft',
               fill: 'var(--color-foreground)',
               fontSize: 12,
             }}

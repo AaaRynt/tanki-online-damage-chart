@@ -11,7 +11,7 @@ export function MySwitch({
   handle: (boolean: boolean) => void
 }) {
   return (
-    <div className="border-border flex items-center gap-3 rounded-lg border bg-(--color-cover) px-3 py-2 shadow-md backdrop-blur-md">
+    <div className="border-border flex items-center gap-2 rounded-lg border bg-(--color-cover) px-3 py-2 shadow-md backdrop-blur-md">
       <label id={`show-${name}-label`} htmlFor={`show-${name}`} className="text-foreground text-sm font-medium">
         {name}
       </label>

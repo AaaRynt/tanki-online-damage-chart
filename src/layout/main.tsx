@@ -77,7 +77,7 @@ export function Main() {
     updateSelectedTurretsUrl(nextSelected, 'push')
   }
   return (
-    <main className="flex min-h-0 w-full flex-1 flex-col items-center gap-2 overflow-hidden px-12 py-4">
+    <main className="relative flex min-h-0 w-full flex-1 flex-col items-center gap-2 overflow-hidden px-8 py-4">
       <Grid
         meleeRangeTurrets={meleeRangeTurrets}
         mediumRangeTurrets={mediumRangeTurrets}
@@ -85,7 +85,7 @@ export function Main() {
         selected={selected}
         handleSelected={handleSelected}
       />
-      <div className="flex min-h-0 w-full flex-1 flex-row gap-2 overflow-hidden">
+      <div className="flex min-h-0 w-full flex-1 flex-row gap-4 overflow-hidden">
         <Chart selectedTurrets={selectedTurrets} showTooltip={showTooltip} factor={factor} />
         <TTK showTTK={showTTK} selectedTurrets={selectedTurrets} factor={factor} />
       </div>
