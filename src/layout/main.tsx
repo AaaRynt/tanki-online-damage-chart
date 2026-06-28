@@ -47,8 +47,9 @@ function updateSelectedTurretsUrl(turretNames: string[], mode: 'push' | 'replace
 
 export function Main() {
   const [selected, setSelected] = useState<string[]>(getSelectedTurretNamesFromUrl)
-  const [showTooltip, setShowTooltip] = useState(true)
   const [factor, setFactor] = useState<number>(1)
+  const [showTooltip, setShowTooltip] = useState(true)
+  const [showTTK, setShowTTK] = useState(false)
 
   const selectedTurrets = sort.flatMap((name) => {
     const turret = turretByName.get(name)
@@ -76,7 +77,7 @@ export function Main() {
     updateSelectedTurretsUrl(nextSelected, 'push')
   }
   return (
-    <main className="flex w-full max-w-4xl flex-1 flex-col items-center gap-2 p-4">
+    <main className="flex w-full flex-1 flex-col items-center gap-2 px-12 py-4">
       <Grid
         meleeRangeTurrets={meleeRangeTurrets}
         mediumRangeTurrets={mediumRangeTurrets}
@@ -84,9 +85,18 @@ export function Main() {
         selected={selected}
         handleSelected={handleSelected}
       />
-      <Chart selectedTurrets={selectedTurrets} showTooltip={showTooltip} factor={factor} />
-      <Control showTooltip={showTooltip} setShowTooltip={setShowTooltip} factor={factor} setFactor={setFactor} />
-      <TTK />
+      <div className="flex w-full flex-1 flex-row gap-2">
+        <Chart selectedTurrets={selectedTurrets} showTooltip={showTooltip} factor={factor} />
+        <TTK showTTK={showTTK} />
+      </div>
+      <Control
+        factor={factor}
+        setFactor={setFactor}
+        showTooltip={showTooltip}
+        setShowTooltip={setShowTooltip}
+        showTTK={showTTK}
+        setShowTTK={setShowTTK}
+      />
     </main>
   )
 }

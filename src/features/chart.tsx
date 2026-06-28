@@ -15,6 +15,7 @@ import type { TTurrets } from '@/turrets'
 
 const DURATION = 10
 const X_AXIS_TICK_INTERVAL = 0.5
+const TOOLTIP_INTERVAL = 0.1
 const X_AXIS_TICKS = Array.from(
   { length: DURATION / X_AXIS_TICK_INTERVAL + 1 },
   (_, index) => index * X_AXIS_TICK_INTERVAL,
@@ -46,6 +47,10 @@ function roundTime(value: number) {
 
 function scaleDamage(damage: number, factor: number) {
   return Number((damage * factor).toFixed(DAMAGE_PRECISION))
+}
+
+function buildTimeTicks(interval: number, duration: number) {
+  return Array.from({ length: duration / interval + 1 }, (_, index) => roundTime(index * interval))
 }
 
 function getPatternIntervals(pattern: number[]) {
@@ -142,7 +147,7 @@ function buildChartData(selectedTurrets: TTurrets[], factor = 1, duration = DURA
   )
   const eventIndexesByTurret = new Map(selectedTurrets.map((turret) => [turret.name, 0]))
   const cumulativeDamageByTurret = new Map(selectedTurrets.map((turret) => [turret.name, 0]))
-  const times = new Set([0, duration])
+  const times = new Set(buildTimeTicks(TOOLTIP_INTERVAL, duration))
 
   damageEventsByTurret.forEach((events) => {
     events.forEach((event) => times.add(event.time))

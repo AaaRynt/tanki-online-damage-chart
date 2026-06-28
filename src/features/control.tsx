@@ -7,10 +7,12 @@ const MIN_FACTOR = 0.1
 const MAX_FACTOR = 10
 
 type TControlProps = {
-  showTooltip: boolean
-  setShowTooltip: (showTooltip: boolean) => void
   factor: number
   setFactor: (factor: number) => void
+  showTooltip: boolean
+  setShowTooltip: (showTooltip: boolean) => void
+  showTTK: boolean
+  setShowTTK: (showTooltip: boolean) => void
 }
 
 type TFactorProps = {
@@ -44,11 +46,12 @@ function debounce<TArgs extends unknown[]>(
   return debounced
 }
 
-export function Control({ showTooltip, setShowTooltip, factor, setFactor }: TControlProps) {
+export function Control({ factor, setFactor, showTooltip, setShowTooltip, showTTK, setShowTTK }: TControlProps) {
   return (
     <section className="flex w-full items-center justify-end gap-4">
-      <MySwitch boolean={showTooltip} handle={setShowTooltip} />
       <Factor factor={factor} setFactor={setFactor} />
+      <MySwitch name="Tooltip" boolean={showTooltip} handle={setShowTooltip} />
+      <MySwitch name="TTK" boolean={showTTK} handle={setShowTTK} />
     </section>
   )
 }
