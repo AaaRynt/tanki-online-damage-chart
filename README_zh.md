@@ -1,8 +1,8 @@
-# Tanki Online 炮塔伤害图表
+# 3D坦克炮塔伤害图表
 
-[English](./README.md) | [简体中文](./README_zh.md) | [Русский](./README_ru.md)
+[English](./README.md) │ [简体中文](./README_zh.md) │ [Русский](./README_ru.md)
 
-一个用于在固定 `10` 秒时间窗口内比较 Tanki Online 炮塔伤害的小型 React 工具。
+一个用于在固定10秒时间窗口内比较3D坦克炮塔伤害的小型 React 工具。
 
 图表使用本地数据模型中真实的炮塔攻击时间，而不是按照固定时间间隔对伤害进行采样。用户可以同时选择多个炮塔，每个选中的炮塔都会以阶梯式累计伤害折线显示。
 
@@ -117,7 +117,7 @@ src/
 
 ## 数据来源
 
-当前数值基于 [Tanki Wiki](https://en.tankiwiki.com/) 在 `2026-06-04` 的数据，对应 `Update 832`。
+当前数值基于 [Tanki维基](https://en.tankiwiki.com/) 在 `2026-06-04` 的数据，对应 `Update 832`。
 
 ## 许可证
 

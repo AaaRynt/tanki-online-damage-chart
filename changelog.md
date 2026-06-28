@@ -26,8 +26,8 @@ List of Changes:
     - Each of the six Tankoin packs has its own separate bonus.
 - The following have been added to Standard and Epic Containers:
   - Tsunami turret
-    - "Needle Gun" augment for Hammer
-    - "Increased Voltage" augment for Tesla
+  - "Needle Gun" augment for Hammer
+  - "Increased Voltage" augment for Tesla
 - The following skins have been added to Legendary Containers:
   - Striker DK
 - The "Raven" protection module (providing protection against Tsunami) has been added to the Garage.
@@ -57,17 +57,17 @@ List of Fixes:
 List of Changes:
 
 - The following augments have been added to Common and Epic Containers:
-  - Scorpion’s "Vacuum Shell" augment
-    - Thunder’s "Yamato" augment
+  - Scorpion's "Vacuum Shell" augment
+  - Thunder's "Yamato" augment
 - The following skins have been added to Legendary Containers:
   - Hopper DK
-    - Hammer GT
-    - Shaft GT
+  - Hammer GT
+  - Shaft GT
 - For password-protected PRO Battles, the ability to set a password to restrict entry to the battle has been added. The password can be set by the battle creator via chat commands.
   - The /setPassword chat command generates a password for the battle and copies it to the player's clipboard for sharing in chats.
-    - The /deletePassword chat command removes the password from the battle.
-    - The /getPassword chat command repeats the current password and copies it to the clipboard again.
-    - (Note) Passwords for password-protected PRO Battles are part of the future Authorial PRO Battles mechanic, which we once discussed in a vlog. Please test how the system works and leave your feedback so that we can decide on developing additional self-moderation features for Authorial PRO Battles.
+  - The /deletePassword chat command removes the password from the battle.
+  - The /getPassword chat command repeats the current password and copies it to the clipboard again.
+  - (Note) Passwords for password-protected PRO Battles are part of the future Authorial PRO Battles mechanic, which we once discussed in a vlog. Please test how the system works and leave your feedback so that we can decide on developing additional self-moderation features for Authorial PRO Battles.
 - The selection screens for augments, skins, and shot effects now display all items in a more compact layout with vertical scrolling.
   - (Note) The number of augments per turret has consistently exceeded 20 items, so we hope the new display format will be more convenient for you.
 
@@ -126,7 +126,7 @@ List of Changes:
 - Added the new Turkish, Czech and Hindi localizations
 - Updated the Snowball explosion special effect
 - Added a new explosion sound for Pumpkin and Snowball grenades
-- Reworked the anti-cheat for Tesla, Smoky, Vulcan, Thunder, Gauss, Ricochet, Twins, Scorpion and Shaft turrets and for Crusader’s Cryo Cannon
+- Reworked the anti-cheat for Tesla, Smoky, Vulcan, Thunder, Gauss, Ricochet, Twins, Scorpion and Shaft turrets and for Crusader's Cryo Cannon
 - Added a tutorial for supply usage in battle for new players
 - Added a setting to turn off hints about which keys perform which actions in the battle UI
 - Reputation points for an assist in battle increased from 5 to 10
@@ -207,13 +207,13 @@ List of Changes:
     - (Note) Tesla turret damage is now split into two parts. Standard damage is divided as usual by the number of targets in the chain. Additional damage is never divided by the number of targets in the chain. The final damage each target receives is the sum of Standard and Additional damage. In other words, when attacking two targets with chain lightning, the damage is now reduced by only a quarter, not by half.
 - Vulcan
   - Barrels stopping time decreased from 2.5 to 1 s.;
-    - ‘Reinforced Aiming Transmission” augment
+    - ‘Reinforced Aiming Transmission" augment
     - Barrels stopping time decrease changed from -60% to -50%;
 - Smoky
   - In the mobile version, the turret now has a button to enable/disable forced fire, similar to Twins.
 - Scorpion
   - Reload increased from 3.9-2.6 to 4.05-2.7 s.;
-    - “Vacuum shell” augment
+    - "Vacuum shell" augment
     - Ricochet has been disabled;
 - Magnum
   - Gravity for the projectile decreased from 2 to 1.5 deg.;
@@ -221,9 +221,9 @@ List of Changes:
     - Final projectile speed decreased from 120 to 110 m/s;
 - Shaft
   - Reload between arcade shots increased from 2.25-1.5 to 2.7-1.8 s.;
-    - “Short-band emitter” augment
+    - "Short-band emitter" augment
     - Arcade reload increase changed from +34% to +15%;
-    - “Quasar” augment
+    - "Quasar" augment
     - Arcade shot reload time increase changed from +100% to +70%;
 - Added support for the ability to disable crossplay between different platforms in matchmaking
   - (Note) This feature is not yet publicly available.
@@ -252,8 +252,8 @@ List of changes:
 List of changes:
 
 - The following augments were added to Common and Epic Containers:
-  - Magnum’s “Carronade”
-    - Railgun’s “Detonator”
+  - Magnum's "Carronade"
+  - Railgun's "Detonator"
 - Repair Kit
   - Immunity (from status effects) time when repairing 0,5 sec → 0,6 sec
 - Overdrive charge per second
@@ -282,22 +282,22 @@ List of changes:
 
 List of fixes:
 
-- The icons of “Explosive Rounds” augment for Smoky and “Explosive Shells” augment for Scorpion are updated to not intersect with the “Vacuum Shells” augments icons
+- The icons of "Explosive Rounds" augment for Smoky and "Explosive Shells" augment for Scorpion are updated to not intersect with the "Vacuum Shells" augments icons
 
 ### January 23rd (Update 820)
 
 List of changes:
 
 - The following augments were added to Common and Epic Containers
-  - Ricochet’s “Boxer”
-    - Gauss’ “Boxer”
+  - Ricochet's "Boxer"
+  - Gauss' "Boxer"
 - Scorpion
-  - “Missile launcher «Spear»” augment
+  - "Missile launcher «Spear»" augment
     - Salvo reload time decrease was changed from -25% to -20%
-    - “Missile launcher «Swarm»” augment
+    - "Missile launcher «Swarm»" augment
     - Added an increase of the Initial rocket angular speed by 10%; - Added an increase of the Final rocket angular speed from 1 to 5 deg/s
 - Shaft
-  - “Stellarator” augment
+  - "Stellarator" augment
     - Energy used per sniping shot increase changed from +50% to +60%
 - Activation delay of the overdrive for all hulls increased from 1.3 to 2 sec
 - Overdrive charge for reputation points for all hulls changed to 0.01%-0.1% per reputation point.
@@ -316,7 +316,7 @@ List of changes:
     - 0,333% → 0,416% or 300 → 240 sec for full overdrive charge
     - Ares
     - 0,416% → 0,278% or 240 → 360 sec for full overdrive charge
-- The “Classic” battle format in PRO battles is turned off
+- The "Classic" battle format in PRO battles is turned off
 
 ## 2025
 
@@ -331,7 +331,7 @@ List of fixes:
 
 - Fixed the indicators of readiness to shoot on Striker DK skin
 - Fixed the work of dynamic detailing for HD skins
-- Fixed the work of Tesla’s effect that lead to memory leaks
+- Fixed the work of Tesla's effect that lead to memory leaks
 - Fixed the payment methods sorting in the Shop
 - Refinements of Parma and Highland Remastered maps
 - Old New Year maps are now supported by the Unity client
@@ -343,41 +343,41 @@ List of changes:
 - Added a new Cross Remastered map
 - Added Winter and Autumn themes for the Parma Remastered map
 - Firebird
-  - “Camper” augment
+  - "Camper" augment
     - Normal and critical damage was changed from +100% to +90%;
     - "Excelsior" augment
     - Critical damage was changed from +30% to +0%;
 - Freeze
   - "Camper" augment
     - Normal and critical damage was changed from +100% to +90%;
-    - “Shock Freeze” augment
+    - "Shock Freeze" augment
     - Damage decrease was changed from -5% to -10%
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0%;
 - Isida
   - "Camper" augment
     - Normal and critical damage was changed from +100% to +90%;
-    - “Shock Nanobot Injection” augment
+    - "Shock Nanobot Injection" augment
     - Healing rate decrease was changed from -90% to -75% - Added a decrease of critical healing by -95%;
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0% - Critical repair increase was changed from +30% to +0%;
 - Tesla
   - "Camper" augment
     - Normal and critical damage increase was changed from +100% to +90%;
-    - “Electroturret” augment
+    - "Electroturret" augment
     - Added a decrease of Energy Recharge rate by -33%;
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0%;
 - Hammer
   - "Camper" augment
     - Normal and critical damage was changed from +100% to +90%;
-    - “Adaptive Reload” augment
+    - "Adaptive Reload" augment
     - Shots per clip changed from 3 to 4;
-    - “Blunderbuss” augment
+    - "Blunderbuss" augment
     - Added a clip reload decrease by -20%;
-    - “Large Caliber Pellets” augment
+    - "Large Caliber Pellets" augment
     - Clip reload time increase was changed from +70% to +50%;
-    - “Boxer” augment
+    - "Boxer" augment
     - Clip reload time decrease changed from -62% to -56%;
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0% - No longer increases horizontal aiming angles
@@ -385,111 +385,111 @@ List of changes:
   - Damage was increased from 150-200 to 180-240;
     - Critical damage chance decreased from 6% to 5%;
     - "Camper" augment
-    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 75% to 85% of tank’s HP
+    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 75% to 85% of tank's HP
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0%;
 - Ricochet
   - Critical damage chance decreased from 8% to 6%
     - "Camper" augment
-    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 75% to 85% of tank’s HP
-    - “Berserk” augment
+    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 75% to 85% of tank's HP
+    - "Berserk" augment
     - Charge time increase changed from +20% to +7%;
-    - “Boxer” augment
+    - "Boxer" augment
     - Added a decrease of reload time between two shots by -20% - Initial projectile speed changed from 10 to 30 m/s
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0% - No longer increases horizontal aiming angles
 - Vulcan
   - "Camper" augment
-    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 75% to 85% of tank’s HP
-    - “Rubberized rounds” augment
+    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 75% to 85% of tank's HP
+    - "Rubberized rounds" augment
     - Added an increase of critical damage by +50%;
-    - “Explosive band” augment
+    - "Explosive band" augment
     - Regular damage increase changed from +13% to +10% - Maximum ricochet angle changed from 5° to 45°
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0%;
 - Smoky
   - Critical damage chance decreased from 13% to 11%;
     - "Camper" augment
-    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 75% to 85% of tank’s HP
-    - “Rubberized rounds” augment
+    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 75% to 85% of tank's HP
+    - "Rubberized rounds" augment
     - Added an increase in critical damage by +50%;
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0% - No longer increases horizontal aiming angles
 - Striker
   - "Camper" augment
-    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 75% to 85% of tank’s HP
-    - “Missile launcher «Tandem»” augment
+    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 75% to 85% of tank's HP
+    - "Missile launcher «Tandem»" augment
     - Added a reload time decrease by -12%;
-    - “Missile launcher «Uranium»” augment
+    - "Missile launcher «Uranium»" augment
     - Aiming time decrease changed from -35% to -25% - Projectile acceleration time increase changed from +350% to +700%
-    - “Vacuum Missiles” augment
+    - "Vacuum Missiles" augment
     - Pause between salvo rockets increase changed from +12% to +6% - Added a critical damage increase chance by +25% - Average and minimal splash damage increase changed from 230% to 235%
-    - “Missile launcher «Brass Knuckles»” augment
+    - "Missile launcher «Brass Knuckles»" augment
     - Added a reload time decrease by -12%;
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0% - No longer increases horizontal aiming angles
 - Thunder
   - "Camper" augment
-    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 75% to 85% of tank’s HP
-    - “Bolter” augment
+    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 75% to 85% of tank's HP
+    - "Bolter" augment
     - Min shell speed changed from 1 to 10 m/s;
-    - “«Nanotech» Shells” augment
+    - "«Nanotech» Shells" augment
     - Added a decrease of regular damage by -20%;
-    - “«Anvil» shells” augment
+    - "«Anvil» shells" augment
     - Added a decrease of reload time by -10%;
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0% - No longer increases horizontal aiming angles
 - Scorpion
   - "Camper" augment
-    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 90% to 95% of tank’s HP
-    - “Missile launcher «Tornado»” augment
+    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 90% to 95% of tank's HP
+    - "Missile launcher «Tornado»" augment
     - Aiming time increase changed from +100% to +50% - Added a Salvo reload time decrease by -12%
-    - “Missile launcher «Swarm»” augment
+    - "Missile launcher «Swarm»" augment
     - Added a decrease of Final rocket speed by -20%;
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0% - No longer increases horizontal aiming angles
 - Magnum
   - "Camper" augment
-    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 90% to 95% of tank’s HP
-    - “Mortar” augment
+    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 90% to 95% of tank's HP
+    - "Mortar" augment
     - Mine lifetime increased from 60 to 120 s;
-    - “Vacuum core” augment
+    - "Vacuum core" augment
     - Amplification time increase changed from +20% to +0%;
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0%;
 - Railgun
   - "Camper" augment
-    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 90% to 95% of tank’s HP
-    - “Large caliber rounds” augment
+    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 90% to 95% of tank's HP
+    - "Large caliber rounds" augment
     - Shot warmup time increase changed from +25% to +15% - Reload time changed from +25% to +16% - Critical damage changed from +25% to +20% - Added an increase in critical hit chance by +50%
-    - “Round Destabilization” augment
+    - "Round Destabilization" augment
     - Added an increase in Impact force by +60%;
-    - “«Death Herald» compulsator” augment
+    - "«Death Herald» compulsator" augment
     - Shot warmup time decrease changed from -15% to -25% - Reload time decrease changed from -15% to -40%;
-    - “Hyperspace Rounds” augment
+    - "Hyperspace Rounds" augment
     - Shot warmup time decrease changed from -10% to -25%;
-    - “Excalibur Rounds” augment
+    - "Excalibur Rounds" augment
     - Critical damage increase was changed from +150% to +129,9% - Shot warmup time increase changed from +10% to +25%;
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0% - No longer increases horizontal aiming angles
 - Gauss
   - "Camper" augment
-    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 90% to 95% of tank’s HP
-    - “Super Solenoids” augment
+    - Normal and critical damage increase was changed from +100% to +90% - The amount of HP to activate the augment effects changed from 90% to 95% of tank's HP
+    - "Super Solenoids" augment
     - Salvo reload decrease changed from -22% to -36%;
-    - “Hyperspeed Shells” augment
+    - "Hyperspeed Shells" augment
     - Weak damage percentage changed from 270% to 300%;
-    - “Nemesis” augment
+    - "Nemesis" augment
     - Added a Salvo reload decrease by -70%;
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0% - No longer increases horizontal aiming angles
 - Shaft
   - Critical damage chance changed from 18% to 14%;
     - "Camper" augment
-    - Damage and critical Damage increase were changed from +100% to +90% - The amount of HP to activate the augment effects changed from 90% to 95% of tank’s HP
-    - “Quasar” augment
+    - Damage and critical Damage increase were changed from +100% to +90% - The amount of HP to activate the augment effects changed from 90% to 95% of tank's HP
+    - "Quasar" augment
     - Sniping shot reload time increase changed from +54,(54)% to +44,(44)% - Arcade shot reload time increase changed from +113% to +100% - Added a decrease in energy consumed by sniping shot by +50%;
-    - “Stellarator” augment
+    - "Stellarator" augment
     - Sniping shot charge rate decrease changed from -20% to -0% - Energy consumed per sniping shot decrease by -50% changed to an increase by +50%
     - "Excelsior" augment
     - Critical damage increase was changed from +30% to +0% - No longer increases horizontal aiming angles
@@ -527,7 +527,7 @@ List of Fixes:
 
 List of changes:
 
-- Added the display of the player’s nickname, client type, client version, game update number, and battery charge (if the device reports this information) in the bottom-right corner of the screen.
+- Added the display of the player's nickname, client type, client version, game update number, and battery charge (if the device reports this information) in the bottom-right corner of the screen.
   - (Note) This is technical information required by developers to improve the quality of the game. It is displayed on top of all game screens and UI elements. Please understand this is for diagnostic purposes.
 - Ares hull
   - Repair amount from overdrive reduced from 240 to 120
@@ -540,7 +540,7 @@ List of fixes:
 - Fixed the functionality of Halloween maps for the Unity client
 - Increased background render distance on Remastered maps so that distant mountains are no longer cut off when the player moves the camera
 - Fixed incorrect display of the settings interface in Safari on iOS
-- Slightly adjusted the position of interface elements on the battle loading screen so that the “Loading” text is no longer overlapped by the system bar on iPhones
+- Slightly adjusted the position of interface elements on the battle loading screen so that the "Loading" text is no longer overlapped by the system bar on iPhones
 
 ### October 10th (Update 812)
 
@@ -549,7 +549,7 @@ List of changes:
 - Players registering via an external authorization service are now assigned an automatic nickname.
   - (Note) Use the free rename option in the settings to change your nickname.
 - The console version of the game now allows logging into an existing account.
-  - (Note) To log into an existing account, you need to log out of the current account in the “Account” section of the Settings. After that, you will be asked to set a password for your console account, and after that you will be able to log into any existing account by entering your nickname and password.
+  - (Note) To log into an existing account, you need to log out of the current account in the "Account" section of the Settings. After that, you will be asked to set a password for your console account, and after that you will be able to log into any existing account by entering your nickname and password.
 - The Pumpkin grenade now has its own unique explosion effect, different from the Bomb grenade.
 - On the account registration selection screen, some log in methods may load with a delay but will no longer cause the client to freeze.
 - The console version of the game now displays the current game version, nickname, and controller battery level on the screen.
@@ -583,7 +583,7 @@ List of changes:
 
 - The following augments were added to Common and Epic Containers:
   - Freeze «Camper»
-    - Shaft «Stellarator»
+  - Shaft «Stellarator»
 - Shaft
   - «Stellarator» augment
     - Added a decrease of Charge rate by -20%
@@ -594,23 +594,23 @@ List of changes:
 
 - Tesla GT skin was added to Legendary Containers.
 - The following augments were added to Common and Epic Containers:
-  - Isida’s “Camper”
-    - Tesla’s “Camper”
-    - Hammer’s “Boxer”
-    - Twins’ “Tempest”
-    - Railgun’s “Excalibur Rounds”
+  - Isida's "Camper"
+  - Tesla's "Camper"
+  - Hammer's "Boxer"
+  - Twins' "Tempest"
+  - Railgun's "Excalibur Rounds"
 - In the Shop, legal information has been moved to a separate dropdown list.
 - Added the ability to adjust screen padding on mobile devices.
 - Camper augments
   - For medium-range turrets, the bonus activation threshold was changed from 65% to 75% of the tank's health.
     - For long-range turret, the bonus activation threshold was changed from 80% to 90% of the tank's health;
 - Magnum
-  - “Harpoon” augment
+  - "Harpoon" augment
     - Reload time increase was changed from +40% to +10%; - Amplification time decrease was changed from -75% to -70%
-    - “Destroyer” augment
+    - "Destroyer" augment
     - Reload time was changed from +85% to +90%;
 - Railgun
-  - “«Excalibur» Rounds” augment
+  - "«Excalibur» Rounds" augment
     - Reload time increase was changed from +12% to +16%; - Added Shot warmup time increase by +10%
 - Minor visual improvements to the purchase screens in the Shop.
 
@@ -631,7 +631,7 @@ List of changes:
 
 List of fixes:
 
-- Improved the anti-cheat for the Gauss’ "Nemesis" augment.
+- Improved the anti-cheat for the Gauss' "Nemesis" augment.
   - (Note) Given the nature of how anti-cheat systems work, this fix does not guarantee a solution to all issues, but we hope it significantly reduces the frequency of cases where damage does not register on an enemy.
 - Fixed the behavior of the progress bar for the Elite Pass widget in the Lobby
   - (Note) The progress bar now shows the progress in stars within a single level, not the overall progress through all levels of the Elite Pass.
@@ -644,18 +644,18 @@ List of fixes:
 List of changes:
 
 - The following augments were added to Common and Epic Containers
-  - Scorpion’s “Camper”
-    - Vulcan’s “Camper”
+  - Scorpion's "Camper"
+  - Vulcan's "Camper"
 - Common Daily Missions
-  - The required number points for the Daily “Earn reputation points” mission decreased from 1000 to 900
-    - The Daily “Make any purchase in the game's Shop” mission was replaced with “Throw any Grenade” mission.
-- Added “secret” Daily Missions
+  - The required number points for the Daily "Earn reputation points" mission decreased from 1000 to 900
+    - The Daily "Make any purchase in the game's Shop" mission was replaced with "Throw any Grenade" mission.
+- Added "secret" Daily Missions
   - (Note) You need active Premium Pass to complete these missions, same as to complete such Weekly Missions
-- “Salyut” Grenade
-  - The “Salyut” Grenade launcher can be purchased in the Shop for 183 000 crystals starting from the Lieutenant General (25) rank
-    - “Salyut” Grenades can be purchased in the Shop for 1800 crystals
-    - The Grenade is available for purchase in the Shop as a part of “Early Access items”
-    - “Stun” effect duration decreased from 3 to 2.5 s.
+- "Salyut" Grenade
+  - The "Salyut" Grenade launcher can be purchased in the Shop for 183 000 crystals starting from the Lieutenant General (25) rank
+    - "Salyut" Grenades can be purchased in the Shop for 1800 crystals
+    - The Grenade is available for purchase in the Shop as a part of "Early Access items"
+    - "Stun" effect duration decreased from 3 to 2.5 s.
 - Now if you try to find a battle when you have more than 2 players in your group, your group will be automatically disbanded
   - (Note) We have found that it is possible to create a group of more than 2 players in rare cases randomly due to synchronization characteristics of game servers in the cluster. Now such groups will be automatically disbanded and all players of a group will enter battles separately. In case you have more than 2 players in your group by mistake, remove the extra player from your group so the other two of you can play together.
 - Added a timer on the category of Daily Ruby Pass in the Shop that shows time until the end of the sale of the current offer with the Ruby Pass
@@ -675,13 +675,13 @@ List of fixes:
 List of changes:
 
 - The following augments were added to Common and Epic Containers
-  - Twins’ “Camper” augment
-    - Mammoth’s “Grenadier” augment
-- The required number of daily missions for the weekly “Complete daily missions” mission increased from 15 to 25
-- The required number of battles for the weekly “Be in the winning team” mission increased from 3 to 4
-- The required number of battles for the weekly “Finish a battle” mission increased from 10 to 15
-- The required number of stars for the weekly “Earn stars” mission increased from 60 to 70
-- The required number of reputation points for the weekly Encore “Earn Reputation Points in Battles” mission decreased from 5000 to 4000
+  - Twins' "Camper" augment
+  - Mammoth's "Grenadier" augment
+- The required number of daily missions for the weekly "Complete daily missions" mission increased from 15 to 25
+- The required number of battles for the weekly "Be in the winning team" mission increased from 3 to 4
+- The required number of battles for the weekly "Finish a battle" mission increased from 10 to 15
+- The required number of stars for the weekly "Earn stars" mission increased from 60 to 70
+- The required number of reputation points for the weekly Encore "Earn Reputation Points in Battles" mission decreased from 5000 to 4000
 
 List of fixes:
 
@@ -707,12 +707,12 @@ List of fixes:
 List of changes:
 
 - The following augments were added to Common and Epic Containers
-  - Striker’s “Camper”
-    - Ares’ “Grenadier”
+  - Striker's "Camper"
+  - Ares' "Grenadier"
 - Maximum group size reduced from 3 to 2 players
-  - (Note) After analyzing feedback regarding group balancing issues in matchmaking, we observed a significant shift in player behavior. The number of two-player groups now vastly outnumber three-player groups. At the same time, players perceive three-player groups as inherently stronger than two-player ones. We believe this combination has contributed to unstable team balancing. Given the much higher demand for two-player groups, we’ve decided to disable the option to create three-player groups.
+  - (Note) After analyzing feedback regarding group balancing issues in matchmaking, we observed a significant shift in player behavior. The number of two-player groups now vastly outnumber three-player groups. At the same time, players perceive three-player groups as inherently stronger than two-player ones. We believe this combination has contributed to unstable team balancing. Given the much higher demand for two-player groups, we've decided to disable the option to create three-player groups.
 - Allowed rank difference between group members increased from 5 to 20
-  - (Note) This change is related to the previous one. A large rank gap in two-player groups causes fewer matchmaking issues than in three-player groups. Seeing the high interest in two-player groups, we want to encourage more duo play. We hope we won’t regret this decision. We’ll monitor the situation and your feedback.
+  - (Note) This change is related to the previous one. A large rank gap in two-player groups causes fewer matchmaking issues than in three-player groups. Seeing the high interest in two-player groups, we want to encourage more duo play. We hope we won't regret this decision. We'll monitor the situation and your feedback.
 - When there is no other active event mode, Deathmatch mode is enabled as an event mode by default.
   - The mode is available starting from Master Sergeant (8) like other event modes
     - The map pool of this mode includes all MM and Pro maps
@@ -770,21 +770,21 @@ List of changes:
 List of changes:
 
 - The following augments were added to Common and Epic Containers
-  - Firebird’s “Camper” augment
-    - Titan’s “Grenadier” augment
+  - Firebird's "Camper" augment
+  - Titan's "Grenadier" augment
 - The maximum time between dealing damage to a tank and its destruction - used to count that damage as an assist - was previously 3 seconds. With this update, the duration now depends on the turret you use:
   - Firebird — 5 sec
-    - Freeze — 1 sec
-    - Hammer — 1 sec
-    - Twins — 5 sec
-    - Ricochet — 5 sec
-    - Vulcan — 0,5 sec
-    - Thunder — 5 sec
-    - Scorpion — 10 sec
-    - Magnum — 10 sec
-    - Railgun — 5 sec
-    - Gauss — 10 sec
-    - Shaft — 10 sec
+  - Freeze — 1 sec
+  - Hammer — 1 sec
+  - Twins — 5 sec
+  - Ricochet — 5 sec
+  - Vulcan — 0,5 sec
+  - Thunder — 5 sec
+  - Scorpion — 10 sec
+  - Magnum — 10 sec
+  - Railgun — 5 sec
+  - Gauss — 10 sec
+  - Shaft — 10 sec
 - Changed the amount of Rubies earned for completing weekly missions
   - Amount of Rubies for Standard weekly missions increased from 20 to 30
     - Amount of Rubies for ENCORE weekly missions decreased from 10 to 0
@@ -798,53 +798,53 @@ List of fixes:
 
 List of changes:
 
-- A new augment for Shaft has been added to Epic Containers — “Stellarator”
+- A new augment for Shaft has been added to Epic Containers — "Stellarator"
   - (Note) Sniper shots always deal maximum damage.
     - After entering the sniping mode, the faster you shoot, the higher the average damage per minute is.
 - The following augments were added to Common and Epic Containers
-  - Thunder’s “Camper”
-    - Dictator’s “Grenadier”
+  - Thunder's "Camper"
+  - Dictator's "Grenadier"
 - The following skins were added to Legendary Containers:
   - Hornet DK
-    - Ares DK
-    - Tesla DK
-    - Scorpion DK
-    - Freeze DK
-    - Striker XT (HD)
+  - Ares DK
+  - Tesla DK
+  - Scorpion DK
+  - Freeze DK
+  - Striker XT (HD)
 - Legendary augments for a turret/hull can now drop from Containers only after getting AT LEAST ONE of the rare augments for the corresponding turret/hull
-- “Phoenix” augments
+- "Phoenix" augments
   - Added an increase of regular damage by +15%;
     - Added an increase of critical damage by +15%;
     - Removed the reload time decrease;
 - Isida
   - Critical hit chance increase was changed from +5% to +3%
-    - “Nanomass reactor” augment
+    - "Nanomass reactor" augment
     - No longer consumes energy when attacking;
-    - “Shock Nanobot Injection”
+    - "Shock Nanobot Injection"
     - Energy consumption during healing decrease was changed from -50% to -90%; - Normal healing rate decrease was changed from -50% to -90%;
-    - “Vampire nanobots”
+    - "Vampire nanobots"
     - Removed the fixed value of Energy consumption when attacking - Added an increase of Energy consumption when attacking is enabled without any target by +200%
-    - “Sustainable Nanobots”
+    - "Sustainable Nanobots"
     - Removed the fixed value of Energy consumption when attacking - Added an increase of Energy consumption when attacking is enabled without any target by +200%
 - Siege (SGE) mode
   - Time to capture a point was increased from 12.5 to 25 seconds
     - Time to select a new point was increased from 12.5 to 17 seconds
     - The number of reputation points for capturing a point was increased from 30 to 50
     - The number of team points required to win was decreased from 8 to 5
-- The “Madness 2” map was added to the pool of PRO battle maps
-  - (Note) This is a version of the “Madness” map with the platform below
+- The "Madness 2" map was added to the pool of PRO battle maps
+  - (Note) This is a version of the "Madness" map with the platform below
 
 List of fixes:
 
-- Fixed the bug that caused a shadow of “MAX” badge in the list of Garage equipment to be slightly shifted
+- Fixed the bug that caused a shadow of "MAX" badge in the list of Garage equipment to be slightly shifted
 
 ### June 20th (Update 802)
 
 List of changes:
 
 - The following augments were added to Common and Epic Containers
-  - Shaft’s «Camper»
-    - Paladin’s «Grenadier»
+  - Shaft's «Camper»
+  - Paladin's «Grenadier»
 - Updated the default skin of Striker to the HD version
 - Updated the Ultra skin of Striker
   - Added missiles that fly out of the missile launchers
@@ -873,8 +873,8 @@ List of changes:
 
 List of fixes:
 
-- Fixed the visuals of shot and not shot primers on Hammer turret’s shells
-- Fixed the behaviour of switching between hover hulls control modes from “relative to camera” to “relative to hull” when holding the right mouse button
+- Fixed the visuals of shot and not shot primers on Hammer turret's shells
+- Fixed the behaviour of switching between hover hulls control modes from "relative to camera" to "relative to hull" when holding the right mouse button
   - (Note) This applies to Crusader and Ares hulls
 - It is now impossible to return to a Matchmaking battle after being kicked out of it
 
@@ -887,11 +887,11 @@ List of changes:
     - If you purchase the same pack again, you won't get this additional bonus part
     - The value of the bonus is different for each pack
 - The following augments were added to Common and Epic Containers
-  - Striker’s «Missile Launcher “Brass Knuckles”»
-    - Magnum’s «Camper»
-    - Hunter’s «Grenadier»
+  - Striker's «Missile Launcher "Brass Knuckles"»
+  - Magnum's «Camper»
+  - Hunter's «Grenadier»
 - The reward for catching a festive Cake Gold Box was changed from 15 Tankoins to 16 Rubies
-- You now need to claim rewards for Challenge levels manually by clicking on a reward, or by pressing the “Claim all” button
+- You now need to claim rewards for Challenge levels manually by clicking on a reward, or by pressing the "Claim all" button
 - Added a notification icon in the Lobby to the widgets of both the Challenge and Elite Pass to show if there are any rewards left to claim
 - Iran map was updated and received a Winter version
 - Added a new Parma Remastered map
@@ -903,16 +903,16 @@ List of changes:
 - Premium Pass now gives +150% crystals per battle, instead of +100%
 - Updated visuals and added animation to the Premium Pass pop-up window
 - Added the support of «EmissionColors» technology for materials that support texture displacement
-  - (Note) Thus, some colors on animated textures (e.g. Isida’s pipes or Vulcan Demonic’s band) can glow at night
+  - (Note) Thus, some colors on animated textures (e.g. Isida's pipes or Vulcan Demonic's band) can glow at night
 - Updated skyboxes for the following maps: Arena, Atra, Madness, Gravity, Monte-Carlo
 
 List of fixes:
 
 - Fixed the wrong values of energy recharge for Freeze and Firebird which was caused by excessive rounding of the parameter when counting values for different modifications of these turrets
-  - (Note) Thus, after upgrading the Mk1 modification of Firebird or Freeze, it doesn’t speed up energy recharge for a full second
-- Fixed Striker’s rocket damage when firing at static objects and tanks at extremely short distance
-- Fixed Striker’s rocket damage when shooting stationary tanks, or shooting from small distances.
-- Fixed the crash which happened when you go to Tankoins purchase screen when you tried to purchase a special offer in a pop-up window, but didn’t have enough Tankoins to do so
+  - (Note) Thus, after upgrading the Mk1 modification of Firebird or Freeze, it doesn't speed up energy recharge for a full second
+- Fixed Striker's rocket damage when firing at static objects and tanks at extremely short distance
+- Fixed Striker's rocket damage when shooting stationary tanks, or shooting from small distances.
+- Fixed the crash which happened when you go to Tankoins purchase screen when you tried to purchase a special offer in a pop-up window, but didn't have enough Tankoins to do so
 
 ### May 16th (Update 799)
 
@@ -920,11 +920,11 @@ List of changes:
 
 - The following skins were added to Legendary Containers:
   - Viking DK
-    - Thunder DK
-    - Vulcan LC
+  - Thunder DK
+  - Vulcan LC
 - The following augments were added to Common and Epic Containers:
-  - Ricochet’s “Camper” augment
-    - Crusader’s “Grenadier” augment
+  - Ricochet's "Camper" augment
+  - Crusader's "Grenadier" augment
 - Oracle drone now recharges supplies for different time depending on the activated supply
   - If Speed Boost is turned on, it is possible to switch to Boosted Damage in 5 seconds
     - If Speed Boost is turned on, it is possible to switch to Boosted Armor in 3 seconds
@@ -951,19 +951,19 @@ List of changes:
     - Cone angle increased from 15 to 20 degrees
     - Added unfreezing of ally tank when repairing from 0 to 25% per tick
     - Cooling down ally tank when healing increased from 0 to 25% per tick
-    - “Support Nanobots” augment
+    - "Support Nanobots" augment
     - Regular healing rate increase was changed from +100% to +0%; - Added a decrease to energy consumption when healing by -50%;
-    - “Broadband Radiators” augment
+    - "Broadband Radiators" augment
     - Cone angle increase was changed from +200% to +125%; - Range decrease was changed from -33% to -30%;
-    - “Vampire Nanobots” augment
+    - "Vampire Nanobots" augment
     - Energy consumption when attacking (units/sec.) = 166
-    - “Nanomass Reactor” augment
+    - "Nanomass Reactor" augment
     - Energy consumption when attacking (units/sec.) = 166
-    - “Sustainable Nanobots” augment
+    - "Sustainable Nanobots" augment
     - Energy consumption when attacking (units/sec.) = 166
-    - “Shock Nanobot Injection” augment
+    - "Shock Nanobot Injection" augment
     - Decrease of energy consumption when healing was changed from -20% to -50%;
-    - “Excelsior” augment
+    - "Excelsior" augment
     - Added a healing rate increase by +30%; - Added a critical healing increase by +30%;
     - (Note) Since the cylinder is now only used when healing, it is now possible to attack enemy tanks without worrying about spending energy.
 
@@ -980,7 +980,7 @@ We hope this change will make more different gameplay styles on Isida appealing.
     - Radius of adding an enemy tank to the circuit increased from 12-15 to 15-20 m.
     - Radius of adding Ball Lightning to the circuit decreased from 20-25 to 12-15 m.
     - Ball speed increased from 5 to 6 m/s
-    - “Shock Therapy” augment
+    - "Shock Therapy" augment
     - Added a decrease to regular damage by -35%; - Added a decrease to critical damage by -22.5%; - Shot range decrease was changed from -52% to -60%;
     - (Note) The previous version of Tesla depended too much on Ball Lightnings. Because of that, it only made sense to use it for defence. There was just not enough time to use Ball Lightnings when attacking. Now using Chain Lightnings from ally tanks is much better than from Ball Lightnings.
 - \[Turret\] Twins
@@ -991,13 +991,13 @@ We hope this change will make more different gameplay styles on Isida appealing.
     - Range increased from 80-100 to 95-125 meters
     - Projectile force decreased from 0.7-1.6 to 0.5-1.5
     - Explosion force changed from 1-2 to 0.7-2.1
-    - “Plasma Accelerators” augment
+    - "Plasma Accelerators" augment
     - Range of min damage increase changed from +100% to +50%; - Range increase changed from +100% to +50%;
-    - “Heavy Plasmagun” augment
+    - "Heavy Plasmagun" augment
     - Projectile speed decrease changed from -45% to -50%; - Added a decrease of min damage range by -45%; - Added a range decrease by -45%;
-    - “Plasma Turbo Accelerators” augment
+    - "Plasma Turbo Accelerators" augment
     - Initial projectile speed increase changed from +200% to +125%;
-    - “Plasmatron” augment
+    - "Plasmatron" augment
     - Initial projectile speed increase changed from +100% to +50%;
     - (Note) The turret is balanced to fit its new role of a medium range turret better.
 - \[Turret\] Ricochet
@@ -1009,9 +1009,9 @@ We hope this change will make more different gameplay styles on Isida appealing.
     - Range of min damage increased from 60-80 to 90-120 meters
     - Range increased from 80-10 to 95-125
     - Projectile impact increased from 1-2 to 1-3
-    - “Plasma-torch” augment
+    - "Plasma-torch" augment
     - Added a decrease of projectile speed after ricochet by 50%; - Added a decrease of range of min damage by 35%; - Added a decrease in range by 35%; - Added a decrease in projectile force by 50%;
-    - “Minus-field Stabilization” augment
+    - "Minus-field Stabilization" augment
     - Range of min damage increase changed from +100% to +50%; - Range increase was changed from +100% to +50%;
     - (Note) The turret is balanced to fit its new role of a medium range turret better.
 - \[Turret\] Vulcan
@@ -1026,7 +1026,7 @@ We hope this change will make more different gameplay styles on Isida appealing.
     - Reload decreased from 2,7-1,8 to 2,55-1,7 seconds
     - Reload after salvo decreased from 2,7-1,8 to 2,55-1,7 seconds
     - Angular rocket velocity decreased from 45-60 to 10-10 deg/s
-    - “Missile Launcher «Uranium»” augment
+    - "Missile Launcher «Uranium»" augment
     - Number of rockets per salvo: 4 - Regular damage increased from +70% to +125%; - Critical damage increased from +75% to +160%; - Added an increase in projectile acceleration time by +350%; - Aiming time decrease was changed from -75% to -35%; - Added an increase in pause between the rockets in a salvo by +400%; - Reload increase after a salvo was changed from +100% to +0%; - Added an explosion radius increase by +50%; - Maximum projectile speed was changed from 100 to 350 m/s;
 - \[Turret\] Thunder
   - Regular damage increased from 450-900 to 675-900
@@ -1046,7 +1046,7 @@ We hope this change will make more different gameplay styles on Isida appealing.
     - Final rocket angular speed decreased from 10 to 7 deg/sec
     - Projectile force decreased from 3-9 to 2.5-7 cond. units
     - Pause between the rockets in a salvo changed from 130-130 to 166-111 ms
-    - “Missile Launcher «Swarm»” augment
+    - "Missile Launcher «Swarm»" augment
     - Added a final rocket angular speed increase by 100%;
     - (Note) Standard shot was made more effective, while rocket salvo now only works against completely immovable targets. The turret was only effective at maximum range. Those changes should bring more opportunities on medium range.
 - \[Turret\] Magnum
@@ -1117,7 +1117,7 @@ We hope this change will make more different gameplay styles on Isida appealing.
   - Damage increased from 650-1300 to 900-1300
 - \[Augment\] Driver
   - Speed of overdrive reload (time) increase was changed from +50% to +100%;
-- The number of team points for capturing a flag in the “Assault” mode was changed from 12 to 15 units
+- The number of team points for capturing a flag in the "Assault" mode was changed from 12 to 15 units
 - Time before tank destruction that counts damage as assist decreased from 3 to 1 s
 - The number of reputation points you get for healing an ally decreased from 13 to 10
 
@@ -1144,23 +1144,23 @@ List of changes:
     - Decreased the time before destroying a tank that counts damage as assisting in destroying from 10 to 3 seconds
     - Decreased the reputation and experience points for assisting in destroying a bot or destroying a bot in solo format battles to 0
 - The following augments were added to Common and Epic Containers:
-  - Smoky’s “Camper” augment
-    - Viking’s “Grenadier” augment
+  - Smoky's "Camper" augment
+  - Viking's "Grenadier" augment
 
 ### April 25th (Update 797)
 
 List of changes:
 
 - The following augments were added to Common and Epic Containers:
-  - Gauss’ “Camper” augment
-    - Hornet’s “Grenadier” augment
+  - Gauss' "Camper" augment
+  - Hornet's "Grenadier" augment
 - The number of experience points you receive for actions in battles is decreased by 33% (30 XP → 20 XP, 15 XP → 10 XP)
   - (Note) We announced these changes in the previous episodes of the V-LOG, when we told that the speed of experience points earned was increased by 4 times in 2020. In the update #794 the increase rate made in 2020 was changed from х4 to х3. This update changes the rate from x3 to x2. Battle funds will remain at the x2 increase made in 2020. We might cancel this change after investigating long-term effects.
 - Shop Showcase is now updated for all players at the same time, during the daily servers restart
   - (Note) After this change, your Shop Showcase will be updated after each daily server restart, no matter when you claimed items from the Showcase during the previous day.
 - \[Turret\] Tesla
   - Horizontal auto-aim disabled for the ball lightning
-    - “Shock Therapy” augment
+    - "Shock Therapy" augment
     - Shot range decreased from 13 to 12 m.
 - \[Turret\] Hammer
   - Horizontal auto-aim disabled
@@ -1169,7 +1169,7 @@ List of changes:
   - Horizontal auto-aim changed to +0.2 deg for all modifications
 - \[Turret\] Smoky
   - Horizontal auto-aim changed to +0.2 deg for all modifications
-    - “Hyperspeed Rounds” augment
+    - "Hyperspeed Rounds" augment
     - Horizontal auto-aim changed from ±0.2 to ±0.4 deg.
 - \[Turret\] Thunder
   - Horizontal auto-aim changed to +0.2 deg for all modifications
@@ -1177,28 +1177,28 @@ List of changes:
   - Horizontal auto-aim changed to +0.4 deg for all modifications
 - \[Turret\] Railgun
   - Horizontal auto-aim changed to +0.2 deg for all modifications
-    - “Round Stabilization” augment
+    - "Round Stabilization" augment
     - Critical damage decrease changed from -32% to -24%
 - \[Turret\] Gauss
   - Horizontal auto-aim changed to +0.2 deg for all modifications
 - \[Turret\] Terminator
   - Impact force increased from 3 - 9 to 5 - 15;
 - Missions
-  - The required amount of reputation points for the weekly “Earn Reputation Points in Battles” mission increased from 5000 to 6000
-    - The required amount of battles for the weekly “Finish a Battle” mission decreased from 12 to 10
-    - The required amount of battles for the weekly Encore “Finish a Battle” mission decreased from 9 to 7
-    - The required amount of battles for the weekly Encore “Get into the TOP-3 of your team in battles” mission decreased from 2 to 1
-    - The required amount of reputation points for the weekly Secret “Earn Reputation Points in Battles” mission increased from 1000 to 2000
-    - Added the new daily Encore “Earn Reputation Points in Battles” mission with the requirement to earn 1000 reputation points
-    - Added the new weekly Encore “Earn Reputation Points in Battles” mission with the requirement to earn 5000 reputation points
+  - The required amount of reputation points for the weekly "Earn Reputation Points in Battles" mission increased from 5000 to 6000
+    - The required amount of battles for the weekly "Finish a Battle" mission decreased from 12 to 10
+    - The required amount of battles for the weekly Encore "Finish a Battle" mission decreased from 9 to 7
+    - The required amount of battles for the weekly Encore "Get into the TOP-3 of your team in battles" mission decreased from 2 to 1
+    - The required amount of reputation points for the weekly Secret "Earn Reputation Points in Battles" mission increased from 1000 to 2000
+    - Added the new daily Encore "Earn Reputation Points in Battles" mission with the requirement to earn 1000 reputation points
+    - Added the new weekly Encore "Earn Reputation Points in Battles" mission with the requirement to earn 5000 reputation points
 - The number of reputation points you get for assisting in destroying a tank decreased from 5 to 3
 - Pop-up announcements now appear again when their start/end dates are changed.
 
 List of fixes:
 
-- Fixed the bug that caused the “ERROR Unknown error Exception: Model already subscribed! class” message to appear.
-- Fixed the bug whereby activating Ares’ Overdrive led to frame rate drops.
-- Fixed the values of damage and rate of fire when Viking’s overdrive is activated for some augments
+- Fixed the bug that caused the "ERROR Unknown error Exception: Model already subscribed! class" message to appear.
+- Fixed the bug whereby activating Ares' Overdrive led to frame rate drops.
+- Fixed the values of damage and rate of fire when Viking's overdrive is activated for some augments
 - Performed technical maintenance in PRO-Battles; functionality is being restored with the release of this update.
 
 ### April 17th (Update 796)
@@ -1206,37 +1206,37 @@ List of fixes:
 List of changes:
 
 - The following augments were added to Common and Epic Containers:
-  - Hammer’s “Camper” augment
-    - Hopper’s “Grenadier” augment
+  - Hammer's "Camper" augment
+  - Hopper's "Grenadier" augment
 - \[Turret\] Hammer
   - One pellet force increased from 0.2 - 0.4 to 0.8 - 1.6;
-    - “Duplet” augment
+    - "Duplet" augment
     - Added a decrease to impact force by -50%;
-    - “Blunderbuss” augment
+    - "Blunderbuss" augment
     - Added an increase of amount of pellets per shot by +200%;
-    - “Hunter Duplet” augment
+    - "Hunter Duplet" augment
     - Added a decrease to impact force by -50%.
 - \[Turret\] Striker
   - Aim recovery time increased from 1 to 2 seconds;
 - \[Turret\] Railgun
-  - “Large caliber rounds” augment
+  - "Large caliber rounds" augment
     - Damage increase was changed from +33% to +50%; - Critical damage increase was changed from +33% to +25%.
-- All the turret “Phoenix” augments:
+- All the turret "Phoenix" augments:
   - Bonus to reputation points earned in a battle increased from +30% to +40%
 - Juggernaut (TJR/JGR)
   - The number of points for destroying a Juggernaut was decreased from 60 to 30
     - The number of points for assisting to destroy a Juggernaut was decreased from 30 to 15
 - Daily missions
   - The required amount of reputation points changed from 900 to 1000
-    - The daily “Use overdrive in battle 5 times” mission was replaced with the new “Starter” mission, which completes automatically when you open the daily missions screen
-    - (Encore) The daily Encore mission “Open 1 common container” was replaced with the “Use overdrive in battle 3 times” mission
-- Bots met on ranks 27 and above now have a built-in effect of the “Blaster” augment
+    - The daily "Use overdrive in battle 5 times" mission was replaced with the new "Starter" mission, which completes automatically when you open the daily missions screen
+    - (Encore) The daily Encore mission "Open 1 common container" was replaced with the "Use overdrive in battle 3 times" mission
+- Bots met on ranks 27 and above now have a built-in effect of the "Blaster" augment
 - Slightly reworked the tank explosion effect
 
 Hammer turret's hotfix (18/04)
 
-- Coefficient of decreasing shot reload duration when Viking’s overdrive is activated was changed from 0,4 to 0,7
-- Increase to regular and critical damage when Viking’s overdrive is activated was changed from +150% to 300%
+- Coefficient of decreasing shot reload duration when Viking's overdrive is activated was changed from 0,4 to 0,7
+- Increase to regular and critical damage when Viking's overdrive is activated was changed from +150% to 300%
 
 Hammer turret's hotfix (20/04)
 
@@ -1250,17 +1250,17 @@ Hammer turret's hotfix (20/04)
 List of changes:
 
 - The following Legendary augments were added to Common and Epic Containers:
-  - Tesla’s “Shock Therapy” augment
-    - Railgun’s “Camper” augment
-    - Wasp’s “Grenadier” augment
-- All the turret “Phoenix” augments now have the same parameters:
+  - Tesla's "Shock Therapy" augment
+  - Railgun's "Camper" augment
+  - Wasp's "Grenadier" augment
+- All the turret "Phoenix" augments now have the same parameters:
   - A +30% bonus to reputation points earned in a battle
     - An increase to critical hit chance of +30%
     - A decrease to reload time of -10%
-    - (Note) If a turret doesn’t have “Reload time”, instead it gets an increase to regular damage of +10%
+    - (Note) If a turret doesn't have "Reload time", instead it gets an increase to regular damage of +10%
     - An increase to vertical auto-aim angles of +15%
-    - (Note) If a turret doesn’t have “Vertical auto-aim angles”, it gets an increase to maximum range of +10%
-- The “Mortar” grenade is now available for 10,100 Crystals in the Garage
+    - (Note) If a turret doesn't have "Vertical auto-aim angles", it gets an increase to maximum range of +10%
+- The "Mortar" grenade is now available for 10,100 Crystals in the Garage
 - \[Turret\] Vulcan
   - Regular damage was increased from 40 - 80 to 50 - 100 HP
     - Critical damage was decreased from 150 - 300 to 100 - 200 HP
@@ -1269,11 +1269,11 @@ List of changes:
     - Time for overheating was decreased from 8 - 9 to 6 - 6 s
     - Critical hit chance was increased from 14% to 16%
     - Turret rotation while shooting deceleration coefficient was decreased from 0.9 to 0.5
-    - “Reinforced aiming transmission” augment
+    - "Reinforced aiming transmission" augment
     - Added an increase to turret rotation while shooting deceleration coefficient by +50%
-    - “Shooting speed regulator” augment
+    - "Shooting speed regulator" augment
     - Barrel startup time decrease was changed from -90% to -50%; - Barrel slowdown time decrease was changed from -90% → -85%; - Added an increase to time to overheat by +50%
-    - “Shredder” augment
+    - "Shredder" augment
     - Barrel startup time increase was changed from +100% to +900%; - Barrel slowdown time increase was changed from +100% → +50%; - Added an increase to maximum and minimum range by +50%
 - \[Turret\] Striker
   - Horizontal auto-aim angle changed from ±1,8-±0,6 to ±2,4-±1,2 deg.
@@ -1285,7 +1285,7 @@ List of changes:
   - Reload time changed from 40-30 to 50-25 s
 - \[Grenade\] Mortar
   - Reload time changed from 40-30 to 50-25 s
-- The “Mortar” grenade is now available in all modifications in the Early Access section of the Shop
+- The "Mortar" grenade is now available in all modifications in the Early Access section of the Shop
 - The requirement of the «Earn reputation points in battles» daily mission was changed from 700 to 900 units
 - The requirement of the «Earn stars» daily mission was changed from 16 to 12 units
 - The requirement of the «Finish battles by being in the winning team» weekly mission was changed from 5 to 3 units
@@ -1293,8 +1293,8 @@ List of changes:
 - The requirement of the «Earn experience points in battles» weekly mission was changed from 5000 to 4000 units
 - The requirement of the «Finish battles by being in the winning team» weekly Encore mission was changed from 3 to 1 unit
 - The requirement of the «Earn reputation points by playing in battles you entered via the «Quick battle» button» weekly Encore mission was changed from 1000 to 2000 units
-- The number of team points for capturing a flag in the “Assault” mode was changed from 9 to 12 units
-- The number of reputation points for capturing a flag in the “Assault” mode was changed from 20 to 5 units
+- The number of team points for capturing a flag in the "Assault" mode was changed from 9 to 12 units
+- The number of reputation points for capturing a flag in the "Assault" mode was changed from 20 to 5 units
 - Number of players per map was updated for the following maps:
   - Factory PRO 16 → 12
     - Gravity PRO 20 → 14
@@ -1331,9 +1331,9 @@ List of changes:
   - (Note) Currently, only shadowmap is supported; lightmap will be supported in remastered maps in the future.
 - A white flash effect was returned to the 3D model of the mine when it is placed, as it was in the Flash client.
 - Experience points for actions in battle were reduced by 25% (40 XP → 30 XP, 20xp → 15 XP).
-  - - We announced this change in the previous episodes of the V-LOG when we mentioned that the experience gain rate was increased fourfold in 2020. After this change, the experience gain rate will decrease from x4 to x3 compared to 2020. The funds earned in battle will remain at the x2 level of 2020. After analyzing the results of this change, we will decide whether it’s necessary to reduce the experience gain rate from x3 to x2.
+  - We announced this change in the previous episodes of the V-LOG when we mentioned that the experience gain rate was increased fourfold in 2020. After this change, the experience gain rate will decrease from x4 to x3 compared to 2020. The funds earned in battle will remain at the x2 level of 2020. After analyzing the results of this change, we will decide whether it's necessary to reduce the experience gain rate from x3 to x2.
 - The Gold Boxes now give experience points
-  - - Standard Gold Box — +1000 experience points - Container Box — +1000 experience points - Megagold with Crystals — +5000 experience points - Megagold with Rubies — +1000 experience points - Custom Gold Box — +0 experience points - Tank explosion in the April Fools' Gold Box — +0 experience points
+  - Standard Gold Box — +1000 experience points - Container Box — +1000 experience points - Megagold with Crystals — +5000 experience points - Megagold with Rubies — +1000 experience points - Custom Gold Box — +0 experience points - Tank explosion in the April Fools' Gold Box — +0 experience points
 - Standard daily and weekly missions now include +100 experience points as a reward for completing each mission.
 - The number of Rubies for completing the daily supermission was reduced from 3 to 2.
 - The number of Rubies for completing the weekly supermission was increased from 5 to 12.
@@ -1370,63 +1370,66 @@ List of fixes:
 List of changes:
 
 - Turret augments that apply the following status effects «Burning», «Freezing», «EMP», «AP», «Stun» and «Jammer» are now considered Epic instead of Legendary in the list of Container rewards
-  - (Note) These changes are not applied to any «Pulsar» augments and the Vulcan’s «Incendiary band» augment
+  - (Note) These changes are not applied to any «Pulsar» augments and the Vulcan's «Incendiary band» augment
 - The following augments are now considered Rare instead of Epic in the Garage and in the list of Container rewards
   - Firebird — High pressure pump
-    - Firebird — Compact fuel tanks
-    - Firebird — Incendiary mix
-    - Freeze — High pressure pump
-    - Freeze — Corrosive mix
-    - Freeze — Shock freeze
-    - Isida — Broadband radiators
-    - Isida — Support nanobots
-    - Isida — Nanomass reactor
-    - Tesla — Minus-field
-    - Tesla — Acceleration protocol
-    - Tesla — Dilatory protocol
-    - Hammer — Slugger
-    - Hammer — High-capacity ammo clip
-    - Hammer — Duplet
-    - Twins — Stabilized plasma
-    - Twins — Plasma accelerators
-    - Twins — Heavy plasmagun
-    - Ricochet — Destabilized plasma
-    - Ricochet — Minus-field stabilization
-    - Ricochet — Plasma-torch
-    - Vulcan — Shooting speed regulator
-    - Vulcan — Reinforced aiming transmission
-    - Vulcan — Incendiary band
-    - Smoky — Assault rounds
-    - Smoky — High-precision aiming system
-    - Smoky — Supercumulative rounds
-    - Striker — Missile launcher "Hunter"
-    - Striker — Missile launcher "Cyclone"
-    - Striker — Remote rocket explosives
-    - Thunder — Small caliber charging machine
-    - Thunder — Subcaliber rounds
-    - Thunder — Sledgehammer rounds
-    - Scorpion — Explosive shells
-    - Scorpion — Explosive warheads
-    - Scorpion —Missile launcher «Wolfpack»
-    - Magnum — Reinforced gun carriage
-    - Magnum — Automated gunpowder loading mechanism
-    - Magnum — Harpoon
-    - Railgun — Reinforced aiming transmission
-    - Railgun — Round stabilization
-    - Railgun — Electromagnetic accelerator "Scout"
-    - Gauss — Faster Horizontal Tracking
-    - Gauss — Hacked aiming processor
-    - Gauss — Large Caliber
-    - Shaft — Short-band emitter
-    - Shaft — Heavy capacitors
-    - Shaft — Light capacitors
+  - Firebird — Compact fuel tanks
+  - Firebird — Incendiary mix
+  - Freeze — High pressure pump
+  - Freeze — Corrosive mix
+  - Freeze — Shock freeze
+  - Isida — Broadband radiators
+  - Isida — Support nanobots
+  - Isida — Nanomass reactor
+  - Tesla — Minus-field
+  - Tesla — Acceleration protocol
+  - Tesla — Dilatory protocol
+  - Hammer — Slugger
+  - Hammer — High-capacity ammo clip
+  - Hammer — Duplet
+  - Twins — Stabilized plasma
+  - Twins — Plasma accelerators
+  - Twins — Heavy plasmagun
+  - Ricochet — Destabilized plasma
+  - Ricochet — Minus-field stabilization
+  - Ricochet — Plasma-torch
+  - Vulcan — Shooting speed regulator
+  - Vulcan — Reinforced aiming transmission
+  - Vulcan — Incendiary band
+  - Smoky — Assault rounds
+  - Smoky — High-precision aiming system
+  - Smoky — Supercumulative rounds
+  - Striker — Missile launcher "Hunter"
+  - Striker — Missile launcher "Cyclone"
+  - Striker — Remote rocket explosives
+  - Thunder — Small caliber charging machine
+  - Thunder — Subcaliber rounds
+  - Thunder — Sledgehammer rounds
+  - Scorpion — Explosive shells
+  - Scorpion — Explosive warheads
+  - Scorpion —Missile launcher «Wolfpack»
+  - Magnum — Reinforced gun carriage
+  - Magnum — Automated gunpowder loading mechanism
+  - Magnum — Harpoon
+  - Railgun — Reinforced aiming transmission
+  - Railgun — Round stabilization
+  - Railgun — Electromagnetic accelerator "Scout"
+  - Gauss — Faster Horizontal Tracking
+  - Gauss — Hacked aiming processor
+  - Gauss — Large Caliber
+  - Shaft — Short-band emitter
+  - Shaft — Heavy capacitors
+  - Shaft — Light capacitors
 - Epic Turret augments are now available for Rubies in the Shop
-  - - (Note) Thus all status augments for turrets are sold for Rubies, same as all status immunity augments for hulls aresold
-    - «Bomb» grenade was added to Common and Epic containers
-    - «Mortar» grenade was added to the «Epic» category of Common and Epic containers
-    - (Note) «Mortar» grenades can only be obtained from containers after you received it from Elite Pass or after you purchased it in the Garage (it will become purchasable there in future)
-    - The following augments were added to the «Legendary» category of Common and Epic containers:
-    - Ricochet’s «Plasma Resonator» augment - Thunder’s «Revolver» augment - Isida’s «Shock Nanobot Injection» augment - Freeze’s «Stable Mix» augment
+  - (Note) Thus all status augments for turrets are sold for Rubies, same as all status immunity augments for hulls aresold
+- «Bomb» grenade was added to Common and Epic containers
+- «Mortar» grenade was added to the «Epic» category of Common and Epic containers
+  - (Note) «Mortar» grenades can only be obtained from containers after you received it from Elite Pass or after you purchased it in the Garage (it will become purchasable there in future)
+- The following augments were added to the «Legendary» category of Common and Epic containers:
+  - Ricochet's «Plasma Resonator» augment
+  - Thunder's «Revolver» augment
+  - Isida's «Shock Nanobot Injection» augment
+  - Freeze's «Stable Mix» augment
 - Hammer
   - Horizontal auto-aim angle changed from ±1 to ±3,0-±1,8 deg.
     - Smoky
@@ -1464,7 +1467,7 @@ List of changes:
 - Bomb
   - Activation time after throw changed from 3,6 to 4,6-3,6 s.
 - List of fixes:
-- The logic of aiming of Thunder’s “Nanotech Shells” augment when shooting at allies has been reworked.
+- The logic of aiming of Thunder's "Nanotech Shells" augment when shooting at allies has been reworked.
 - Fixed supply availability ranks in the Shop Showcase. Now they match availability ranks in the Garage
 - Fixed visual bug with double grenade detonation on remote clients
 - Fixed the horizontal auto-aim behaviour for shells that can ricochet
@@ -1571,8 +1574,8 @@ List of changes:
     - Changed the number of GS points for Hull Mk 7 GS from 2600 - 3000 to 2600 - 3200
     - Changed the number of GS points for Legendary turret augments from 300 to 0
     - Changed the number of GS points for Legendary hull augments from 200 to 0
-- Thunder’s «Bolter» augment was added to Common and Epic containers
-- Shaft’s «Quasar» augment was added to Common and Epic containers
+- Thunder's «Bolter» augment was added to Common and Epic containers
+- Shaft's «Quasar» augment was added to Common and Epic containers
 - Added CAPTCHA check for the «Hyper» format battles when entering and re-entering a battle
 
 ### January 24th (Update 788)
@@ -1700,9 +1703,9 @@ List of changes:
     - The number of points in the SGE mode decreased from 7 to 5
 - The following skins were added to the Legendary container:
   - Thunder XT HD
-    - Hornet XT HD
-    - Titan GT
-    - Ricochet GT
+  - Hornet XT HD
+  - Titan GT
+  - Ricochet GT
 - Updated GS score calculations:
   - The number of points you get from turrets changed from 50 - 3000 to 33 - 4000
     - The number of points you get from hulls changed from 50 - 3000 to 33 - 3000
@@ -1715,7 +1718,7 @@ List of changes:
 
 List of changes:
 
-- Crusader’s «Cryo Cannon» overdrive now uses the projectile mechanics instead of facility ones
+- Crusader's «Cryo Cannon» overdrive now uses the projectile mechanics instead of facility ones
   - There is no longer a delay between hitting a target and explosion
     - Icicle now explodes on contact with a destroyed tank
     - Icicle can no longer be destroyed by activating EMP or Dome
@@ -1723,11 +1726,11 @@ List of changes:
     - Icicle now slows down when flying
     - (Note) It is much easier to aim and hit targets with the new Cryo Cannon. We added the ability to ricochet to the icicle in order to compensate for it.
 - «Bomb» grenades are added to the Sport mode for all players
-  - (Note) The Sport version of this Grenade has maximum parameters and doesn’t use Grenades from your inventory
+  - (Note) The Sport version of this Grenade has maximum parameters and doesn't use Grenades from your inventory
 
 List of fixes:
 
-- Fixed the bug with Crusader Cryo Cannon overdrive’s icicle that cause it to stay in front of a hull if the tank gets destroyed at the moment of launching the overdrive
+- Fixed the bug with Crusader Cryo Cannon overdrive's icicle that cause it to stay in front of a hull if the tank gets destroyed at the moment of launching the overdrive
 - Fixed the bug that caused the barrels of the Hammer (with the GT skin equipped) to be pointing at the sky when you see it at long distance
 - Fixed the bug that caused the mobile client to get bugged when you shoot projectiles that can ricochet
 
@@ -1743,7 +1746,7 @@ List of changes:
   - Initial projectile speed remains 90-180
     - Final projectile speed decreased from 90-180 to 10-10
     - Time to reach final projectile speed increased from 0 to 1
-    - “Plasma Resonator” augment:
+    - "Plasma Resonator" augment:
     - Projectile speed increase changed from +50% to +0%.
 - Smoky
   - Initial projectile speed remains 400-700
@@ -1806,7 +1809,7 @@ List of changes:
 - Smoky
   - Projectile speed increased from 300 - 500 to 400 - 700 m/sec.
 - Striker
-  - «Missile Launcher “Uranium”» augment:
+  - «Missile Launcher "Uranium"» augment:
     - Reload time after salvo increase changed from +50% to +100%.
     - «Vacuum Missiles» augment:
     - Average and minimal splash damage changed from 250% to 230%.
@@ -1816,9 +1819,9 @@ List of changes:
     - Time to reach final projectile speed decreased from 1 to 0.5 sec.
 - Scorpion
   - Projectile speed changed from 800 - 1000 to 500 - 1000 m/sec.
-    - «Missile Launcher “Spear”» augment:
+    - «Missile Launcher "Spear"» augment:
     - Minimum rocket speed increase changed from +300% to +50% - Maximum rocket speed increase changed from +100% to +10% - Initial angular rocket velocity is now 10 instead of 270 - Final angular rocket velocity is now 300 instead of 270
-    - «Missile launcher “Swarm”» augment:
+    - «Missile launcher "Swarm"» augment:
     - Minimum rocket speed decrease changed from -66% to -33%
 - Magnum
   - «Bombard» augment:
@@ -1833,8 +1836,8 @@ List of changes:
     - Salvo damage decrease changed from -30% to -20%.
     - «Hyperspeed Shells» augment:
     - Weak damage percentage changed from 300% to 270%
-- The Daily Mission “Finish battles by being in the winning team.” has been moved from Standard Daily Missions into Encore Daily Missions.
-- The Daily Mission “Earn Stars” now requires 16 stars to complete, instead of 15.
+- The Daily Mission "Finish battles by being in the winning team." has been moved from Standard Daily Missions into Encore Daily Missions.
+- The Daily Mission "Earn Stars" now requires 16 stars to complete, instead of 15.
 - In the tutorial, aiming at the bot for the first time is now equivalent to dealing damage to it.
 
 List of fixes:
@@ -1907,7 +1910,7 @@ List of changes:
     - Final projectile speed decreased from 250-350 to 240-340 m/seс
     - Time to reach final projectile speed changed from 0 to 1 s
 - Scorpion turret
-  - «Missile launcher “Tornado”» augment
+  - «Missile launcher "Tornado"» augment
     - Removed the decrease of salvo reload time; - Removed the increase of aiming recovery time; - Added a decrease of aiming recovery time by -50%;
 - Magnum turret
   - «Bombard» augment
@@ -1958,14 +1961,14 @@ List of changes:
     - The minimum rank needed to purchase the Mk5 modification was changed from 20 to 18.
     - The minimum rank needed to purchase the Mk6 modification was changed from 24 to 22.
 - Increased animation speed of VFX for the «Boosted Damage» supply for both «Oracle» and «Crisis» drones.
-- In clans, a button is added to report a violation in a clan’s description.
+- In clans, a button is added to report a violation in a clan's description.
 
 List of fixes:
 
 - Rework of supply launch VFX for the «Oracle» and «Crisis» drones. Now the activation effect is always displayed when restarting the supply, for example, when picking up a box.
 - Fixed a bug that caused the context menu window to disappear randomly when new messages appear in the Lobby chat.
 - Removed Grenades which are not yet publicly available from the list of items available by rank.
-- Fixed previews of all Early Access packs that were not updated to HD version when a respective turret’s skin was updated.
+- Fixed previews of all Early Access packs that were not updated to HD version when a respective turret's skin was updated.
 - Minor text changes, mainly for Japanese.
 
 ### November 1st (Update 780)
@@ -2017,10 +2020,10 @@ List of changes:
     - This drone can no longer be received from Containers
 - Added a VFX effect when activating the «Speed boost» supply for Crisis and Oracle drones.
 
-### List of fixes:
+List of fixes:
 
 - Fixed a bug that caused the rocket trail effect of the Scorpion to change its color.
-- In the sniper mode of Shaft, the «Boosted damage» supply’s effect is no longer displayed if Crisis or Oracle drone is equipped.
+- In the sniper mode of Shaft, the «Boosted damage» supply's effect is no longer displayed if Crisis or Oracle drone is equipped.
 
 ### October 18th (Update 778)
 
@@ -2040,7 +2043,7 @@ List of changes:
 - Tank health level for triggering the «Repair Kit» supply with activated supply auto-activation setting decreased from 34% to 25%.
 - Temporarily blocked the option to unequip drones. You now always have any drone equipped.
 
-### List of fixes:
+List of fixes:
 
 - With the release of the Android client update in Google Play to version 2.1.0, players no longer need to set Chrome as the default browser in their phone settings for stable client operation. The game itself finds the installed Chrome browser and uses it if is available.
 - Fixed the bug that caused the player to have 0 grenades in a tutorial battle, even if they were issued.
@@ -2056,7 +2059,7 @@ List of changes:
 - Added the ability to buy supplies for crystals in the Shop with one click, as in the Garage.
 - Automatic activation of supplies has been added for all platforms
 - A setting for disabling automatic activation of supplies has been added.
-- Now the automatic activation of supplies can work with the Crisis drone’s mechanic.
+- Now the automatic activation of supplies can work with the Crisis drone's mechanic.
 - Smoky
   - Regular damage increased from 315-630 to 355-710 HP
     - Critical damage increased from 355-710 to 450-900
@@ -2088,18 +2091,18 @@ List of changes:
 - Changed images of packs of crystals, Tankoins and stars
 - Updated Shop prices for some regions
 
-### List of fixes:
+List of fixes:
 
 - Fixed the bug which caused the camera to remain in first-person mode when using the centered version of the interface, after a quick shot in Shaft's sniper mode
 - Fixed the bug which caused tank outlines to stop working and break the auto-fire in mobile controls, after a quick shot in Shaft's sniper mode
 - Fixed the bug which caused tank outlines to remain white in Shaft's sniping mode even if the target had already lost invulnerability
 
-### October 4th (Update776)
+### October 4th (Update 776)
 
 List of changes:
 
 - Updated the default skin of Shaft to the HD version
-- Updated the Shaft’s sniper sight to the new minimalistic version
+- Updated the Shaft's sniper sight to the new minimalistic version
   - (Note) The new sight is approved by Shaft experts
 - Hammer
   - «Hunter Duplet» augment
@@ -2120,7 +2123,7 @@ List of changes:
 - Added a warning window about low Gear Score when starting the search for a Matchmaking battle
   - (Note) The pop-up window appears no more than once a day.
 
-### List of fixes:
+List of fixes:
 
 - Fixed the bug which caused Juggernaut bots to shoot at allied tanks if they used Isida before
 - Fixed the bug which caused bots being allocated inequitably in teams for a battle with only one player and bots
@@ -2133,7 +2136,7 @@ List of changes:
 - Added a new Striker augment to Epic Containers - «Jamming missiles»
   - (Note) Damage applies the «Jammer» status effect to an opponent for a short time.
 - An initial camera position has been added.
-  - After entering the battle, the player’s camera is at this position. Next, the camera moves to the tank’s respawn point as it happens when your tank is destroyed. All next respawns work as usual.
+  - After entering the battle, the player's camera is at this position. Next, the camera moves to the tank's respawn point as it happens when your tank is destroyed. All next respawns work as usual.
 - Indicators for preferred action were added for low ranks.
 - In the pause menu, a button was added to show the standard control scheme hint.
 - In-game news are disabled for low ranks to avoid their appearance during the tutorial.
@@ -2148,7 +2151,7 @@ List of changes:
     - Defender 14 → 19
     - Booster 15 → 20
 - Railgun
-  - If you detonate a grenade by your Railgun shot (make a combo shot), the damage this grenade deals is equal to the regular Railgun’s damage
+  - If you detonate a grenade by your Railgun shot (make a combo shot), the damage this grenade deals is equal to the regular Railgun's damage
     - (Note) This is a temporary solution while we work on adding separate settings for damage and other parameters of a combo shot
 - Gauss
   - Radius of max explosion damage changed from 5 to 5-7 m.
@@ -2174,7 +2177,7 @@ List of changes:
 - Brutus drone was added to Containers.
 - Bots now appear in battles for high ranks (27+, including Legend), but only when it takes too long to find a battle without bots.
 
-### List of fixes:
+List of fixes:
 
 - Fixed a bug due to which the grenade disappeared under certain conditions after changing equipment in a battle.
 - Fixed an error due to which the first bot in the tutorial did not stand still and began to move even if the player \*was in sight.
@@ -2186,7 +2189,7 @@ List of changes:
 
 - Server response period changed from 100 to 50 ms
   - (Note) This change improves the responsiveness of some events that required confirmation from the server.
-- Grenades have been added to the Shop’s Showcase with a 90% discount instead of Common keys.
+- Grenades have been added to the Shop's Showcase with a 90% discount instead of Common keys.
   - (Note) The remaining supplies in the Showcase are now also sold at a discount of 90% instead of 95%.
 - Hammer
   - Vertical spreading degree increased from 5 to 10 degrees
@@ -2204,13 +2207,13 @@ List of changes:
 - Red error notifications in the client have been moved to the upper left corner
   - (Note) Some changes are best left a mystery
 
-### List of fixes:
+List of fixes:
 
 - Camera control when pressing the grenade button has been fixed on the mobile version.
 - Fixed the bug that prevented special offers from displaying in the Shop for new players.
 - The size of protection icons above the tank has been corrected for 2K+ monitors and some phones.
 - Added missing kill zones in some pits on the «Berlin» map
-- Fixed the position of the base in the «RGB» mode on the «Silence» map for the defending team to protect from a Hopper’s exploit
+- Fixed the position of the base in the «RGB» mode on the «Silence» map for the defending team to protect from a Hopper's exploit
 - Fixed missing notifications in missions for new accounts
 
 ### September 6th (Update 773)
@@ -2245,7 +2248,7 @@ List of changes:
 
 Magnum «Harpoon» augment
 
-- - - Amplification time decrease changed from -50% to -75% - Added an increase of Impact force by +50%
+- Amplification time decrease changed from -50% to -75% - Added an increase of Impact force by +50%
 - Wasp
   - Turning speed increased from 100-130 to 100-195 degrees/second
     - Turning acceleration increased from 130-150 to 130-225 degrees/second²
@@ -2262,14 +2265,14 @@ Magnum «Harpoon» augment
 - Juggernaut Health recovering when picking up supply boxes in battle increased from 1000 to 4000 HP
 - Minimum radius of base protection from mining decreased from 10 to 5 m
 - Gold boxes only drop in battles starting from the rank of Master Sergeant (8)
-  - (Note) This restriction does not apply to players’ gold boxes
+  - (Note) This restriction does not apply to players' gold boxes
 - Added experimental support for SteamDeck (tm)
 - To play, you must force enable compatibility mode Steam Linux Runtime 3.0 (sniper) in the project settings on SteamOS
 - The official keyboard layout emulates keyboard and mouse control, support for analog control for gamepads will appear later
   - (Note) When the re-certification of the game for Steam Deck is completed, there will be no need to manually switch compatibility mode
 - Bots have been added the ability to use protection modules instead of health boost they had
 
-### List of fixes:
+List of fixes:
 
 - Fixed the bug that caused groups to get stuck in a long search in matchmaking.
 - Fixed the indication of supply use buttons in the HUD when they are reassigned by the player in the settings
@@ -2293,7 +2296,7 @@ List of changes:
 - The algorithm for distributing players into teams when creating a battle depending on their GearScore has been changed.
 - Bots in battle can now be encountered up to (including) the General rank (26).
 
-### List of fixes:
+List of fixes:
 
 - Fixed the bug that could cause menu items in the game lobby to disappear or become blocked.
 - After leaving a training battle, the results screen is skipped so as not to cause a situation where the "Play" button is blocked until re-entering the missions section.
@@ -2312,7 +2315,7 @@ List of changes:
 - Changed rewards of some of tutorial missions and entry bonus missions
 - Chance of getting equipment from regular containers decreased from 100% to 70%
 
-### List of fixes:
+List of fixes:
 
 - Translation updates
 
@@ -2328,9 +2331,9 @@ The list of changes:
     - Mk5: 10 → 11 steps
     - Mk6: 10 → 12 steps
     - Mk7: 20 → 20 steps
-- (Note) The total cost of upgrades hasn’t changed, you just need fewer clicks to make at the lower ranks. Existing upgrade steps are automatically converted.
+- (Note) The total cost of upgrades hasn't changed, you just need fewer clicks to make at the lower ranks. Existing upgrade steps are automatically converted.
   - Turrets and hulls are now using.a3d models instead of.3ds to separate the physical and visual parts of the tanks.
-- (Note) This change should help reduce frame rate drops when entering battles. The old system made the game calculate the physical details on the player’s device, but the new format makes those details ready to go. You'll likely see a big improvement on mobile devices.
+- (Note) This change should help reduce frame rate drops when entering battles. The old system made the game calculate the physical details on the player's device, but the new format makes those details ready to go. You'll likely see a big improvement on mobile devices.
 - Bots now support multiple players in a battle at the same time.
   - (Note) Up to the rank of First Sergeant, players will battle against both other players and bots.
 - For ranks from Gefreiter to First Sergeant, the matchmaking system now add bots instead of increasing the range of ranks.
@@ -2349,7 +2352,7 @@ Regular and critical damage increase changed from +23% to +20%;
 - Changed bases and respawns in the ASL mode for the «Year 2042» map
 - Changed geometry of the «Year 2042» map
 
-### The list of fixes:
+The list of fixes:
 
 - Fixed the bug that caused creating clans be available even before a player reaches the rank that unlocks access to the clans system
 
@@ -2384,7 +2387,7 @@ List of changes:
   - (Note) Critical damage applies the «Freezing» status effect to the enemy tank for a short period of time.
 - Added a matchmaking version of the «Siege» map with some improvements
   - (Note) With day, evening, night and winter themes, for multiple game modes.
-- Active contract’s progress was added to the battle results screen
+- Active contract's progress was added to the battle results screen
 - You can no longer activate a new contract unless you claim rewards for a contract that has rewards yet to be claimed.
 - Added notifications system for Contracts. You get a notification when there is a new contract or when you can claim rewards for a contract
 - You can now see rarity of a contract
@@ -2401,7 +2404,9 @@ List of fixes:
 
 List of changes:
 
-~~- Bots are now able to function with several real players in the battle at the same time.~~- ~~Matchmaking battles from the rank of X1 to X2 now prioritize the reduction of player count rather than increasing the rank distribution.~~ - ~~(Note) Free places in such battles will be filled with bots.~~
+- ~~- Bots are now able to function with several real players in the battle at the same time.~~
+- ~~Matchmaking battles from the rank of X1 to X2 now prioritize the reduction of player count rather than increasing the rank distribution.~~
+  - ~~(Note) Free places in such battles will be filled with bots.~~
 
 - Added temporary contracts for the new mini-game.
   - (Note) All contracts received at the time of the event will stop being valid after the event ends.
@@ -2416,8 +2421,8 @@ List of changes:
 
 List of fixes:
 
-- Improved the recoil of Crusader’s overdrive shot.
-- Magnum’s “Harpoon” augment added to Regular and Epic Containers.
+- Improved the recoil of Crusader's overdrive shot.
+- Magnum's "Harpoon" augment added to Regular and Epic Containers.
 
 ### June 28th (Update 766)
 
@@ -2426,7 +2431,7 @@ List of changes:
 - After a new player creates an account and before they enter their first battle, they see a new screen for assembling their tank
   - (Note) In the tank assembling screen a player has to choose from a limited range of turrets and hulls. However, there is an easter egg for old players who want to create a new account, which lets them choose any equipment they want. Once you find this secret way, you will hear an 8-bit sound effect.
 - The number of points you get for capturing a flag in the ASL mode is decreased from 80 to 20
-- Changed icons of the following augments: Thunder’s «Hyperspeed Shells» and Smoky’s «Hyperspeed Rounds»
+- Changed icons of the following augments: Thunder's «Hyperspeed Shells» and Smoky's «Hyperspeed Rounds»
 - Added video guides to descriptions of turrets
 
 List of fixes:
@@ -2474,7 +2479,7 @@ List of fixes:
 
 ### May 17th (Update 763)
 
-- Updated the sound of the Railgun’s «Magic» shot effect
+- Updated the sound of the Railgun's «Magic» shot effect
 - The logic of the Miner augment has been changed for all hulls.
   - Instead of a fixed number of protected mines, the augment now retains only 70% of the mines placed after each respawn of the tank with Miner.
     - The saved mines are chosen randomly
@@ -2536,7 +2541,7 @@ List of fixes:
     - «High-precision aiming system» augment
     - Reload time increase changed from +20% to +100% - Regular damage increase changed from +40% to +43% - Critical damage increase changed from +10% to +60% - Projectile speed decrease changed from -20% to -30%
     - «Supercumulative rounds» augment
-    - Critical damage when Viking’s overdrive is activated is now the same as for other augments
+    - Critical damage when Viking's overdrive is activated is now the same as for other augments
     - «Autocannon» augment
     - Critical hit chance decrease changed from -40% to -15%
     - «Explosive Rounds» augment
@@ -2576,15 +2581,15 @@ List of fixes:
     - Added a damage decrease by distance:
     - 100% of damage is dealt when the distance is 90-120 m. - Damage decreases when the distance is between 90-120 and 150-180 m. - Minimum damage after decrease is 50% of the base damage
 - Wasp
-  - N2-Bomb (Wasp’s overdrive) now can destroy mines in direct line of sight
+  - N2-Bomb (Wasp's overdrive) now can destroy mines in direct line of sight
     - Mines' destruction radius is 15 meters.
 - Hunter
-  - EMP (Hunter’s overdrive) now can destroy mines in direct line of sight
+  - EMP (Hunter's overdrive) now can destroy mines in direct line of sight
     - Mines' destruction radius is 15 meters.
 - Hopper
-  - Detonation Jump (Hopper’s overdrive) now can destroy mines in direct line of sight
+  - Detonation Jump (Hopper's overdrive) now can destroy mines in direct line of sight
     - Mines' destruction radius is 15 meters.
-- When a player’s nickname gets changed, the player now receives a free Rename Pass
+- When a player's nickname gets changed, the player now receives a free Rename Pass
 - Fixed minor bugs in the tutorial
 - Updated Shop prices for some regions
 
@@ -2599,7 +2604,7 @@ List of fixes:
 
 - Remastered the tank explosion effect
 - Horizontal auto-aim performance optimised for ricocheting shells
-  - (Note) Once a shell ricochets, horizontal auto-aim won’t work anymore, only the vertical one. This change will save CPU time on weak devices and is unlikely to be noticeable in battle
+  - (Note) Once a shell ricochets, horizontal auto-aim won't work anymore, only the vertical one. This change will save CPU time on weak devices and is unlikely to be noticeable in battle
 - Firebird
   - «Pulsar» augment
     - Critical damage chance decrease changed from -20% to -25%
@@ -2617,7 +2622,7 @@ List of fixes:
     - Lightning ball reload duration increase changed from +200% to +150%
 - Twins
   - «Plasmatron» augment
-    - Damage boost when Viking’s overdrive is activated halved to compensate for very high damage bonus
+    - Damage boost when Viking's overdrive is activated halved to compensate for very high damage bonus
     - «Pulsar» augment
     - Critical damage chance decrease changed from -16% to -20%
 - Ricochet
@@ -2643,9 +2648,9 @@ List of fixes:
 
 ### April 12th (Update 760)
 
-- Added a new Railgun’s «Magic» shot effect to Epic Containers:
+- Added a new Railgun's «Magic» shot effect to Epic Containers:
   - (Note) This is the first new shot effect in a long time. We will try to prepare a new shot effect for each turret that already has a remastered version of the standard shot effect. We also remind you that shot effects only affect visuals.
-- In the list of missions of a supermission, you will now see missions that are not available yet (e.g. if a mission hasn’t started yet)
+- In the list of missions of a supermission, you will now see missions that are not available yet (e.g. if a mission hasn't started yet)
   - (Note) This will help us to avoid confusion when you see that you have completed all the missions available but cannot complete the supermission yet
 - Inactivity waiting time increased from 1 to 3 minutes
   - (Note) This is a temporary change to avoid players of the mobile version from being kicked for inactivity due to long resources loading time
@@ -2658,7 +2663,7 @@ List of fixes:
   - (Note) This augment makes Twins become a two-barrel Thunder. Plasma balls fly faster and deal a lot of damage. However, recharge time between launched plasma balls is greatly increased.
 - Added a new Vulcan augment to Epic Containers - «Stunning Band»
   - (Note) Critical damage applies the «Stun» status effect to the enemy tank.
-- Increased price in crystals for packs of keys in the Shop’s showcase
+- Increased price in crystals for packs of keys in the Shop's showcase
 - Fixed duplicate textures of battle interface icons
 
 ### March 22th (Update 757)
@@ -2674,7 +2679,7 @@ List of fixes:
 - The encore «Destroy enemy tanks with critical damage» mission is removed from the game
 - The number of missions required in the weekly «Complete daily missions» mission increased from 30 to 35
 - The encore «Successfully deliver flags/balls to the correct base» mission is removed from the game
-- The weekly «Earn reputation points in the «Team Deathmatch» (TDM) mode» mission has been replaced with a new «Earn 2000 reputation points by playing in battles you entered via the “Quick Battle” button» mission
+- The weekly «Earn reputation points in the «Team Deathmatch» (TDM) mode» mission has been replaced with a new «Earn 2000 reputation points by playing in battles you entered via the "Quick Battle" button» mission
 - The weekly «Earn reputation points in the «Control Points» (CP) mode» mission has been replaced with a new «Earn 3000 reputation points in battles» mission
 - The weekly «Earn reputation points in the «Capture the Flag» (CTF) mode» mission has been replaced with a new «Play till the end in 12 battles» mission
 - The weekly «Earn reputation points in the «Assault» (ASL) mode» mission has been replaced with a new «Earn 2000 crystals in battles» mission
@@ -2682,7 +2687,7 @@ List of fixes:
 - The weekly «Earn reputation points in the «Team Juggernaut» (TJR) mode» mission has been replaced with a new «Activate 400 of any supplies in battles» mission
 - The weekly «Earn reputation points in the «Siege» (SGE) mode» mission has been replaced with a new «Earn 60 stars» mission
 - The «Spectrum» protection modules now have the default protection of 5% and can be upgraded to 15%, 20%, 25% or 30% (depending on a type of a module) for a small amount of crystals
-  - (Note) In some special modes upgrades are disabled and regular modules have low protection level there. As for players with these special modules, they have an unintended advantage that might seem unfair to other players. To avoid controversial situations, we changed the initial protection value to 5% for all such modules, and made the total upgrade price minimum, so owners of these modules won’t need to spend significant amounts of crystals. The total price of full upgrade of the Spectrum module will not exceed 15,000 crystals.
+  - (Note) In some special modes upgrades are disabled and regular modules have low protection level there. As for players with these special modules, they have an unintended advantage that might seem unfair to other players. To avoid controversial situations, we changed the initial protection value to 5% for all such modules, and made the total upgrade price minimum, so owners of these modules won't need to spend significant amounts of crystals. The total price of full upgrade of the Spectrum module will not exceed 15,000 crystals.
 - Removed the option to Report messages in clan chats
 - Optimised the render system in the HTML5 client
 
@@ -2709,11 +2714,11 @@ List of fixes:
 - An experimental 3D indicator of the direction of damage received can be turned on in the game settings.
   - (Note) We would like to hear your feedback about how this prototype works
 - Fixed the bug that made the interface much bigger than intended on certain phones.
-- The following augments were added in the “Legendary” category of Common and Epic containers.
+- The following augments were added in the "Legendary" category of Common and Epic containers.
   - Driver for Hopper
-    - Blaster for Viking
-    - Blaster for Dictator
-    - Lifeguard for Ares
+  - Blaster for Viking
+  - Blaster for Dictator
+  - Lifeguard for Ares
 - Hammer
   - Shot reload decreased from 1.65-1 to 1.35-0.8 s
 - Terminator
@@ -2729,10 +2734,10 @@ List of fixes:
     - Damage from self-destruction decreased from 5 000-20 000 to 2 500-10 000
 - Team score to end the battle changed for the following modes:
   - TDM 150 → 160
-    - CTF 7 → 10
-    - ASL 150 → 160
-    - RGB 7 → 12
-    - TJR 10 → 15
+  - CTF 7 → 10
+  - ASL 150 → 160
+  - RGB 7 → 12
+  - TJR 10 → 15
 - Time before flags appear in CTF battle mode 60 → 90 s
 
 ### February 22nd (Update 753)
@@ -2746,7 +2751,7 @@ List of fixes:
   - (Note) Critical damage applies the «EMP» status effect to the enemy tank.
 - Changed the way you get stars for battles
   - Now the maximum number of stars you can get per battle depends on battle duration.
-    - (Note) A battle should last at least 11 minutes for the TOP-1 player to get 3 stars. If a battle lasts less than 3 minutes, players don’t receive stars at all.
+    - (Note) A battle should last at least 11 minutes for the TOP-1 player to get 3 stars. If a battle lasts less than 3 minutes, players don't receive stars at all.
     - For battles that are longer than 13 minutes, i.e. special mode battles, the maximum number of stars is not limited to 3.
     - (Note) For a battle that lasts 30 minutes, the TOP-1 player may get 8 stars.
 - Entering a matchmaking battle with the «Quick battle» button gives you an extra star.
@@ -2755,28 +2760,28 @@ List of fixes:
   - (Note) Chances are different for each player because they depend on how many of the other items available that you already have.
 - Fixed the bug that crashed the game client when you click the Missions tab once a battle finishes.
 - Fixed the bug that crashed the game client when you redeem certain promocodes.
-- Fixed the bug that caused your tank’s camera to stay at the place your tank was destroyed and your tank not respawning.
-- Fixed how the shot geometry works when you use Shaft’s sniping mode.
+- Fixed the bug that caused your tank's camera to stay at the place your tank was destroyed and your tank not respawning.
+- Fixed how the shot geometry works when you use Shaft's sniping mode.
   - (Note) The geometry has become rougher, but it saves memory significantly.
 - Changed mission rewards
   - For Daily Supermission — 3 tankoins
     - For Daily Encore mission — 1 star
-    - Player doesn’t receive rewards for completing Weekly missions anymore
+    - Player doesn't receive rewards for completing Weekly missions anymore
     - For Weekly Supermission — 3 tankoins (instead of 24)
     - For Weekly Encore supermission — 1 Rare Key (instead of 1 Epic Key)
     - For Weekly Encore missions — 1 Common Key
 - The following augments were added to the «Legendary» category of Epic Containers.
   - Blaster for Wasp
-    - Blaster for Hornet
-    - Blaster for Hopper
-    - Lifeguard for Viking
-    - Lifeguard for Crusader
-    - Lifeguard for Hunter
-    - Lifeguard for Paladin
-    - Lifeguard for Dictator
-    - Miner for Ares
-    - Miner for Titan
-    - Miner for Mammoth
+  - Blaster for Hornet
+  - Blaster for Hopper
+  - Lifeguard for Viking
+  - Lifeguard for Crusader
+  - Lifeguard for Hunter
+  - Lifeguard for Paladin
+  - Lifeguard for Dictator
+  - Miner for Ares
+  - Miner for Titan
+  - Miner for Mammoth
 - Increased parameters of all hulls and turrets in modifications from Mk2 to Mk7:
   - The difference between the Mk7 and the MkMAX modifications has been halved
     - The changes affected the way Gear Score is counted. Now Mk7 modification gives you 2300 points instead of 2100
@@ -2792,7 +2797,7 @@ List of fixes:
 - Vulcan
   - Critical damage is increased from 100-200 to 150-300 HP
     - Critical hit chance is decreased from 2% to 1,4%
-    - Damage boost when Viking’s overdrive is activated is increased from +400% to +600%
+    - Damage boost when Viking's overdrive is activated is increased from +400% to +600%
 - Thunder
   - Projectile speed is increased from 300-350 to 250-350 m/s
     - Radius of max explosion damage is increased from 2 to 3 m.
@@ -2851,20 +2856,20 @@ List of fixes:
 
 ### January 19th (Update 751)
 
-- Added a new Striker augment to Epic Containers — «Missile Launcher ”Meteor”»
+- Added a new Striker augment to Epic Containers — «Missile Launcher "Meteor"»
   - (Note) Increased damage when you hit a target. Splash damage is greatly reduced, but impact force is increased.
 - The following augments have been added to Common and Epic containers in the «Legendary» rarity category:
   - Magnetic Nanobots for Isida
-    - Stunning Nanobots for Isida
-    - Toxic Nanobots for Isida
-    - Jamming Nanobots for Isida
+  - Stunning Nanobots for Isida
+  - Toxic Nanobots for Isida
+  - Jamming Nanobots for Isida
 - Containers now have a guarantee that prizes of better rarity will drop after opening the required number of containers
   - Common Container
     - Rare item is guaranteed after opening 15 - Epic item is guaranteed after opening 100 - Legendary item is guaranteed after opening 300
     - Epic Container
     - Epic item is guaranteed after opening 15 - Legendary item is guaranteed after opening 100 - Exotic item is guaranteed after opening 300
 - Added Freeze Legacy skin to Legendary Containers
-- Added a temporary block of the «Upgrade for Tankoins» button, so you won’t accidentally click on it when you are out of crystals while upgrading your items
+- Added a temporary block of the «Upgrade for Tankoins» button, so you won't accidentally click on it when you are out of crystals while upgrading your items
 - Minor improvements to Desert MM and Magistral MM maps
 - Removed the option to choose a country flag for your clan
 - Fixed the bug with Container notification dots
@@ -2918,7 +2923,7 @@ List of fixes:
     - (Note) You no longer earn containers. They are now always available in the Containers menu screen. However, you need to earn keys. A key is used to open a container of the same type.
 - Players no longer have units of containers in the Garage
   - If a player agreed to the conversion procedure, 1 key has been added for each 10 containers they had.
-    - If a player didn’t agree to the conversion procedure, all the containers in their Garage have been opened and the prizes added to their accounts.
+    - If a player didn't agree to the conversion procedure, all the containers in their Garage have been opened and the prizes added to their accounts.
 - The contents of Epic Containers have been updated.
   - Added a new augment for Striker — «Vacuum Missiles»
     - (Note) The further a target is from the epicenter of the explosion, the more damage it receives. Pressing the fire button again immediately detonates the missile while it is still in the air.
@@ -3004,7 +3009,7 @@ List of fixes:
   - (Note) Critical damage applies the «Armor-Piercing» status effect to an opponent. But in turn, the critical damage is significantly decreased.
 - Changed the way the initial/next Juggernaut is determined in the team mode
   - This may cause a significant delay between the current Juggernaut getting destroyed and another Juggernaut appearing
-    - We won’t disclose the rules of determining the next Juggernaut to prevent any attempts of mass abuse
+    - We won't disclose the rules of determining the next Juggernaut to prevent any attempts of mass abuse
 - Freeze
   - Critical hit chance decreased from 5% to 4%
 - Isida
@@ -3098,7 +3103,7 @@ List of fixes:
   - (Note) Critical damage applies the «Stun» status effect to the enemy tank for a short time.
 - Added a new Magnum augment to Ultra Containers — «Jamming Core»
   - (Note) Each shot applies the «Jammer» status effect to all targets caught in the explosion radius. With critical hits, the duration of the effect increases.
-- Added a new «Your Progress» screen to the Lobby. Click on your rank’s icon to get more information about next ranks and to find out when desired equipment becomes available.
+- Added a new «Your Progress» screen to the Lobby. Click on your rank's icon to get more information about next ranks and to find out when desired equipment becomes available.
 - You now need to fully upgrade your current modification of equipment to unlock the next one
 - Changed prices of modifications for all equipment:
   - Mk2 — 3 Tankoins
@@ -3119,7 +3124,7 @@ List of fixes:
 - Smoky
   - Projectile speed increased from 300-400 to 400-500 m/sec
 - Striker
-  - «Missile Launcher “Faust”» augment
+  - «Missile Launcher "Faust"» augment
     - Added a +100% increase of Reload after salvo
 - Scorpion
   - Projectile speed decreased from 1000 to 800-1000 m/sec
@@ -3129,7 +3134,7 @@ List of fixes:
   - Power decreased from 800-1300 to 550-600
     - Braking increased from 1 to 1.5
     - Reverse acceleration increased from 9-14 to 18-22 м/s²
-    - Overdrive’s Instant Damage decreased from 1500-3000 to 1000-2000 HP
+    - Overdrive's Instant Damage decreased from 1500-3000 to 1000-2000 HP
 - Crusader
   - Power decreased from 900-1300 to 600-700
     - Braking increased from 1 to 1.5
@@ -3197,10 +3202,10 @@ List of fixes:
 - Added «Engineer» augment available for crystals for all hulls in the Garage.
   - (Note) With this augment, the tank is repaired when any box is picked from the ground.
 - The following augments have been added to Regular and Ultra Containers:
-  - Ricochet’s «Helios» augment
-    - Thunder’s «Strict Ammunition Load» augment
-    - Scorpion’s «Missile Launcher "Tornado"» augment
-    - «Engineer» augment for all hulls
+  - Ricochet's «Helios» augment
+  - Thunder's «Strict Ammunition Load» augment
+  - Scorpion's «Missile Launcher "Tornado"» augment
+  - «Engineer» augment for all hulls
 - Added Halloween decorations to the Garage
 - Updated visual effects of throwing a grenade and grenade explosion
 - Removed the requirement to have a drone equipped to use supplies
@@ -3222,11 +3227,11 @@ List of fixes:
     - Salvo reload time decrease changed from -50% to -75%; - Final angular rocket velocity increase changed from +300% to +1900%; - Rocket acceleration phase duration decrease changed from -75% to -50%
 - Railgun
   - «Stun Rounds»
-    - «Stun» status effect’s duration decreased from 1.5 to 1 s
+    - «Stun» status effect's duration decreased from 1.5 to 1 s
     - «Super Armor-Piercing Rounds»
-    - «Armor-Piercing» status effect’s duration decreased from 6 to 5 s
+    - «Armor-Piercing» status effect's duration decreased from 6 to 5 s
     - «Jamming Rounds»
-    - «Jammer» status effect’s duration increased from 5 to 9 s
+    - «Jammer» status effect's duration increased from 5 to 9 s
 - Juggernaut destroys surrounding tanks when destroyed.
   - (Note) Self-destructing at close range can destroy the enemy Juggernaut
 - Juggernaut restores 1000 health points when any box is picked up
@@ -3247,7 +3252,7 @@ List of fixes:
 
 ### September 22th (Update 739)
 
-- Added a new Striker augment to Ultra Containers — «Missile Launcher “Faust”»
+- Added a new Striker augment to Ultra Containers — «Missile Launcher "Faust"»
   - (Note) This augment limits range of fire to just 40 meters, but instead it gives you reduced aim and reload time by 50%
 - Added a new Striker augment to Ultra Containers — «Magnetic Missiles»
   - (Note) This augment applies the EMP status effect on critical hits.
@@ -3276,7 +3281,7 @@ List of fixes:
 
 ### September 8th (Update 738)
 
-- Added a new Striker augment to Ultra Containers — «Missile Launcher “Faust”»
+- Added a new Striker augment to Ultra Containers — «Missile Launcher "Faust"»
   - (Note) This augment limits range of fire to just 40 meters, but instead it gives you reduced aim and reload time by 50%
 - Added a new Striker augment to Ultra Containers — «Magnetic Missiles»
   - (Note) This augment applies the EMP status effect on critical hits.
@@ -3331,15 +3336,15 @@ List of fixes:
 - Added a new Hammer augment to Ultra Containers — «Heavy Slugger»
   - (Note) This augment acts like an upgraded slugger. Pellets fly much farther, but the turret rotation speed is reduced.
 - Updated the standard skin for Hammer to its HD version.
-  - (Note) After many changes in game balance, Hammer’s horizontal spreading of pellets has increased. To signify that, we’ve added a second barrel to the turret.
+  - (Note) After many changes in game balance, Hammer's horizontal spreading of pellets has increased. To signify that, we've added a second barrel to the turret.
 - Hammer
   - Updated standard skin
     - «Assault Magazine» augment
     - Changed clip reload time from -40% to -30%
 - Striker
-  - «Missile Launcher “Tandem”» augment
+  - «Missile Launcher "Tandem"» augment
     - Salvo reload time changed from +100% to +80%
-    - «Missile Launcher “Hydra”» augment
+    - «Missile Launcher "Hydra"» augment
     - Pause between salvo's rockets changed from -30% to -20%
 - Gauss
   - «Hyperspeed Shells» augment
@@ -3350,13 +3355,13 @@ List of fixes:
     - Lost Temple Map (not the MM version) now supports up to 90 players.
     - (Note) These are experimental changes and may be reverted in the future.
 - Game statistics on older protection modules were transferred to the new protection modules.
-- To increase security, players’ authorization resets every 30 days even if they have 2FA enabled.
+- To increase security, players' authorization resets every 30 days even if they have 2FA enabled.
 - Improvements in the UI of the mobile HTML5 version of the game.
 
 ### August 4th (Update 734)
 
 - Added a new augment to Ultra Containers for Isida — «Magnetic Nanobots»
-  - (Note) This augment disables opponents’ supplies with critical hits.
+  - (Note) This augment disables opponents' supplies with critical hits.
 - New format for Daily and Weekly Missions has been introduced.
   - Players do not receive three missions of each kind anymore
     - Daily Missions can not be changed for crystals anymore
@@ -3390,7 +3395,7 @@ List of fixes:
 - Drones and Protections Modules are also hidden with a question mark.
 - Augments not owned by the player are also hidden with a question mark.
 - Hull descriptions now contain a video showing its overdrive in use.
-- Fixed the description of Gauss’ «Hyperspeed Shells» augment
+- Fixed the description of Gauss' «Hyperspeed Shells» augment
   - (Note) The absence of damage increase for salvo shots is not a bug, but a feature.
 - Fixed a bug due to which the Trickster drone did not cause cooldown of other supplies.
   - (Note) The absence of supply cooldown for Trickster was a bug, not a feature.
@@ -3402,7 +3407,7 @@ List of fixes:
 
 ### July 28th (Update 733)
 
-- Fixed bots’ weird behaviour
+- Fixed bots' weird behaviour
   - (Note) This bug usually appeared in the evening and made bots drive backward, not move, not shoot, etc.
 - Added a special question mark icon for items that are not yet available for new players
   - (Note) It also works for items that have been added to the game but not yet publicly announced
@@ -3479,7 +3484,7 @@ List of fixes:
   - Bots are added for ranks starting from rank 1 (Recruit) to 6 (Sergeant)
     - Optimized server performance of bots
     - Fixed the bug with bots getting progress in missions as if they were players
-    - For battles with bots, the battle duration depends on a player’s rank
+    - For battles with bots, the battle duration depends on a player's rank
     - Recruit — 4 minutes - Private — 6 minutes - Corporal — 8 minutes - Sergeant — 10 minutes
 - Firebird
   - Regular damage decreased from 500-1300 to 450-1200 HP
@@ -3513,14 +3518,14 @@ List of fixes:
   - You no longer see the Tutorial category after having completed all the missions in it
     - You will see the Event category during the whole duration of the event (even after having completed all the missions in it)
     - You will always see Daily, Weekly, Special, and Contract mission categories (even after having completed all the missions in them)
-- You now see the number of missions you haven’t completed yet for each mission category
+- You now see the number of missions you haven't completed yet for each mission category
 - HTML5 version got touch screen support and multiple changes to the UI for mobile devices
 - Firebird
   - Regular damage decreased from 140-350 to 125-325 HP/tick
     - Critical damage decreased from 140-400 to 150-375 HP/tick
     - Reload time increased from 2.0-1.0 to 2.0-1.5 sec
 - «Pulsar» augments no longer decrease the critical damage chance of any turret
-- B0-NK turret now supports Viking’s overdrive effect
+- B0-NK turret now supports Viking's overdrive effect
 - Added a warning screen informing about the need for a manual update of the desktop client for those who still use the older version of it, which does not support automatic updates.
 - Added a special version of the Daily Tankoins Pass offer with a 90% discount
   - Note: This special offer is only available for new accounts, registered after 23.06.2023. It can only be purchased once.
@@ -3556,10 +3561,10 @@ List of fixes:
 - New XT skin for Viking added to Ultra Containers
   - (Note) This is a new HD version of the Viking XT skin. The previous version will stay in the Garages of its owners and will not be removed. We do see your requests about replacing the old XT skin with the new XT HD skin. Though we understand your emotions, we cannot do it due to the huge difference in the costs of production between old and new skins. Besides that, you often ask us to keep the old versions of skins instead of replacing them. Therefore, launching a new XT HD lineup of skins will be beneficial for everyone.
 - «Elite Pass» added to the game as a temporary event. You will be able to obtain the new XT HD skin for Freeze. «Elite Pass» has its own price and does not unlock the prizes in the usual challenge.
-  - (Note) This additional “challenge” is completed by earning or buying the same stars, and according to the same rules as the usual challenges.
+  - (Note) This additional "challenge" is completed by earning or buying the same stars, and according to the same rules as the usual challenges.
 - Hammer
   - «Pulsar» augment
-    - Fixed the coefficient of decreasing shot reload duration when Viking’s overdrive is activated
+    - Fixed the coefficient of decreasing shot reload duration when Viking's overdrive is activated
 - Striker
   - Critical damage chance reduced from 26% to 20%
 - Modules
@@ -3589,7 +3594,7 @@ List of fixes:
   - Overdrive charge per second decreased from 666 to 555 unit/sec
 - Modules
   - The rank at which Mk1-Mk6 modules become available increased from Lieutenant Colonel (21) to Lieutenant General (25)
-- Players who haven’t entered the game for at least 300 days in a row, get a special bonus upon entering the game.
+- Players who haven't entered the game for at least 300 days in a row, get a special bonus upon entering the game.
 
 ### May 19th (Update 724)
 
@@ -3631,7 +3636,7 @@ List of fixes:
   - Reload time decreased from 1.81-1.15 to 1.5-1 seconds
     - Critical damage decreased from 670-800 to 395-790 HP
     - Average critical damage chance changed from 11-22% to 15%
-    - Coefficient of decreasing shot reload duration when Viking’s overdrive is activated changed from 0.25 to 0.3
+    - Coefficient of decreasing shot reload duration when Viking's overdrive is activated changed from 0.25 to 0.3
     - «Autocannon» augment
     - The regular damage decrease changed from -75% to -50% - Added a decrease of critical damage chance by -40%
     - «Pulsar» augment
@@ -3666,19 +3671,19 @@ List of fixes:
   - When you open the «Missions» screen, you will be shown the categories of missions
     - There is a separate category for missions of each event with a timer showing how much time there is left to complete them.
     - Challenges are removed from this screen. To access them, you need to click on the special widget in the Lobby.
-    - (Note) You will see some new categories of missions, which have never been in the game before. We won’t tell you what these missions are and when new ones will be added. Keep an eye on our website and social media to be the first to find out.
+    - (Note) You will see some new categories of missions, which have never been in the game before. We won't tell you what these missions are and when new ones will be added. Keep an eye on our website and social media to be the first to find out.
 - Drone rebalance
   - The following drones are removed from the game: Driver, Trooper, Engineer, Sprinter, Miner, Supplier, Assault, Lifeguard, Blaster, and Camper.
-    - Players will get a compensation of 60% of the crystals they spent on upgrading the removed drones.
-    - Batteries are removed from the game.
-    - You will get compensation for all batteries you had. For every battery, you get 1 unit of each of the following supplies: Repair Kit, Boosted Armor, Boosted Damage, and Speed Boost.
-    - (Note) Do not forget to check if you have a drone equipped before entering a battle otherwise you will not have access to supplies!
+  - Players will get a compensation of 60% of the crystals they spent on upgrading the removed drones.
+  - Batteries are removed from the game.
+  - You will get compensation for all batteries you had. For every battery, you get 1 unit of each of the following supplies: Repair Kit, Boosted Armor, Boosted Damage, and Speed Boost.
+  - (Note) Do not forget to check if you have a drone equipped before entering a battle otherwise you will not have access to supplies!
 - Changes in the Upgrades system
   - Upgrades happen instantly now, no more need to wait or speed them up.
-    - The 100% discount on the next modification of equipment if the previous modification is fully upgraded, has been removed.
-    - Added an option to use Tankoins to upgrade when a player does not have enough crystals.
-    - Added a pop-up window to confirm before upgrades.
-    - The prices of upgrading Mk1-Mk6 modifications are the same for all turrets and hulls now.
+  - The 100% discount on the next modification of equipment if the previous modification is fully upgraded, has been removed.
+  - Added an option to use Tankoins to upgrade when a player does not have enough crystals.
+  - Added a pop-up window to confirm before upgrades.
+  - The prices of upgrading Mk1-Mk6 modifications are the same for all turrets and hulls now.
     - (Note) We have not changed the prices of upgrades.
 - Firebird
   - Burning duration changed from 1-10 to 1.5-5 seconds
@@ -3706,9 +3711,9 @@ List of fixes:
     - Critical damage chance decreased from 4% to 2%
     - Augment «Shooting speed regulator» – Barrel startup time decrease changed from 85% to 80%; Barrel slowdown time decrease changed from 85% to 80%.
 - Scorpion
-  - Coefficient of decreasing shot reload duration when Viking’s overdrive is activated changed from 0.4 to 0.3
+  - Coefficient of decreasing shot reload duration when Viking's overdrive is activated changed from 0.4 to 0.3
 - Magnum
-  - Coefficient of decreasing shot reload duration when Viking’s overdrive is activated changed from 0.4 to 0.3
+  - Coefficient of decreasing shot reload duration when Viking's overdrive is activated changed from 0.4 to 0.3
 - Juggernaut
   - Overdrive charge per second decreased from 1666 to 1111 units
 - Mechanic
@@ -3726,7 +3731,7 @@ List of fixes:
   - Daily mission reward — 3 stars
     - Weekly mission — 9 stars
     - Weekend supermission — 15 stars
-    - (Note) After this update, rewards for missions that you have already completed but haven’t claimed rewards for will be decreased. Take this into account and decide which Challenge you want to use these stars for.
+    - (Note) After this update, rewards for missions that you have already completed but haven't claimed rewards for will be decreased. Take this into account and decide which Challenge you want to use these stars for.
 - New Challenges require 300 stars to be completed
   - (Note) This applies only to new Challenges, starting from the first April challenge. The second March Challenge will still require 3000 stars to be completed.
 - Changed packs of stars in the Shop
@@ -3739,7 +3744,7 @@ List of fixes:
     - Critical shots apply the «Armor-piercing» status effect for 9 seconds
 - Railgun
   - «Incendiary rounds» augment
-    - The «Burning» status effect’s duration decreased from 5 to 4 s
+    - The «Burning» status effect's duration decreased from 5 to 4 s
     - «Cryo rounds» augment
     - Regular damage applies the «Freezing» status effect for 4 seconds
 - Hulls
@@ -3830,12 +3835,12 @@ List of fixes:
 - Shaft
   - Range of max damage increased from 80-100 to 90-120 m
     - Range of min damage increased from 120-150 to 150-180 m
-- Wasp’s overdrive
+- Wasp's overdrive
   - Max damage radius increased from 15 to 20 m
     - Average damage radius increased from 20 to 25 m
     - Min damage radius increased from 40 to 60 m
     - Radius of status effects increased from 40 to 60 m
-- Paladin’s overdrive
+- Paladin's overdrive
   - Additional «Jammer» status effect is also applied
 - Juggernaut
   - Protection increased from 5000-20000 to 7500-30000 HP
@@ -3879,18 +3884,18 @@ List of fixes:
     - «Paralyzing mix» augment
     - The heating rate decrease changed from -50% to -70%
     - «Toxic Mix» augment
-    - The «Armor-Piercing» status effect is now applied only with critical hits - The «Armor-Piercing» status effect’s duration increased from 1 to 1.5 s - The heating rate decrease changed from -50% to -70% - Removed the decrease of regular damage - Added a decrease of critical damage by -25%
+    - The «Armor-Piercing» status effect is now applied only with critical hits - The «Armor-Piercing» status effect's duration increased from 1 to 1.5 s - The heating rate decrease changed from -50% to -70% - Removed the decrease of regular damage - Added a decrease of critical damage by -25%
     - «Jamming Mix» augment
-    - The «Jammer» status effect is now applied only with critical hits - The «Jammer» status effect’s duration increased from 1 to 3 s - Added a decrease of critical damage by -25% - The heating rate decrease changed from -50% to -70%
+    - The «Jammer» status effect is now applied only with critical hits - The «Jammer» status effect's duration increased from 1 to 3 s - Added a decrease of critical damage by -25% - The heating rate decrease changed from -50% to -70%
 - Freeze
   - «Magnetic Mix» augment
     - The freezing rate decrease changed from -50% to -70%
     - «Paralyzing mix» augment
     - The freezing rate decrease changed from -50% to -70%
     - «Toxic Mix» augment
-    - The «Armor-Piercing» status effect is now applied only with critical hits - The «Armor-Piercing» status effect’s duration increased from 1 to 1.5 s - The freezing rate decrease changed from -50% to -70% - Removed the decrease of regular damage - Added a decrease of critical damage by -50%
+    - The «Armor-Piercing» status effect is now applied only with critical hits - The «Armor-Piercing» status effect's duration increased from 1 to 1.5 s - The freezing rate decrease changed from -50% to -70% - Removed the decrease of regular damage - Added a decrease of critical damage by -50%
     - «Jamming Mix» augment
-    - The «Jammer» status effect is now applied only with critical hits - The «Jammer» status effect’s duration increased from 1 to 3 s - Added a decrease of critical damage by -50% - The freezing rate decrease changed from -50% to -70%
+    - The «Jammer» status effect is now applied only with critical hits - The «Jammer» status effect's duration increased from 1 to 3 s - Added a decrease of critical damage by -50% - The freezing rate decrease changed from -50% to -70%
 - Hammer
   - The number of pellets decreased from 30 to 20
 - Twins
@@ -3905,32 +3910,32 @@ List of fixes:
     - «Plasma Injector» augment
     - Added a decrease of critical damage by -50%
     - «Plasma Disruptor» augment
-    - Added a decrease of critical damage by -50% - The «Jammer» status effect is now applied only with critical hits - The «Jammer» status effect’s duration increased from 1 to 3 s
+    - Added a decrease of critical damage by -50% - The «Jammer» status effect is now applied only with critical hits - The «Jammer» status effect's duration increased from 1 to 3 s
     - «Pulsar» augment
     - No longer applies the «Burning» status effect
 - Scorpion
   - «Missile launcher «Tornado» augment
     - The decrease of salvo reload time changed from -65% to -50% - Added an increase of aiming time by +100%
     - «Incendiary» Shells» augment
-    - The «Burning» status effect’s duration, when applied by rocket hits, changed to 1 s
+    - The «Burning» status effect's duration, when applied by rocket hits, changed to 1 s
     - «Cryo» Shells» augment
-    - The «Freezing» status effect’s duration, when applied by rocket hits, changed to 1 s
+    - The «Freezing» status effect's duration, when applied by rocket hits, changed to 1 s
     - «EMP shells» augment
-    - The «EMP» status effect’s duration, when applied by rocket hits, changed to 1 s
+    - The «EMP» status effect's duration, when applied by rocket hits, changed to 1 s
     - «Stun shells» augment
-    - The «Stun» status effect’s duration, when applied by rocket hits, changed to 0.4 s
+    - The «Stun» status effect's duration, when applied by rocket hits, changed to 0.4 s
     - «Armour-piercing shells» augment
-    - The «Armor-Piercing» status effect’s duration, when applied by rocket hits, changed to 1 s
+    - The «Armor-Piercing» status effect's duration, when applied by rocket hits, changed to 1 s
     - «Jamming shells» augment
-    - The «Jammer» status effect’s duration, when applied by rocket hits, changed to 1 s
-- Wasp’s overdrive
+    - The «Jammer» status effect's duration, when applied by rocket hits, changed to 1 s
+- Wasp's overdrive
   - Radius of max damage increased from 14 to 15 m
     - Radius of average damage increased from 15 to 20 m
     - Radius of min damage increased from 30 to 40 m
     - Average damage percentage increased from 10% to 25%
     - Min damage percentage increased from 10% to 25%
     - Radius of applying the «Jammer» status effect increased from 30 to 40 m.
-- Paladin’s overdrive
+- Paladin's overdrive
   - No longer applies the «Armor-Piercing» status effect
     - Duration increased from 15 to 20 s
 
@@ -3943,7 +3948,7 @@ List of fixes:
     - Removed the increase of critical damage - Removed the increase of the maximum number of pellets per shot - Added an increase of regular damage by +75%
     - «Pulsar» augment
     - Remove the decrease of critical damage chance - No longer applies the «Burning» status effect
-    - Coefficient of decreasing shot reload duration when Viking’s overdrive is activated is increased from 0.25 to 0.4
+    - Coefficient of decreasing shot reload duration when Viking's overdrive is activated is increased from 0.25 to 0.4
 - Twins
   - Critical damage chance decreased from 11% to 8%
 - Striker
@@ -3966,7 +3971,7 @@ List of fixes:
 - Thunder
   - «Vaccum» shells» augment
     - Added a decrease of regular damage by -20% - Average splash damage percentage increase changed from 220% to 250%
-- Wasp’s overdrive
+- Wasp's overdrive
   - Explosive damage decreased from 9999 to 4000 HP
     - Damage radius increased from 20 to 30 m.
     - Radius of max damage increased from 13 to 14 m.
@@ -4051,7 +4056,7 @@ List of fixes:
 - Updated icons of augments, skins, shot effects and modules
 - Updated the «TAB» scoreboard in the battle interface
 - Descriptions of all items are now available through a special pop up
-- Position of the dot in the middle of the screen now depends on the camera’s angle
+- Position of the dot in the middle of the screen now depends on the camera's angle
   - (Note) You can disable the dot in the settings, choose the «Battle» section of the menu and disable the «Display a dot in the middle of the screen» option
 - Freeze
   - Energy Recharge increased from 111 to 1000 eng/sec
@@ -4068,18 +4073,18 @@ List of fixes:
     - Critical hit chance increased from 2% to 4%
 - Scorpion
   - Regular damage decreased from 625-1250 to 585-1170 HP
-- Terminator (Juggernaut’s turret)
+- Terminator (Juggernaut's turret)
   - Regular damage increased from 840-3360 to 970-3880 HP
     - Critical damage increased from 1680-6720 to 1940-7760
     - Radius of max splash damage increased from 1 to 5 m
     - Radius of average splash damage increased from 2 to 6 m
     - Average splash damage percentage decreased from 90% to 50%
     - Weak splash damage percentage increased from 10% to 50%
-- Hornet’s overdrive
+- Hornet's overdrive
   - Duration of the «Armor-Piercing» status effect increased from 3 to 20 s
     - Radius of applying the «Armor-Piercing» status effect decreased from 360 to 60 m
     - Duration of the «Supercharge» status effect increased from 5 to 7 s
-- Ares’ overdrive
+- Ares' overdrive
   - Speed decreased from 25 to 20 m/s
     - Damage/Healing decreased from 300 to 240 hp/sec
 - «Heavyweight Construction» augments
@@ -4093,21 +4098,21 @@ List of fixes:
 - Siege mode
   - The delay before a new point appears after the previous one was captured is increased from 10 to 17 sec
 - Updated regular Containers
-  - Added Hammer’s «Jamming Shot» augment
-    - Added Ricochet’s «Sizzling Field» augment
-    - Added Ricochet’s «Cryo field» augment
-    - Added Ricochet’s «Magnetron» augment
-    - Added Ricochet’s «Tectonic field» augment
-    - Added Ricochet’s «Jamming Field» augment
-    - Added Smoky’s «Jamming rounds» augment
-    - Added Thunder’s «Salamander» shells» augment
-    - Added Thunder’s «Wyvern» shells» augment
-    - Added Thunder’s «Corrosion» shells» augment
-    - Added Thunder’s «Noise» shells» augment
-    - Added Thunder’s «Magneto» shells» augment
-    - Added Railgun’s «Jamming shells» augment
-    - Added Scorpion’s «Incendiary shells» augment
-    - Added Scorpion’s «Cryo shells» augment
+  - Added Hammer's «Jamming Shot» augment
+    - Added Ricochet's «Sizzling Field» augment
+    - Added Ricochet's «Cryo field» augment
+    - Added Ricochet's «Magnetron» augment
+    - Added Ricochet's «Tectonic field» augment
+    - Added Ricochet's «Jamming Field» augment
+    - Added Smoky's «Jamming rounds» augment
+    - Added Thunder's «Salamander» shells» augment
+    - Added Thunder's «Wyvern» shells» augment
+    - Added Thunder's «Corrosion» shells» augment
+    - Added Thunder's «Noise» shells» augment
+    - Added Thunder's «Magneto» shells» augment
+    - Added Railgun's «Jamming shells» augment
+    - Added Scorpion's «Incendiary shells» augment
+    - Added Scorpion's «Cryo shells» augment
     - Removed all drones
 - It is no longer possible to report a player in the «Parkour» format of PRO battles
 - Minor text changes
@@ -4133,7 +4138,7 @@ List of fixes:
 - Shaft
   - «Armor-Piercing Sight» augment
     - Additionally applies the «Armor-Piercing» status effect on critical hits for 3 seconds
-- Hulls’ weight modified
+- Hulls' weight modified
   - Wasp 1000-2000 → 1500-3000
     - Hopper 1100-2200 → 1500-3000
     - Hornet 1200-2400 → 1500-3000
@@ -4289,7 +4294,7 @@ List of fixes:
     - (Note) We have seen your feedback asking for an option to disable supply auto-activation. While analyzing it, we noticed that most of such requests come from players who use the Crisis drone. We decided to disable this feature just for this drone instead of adding an option to disable or enable it.
 - The radar shows all tanks that are within a radius of 90 meters around the player's tank (instead of 60 m.)
   - (Note) Some may have noticed that the radar began showing targets further already last week. After this experiment, we decided to implement this change to the game officially. Now, the difference between the radiuses of radar circles is 30 m.
-- Fixed Tesla Legacy skin’s bug — the claws of the emitters were moving in the wrong direction, not like it works on the HD skin
+- Fixed Tesla Legacy skin's bug — the claws of the emitters were moving in the wrong direction, not like it works on the HD skin
 - Minor changes in in-game texts
 
 ### December 16th (Update #710)
@@ -4297,15 +4302,15 @@ List of fixes:
 - A new augment for Scorpion has been added to Ultra Containers — «Armour-piercing shells»
   - (Note) This augment applies the «Armour-piercing» on critical arcade shots and with each rocket.
 - Smoky
-  - Fixed the bug when the «Assault rounds» augment was dealing critical damage, when it shouldn’t
+  - Fixed the bug when the «Assault rounds» augment was dealing critical damage, when it shouldn't
     - «Incendiary rounds» augment
     - Legendary augment now, no longer available for crystals and is added to the «Legendary» category of containers
 - Railgun
   - Regular damage increased from 625-1250 to 670-1340 HP
     - Crticial damage increased from 755-1510 to 935-1870 HP
-    - Turret’s damage now depends on the distance between you and a target.
+    - Turret's damage now depends on the distance between you and a target.
     - 100% of damage is dealt if the distance is less or equal to 80-100 m. - If the distance is between 80-100 m. and 120-150 m., the damage is decreasing respectively. - If the distance is more than 120-150 m., 50% of the maximum damage is dealt. - (Note) We have argued for a long time about whether to introduce distance-based damage reduction for the classic version of Railgun. Our final decision is that without this feature, the turret turns out to be either extremely powerful at all distances or completely irrelevant at any distance, except for the large ones. This dependence of damage on the distance to a target makes the turret be much more flexible in balancing. In the «SPORT» format, the old version of this turret remains.
-    - Changed the coefficient of the decrease of the Railgun’s shot reload time when Viking’s overdrive is activated from 0.25 to 0.3
+    - Changed the coefficient of the decrease of the Railgun's shot reload time when Viking's overdrive is activated from 0.25 to 0.3
     - (Note) This reduces the rate of fire increase
     - «Round stabilization» augment
     - Removed the regular damage increase - Added a regular damage decrease of -5% - The Critical damage decrease is changed from -9% to -32% - Damage is not distance-dependent
@@ -4320,14 +4325,14 @@ List of fixes:
     - «Hyperspace rounds» augment
     - Damage is not distance-dependent
 - Magnum
-  - Changed the coefficient of the decrease of the Magnum’s shot reload time when Viking’s overdrive is activated from 0.25 to 0.4
+  - Changed the coefficient of the decrease of the Magnum's shot reload time when Viking's overdrive is activated from 0.25 to 0.4
 - Battle interface is updated
   - The first one is where you have the main elements of the HUD at the corners of the screen. Health and reload bars are beneath your tank, and above them, we left a place for supplies and status effects. This version is used for modern shooter games.
-    - The second variant is where you have the main elements packed in the center of the screen and is more similar to the old one. The bars are located on the tank and adapt to the game window’s width. Right below them, are the supplies and status effects.
+    - The second variant is where you have the main elements packed in the center of the screen and is more similar to the old one. The bars are located on the tank and adapt to the game window's width. Right below them, are the supplies and status effects.
     - You can choose the best one in Settings.
     - (Note) The new TAB scoreboard is still in development.
 - Added an option for supply auto-activation. You can choose which supply to activate next, just press the button, and it will be activated for you automatically as soon as the cooldown is over.
-  - (Note) The main difference between Android and HTML versions of this feature is that we won’t activate your supplies without your request, and they will only be consumed when needed.
+  - (Note) The main difference between Android and HTML versions of this feature is that we won't activate your supplies without your request, and they will only be consumed when needed.
 - Removed some in-battle notifications, so they do not overlap important elements of the interface and other tanks
 - Fixed the bug with the size of a destroyed tank
   - (Note) Now it is not that small.
@@ -4355,8 +4360,8 @@ List of fixes:
     - Added a decrease of shot reload duration by 10% - Increased the price from 96,000 to 245,000 crystals
     - «High-precision aiming system» augment
     - Changed the increase of Regular damage from +32% to +40% - Changed the increase of Shot reload time from +40% to +20% - Increased the price from 149,000 to 245,000 crystals
-- Viking’s overdrive and Scorpion
-  - Changed the coefficient of the decrease of the Scorpion’s shot reload time when Viking’s overdrive is activated from 0.25 to 0.4
+- Viking's overdrive and Scorpion
+  - Changed the coefficient of the decrease of the Scorpion's shot reload time when Viking's overdrive is activated from 0.25 to 0.4
     - (Note) This changes the Rate of fire increase from +75% to +60%
 - Terminator
   - Critical damage chance changed from 1% to 15%
@@ -4392,7 +4397,7 @@ List of fixes:
   - Impact force of Crusader's Overdrive icicle is reduced by ten times
 - Fixed a bug that caused shooting to be unavailable after changing equipment in a battle
 - Fixed a bug that crashed the game client when you enter the «Settings» menu while playing via VK Play Machine
-- The Viking GT skin received an update that increased its size to the regular Viking’s skin size
+- The Viking GT skin received an update that increased its size to the regular Viking's skin size
   - (Note) This is purely a visual change and does not increase the size of the skin's hitbox in any way.
 - Texture smoothing disabled for all Legacy skins
   - (Note) Skins now really look like they used to in the Flash version of the game
@@ -4403,7 +4408,7 @@ List of fixes:
 ### October 28th (Update #705)
 
 - Some rare skins haven been added to Ultra Containers — Wasp Demonic and Firebird Demonic
-- Fixed the tank controls bug; if you have only «Keyboard» in Settings, your mouse won’t be active
+- Fixed the tank controls bug; if you have only «Keyboard» in Settings, your mouse won't be active
 - You can no longer unequip drones
   - (Note) If you want to save batteries, equip the «Brutus» drone
     - To get access to the following supplies, you need to have a drone equipped: «Boosted Armor», «Boosted Damage», and «Speed boost».
@@ -4443,7 +4448,7 @@ List of fixes:
 - The daily mission to finish X battles now requires one less battle to finish: 2-3-4 battles instead of 3-4-5 battles
 - PRO battles
   - Fund growth ratio in PRO battles at low ranks increased up to 3 times
-    - (Note) For players with the «Legend» rank, the fund growth rate wasn’t changed
+    - (Note) For players with the «Legend» rank, the fund growth rate wasn't changed
     - Daily limit of crystals decreased to 15 000
     - Daily limit of crystals for players with «Premium Pass» decreased to 66 000
     - Daily limit of experience decreased to 10 000
@@ -4535,7 +4540,7 @@ List of fixes:
     - 12 place — 1 star
     - 13 place — 1 star
     - 14 place — 1 star
-    - (Note) Now the only thing you need to earn more stars is to show your best till the end of a battle and it doesn’t matter in which team you are. Let's see if this will affect the problem of early (before the balancer reacts) exits from battles if a player is in a weak team.
+    - (Note) Now the only thing you need to earn more stars is to show your best till the end of a battle and it doesn't matter in which team you are. Let's see if this will affect the problem of early (before the balancer reacts) exits from battles if a player is in a weak team.
 - Fixed the animation issue with the Ricochet HD skin that caused the turret energy tank to keep rotating after reload
 
 ### October 14th (Update #703)
@@ -4545,7 +4550,7 @@ List of fixes:
 - The default skin of the Ricochet turret updated to the new HD version
 - An experimental change: Smoky got an increase in projectile radius from 1 to 2 meters
   - (Note) This may affect projectiles flying over tanks, when an aiming system launches it in the direction of a turret, not a hull, or not. We need your feedback to find out if this change is helpful. We do not plan to fix this behavior completely, as it is a part of game balance for turrets with such projectile mechanics.
-- Updated Scorpion’s rocket shot effect
+- Updated Scorpion's rocket shot effect
   - (Note) It's not just a cosmetic fix, it should also have a positive effect on the performance. We tested it on a situation when there are more than 30 rockets launched at the same time.
 - Updated Skin containers: added GT skins and Scorpion XT
 - Updated shop prices for some regions
@@ -4553,7 +4558,7 @@ List of fixes:
 ### September 23rd (Update #701)
 
 - A new shot effect for Twins has been added to Ultra Containers — «Blaster»
-  - (Note) This is an altered version of Ricochet’s «Blaster» shot effect but with the color changed to match Twins’ traditional shot effect. We recommend using it with the «Plasma Turbo Accelerators» augment.
+  - (Note) This is an altered version of Ricochet's «Blaster» shot effect but with the color changed to match Twins' traditional shot effect. We recommend using it with the «Plasma Turbo Accelerators» augment.
 - Smoky, Vulcan and Thunder
   - Range of minimum damage changed from 80-120 to 100-120 m.
     - (Note) This update mainly affects the Mk1 modifications of these turrets and has no effect on the MAX modifications.
@@ -4569,22 +4574,22 @@ List of fixes:
   - (Note) This feature works only for the matchmaking battles. It is required to simplify the process of adding the contextual tutorial. It should prevent newcomers from getting new ranks multiple times in the same battle.
 - Forest MM map is replaced with the updated Forest MM Remastered version
 - The contextual tutorial is added to the game
-  - (Note) To collect your feedback and to release the tutorial as soon as possible, we haven’t added the option to skip tutorial steps yet
+  - (Note) To collect your feedback and to release the tutorial as soon as possible, we haven't added the option to skip tutorial steps yet
 - Special tutorial missions added to the game
   - For completing each of them, you get 1 Regular Container
     - For completing all of them, you get 100 tankoins
     - (Note) All players can obtain rewards for these missions, not just the newcomers
 - First modifications of all turrets and hulls can no longer be purchased in the Garage for crystals, except for the following turrets: Smoky, Twins and Firebird, and for the following hulls: Viking, Crusader and Hunter.
-- Ricochet’s «Helios» augment
+- Ricochet's «Helios» augment
   - Energy consumed per shot decrease changed from -10% to -15%
     - Energy recharge speed decreased by 27%
 - Striker
   - «Missile launcher «Hunter» augment
     - Aiming time decrease changed from -60% to -75% - Aiming recovery time decreased by 50%
     - «Stunning Missiles» augment
-    - This augment’s settings repeat settings of the «Missile launcher «Hunter» augment - Critical hits can apply the «Stun» status effect - Status effect duration increased from 0.4 s. to 1 s.
+    - This augment's settings repeat settings of the «Missile launcher «Hunter» augment - Critical hits can apply the «Stun» status effect - Status effect duration increased from 0.4 s. to 1 s.
     - «Armor-Piercing Missiles» augment
-    - This augment’s settings repeat settings of the «Missile launcher «Hunter» augment - Critical hits can apply the «Armor-Piercing» status effect - Status effect duration increased from 2 s. to 5 s.
+    - This augment's settings repeat settings of the «Missile launcher «Hunter» augment - Critical hits can apply the «Armor-Piercing» status effect - Status effect duration increased from 2 s. to 5 s.
 - Thunder
   - «Hyperspeed» shells» augment
     - Removed the -25% decrease of the range of minimum damage
@@ -4628,7 +4633,7 @@ List of fixes:
     - Classic - Railgun - Sport - Parkour
     - When you enter the game, the «General» chat channel is opened by default
     - When you leave a PRO battle, the «General» chat channel is opened by default
-- Mammoth’s overdrive can now move destroyed tanks
+- Mammoth's overdrive can now move destroyed tanks
   - (Note) To make this overdrive work as it is designed to work, we decided to add a feature of throwing away destroyed tanks when in contact with them. This looks so epic, you can now juggle with enemy tanks.
 - The «Jack-in-the-box» effect now also appears when finishing an opponent with Chaos damage
   - (Note) Did you think that we added Chaos damage to add protection from overdrives later? Huh! We just enjoy how cool it looks when turrets fly.
@@ -4653,9 +4658,9 @@ List of fixes:
 - All Pulsar augments now decrease critical hit chance by 30% instead of 50%.
 - For all hulls the delay before overdrive activation increased from 1.2 to 1.3 seconds.
 - Updated loading tips
-  - (Note) Now tips depend on player’s rank. Some of them are only shown to newbies and some are only for legends.
+  - (Note) Now tips depend on player's rank. Some of them are only shown to newbies and some are only for legends.
 - Fixed the bug that let tankers change their equipment, ignoring the cooldown in mobile version
-- Hover hulls’ corpses now behave the same way as other destroyed hulls
+- Hover hulls' corpses now behave the same way as other destroyed hulls
 - Hover hulls no longer slide around the ground when falling to the ground after getting the «Stun» status effect applied
   - (Note) This will let us fix the bug when hovering tanks were not getting any damage after getting the «Stun» status effect applied due to sliding far away from the point from where it was applied.
 - Sandbox Remastered map got an evening theme
@@ -4672,7 +4677,7 @@ List of fixes:
 - Improved sorting in TAB score menu — players in the TAB menu are now sorted correctly by battle points, kills, deaths and so on.
 - Evening theme added for multiple matchmaking maps
 - Added new ambient sound for all maps
-  - (Note) Ambient sound now depends on a map’s theme.
+  - (Note) Ambient sound now depends on a map's theme.
 - When a player catches a Container, the system message says that they caught a Container, not a gold box
 - Improved the anti-cheat system for Striker, Gauss, Terminator and Scorpion
 - Added an option to enable boosted funds and experience in PRO battles during events
@@ -4699,7 +4704,7 @@ List of fixes:
   - Critical hit chance decreased from 12% to 10%
     - «Dragon Breath» augment
     - The power of setting fire to an opponent on critical hits decreased from 100% to 40%. - No longer decreases critical damage
-    - «Wyvern’s Breath» augment
+    - «Wyvern's Breath» augment
     - Applies the «Freezing» status effect: both on critical hit and by a pellet from the last shot in the clip - No longer decreases clip reload duration
     - «Magnetic Pellets» augment
     - Applies the «EMP» status effect: both on critical hit and by a pellet from the last shot in the clip - No longer decreases clip reload duration
@@ -4718,10 +4723,17 @@ List of fixes:
     - Enabled chats between teams. Use the «TAB» key to switch between chat modes
 - Added a new type of damage — «Chaos» damage
   - This type of damage can neither be increased by boosters nor can be decreased by protection
-    - The following entities inflict the «Chaos» damage:
-    - Wasp’s overdrive - Hopper’s overdrive - Crusader’s overdrive - Hunter’s overdrive - Ares’ overdrive - Mammoth’s overdrive - Exploding a tank with the «Blaster» drone - Gold box meteorite
-    - Added a special icon for «Chaos» damage»
-    - (Note) Hopper’s, Hunter’s and Crusader’s overdrives already had the same rules as «Chaos» damage. The introduction of «Chaos» damage won’t affect them in any way, but now they work the same way as other overdrives.
+  - The following entities inflict the «Chaos» damage:
+    - Wasp's overdrive
+    - Hopper's overdrive
+    - Crusader's overdrive
+    - Hunter's overdrive
+    - Ares' overdrive
+    - Mammoth's overdrive
+    - Exploding a tank with the «Blaster» drone
+    - Gold box meteorite
+  - Added a special icon for «Chaos» damage»
+  - (Note) Hopper's, Hunter's and Crusader's overdrives already had the same rules as «Chaos» damage. The introduction of «Chaos» damage won't affect them in any way, but now they work the same way as other overdrives.
 - Fixed the bug that was making it impossible to create an MM group for players who play the game on partner websites
 - You can now choose which mode to play right after you click on the «Play» button
 - Added an auto scroll for list of battles and list of map themes in PRO battles
@@ -4755,12 +4767,12 @@ List of fixes:
     - Critical damage increased from 700-1400 to 750-1500
     - If a target is destroyed, rockets will now be flying to the point where the tank was destroyed
     - (Note) Rockets will no longer fly towards the sky
-- Added a camera’s center point to the battle UI. You can disable it in the «Battle» section of the settings
+- Added a camera's center point to the battle UI. You can disable it in the «Battle» section of the settings
 - Updated Sandbox Remastered map
 - Updated the Lobby garage screen to fit the style of the remastered maps
   - (Note) Moreover, the Lobby garage now works fine on 21:9 monitors. However, if you have an even wider monitor, then, firstly, we envy you, and secondly, we ask you to understand and forgive us as we cannot make the Lobby garage even wider.
 - You can now see a mirrored reflection of your tank in the garage
-  - (Note) We agree that there is too much unused space in the HTML5’s version of garage. We had an idea of adding some effects (like glow or shadow) to the buttons, but we are afraid that the buttons would no longer be readable. We hope that the mirror floor in the garage is minimalistic enough to make the feeling of emptiness disappear.
+  - (Note) We agree that there is too much unused space in the HTML5's version of garage. We had an idea of adding some effects (like glow or shadow) to the buttons, but we are afraid that the buttons would no longer be readable. We hope that the mirror floor in the garage is minimalistic enough to make the feeling of emptiness disappear.
 - Fixed the map theme filter in the PRO-battle creation screen. When changing the filtered theme, the current chosen map is changed to their equivalent in the new theme. If it doesn't exist there, the previous choice is kept.
 - Fixed the battle mode filter reset in PRO battles, so when you try to create a battle but then cancel the process, DM mode is no longer chosen automatically.
 - Fixed the problems with ambient music in the PRO battles screen
@@ -4769,11 +4781,11 @@ List of fixes:
   - (Note) Players who often change accounts came across this bug
 - The following Challenge paints are added to Regular and Ultra containers:
   - Barricade tape
-    - Red Marks
-    - Target
-    - Tetris
-    - Masquerade
-- Updated tankoin and crystal packs in the Shop. We haven’t changed the prices of any tankoin or crystal offers; we just changed the quantity per package
+  - Red Marks
+  - Target
+  - Tetris
+  - Masquerade
+- Updated tankoin and crystal packs in the Shop. We haven't changed the prices of any tankoin or crystal offers; we just changed the quantity per package
 
 ### July 1st (Update #693)
 
@@ -4786,12 +4798,12 @@ List of fixes:
 ### June 24th (Update #692)
 
 - New turret added to Ultra Containers — Scorpion Mk1
-  - (Note) That’s the Early Access to the «Scorpion» turret. Its balance and visuals are subject to change, and its mechanics may be improved.
+  - (Note) That's the Early Access to the «Scorpion» turret. Its balance and visuals are subject to change, and its mechanics may be improved.
 - Improved notification icons in the Lobby
   - Now an icon disappears after 5 seconds in the menu, if the player clicks on a button with an updated item, or if the player exits this screen to another screen
     - Missions menu notification icon disappears too
 - Tesla
-  - Added animation for the turret’s claws when shooting
+  - Added animation for the turret's claws when shooting
 - Ricochet
   - «Destabilized Plasma» augment
     - Shots are now able to ricochet once - Range of average damage decreased from 4 to 2 meters - Average splash damage and Minimum splash damage changed from 90% and 25% to 50% - Projectile speed is no longer increased
@@ -4817,8 +4829,8 @@ List of fixes:
   - Fixed the way «Sorted Ammunition» augment works
     - (Note) Permanent fix for now
 - Striker
-  - Fixed the way anti-cheat works so it won’t cause all rockets after the first one to lose damage
-    - Added an anti-cheat setting that won’t let rockets deal damage if the system considers this damage be illegal
+  - Fixed the way anti-cheat works so it won't cause all rockets after the first one to lose damage
+    - Added an anti-cheat setting that won't let rockets deal damage if the system considers this damage be illegal
     - (Note) You can't see if the rocket doesn't deal damage if you haven't launched the rocket. 😉
 - Scorpion
   - Minor changes in design
@@ -4830,17 +4842,17 @@ List of fixes:
     - Radius of average splash damage is 3 meters - Radius of minimal splash damage is 10 meters
     - Added the «Missile launcher «Wolfpack» augment available for crystals
     - Number of rockets in salvo is 8 - Aiming duration is increased by +100% - Initial rocket speed is decreased by -99% - Maximum rocket speed is increased by +1100% - Time to reach max rocket speed is increased by +300%
-    - Fixed the bug with a main barrel’s projectile passing through a target ignoring the radius of the projectile on contact with the target
+    - Fixed the bug with a main barrel's projectile passing through a target ignoring the radius of the projectile on contact with the target
     - Fixed Gear Score settings
     - Fixed rank limits and prices of some modifications
     - Augments now are visible in the «ТАВ» menu
     - Fixed the bug with missing splash damage
 - Added a module «Vulture» with protection from Scorpion. Available in the Garage for crystals
 - Increased overdrive warmup duration from 1.1 to 1.2 for all overdrives except Wasp's
-  - (Note) Wasp's overdrive doesn’t have the warmup stage.
+  - (Note) Wasp's overdrive doesn't have the warmup stage.
 - Added Scorpion augments to regular containers
   - (Note) Augments are not listed in the list of containers drop and cannot be obtained if you do not have the corresponding turret
-- Fixed the Garage description for Railgun’s «Round Stabilization» augment and Hammer’s «Slugger» augment
+- Fixed the Garage description for Railgun's «Round Stabilization» augment and Hammer's «Slugger» augment
 - Fixed the rare bug with critical damage chance being reduced
 - Added music for PRO battles menu
 - Added previous Space maps to PRO battles
@@ -4853,15 +4865,15 @@ List of fixes:
 - Regular and Ultra Containers open automatically, 15 containers at a time
 - On the container opening screen, if you click on the opened container, the reward animation speeds up by 4 times
 - Added a hotkey for opening the matchmaking battle modes menu
-- Railgun’s «Super armor-piercing rounds» augment
-  - The «Armor piercing» status effect’s duration has been increased from 5 s to 6 s.
-- Shaft’s «Short-band emitter» augment
+- Railgun's «Super armor-piercing rounds» augment
+  - The «Armor piercing» status effect's duration has been increased from 5 s to 6 s.
+- Shaft's «Short-band emitter» augment
   - The increase in regular damage has been changed from +48% to +35%.
     - The increase in critical damage has been changed from +10% to +33%.
     - The increase in minimal damage has been changed from +48% to +35%.
-- Hornet’s overdrive
-  - The «Armor piercing» status effect’s radius has been increased from 60 m to 360 m.
-    - The «Supercharge» status effect’s duration has been decreased from 7 to 5 s.
+- Hornet's overdrive
+  - The «Armor piercing» status effect's radius has been increased from 60 m to 360 m.
+    - The «Supercharge» status effect's duration has been decreased from 7 to 5 s.
 - Blaster drone
   - Radius of min. splash damage will now be a constant of 15 m. for all upgrade levels.
     - Min. splash damage percentage has been increased from 10% to 50%.
@@ -4870,7 +4882,7 @@ List of fixes:
     - Radius of average splash damage has been decreased from 5-7 m to 4 m.
 - Fixed the light rays above the tank in the Lobby
 - Changes in PRO battles
-  - Fixed the bug that caused daily limit not to be updated after a player’s Premium duration has been increased
+  - Fixed the bug that caused daily limit not to be updated after a player's Premium duration has been increased
     - Fixed the bug that caused the maps and missions lists to be cut off at the bottom of the screen
     - Fixed the way some buttons display when a cursor is hovered over them
     - Fixed some bugs in the battle information screen
@@ -4929,10 +4941,10 @@ List of fixes:
     - Critical damage increased from 510-1020 to 615-1230
     - Augment «Small caliber charging machine»
     - The decrease in Standard damage changed from -25% to -30% - The decrease in Reload time changed from -25% to -20%
-    - Augment «”Sledgehammer” rounds»
-    - The increase in Standard damage changed from +50% to +45% - Added a decrease in Range of min damage by -50% - (Note) The “Sledgehammer” augment was designed as a close-range modification of the turret. Based on what we have observed, the augment is best paired with a speedy hull and used for charging an enemy. With this fix, the augment should remain relevant after changes to the turret’s balance.
+    - Augment «"Sledgehammer" rounds»
+    - The increase in Standard damage changed from +50% to +45% - Added a decrease in Range of min damage by -50% - (Note) The "Sledgehammer" augment was designed as a close-range modification of the turret. Based on what we have observed, the augment is best paired with a speedy hull and used for charging an enemy. With this fix, the augment should remain relevant after changes to the turret's balance.
 - Railgun
-  - «Electromagnetic accelerator “Scout”» augment
+  - «Electromagnetic accelerator "Scout"» augment
     - The decrease in Standard damage changed from -25% to -28% - The decrease in Critical damage changed from -25% to -20%
 - Magnum
   - Standard damage decreased from 745-1490 to 720-1440
@@ -4952,7 +4964,7 @@ List of fixes:
 ### May 27th (Update #688)
 
 - A new augment for Thunder that can be received from a special offer — «Pulsar»
-  - (Note) It is similar to Ricochet’s version, but it differs in status effect durations and critical damage is halved. Also, Thunder’s «Pulsar» can apply status effects with splash damage.
+  - (Note) It is similar to Ricochet's version, but it differs in status effect durations and critical damage is halved. Also, Thunder's «Pulsar» can apply status effects with splash damage.
 - Smoky
   - Reload time changed from 1.6-1.2 to 1.81-1.15 s;
     - Recoil decreased from 1.0-2.0 to 0.5-1.0;
@@ -4963,7 +4975,7 @@ List of fixes:
     - (Comment) The increase in aiming and reloading time will be noticeable only on the lower modification levels of the turret;
     - Aiming recovery time has been increased from 0.7 to 1 s;
     - «Missile launcher "Cyclone"» augment
-    - Aiming recovery time increased by 50%; - (Note) It’s annoying to lose the lock on a target when the aiming time has increased, this change should make life a little fairer;
+    - Aiming recovery time increased by 50%; - (Note) It's annoying to lose the lock on a target when the aiming time has increased, this change should make life a little fairer;
 - Vulcan
   - Reload increased from 75-55 to 75-60 ms;
 - Thunder
@@ -4988,7 +5000,7 @@ List of fixes:
     - «"Death Herald" compulsator» augment:
     - Decreased shot warmup time by 20%;
     - «Hyperspace rounds» augment:
-    - The increase in regular damage is removed; - Penetration damage bonus decreased from +250% to +200%; - (Note) All the changes to this augment are a result of the turret’s regular damage being increased;
+    - The increase in regular damage is removed; - Penetration damage bonus decreased from +250% to +200%; - (Note) All the changes to this augment are a result of the turret's regular damage being increased;
 - Magnum
   - Regular damage increased from 670-1340 to 745-1490 HP;
     - Critical damage increased from 670-1340 to 745-1490 HP;
@@ -5001,7 +5013,7 @@ List of fixes:
   - The increase in damage decreased from +200% to +150%;
     - The increase in rate of fire increased from +65% to +75%;
     - «Armor-Piercing Core» augment:
-    - The «Armor piercing» status effect’s radius increased from 2 to 5 m;
+    - The «Armor piercing» status effect's radius increased from 2 to 5 m;
 - Gauss
   - Reload time in arcade mode increased from 2.0-1.5 to 2.25-1.5 s;
     - Damage in sniping mode increased from 800-1600 to 900-1800 HP;
@@ -5011,9 +5023,9 @@ List of fixes:
     - Average splash damage radius in sniping mode decreased from 12 to 6 m;
     - Recoil in sniping mode increased from 1.2-2.5 to 2-4;
     - «Electromagnetic salvo» augment:
-    - The «EMP» status effect’s radius increased from 11 to 15 m;
+    - The «EMP» status effect's radius increased from 11 to 15 m;
     - «Armor-Piercing Salvo» augment:
-    - The «Armor-Piercing» status effect’s radius increased from 11 to 15 m;
+    - The «Armor-Piercing» status effect's radius increased from 11 to 15 m;
 - Shaft
   - Arcade shot reload time increased from 2.0-1.5 to 2.25-1.5s;
     - Full sniping shot reload increased from 10 to 14.5-10 s;
@@ -5022,14 +5034,14 @@ List of fixes:
     - «Rapid-fire mode» augment:
     - The decrease in arcade shot reload duration changed from -80% to -83%; - Energy per arcade shot changed from 350 to 384; - Added an increase in recharge rate by +167%; - Added a decrease to sniping mode damage of -66%; - Sniping shot consumes all the energy stored; - (Note) Now this augment makes Shaft be useful only for Arcade shots and sniping mode is useless with such a low damage;
     - «Armor-Piercing Sight» augment:
-    - The «Armor-Piercing» status effect’s duration increased from 2 to 5 s; - The decrease in energy consumed by sniping shot is removed; - (Note) The original setting allowed for about half a second to hit a target with an arcade shot after the target’s armor was deactivated. With these changes, it should be a bit easier.
+    - The «Armor-Piercing» status effect's duration increased from 2 to 5 s; - The decrease in energy consumed by sniping shot is removed; - (Note) The original setting allowed for about half a second to hit a target with an arcade shot after the target's armor was deactivated. With these changes, it should be a bit easier.
 - «Lifeguard» drone
   - Drone reload time decreased from 60 to 9 s;
     - Healing decreased from 1000-3000 to 500-1000 HP;
     - (Note) With the «Jammer» status effect becoming more popular and available, this drone should stop causing serious problems when catching gold boxes. The new settings should be much more useful in a regular battle.
 - Icons on all supplies in the garage have been updated;
 - Added a new daily mission «Use the Nuclear energy supply»
-  - (Note) Don’t forget, any supply-related mission can be completed not only by activating the supply, but also by taking the respective bonus box;
+  - (Note) Don't forget, any supply-related mission can be completed not only by activating the supply, but also by taking the respective bonus box;
 - Updated the old «Tanki Online» logo that you see while entering the game with the new modern one.
 
 ### May 20th (Update #687)
@@ -5040,7 +5052,7 @@ List of fixes:
 - The number of points a player gets for assisting in destroying an opponent in MM battles has been increased from 5 to 7
 - Smoky
   - «Incendiary rounds» augment
-    - Increases target’s temperature by 30% instead of 50%; - No longer decreases critical damage;
+    - Increases target's temperature by 30% instead of 50%; - No longer decreases critical damage;
     - «EMP Rounds» augment
     - No longer decreases critical damage;
     - «Paralyzing Rounds» augment
@@ -5052,18 +5064,18 @@ List of fixes:
     - Increase of maximum shell speed is now 50% instead of 100%; - Fixed turret elevation increased from 0 to 1 deg.; - Decreased the radius of all explosions from 75% to 60%; - Charge duration decreased by 50%; - Reload duration increased by 40%;
 - Gauss
   - «Electromagnetic salvo» augment
-    - The «EMP» status effect’s duration decreased from 3 to 2 s.; - Sniping mode reload duration increase removed;
+    - The «EMP» status effect's duration decreased from 3 to 2 s.; - Sniping mode reload duration increase removed;
     - «Armor-Piercing Salvo» augment
-    - The «Armor-piercing» status effect’s duration increased from 3 to 5 s.; - Sniping mode reload duration increase removed;
+    - The «Armor-piercing» status effect's duration increased from 3 to 5 s.; - Sniping mode reload duration increase removed;
 - Hornet
-  - Ovedrive now applies the «Armor-piercing» status effect even to those targets that the Hornet doesn’t see in radius of 60 metres;
+  - Ovedrive now applies the «Armor-piercing» status effect even to those targets that the Hornet doesn't see in radius of 60 metres;
     - Ovedrive now applies the «Armor-piercing» status effect for 3 seconds instead of 5;
     - Ovedrive now applies the «Jammer» status effect to all targets in radius of 60 metres for 7 seconds;
 - Ares
-  - Overdrive ball’s speed increased from 12 to 25 m/s;
+  - Overdrive ball's speed increased from 12 to 25 m/s;
     - Fixed the bug that caused damage/healing radius to be just 5 metres instead of 20;
     - The minimal distance between two overdrive balls to cause them to self-destruct is decreased from 20 to 10 metres
-    - Overdrive ball’s damage/healing is decreased from 500 to 300 HP per tick;
+    - Overdrive ball's damage/healing is decreased from 500 to 300 HP per tick;
 - Camper
   - Additional boosted damage power increased from 30-60% to 50%-100%
     - Additional boosted armour power increased from 30%-90% to 100%-200%
@@ -5096,7 +5108,7 @@ List of fixes:
     - «Reinforced gun carriage» augment
     - Price increased from 149 000 to 245 000 crystals;
     - «Armor-piercing core» augment
-    - The «Armour piercing» status effect’s duration decreased from 7 to 5 s.;
+    - The «Armour piercing» status effect's duration decreased from 7 to 5 s.;
     - «Automated gunpowder loading mechanism» augment
     - Decreases Amplification speed by 25%; - No longer increases reload time;
     - «Mortar» augment
@@ -5108,18 +5120,18 @@ List of fixes:
   - Overdrive duration increased from 30 to 90 s.;
     - \[Note\] Might be very useful with the new Magnum.
 - Crusader
-  - Overdrive’s damage type is immune to any kind of protection, like Hopper and Hunter overdrives;
-    - Overdrive’s damage increased from 1500-3000 to 2000-4000 HP;
-    - Overdrive’s radius of max splash damage increased from 1 to 3 m.;
-    - Overdrive’s splash damage radius increased from 10 to 30 m.;
+  - Overdrive's damage type is immune to any kind of protection, like Hopper and Hunter overdrives;
+    - Overdrive's damage increased from 1500-3000 to 2000-4000 HP;
+    - Overdrive's radius of max splash damage increased from 1 to 3 m.;
+    - Overdrive's splash damage radius increased from 10 to 30 m.;
     - Overdrive min. splash damage percentage increased from 10% to 25%;
-    - The «Armour piercing» status effect’s duration applied by overdrive increased from 5 to 9 s.;
-    - \[Note\] It is very hard to increase player’s accuracy when using the icicle. So we decided to add a very useful debuff to enemies in a large radius from the point of impact. The overdrive is now extremely useful against Titan’s dome and can be used against Paladin on accurate hit.
+    - The «Armour piercing» status effect's duration applied by overdrive increased from 5 to 9 s.;
+    - \[Note\] It is very hard to increase player's accuracy when using the icicle. So we decided to add a very useful debuff to enemies in a large radius from the point of impact. The overdrive is now extremely useful against Titan's dome and can be used against Paladin on accurate hit.
 - Titan
   - Overdrive now again heals teammates with 100 HP per second speed.
     - \[Note\] A small compensation for the appearance of another way to break the dome.
 - Ares
-  - Overdrive’s speed decreased from 18 to 12 m/s.;
+  - Overdrive's speed decreased from 18 to 12 m/s.;
     - Damage/Healing radius increased from 15 to 20 m.;
     - Max splash damage radius increased from 5 to 10 m.;
     - Inside the splash radius (not a direct hit), the player gets 50% of the damage.
@@ -5137,21 +5149,21 @@ List of fixes:
   - Critical damage increased from 380-1060 to 900-1800;
     - Critical damage chance decreased from 12% to 9%;
     - «Magnetic Mix» augment
-    - The «EMP» status effect’s duration decreased from 2 to 1 s.;
+    - The «EMP» status effect's duration decreased from 2 to 1 s.;
 - Tesla
   - «Superconducting discharge» augment
-    - The «EMP» status effect’s duration decreased from 3 to 2 s.;
+    - The «EMP» status effect's duration decreased from 3 to 2 s.;
     - «Armour-piercing discharge» augment
-    - The «Armour piercing» status effect’s duration decreased from 5 to 2 s.;
+    - The «Armour piercing» status effect's duration decreased from 5 to 2 s.;
 - Hammer
   - «Dragon's Breath» augment
     - No longer increases Critical shot chance; - No longer decreases Clip reload; - Critical damage decrease is 25% instead of 50%;
     - «Wyvern's Breath» augment
     - No longer increases Critical shot chance; - Clip reload duration decreased by 10%
     - «Magnetic Pellets» augment
-    - The «EMP» status effect’s duration decreased from 4 to 2 s.;
+    - The «EMP» status effect's duration decreased from 4 to 2 s.;
     - «Armour-Piercing Shot» augment
-    - The «Armour piercing» status effect’s duration decreased from 7 to 5 s.;
+    - The «Armour piercing» status effect's duration decreased from 7 to 5 s.;
 - Twins
   - Critical damage increased from 105-205 to 130-260;
     - Critical damage chance decreased from 25% to 16%;
@@ -5160,31 +5172,31 @@ List of fixes:
     - «Cryotron» augment
     - No longer decreases Cricial damage;
     - «Magnetron» augment
-    - The «EMP» status effect’s duration decreased from 2 to 1 s.;
+    - The «EMP» status effect's duration decreased from 2 to 1 s.;
     - «Plasma Turbo Accelerators» augment
     - Recoil decrease is 80% instead of 50%;
 - Ricochet
   - Critical damage chance decreased from 12% to 9%;
     - «Sizzling field» augment
-    - The «Burning» status effect’s power decreased from 100% to 50%; - Maximum number of ricochets increased from 0 to 1;
+    - The «Burning» status effect's power decreased from 100% to 50%; - Maximum number of ricochets increased from 0 to 1;
     - «Cryo field» augment
     - Maximum number of ricochets increased from 0 to 1;
     - «Super-smart Minus-Field» augment
-    - The «Armour piercing» status effect’s duration decreased from 2 to 1 s.;
+    - The «Armour piercing» status effect's duration decreased from 2 to 1 s.;
 - Smoky
   - «EMP Rounds» augment
-    - The «EMP» status effect’s duration decreased from 3 to 1 s.;
+    - The «EMP» status effect's duration decreased from 3 to 1 s.;
     - «Paralyzing Rounds» augment
-    - The «Stun» status effect’s duration decreased from 2 to 1 s.;
+    - The «Stun» status effect's duration decreased from 2 to 1 s.;
     - «Armour-piercing rounds» augment
-    - The «Armour piercing» status effect’s duration decreased from 3 to 2 s.;
+    - The «Armour piercing» status effect's duration decreased from 3 to 2 s.;
 - Striker
   - «Missile launcher "Hunter"» augment
     - Aiming time decrease is 60% instead of 80%; - No longer increases rocket angular velocity; - No longer increases rocket initial velocity;
     - «Stunning missiles» augment
     - Aiming time decrease is 60% instead of 80%;
     - «Armour-piercing missiles» augment
-    - The «Armour piercing» status effect’s duration decreased from 5 to 2 s.; - Aiming time decrease is 60% instead of 50%; - Salvo reload time decreased by 40%;
+    - The «Armour piercing» status effect's duration decreased from 5 to 2 s.; - Aiming time decrease is 60% instead of 50%; - Salvo reload time decreased by 40%;
 - Vulcan
   - Critical damage increased from 44-88 to 140-280;
     - Critical damage chance decreased from 12% to 2%;
@@ -5194,13 +5206,13 @@ List of fixes:
     - No longer decreases Vertical autoaim; - Barrel startup increased by 50%; - Barrel slowdown increased by 50%;
 - Railgun
   - «Incendiary rounds» augment
-    - The «Burning» status effect’s power decreased from 100% to 50%; - No longer increases critical damage chance; - No longer decreases critical damage;
+    - The «Burning» status effect's power decreased from 100% to 50%; - No longer increases critical damage chance; - No longer decreases critical damage;
     - «Cryo rounds» augment
     - No longer increases critical damage chance; - No longer decreases critical damage;
     - «EMP rounds» augment
-    - The «EMP» status effect’s duration decreased from 4 to 2 s.; - No longer increases critical damage chance; - No longer decreases critical damage;
+    - The «EMP» status effect's duration decreased from 4 to 2 s.; - No longer increases critical damage chance; - No longer decreases critical damage;
     - «Stun rounds» augment
-    - The «Stun» status effect’s duration decreased from 2 to 1.5 s.; - No longer increases critical damage chance; - No longer decreases critical damage;
+    - The «Stun» status effect's duration decreased from 2 to 1.5 s.; - No longer increases critical damage chance; - No longer decreases critical damage;
     - «Super armour-piercing rounds» augment
     - No longer increases critical damage chance; - No longer decreases critical damage;
 - Gauss
@@ -5216,33 +5228,33 @@ List of fixes:
     - Average splash damage in sniping mode percentage decreased from 90% to 50%;
     - Minimum splash damage in sniping mode percentage increased from 5% to 50%;
     - «Electromagnetic salvo» augment
-    - No longer decreases damage in sniping mode; - Sniping reload duration decrease is 10% instead of 50%; - The «EMP» status effect’s radius increased from 10 to 11 m.; - The «EMP» status effect’s duration decreased from 4 to 3 s.;
+    - No longer decreases damage in sniping mode; - Sniping reload duration decrease is 10% instead of 50%; - The «EMP» status effect's radius increased from 10 to 11 m.; - The «EMP» status effect's duration decreased from 4 to 3 s.;
     - «Armour-Piercing Salvo» augment
-    - No longer decreases damage in sniping mode; - Sniping reload duration decrease is 10% instead of 50%; - The «Armour-piercing» status effect’s radius increased from 10 to 11 m.; - The «Armour-piercing» status effect’s duration decreased from 5 to 3 s.;
+    - No longer decreases damage in sniping mode; - Sniping reload duration decrease is 10% instead of 50%; - The «Armour-piercing» status effect's radius increased from 10 to 11 m.; - The «Armour-piercing» status effect's duration decreased from 5 to 3 s.;
 - Shaft
   - «Armour-Piercing Sight» augment
-    - The «Armour-piercing» status effect’s duration decreased from 5 to 2 s.;
+    - The «Armour-piercing» status effect's duration decreased from 5 to 2 s.;
     - «Healing Emitters» augment
     - Removed critical damage
 - Terminator
   - Initial rocket speed decreased from 100 to 90 m/s;
     - Max rocket speed (m/sec) increased from 50 to 60 m/s;
 - Wasp
-  - Wasp overdrive’s «Stun» status effect is replaced with the «Micro-stun» status effect;
-    - Wasp overdrive’s «EMP» status effect’s duration decreased from 3 to 1 s.;
-    - The Wasp overdrive’s «Burning» status effect’s radius increased from 25 to 40 m.;
-    - Wasp overdrive’s «EMP» status effect’s radius increased from 25 to 40 m.;
-    - Wasp overdrive’s bomb explosion deals 100% damage for tanks in 13 meters radius, and only 10% if a tank is more 15 meters away from the bomb. The maximum radius is still 20 meters.
+  - Wasp overdrive's «Stun» status effect is replaced with the «Micro-stun» status effect;
+    - Wasp overdrive's «EMP» status effect's duration decreased from 3 to 1 s.;
+    - The Wasp overdrive's «Burning» status effect's radius increased from 25 to 40 m.;
+    - Wasp overdrive's «EMP» status effect's radius increased from 25 to 40 m.;
+    - Wasp overdrive's bomb explosion deals 100% damage for tanks in 13 meters radius, and only 10% if a tank is more 15 meters away from the bomb. The maximum radius is still 20 meters.
 - Hopper
-  - Hopper’s overdrive no longer applies the «Burning» status effect.
-    - Hopper’s overdrive now deals instant damage of 1500-3000 HP to all enemies in the radius of the «Stun» status effect. Supplies do not affect the amount of damage.
+  - Hopper's overdrive no longer applies the «Burning» status effect.
+    - Hopper's overdrive now deals instant damage of 1500-3000 HP to all enemies in the radius of the «Stun» status effect. Supplies do not affect the amount of damage.
 - Paladin
-  - Paladin’s overdrive no longer applies the «Jammer» status effect
+  - Paladin's overdrive no longer applies the «Jammer» status effect
 - Hunter
-  - Hunter’s overdrive no longer applies the «Jammer» status effect
-    - Hunter’s overdrive now deals instant damage of 1000-2000 HP to all enemies in the radius of the «EMP» and «Stun» status effects. Supplies do not affect the numbers of damage.
+  - Hunter's overdrive no longer applies the «Jammer» status effect
+    - Hunter's overdrive now deals instant damage of 1000-2000 HP to all enemies in the radius of the «EMP» and «Stun» status effects. Supplies do not affect the numbers of damage.
 - Dictator
-  - Dictator’s overdrive no longer recharges overdrives for teammates.
+  - Dictator's overdrive no longer recharges overdrives for teammates.
     - The «Supercharge» status effect duration increased from 9 to 10 s.;
 - Ares
   - Damage/Healing radius increased from 12 to 15 m.;
@@ -5260,7 +5272,7 @@ List of fixes:
   - (Note) Just like Vaporizer ignites a target, this new augment freezes it. We have seen your comments that these augments should also have an explosion or ricochet. We might add such features in the future.
 - The maximum number of players per group has been decreased from 4 to 3.
   - (Note) We have conducted a study to find out how often tankers play in groups of 4 and asked their opinion about such groups in matchmaking. After analyzing the results and taking into account that the matchmaking system works better when the maximum group size is lower, we have decided to reduce the maximum number of players in a group from 4 to 3.
-- Duration of Repair kit’s protection from status effect decreased from 1 to 0.9 s.
+- Duration of Repair kit's protection from status effect decreased from 1 to 0.9 s.
   - (Note) Longer protection from status effects duplicates the functions of hull immunity augments. Thus we do not see any reasons to increase the duration. Instead, we are decrease the duration to emphasize not only a new feature of the Repair kit but also to make its use more skill-dependent.
 - Added lighting for headlights and lamps on turrets and hulls
 - Isida
@@ -5268,7 +5280,7 @@ List of fixes:
 - Smoky
   - «Sorted Ammunition» augment
     - The first shot after respawn is critical;
-    - Fixed the bug when you shoot to the sky and it doesn’t update critical chance counter. It caused the «Sorted Ammunition» augment to function incorrectly.
+    - Fixed the bug when you shoot to the sky and it doesn't update critical chance counter. It caused the «Sorted Ammunition» augment to function incorrectly.
 - Thunder
   - Regular damage decreased from 405-810 to 355-710 HP;
     - Critical damage increased from 495-990 to 505-1010 HP;
@@ -5290,7 +5302,7 @@ List of fixes:
     - Shot reload time decreased from 4.4-2.6 to 4.3-2.5 s;
     - Impact force decreased from 4-12 to 3-9;
     - Changed the sound file so that the moment of the shot and the sound of the shot will be synchronized.
-    - (Note) We are glad you like the new and more skill-dependent Railgun. Let’s make it even better.
+    - (Note) We are glad you like the new and more skill-dependent Railgun. Let's make it even better.
     - «Hyperspace rounds» augment
     - Added a 10% increase to the Shot warmup time;
 - Shaft
@@ -5307,7 +5319,7 @@ List of fixes:
     - Max rocket speed (m/s) decreased from 60 to 50 m/s;
     - (Note) A bit more emphasis on melee range fights for the rocket launcher.
 - Containers
-  - Freeze’s «Magnetic mix» and «Paralyzing Mix» augments have been added to regular containers;
+  - Freeze's «Magnetic mix» and «Paralyzing Mix» augments have been added to regular containers;
     - You are guaranteed to get an item of «RARE» rarity every 15 regular containers.
     - You are guaranteed to get an item of «EPIC» rarity every 15 Ultra Containers.
 - Matchmaking equipment change cooldown increased from 14 to 15 minutes.
@@ -5319,7 +5331,7 @@ List of fixes:
 ### April 8th (Update 683)
 
 - A new augment for Ricochet has been added to Ultra Containers — «Helios».
-  - (Note) This augment doesn’t apply any status effects and doesn’t increase critical damage chance. With this augment, this is no longer Ricochet.
+  - (Note) This augment doesn't apply any status effects and doesn't increase critical damage chance. With this augment, this is no longer Ricochet.
 
 This is a new sniper plasma-gun. It significantly increases both range and rate of fire. You only have enough energy for 7 shots which are launched as a continuous burst at the target. You need to play this new Ricochet in a completely different way.
 
@@ -5359,7 +5371,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
       - Shot warmup time is no longer increased - Critical damage decreased by 33% - Critical damage chance increased from 30% to 50%
         - «Super Armor-Piercing Rounds» augment
       - Regular damage is no longer increased; - Critical damage decrease is 33% instead of 20%; - It is possible to deal critical damage right after a critical shot again
-    - Fixed the way all augments work when Viking’s overdrive is activated
+    - Fixed the way all augments work when Viking's overdrive is activated
     - (Note) In this version of the characteristics, the convenience of turret control is exchanged for an increase in its power. Shot warmup time has significantly increased, and may increase even more in future updates.
 - Daily missions
   - Requirements for the «Be in the winning team of N battles» are decreased from 3/4/5 to 2/3/4.
@@ -5412,9 +5424,9 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Matchmaking equipment change cooldown increased from 12 to 13 minutes.
 - PRO battle equipment change cooldown decreased from 10 to 9 minutes.
 - Added a new daily mission «Be in the winning team of 3/4/5 battles».
-- Daily «Get into the TOP-3 of the winning team» mission’s requirement on the number of battles will now only be 1 battle. The mission is now only available from the «Warrant Officer 5» rank.
+- Daily «Get into the TOP-3 of the winning team» mission's requirement on the number of battles will now only be 1 battle. The mission is now only available from the «Warrant Officer 5» rank.
 - Added a new weekly mission «Be in the winning team of 10/20/30 battles».
-- Weekly «Get into the TOP-3 of the winning team» mission’s requirement on the number of battles is now 3/4/5 battles instead of 5/7/10 battles. The mission is now only available from the «Warrant Officer 5» rank.
+- Weekly «Get into the TOP-3 of the winning team» mission's requirement on the number of battles is now 3/4/5 battles instead of 5/7/10 battles. The mission is now only available from the «Warrant Officer 5» rank.
 - Weekly «Complete 3 daily missions» mission can now be received in any slot of weekly missions.
 
 ### March 18th (Update 681)
@@ -5428,11 +5440,11 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Energy per shot increased from 69-60 to 220-180 eng/shot
     - Recharge Speed increased from 50 to 230 eng/sec
     - The number of shots until being out of energy decreased from 29-30 to 14-15
-    - \[Note\] The previous changes in the Ricochet parameters solved the efficiency problems but made the turret be too similar to Twins. Your energy was almost unlimited. New settings should still keep the turret efficient while there is energy and should bring it back to work much faster after running out of energy. We hope that this update will make Twins be the turret responsible for “spamming” opponents with shots and Ricochet to be the turret for precise shots to a single opponent at the same distance.
-- Ricochet’s «Destabilized plasma» augment
+    - \[Note\] The previous changes in the Ricochet parameters solved the efficiency problems but made the turret be too similar to Twins. Your energy was almost unlimited. New settings should still keep the turret efficient while there is energy and should bring it back to work much faster after running out of energy. We hope that this update will make Twins be the turret responsible for "spamming" opponents with shots and Ricochet to be the turret for precise shots to a single opponent at the same distance.
+- Ricochet's «Destabilized plasma» augment
   - Projectile speed increased by 20%
-    - The augment’s price increased from 149 000 to 245 000 crystals
-- Ricochet’s «Plasma-torch» augment
+    - The augment's price increased from 149 000 to 245 000 crystals
+- Ricochet's «Plasma-torch» augment
   - Energy per shot decreased by 30%
 - Equipment change cooldown increased from 11 to 12 minutes.
 - Equipment change cooldown decreased from 11 to 10 minutes in PRO battles.
@@ -5443,7 +5455,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 
 - A new augment for Freeze added to the Ultra Containers — «Paralyzing Mix».
   - \[Note\] Adds a paralyzing mixture into the cooling agent. A critical concentration of the mixture may cause all the target's systems to be paralyzed. Freezing power and critical damage reduced.
-- Added a delay before battle start in Matchmaking battles. For a short period of time, map objectives like flags, bases, balls, etc. won’t be activated, and teams won’t be able to earn battle score points.
+- Added a delay before battle start in Matchmaking battles. For a short period of time, map objectives like flags, bases, balls, etc. won't be activated, and teams won't be able to earn battle score points.
   - DM — no delay;
     - TDM — 30 seconds;
     - CP — 45 seconds;
@@ -5468,7 +5480,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Does not increase the number of pellets per shot, but increases the number of pellets that can hit the same target to 15.
     - \[Note\] It is now more efficient to play with Hammer without being close to an opponent. When you shoot at the \*maximum distance, damage will be the same as if you shoot at close range.
 - Equipment change cooldown increased from 10 to 11 minutes.
-- Hammer’s «Stunning Pellets» augment is added as a legendary item to Common and Ultra Containers.
+- Hammer's «Stunning Pellets» augment is added as a legendary item to Common and Ultra Containers.
 - Weekly mission to complete some number of daily missions now give you the same number of stars as other missions.
 - Decreased the number of battles in which you need to take one of the top three places in the winner's team to complete this type of daily mission from 3 to 2.
   - \[Note\] No changes to the «Take one of the top three places in the winner's team in 1 battle» mission.
@@ -5487,7 +5499,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Minor interface updates for other screens.
 - Tesla:
   - Chain lightning reload decreased from 1.00 to 0.90 s.
-    - \[Note\] The previous reduction of the rate of fire happened together with the reduction of ball lightning damage. It turned out that the reduction of the rate of fire wasn’t needed.
+    - \[Note\] The previous reduction of the rate of fire happened together with the reduction of ball lightning damage. It turned out that the reduction of the rate of fire wasn't needed.
 - Smoky:
   - Projectile speed increased from 250 to 350 m/sec.
     - \[Note\] Misses at short range when aiming at an enemy wasn't planned as a side effect of slowing down the speed of projectiles.
@@ -5511,10 +5523,10 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - \[Note\] We will see how this update will affect the gameplay and will consider an option to add immunity to other status effects when you activate a repair kit.
 - Equipment change cooldown increased from 9 to 10 minutes.
   - (Note) You are right, we keep increasing the cooldown intentionally. Ask us why and we will answer in the V-LOG.
-- Fixed anti-flood system’s behavior so it won’t be breaking links with uppercase letters
+- Fixed anti-flood system's behavior so it won't be breaking links with uppercase letters
 - Fixed the bug when you use overdrive before becoming a Juggernaut. After becoming a normal tank again, the energy bar worked wrong until your tank is destroyed or until you use overdrive again.
 - Fixed the bug with flickering texts when going from any section to the modules section of the Garage
-- Fixed the browser’s «Back» button behavior.
+- Fixed the browser's «Back» button behavior.
 - Now you see large previews of drones when you get them from containers.
 
 ### February 11th (Update 678)
@@ -5525,7 +5537,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
   - Red outline — the target is at maximum damage range;
     - Orange outline — the target is at a distance where your damage decreases when distance increase;
     - Yellow outline — the target is further from the optimal distance and will only get minimal damage;
-    - Gray outline — the target is protected during respawn and won’t get damage;
+    - Gray outline — the target is protected during respawn and won't get damage;
     - Bold outline — the turret is reloaded and ready to shoot;
     - Thin outline — the turret is reloading.
     - \[Note\] We've analyzed your feedback from the last update where we changed the target highlighting and agree that \*\*the colour of the outline should show how far the target is and how much of the damage it will get. We tried to keep the recharge state as the thickness of the outline. And again, we are waiting for your feedback!
@@ -5571,7 +5583,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
   - Projectile speed decreased from 400 to 300 (m/sec);
     - Maximum target highlighting distance increased to 120-180 m.
 - «Railgun»:
-  - Viking’s overdrive:
+  - Viking's overdrive:
     - Reload boost decreased. You can get up to 10 shots during the overdrive.
     - «EMP Rounds» augment:
     - The «EMP» status effect duration decreased from 5 to 4 seconds.
@@ -5606,9 +5618,9 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 
 ### January 28th (Update 677)
 
-- Added a new augment into Ultra Containers: Twins’ «Plasma Turbo Accelerators» augment
+- Added a new augment into Ultra Containers: Twins' «Plasma Turbo Accelerators» augment
   - Note: This augment significantly increases both rate and range of fire. Main damage will be being dealt with critical hits.
-- Added new special offers to the Shop’s showcase:
+- Added new special offers to the Shop's showcase:
   - Container ×1 – 1230 crystals;
     - Repair kit ×30 – 225 crystals;
     - Boosted armor ×30 – 75 crystals;
@@ -5616,20 +5628,20 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Speed boost ×30 – 75 crystals;
     - Mine ×30 – 75 crystals.
 - Paid showcase refresh is no longer available. The showcase is refreshed automatically every day.
-- All the old special offers are removed from the Shop’s showcase.
-  - Note: You also no longer can get equipment kits from the Shop’s showcase. However, the kits will be returned later with the «Contracts» system that will be added to the Shop in the new interface. Stay tuned!
-- Added a 1.1s delay before shooting for all overdrives except Wasp’s one.
+- All the old special offers are removed from the Shop's showcase.
+  - Note: You also no longer can get equipment kits from the Shop's showcase. However, the kits will be returned later with the «Contracts» system that will be added to the Shop in the new interface. Stay tuned!
+- Added a 1.1s delay before shooting for all overdrives except Wasp's one.
   - Note: Now players will need to plan their actions in advance before using an overdrive. This way players can show their skills of using overdrives. Perhaps some overdrives may become weaker. We will watch how tankers adapt to the changes and make adjustments if needed.
 - All the hulls except Wasp lose 50% of the overdrive charge in case its launch was interrupted.
 - The «EMP» status effect now only forces «Repair kit» and «Mine» supplies to reload when their remaining cooldown time is less than the duration of the applied effect.
-  - Note: In other words, applying the «EMP» status effect will not speed up enemies’ reload of «Repair kit» and «Mine» supplies.
-- Striker’s «Stunning missiles» augment:
+  - Note: In other words, applying the «EMP» status effect will not speed up enemies' reload of «Repair kit» and «Mine» supplies.
+- Striker's «Stunning missiles» augment:
   - Only one opponent is stunned, the one that was hit by the rocket.
 - Hopper:
   - Jump power increased by 10%;
     - Maximum height of jumps increased by 30-40%;
     - Slightly increased vertical stabilization power;
-    - Note: The change doesn’t affect flight stabilization but improves stabilization when moving over uneven ground.
+    - Note: The change doesn't affect flight stabilization but improves stabilization when moving over uneven ground.
     - Distance between the hull and ground decreased from 0.8 to 0.3m.
 - Paladin:
   - The tank can now flip over when falling off a cliff;
@@ -5662,14 +5674,14 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 
 ### January 21st (Update 676)
 
-- Added a new augment into Ultra Containers — Freeze’s «Magnetic Mix» augment
+- Added a new augment into Ultra Containers — Freeze's «Magnetic Mix» augment
   - Note: Critical shots apply the «EMP» status effect, but damage is decreased by 50%.
 - Removed Gold Boxes sets and Premium Pass from maximum item rarity categories
-  - Note: This change will increase your chances to get more interesting items from Ultra Containers as the category’s chance remains constant, but chances of getting unique items inside the category are increased;
+  - Note: This change will increase your chances to get more interesting items from Ultra Containers as the category's chance remains constant, but chances of getting unique items inside the category are increased;
 - Completely removed Shards from the browser version of the game
   - Note: The only way to get shards now is by watching ads in the mobile version of the game.
 - Removed rank limits for PRO battles
-  - Note: Now everyone can make a battle available from Sergeant to Legend ranks. That’s one more step closer to the new system of PRO battles we previously announced.
+  - Note: Now everyone can make a battle available from Sergeant to Legend ranks. That's one more step closer to the new system of PRO battles we previously announced.
 - Added push notifications to the mobile version of the game
   - Added an option to opt-out of receiving notifications by category in the Settings
 - Freeze
@@ -5677,7 +5689,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Decreased critical damage by 45%
 - Tesla
   - Decreased ball lightning damage to values of ordinary damage (from 810-1620 to 405-810)
-    - Increased damage boost from Berserk (Viking’s overdrive) from +150% to +400%
+    - Increased damage boost from Berserk (Viking's overdrive) from +150% to +400%
 - Hammer
   - Decreased reload duration between shots from 2.5-1.8s to 2.3-1.7s
 - Twins
@@ -5713,8 +5725,8 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 
 ### January 14th (Update 675)
 
-- Added a new augment into Ultra Containers: Twins’ «Tectonic Plasma» augment
-  - (Note) This augment applies a micro «Stun» effect to an opponent with each critical shot. The micro «Stun» effect is less effective in stopping opponents than the normal one but can be used to disable some abilities that take time to be activated (some overdrives and Vulcan’s barrel startup)
+- Added a new augment into Ultra Containers: Twins' «Tectonic Plasma» augment
+  - (Note) This augment applies a micro «Stun» effect to an opponent with each critical shot. The micro «Stun» effect is less effective in stopping opponents than the normal one but can be used to disable some abilities that take time to be activated (some overdrives and Vulcan's barrel startup)
 - When aiming at an opponent, you will now see an indication of turret reloading. Red outlines indicate that your turret is ready to shoot, and orange outlines show that your turret is still reloading.
   - (Note) We are interested in your feedback about this feature. It might be useful against Tesla, Shaft, Gauss, Thunder, etc.
 - Common containers have been updated
@@ -5739,11 +5751,11 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Energy consumption increased from 200 to 333 (eng/sec);
     - Energy Recharge duration decreased from 6 to 1 sec;
     - Cone angle decreased from 30 to 20 (º);
-    - Firebird’s «High-pressure pump» augment:
+    - Firebird's «High-pressure pump» augment:
     - Range of max damage increased by 50%; - Range of min damage increased by 50%; - Price increased to 245 000 crystals;
-    - Firebird’s «Compact fuel tanks» augment:
+    - Firebird's «Compact fuel tanks» augment:
     - Heating rate is always 100%; - Temperature limit is always 100%; - Reload time doubled;
-    - Firebird’s «Incendiary mix» augment:
+    - Firebird's «Incendiary mix» augment:
     - No longer affects energy consumption; - Ordinary damage change increased by 20% instead of 50%; - Critical damage change increased by 20% instead of 50%;
     - (Note) These changes are needed not only to buff Firebird but also to make its gameplay different from that of Freeze. The faster energy reload is reminiscent of the old Firebird, where you needed to rely on the afterburn effect. This version of Firebird will deplete its fuel faster, forcing you to make a decision on whether to attack the target again or to rely on the afterburn effect.
 - Freeze:
@@ -5752,29 +5764,29 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Range of max damage decreased from 10-10 to 7-10 m.;
     - Rate of freezing (temp/sec) decreased from 0,6 to 0,2-0,5;
     - Cone angle decreased from 30 to 20 (º);
-    - Freeze’s «Shock freeze» augment:
+    - Freeze's «Shock freeze» augment:
     - No longer affects energy consumption; - Freezing rate is always 100%; - No longer deal critical damage;
     - (Note) We are slightly moving focus from critical to ordinary damage. We are glad that you like the new Freeze, but we needed to moderately nerf it in order to keep balance.
 - Tesla:
   - Chain lightning reload increased from 0.9 to 1 (s);
-    - Tesla’s «Endothermic lightning» augment:
+    - Tesla's «Endothermic lightning» augment:
     - Lightning ball damage decrease changed from -50% to -75%; - Lightning ball warmup time doubled;
-    - Tesla’s «Superconducting discharge» augment:
+    - Tesla's «Superconducting discharge» augment:
     - Lightning ball damage decrease changed from -50% to -75%; - Lightning ball warmup time doubled;
-    - Tesla’s «Armour-piercing discharge» augment:
+    - Tesla's «Armour-piercing discharge» augment:
     - Lightning ball damage decrease changed from -50% to -75%; - Lightning ball warmup time doubled;
-    - Tesla’s «Jamming discharge» augment:
+    - Tesla's «Jamming discharge» augment:
     - Lightning ball damage decrease changed from -50% to -75%; - Lightning ball warmup time doubled;
     - (Note) These augments apply status effects and the idea behind them is to use them at long distances. However, players found it more useful to use these augments at melee range. Therefore, we had to nerf them as they were too effective in the melee range.
 - Striker:
-  - Striker’s «Stunning Missiles» augment:
+  - Striker's «Stunning Missiles» augment:
     - The «Stun» effect duration decreased from 2 to 0.5 s.;
     - Aiming time reduction increased from 50% to 80%;
     - Salvo reload time increased by 40%;
     - (Note) The previous version of the stunning Striker could immobilize a target too easily. We have replaced the Stun status effect with the Micro-stun status effect, similar to the one that the new Twins augment gives.
 - Paladin:
   - Critical damage protection during overdrive disabled.
-    - (Note) The idea behind Paladin’s overdrive was that Crusader’s overdrive would be the main counter to it. Unfortunately, much fewer players use Crusader than Paladin, so we have decided to let the overdrives of Hornet and Viking, the most popular hulls in the game, be effective against Paladin’s overdrive.
+    - (Note) The idea behind Paladin's overdrive was that Crusader's overdrive would be the main counter to it. Unfortunately, much fewer players use Crusader than Paladin, so we have decided to let the overdrives of Hornet and Viking, the most popular hulls in the game, be effective against Paladin's overdrive.
 - Hull augments:
   - Prices of «Lightweight Construction» and «Heavyweight Construction» augments are now at 245 000 crystals instead of 4990 Tankoins.
 - Equipment change time increased from 7 to 8 minutes;
@@ -5788,7 +5800,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 
 ### December 24th (Update 674)
 
-- Added the New Year’s Garage with special music
+- Added the New Year's Garage with special music
 - Updated the default appearance of the Freeze turret with the HD version
 - Added a new augment for Freeze: «Jamming Mix» — when dealing damage to an enemy, a Jammer effect is applied to his tank for 1 second
   - The Jammer effect of this augment is applied together with the Freezing effect.
@@ -5804,7 +5816,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 
 ### December 10th (Update 672)
 
-- New Twins’ «Cryotron» augment available in Ultra Containers:
+- New Twins' «Cryotron» augment available in Ultra Containers:
   - Critical shots freeze a target by 50%;
     - Range of max damage is increased by 50%;
     - Critical damage is decreased 50%;
@@ -5846,8 +5858,8 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Weak damage percentage has been decreased from 50% to 25%;
 - Magnum
   - Max crit chance has been increased from 10% to 12%;
-- Magnum’s «Mortar» augment
-  - No longer decreases the turret’s damage but splash damage is removed fully;
+- Magnum's «Mortar» augment
+  - No longer decreases the turret's damage but splash damage is removed fully;
 - Gauss
   - Range of max damage has been decreased from 70-100 to 60-80 m.;
     - Range of min damage and displaying the sight mark distance have been decreased from 100-150 to 80-120 m.;
@@ -5860,13 +5872,13 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Range of min damage and displaying the sight mark distance have been increased from 50-70 to 80-120 m.;
     - Maximum critical chance has been decreased from 20% to 12%;
     - Sniping shots now consume 20% of the available energy after the warm up and some amount of energy used for the warm up.
-- Shaft’s «Light capacitors» augment
+- Shaft's «Light capacitors» augment
   - Recharge rate after sniping shot boost has been increased from 15% to 20%;
     - Sniping shot now consume half as much energy;
-- Shaft’s «Heavy capacitors» augment
+- Shaft's «Heavy capacitors» augment
   - Recharge rate after sniping shot reduction has been increased from 15% to 20%;
     - Sniping shot now consume twice as much energy;
-- Shaft’s «Armor-piercing sight» augment
+- Shaft's «Armor-piercing sight» augment
   - Sniping shot now consume half as much energy;
 - Hopper
   - Overdrive charge duration has been decreased from 180 seconds to 150 seconds.
@@ -5887,7 +5899,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Added «Jammer Immunity» augments to containers.
 - Updated the «Freezing» status effect
   - In addition to slowing down enemy tanks, it now also disables Boosted Damage effects for the entire duration of the status effect.
-    - This status effect was the weakest one. Increasing the slowdown effect is not the solution to this problem. Instead, we strengthened this status effect by adding a mechanism similar to the Armor-Piercing status effect’s capabilities. Instead of disabling additional armor, it disables the effect of Boosted Damage. This change will increase the role of both Freezing augments and the Freeze turret itself, especially when used for defensive roles. Share your feedback about the new «Freezing» status effect!
+    - This status effect was the weakest one. Increasing the slowdown effect is not the solution to this problem. Instead, we strengthened this status effect by adding a mechanism similar to the Armor-Piercing status effect's capabilities. Instead of disabling additional armor, it disables the effect of Boosted Damage. This change will increase the role of both Freezing augments and the Freeze turret itself, especially when used for defensive roles. Share your feedback about the new «Freezing» status effect!
     - When taking a bonus box, a drone will activate only if it depends on the supply offered by the bonus box.
     - Activating a drone this way is similar to activating a drone by using supplies from your Garage. For example, if you have the Defender drone equipped, and you take a Boosted Armor bonus box, the drone will be activated.
 - Updated the «Camper» drone
@@ -5897,7 +5909,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - The old version of the drone was not popular at all. Please note that the enhanced armor only protects the tank from the first oncoming damage received when «Camper» is activated. This makes the drone effective against other campers, but almost useless against turrets with rapid fire rates.
 - Updated the «Engineer» drone
   - Now the drone repairs all tanks in a small radius around itself if any of these tanks picks up a bonus box.
-    - The previous version of «Engineer» on high ranks could spoil teammates’ tactics for using their drones.
+    - The previous version of «Engineer» on high ranks could spoil teammates' tactics for using their drones.
 - Updated the «Supplier» drone
   - Now the drone does not extend the duration of its own supplies.
     - The duration of the supplies shared with allies is reduced.
@@ -5914,13 +5926,13 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Enhancement to Speed Boost remains unchanged.
 - Updated the «Firebird» turret
   - Maximum damage range is increased from 7 meters to 10 meters.
-- Updated Tesla’s «Jamming discharge» augment
+- Updated Tesla's «Jamming discharge» augment
   - The «Jammer» status effect duration is reduced from 15 seconds to 7 seconds.
-- Updated Twins’s «Stable plasma» augment
+- Updated Twins's «Stable plasma» augment
   - Projectile speed is increased by 20%.
     - Impact force is increased by 20%.
     - Price of augment is increased to 245,000 crystals.
-- Updated Ricochet’s «Plasma-torch» augment
+- Updated Ricochet's «Plasma-torch» augment
   - Recoil is now reduced by 50% rather than 80%.
 - Updated the «Striker» turret
   - Vertical aim-assist is increased from 9 degrees to 45 degrees.
@@ -5970,13 +5982,13 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Turret/Hull Mk7 up to 2700 GS
     - Drone up to 2799 GS
     - Turret/Hull augment 300 GS
-    - Now the Turret, Hull, and Drone have almost the same “weight” in GS points, which reflects the real situation with power level after making supplies power be upgradable by drones.
+    - Now the Turret, Hull, and Drone have almost the same "weight" in GS points, which reflects the real situation with power level after making supplies power be upgradable by drones.
 - Tesla:
   - «Jamming discharge» augment
     - Duration of the «Jammer» status effect is increased to 15 seconds.
 - Hammer:
   - «Jamming Shot» augment
-    - The «Jammer» status effect is applied with every shot, not just the last. - The «Jammer» status effect’s duration is reduced from 7 to 5 seconds.
+    - The «Jammer» status effect is applied with every shot, not just the last. - The «Jammer» status effect's duration is reduced from 7 to 5 seconds.
 - Twins:
   - «Heavy Plasmagun» augment
     - Projectile speed slows down by 45% instead of 35%.
@@ -5999,7 +6011,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Critical damage is reduced by 20%.
     - «Subcaliber rounds» augment
     - Rate of fire is increased by 15% instead of 10%.
-    - «”Sledgehammer” rounds» augment
+    - «"Sledgehammer" rounds» augment
     - Critical chance is now 0%.
     - Standard damage now requires more accurate shooting, because its explosion damage is quickly weakened. On the contrary, critical damage now acts in the entire radius of the explosion. According to our idea, such a Thunder should become less effective when shooting thoughtlessly and more effective when the player clearly understands when to shoot accurately, and when to hit the walls and wait for a critical shot.
 - Railgun:
@@ -6014,8 +6026,8 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
   - Overdrive charging time is increased from 180 to 210 seconds.
 - Hunter:
   - Overdrive radius is increased from 25 to 30 meters.
-    - The «Stun» status effect’s duration is increased from 3 to 4 seconds.
-    - The «EMP» status effect’s duration time is increased from 5 to 6 seconds.
+    - The «Stun» status effect's duration is increased from 3 to 4 seconds.
+    - The «EMP» status effect's duration time is increased from 5 to 6 seconds.
 - Crusader:
   - Armor Piercing Icicle damage is increased from 1000-2000 to 1500-3000.
     - Reverts the previous damage settings for the Crusader overdrive. They are more justified for slow charging.
@@ -6036,14 +6048,14 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Updated Ultra Containers with the new Paladin Mk1 hull in early access and the newly released augment for the Tesla turret — «Superconducting discharge»:
   - With this augment equipped, electric discharges become so powerful that tank electronics fail and disable activated supplies. It's absolutely safe for its owner and teammates: the innovative aiming system blocks the effect of ball lightning towards them. However, the ball flies so fast that it's almost impossible to use it for chain lightning.
 - For all HD models of turrets and hull LOD feature has been added
-  - At long distances, high-quality models are replaced with less detailed models to save device’s resources and improve performance
+  - At long distances, high-quality models are replaced with less detailed models to save device's resources and improve performance
 - Railgun
   - Shot sound is replaced with the one that was used in Tanki X, more pleasant and proper sound for this turret
     - Impact force is increased from 260-780 to 400-1200 units.
     - Round destabilization augment: removed the Impact force bonus.
-    - Improved shot rate while a tank is under Viking’s overdrive effect
+    - Improved shot rate while a tank is under Viking's overdrive effect
 - Wasp
-  - After overdrive activation, it won’t be charging from battle points for 4 seconds
+  - After overdrive activation, it won't be charging from battle points for 4 seconds
     - Damage radius is decreased from 25 to 20 metres (not status effect radius)
     - Jammer status effect duration is increased from 6 to 30 seconds
     - Jammer status effect radius is decreased from 1000 to 60 metres
@@ -6064,22 +6076,22 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - Jammer status effect radius is decreased from 1000 to 60 metres
     - Time needed to charge overdrive without getting battle points is increased from 111 to 180 seconds
 - Crusader
-  - After overdrive activation, it won’t be charging from battle points for 6 seconds instead of 3 seconds
+  - After overdrive activation, it won't be charging from battle points for 6 seconds instead of 3 seconds
     - Time needed to charge overdrive without getting battle points is increased from 71 to 150 seconds
 - Dictator
   - Total Charge restored is decreased from 50% to 25%
     - Supercharge status effect duration is increased from 5 to 6 seconds
-    - After overdrive activation, it won’t be charging from battle points for 7 seconds instead of 1 second
+    - After overdrive activation, it won't be charging from battle points for 7 seconds instead of 1 second
     - Time needed to charge overdrive without getting battle points is increased from 143 to 270 seconds
 - Ares
-  - Ball’s speed is decreased from 10 to 9 m/s
-    - After overdrive activation, it won’t be charging from battle points for 9 seconds
+  - Ball's speed is decreased from 10 to 9 m/s
+    - After overdrive activation, it won't be charging from battle points for 9 seconds
     - Time needed to charge overdrive without getting battle points is increased from 143 to 180 seconds
 - Titan
   - Time needed to charge overdrive without getting battle points is increased from 125 to 270 seconds
 - Mammoth
   - Overdrive duration is increased from 7 to 9 seconds
-    - After overdrive activation, it won’t be charging from battle points for 10 seconds instead of 8 seconds
+    - After overdrive activation, it won't be charging from battle points for 10 seconds instead of 8 seconds
     - Time needed to charge overdrive without getting battle points is increased from 71 to 150 seconds
 - Saboteur drone
   - Additional Mine activation delay is increased from 2-1 to 5-4 seconds
@@ -6103,7 +6115,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 - Lobby music moved to the login / registration screen.
 - Garage music replaced with garage background sounds.
 - Added separate graphic settings for remastered maps
-- Fixed a bug that didn’t let to use ball lightnings of teammates to make lightning chains in Android
+- Fixed a bug that didn't let to use ball lightnings of teammates to make lightning chains in Android
 - Fixes and optimizations of the remastered maps on the Android client.
 
 ### October 22nd (Update 667)
@@ -6123,7 +6135,7 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
     - In the losing team, players on 1st-2nd places get 3 stars and players on 3rd-5th places get 2 stars;
     - Other players get 1 star if they were active enough in the battle.
 - For all hulls, overdrive charge per battle point (%) is halved.
-- Juggernaut’s overdrive charge duration is increased from 40 to 60 seconds.
+- Juggernaut's overdrive charge duration is increased from 40 to 60 seconds.
 - Firebird:
   - Damage is increased from 50-175 to 60-185 hp/tick;
     - Critical damage is increased from 100-350 to 125-375 hp/tick;
@@ -6135,32 +6147,32 @@ This is a new sniper plasma-gun. It significantly increases both range and rate 
 
 Gauss:
 
-- - Reload time sniping mode is decreased from 4-3 to 3.6-2.7 seconds.
+- Reload time sniping mode is decreased from 4-3 to 3.6-2.7 seconds.
 - Shaft:
   - Reload time in sniping mode is decreased from 10 to 9 seconds.
-- Hammer’s «Blunderbuss» augment:
+- Hammer's «Blunderbuss» augment:
   - Initial and Maximum critical chances are increased to 50%;
     - No longer decreases clip reload time.
-- Smoky’s «Autocannon» augment:
+- Smoky's «Autocannon» augment:
   - Regular shot damage reduction is increased from 75% to 90%;
     - Projectile speed reduction is increased from 25% to 30%.
-- Railgun’s «Super armour-piercing rounds» augment:
+- Railgun's «Super armour-piercing rounds» augment:
   - Armour-Piercing status effect duration is decreased from 7 to 5 seconds.
-- Railgun’s «Paralyzing Rounds» augment:
+- Railgun's «Paralyzing Rounds» augment:
   - Stun status effect duration is decreased from 5 to 2 seconds.
     - No longer decreases critical damage.
-- Railgun’s «EMP Rounds» augment:
+- Railgun's «EMP Rounds» augment:
   - EMP status effect duration is decreased from 10 to 5 seconds.
     - No longer decreases critical damage.
-- Railgun’s «Incendiary rounds» augment:
+- Railgun's «Incendiary rounds» augment:
   - No longer decreases critical damage.
-- Railgun’s «Electromagnetic accelerator "Scout"» augment:
+- Railgun's «Electromagnetic accelerator "Scout"» augment:
   - Reload time reduction is decreased from 50% to 30%.
-- Magnum’s «Mortar» augment:
+- Magnum's «Mortar» augment:
   - Damage and Critical damage reduction is increased from 10% to 30%
-- Shaft’s «Light capacitors» augment:
+- Shaft's «Light capacitors» augment:
   - Recharge rate after sniping shot is increased from +10% to +15%.
-- Shaft’s «Heavy capacitors» augment:
+- Shaft's «Heavy capacitors» augment:
   - Recharge rate after sniping shot is decreased from -10% to -15%.
 - «Driver» drone:
   - Maximum Overdrive Charge Added is decreased from 10 to 7 seconds.
@@ -6170,7 +6182,7 @@ Gauss:
   - The number of experience and battle score for supporting teammates is increased to 10 points
 - «Mechanic» drone:
   - The number of experience and battle score points for supporting teammates is increased to 10 points.
-- Fixed a bug where the supply cooldown timer wasn’t working as expected when interacting with Support drones.
+- Fixed a bug where the supply cooldown timer wasn't working as expected when interacting with Support drones.
 - Fixed memory leaks in the Android version of the game.
 
 ### October 15th (Update 666)
@@ -6189,12 +6201,12 @@ Gauss:
     - Range of max damage (m) has been increased from 20-30 to 40-60 m;
     - Range of min damage (m) has been increased from 30-40 to 50-70 m;
     - Horizontal aiming speed (deg/sec) has been increased from 15-30 to 20-40 deg/sec.
-    - The key change here is that arcade shots no longer consume energy. Earlier, both arcade and sniping shots consumed energy. You could only use the arcade shot if you had enough energy to shoot. Now it’s similar to Tesla, where you can still use the arcade mode and deal damage to opponents, but at no cost to the energy, even when the turret is still reloading.
-- Shaft’s «Heavy Capacitors» augment:
+    - The key change here is that arcade shots no longer consume energy. Earlier, both arcade and sniping shots consumed energy. You could only use the arcade shot if you had enough energy to shoot. Now it's similar to Tesla, where you can still use the arcade mode and deal damage to opponents, but at no cost to the energy, even when the turret is still reloading.
+- Shaft's «Heavy Capacitors» augment:
   - Sniping shot reload time has been increased by 10%.
-- Shaft’s «Light Capacitors» augment:
+- Shaft's «Light Capacitors» augment:
   - Sniping shot reload time has been decreased by 10%.
-- Shaft’s «Rapid-Fire Mode» augment:
+- Shaft's «Rapid-Fire Mode» augment:
   - No longer increases sniping shot reload time.
 - «Brutus» drone:
   - Cost of fully upgrading the drone has been decreased from 500 000 to 100 000 crystals.
@@ -6214,7 +6226,7 @@ Gauss:
 
 ### October 8th (Update 665)
 
-- Updated Ultra Containers with the new «Paladin» hull Mk1 and the new Tesla’s «Armour-piercing discharge» augment inside:
+- Updated Ultra Containers with the new «Paladin» hull Mk1 and the new Tesla's «Armour-piercing discharge» augment inside:
   - With this augment equipped, Tesla shoots ball lightning that flies as fast as the one Electroturret shoots. It applies the AP status effect for 5 seconds, but deals less damage.
 - Fixed overdrive recharge:
   - The game now saves your overdrive charge when you become Juggernaut and once you are not, you get your overdrive charge back.
@@ -6302,7 +6314,7 @@ Gauss:
 
 ### October 1st (Update 664)
 
-- Updated Ultra Containers with the «Paladin» Mk1 hull in early access and the new Tesla’s «Endothermic Lightning» augment.
+- Updated Ultra Containers with the «Paladin» Mk1 hull in early access and the new Tesla's «Endothermic Lightning» augment.
 - It shoots ball lightning with the same speed as Electroturret does, but freezes an opponent and deals less damage.
 - Starting from 2 AM UTC October 1st till 2 AM UTC October 10th the battle duration will be increased to 15 minutes.
 - Added the «Nuclear Energy» supply.
@@ -6346,7 +6358,7 @@ Gauss:
 
 Gauss:
 
-- - Fixed the bug where no damage was dealt by Gauss’s Salvo if you switch from arcade to sniping mode right after the end of Viking’s overdrive;
+- Fixed the bug where no damage was dealt by Gauss's Salvo if you switch from arcade to sniping mode right after the end of Viking's overdrive;
 - Viking:
   - Мk1 is now the default hull for PC players;
 - Paladin:
@@ -6360,9 +6372,9 @@ Gauss:
 
 Ares:
 
-- - Acceleration is increased from 8-10 to 8-13;
-    - Reverse acceleration is increased from 9-11 to 9-14 m/s²;
-    - Мk1 is now available from the Gefreiter rank and costs 250 crystals;
+- Acceleration is increased from 8-10 to 8-13;
+  - Reverse acceleration is increased from 9-11 to 9-14 m/s²;
+  - Мk1 is now available from the Gefreiter rank and costs 250 crystals;
 - Speed of all heavy hulls is now from 5 to 6 m/s:
   - It means that Titan and Ares will be as slow as Mammoth.
     - In the future, we will make hulls of the same class have the same standard speed, just like we have the same health points number.
@@ -6375,7 +6387,7 @@ Ares:
 
 ### September 11th (Update 662)
 
-- Matchmaking system considers a player’s GS score instead of a number of average battle points for last matches;
+- Matchmaking system considers a player's GS score instead of a number of average battle points for last matches;
 - Fixed the bug where you were not able to log in to your account if it is linked to a social media account, and you have changed your nickname;
 - Fixed the bug where you are changing equipment or enter the battle and the client grabs your cursor, making it impossible to shoot;
 - Lobby loading optimization;
@@ -6385,17 +6397,17 @@ Ares:
 
 Patch Update #661 - Released 3rd September 2021
 
-- Celebrating Tankers’ Day;
-- A new kind of skin is in the game — Steampunk. During the Tankers’ Day celebrations you can get these skins for Twins and Mammoth, and the animated «Bronze plates» paint, out of the updated Ultra Containers;
+- Celebrating Tankers' Day;
+- A new kind of skin is in the game — Steampunk. During the Tankers' Day celebrations you can get these skins for Twins and Mammoth, and the animated «Bronze plates» paint, out of the updated Ultra Containers;
 - Firebird's default skin has been updated to an HD version;
 - Tesla
   - Maximum critical damage chance decreased from 20% to 10%.
     - Dilatory protocol augment:
     - Now decreases lightning ball range by 50% instead of 70% - Lightning ball reload time increased by 200%:
-    - We decided to change the place of this augment in the game's balance. Decreasing the lighting ball’s range helped to decrease the "kill zone" created by groups of Titans but didn't make it harder for them to create such “zones”. Increasing the lightning ball’s reload time will require more teamwork from such players making it harder for them to create such zones. Also, we’re bringing back the old lighting ball range values to retain the idea of long chains. We will keep monitoring the situation.
+    - We decided to change the place of this augment in the game's balance. Decreasing the lighting ball's range helped to decrease the "kill zone" created by groups of Titans but didn't make it harder for them to create such "zones". Increasing the lightning ball's reload time will require more teamwork from such players making it harder for them to create such zones. Also, we're bringing back the old lighting ball range values to retain the idea of long chains. We will keep monitoring the situation.
 - Thunder
   - Ordinary and critical damage values decreased from 435-880 to 405-810;
-    - We’ve decided to decrease the damage of long-range turrets while keeping the number of shots needed to destroy a tank the same;
+    - We've decided to decrease the damage of long-range turrets while keeping the number of shots needed to destroy a tank the same;
     - Long range turrets are very popular nowadays and one of the reasons why is because of their damage. Decreasing damage while keeping the same number of shots to destroy a target should increase the chances of a tank surviving after a single shot, if it has been upgraded to even a few MU steps.
 - Railgun
   - Ordinary damage decreased from 450-900 to 350-700;
@@ -6414,7 +6426,7 @@ Patch Update #661 - Released 3rd September 2021
     - «Light capacitors» augment — this augment now decreases charging time while in aiming mode by 50% of the default value instead of the previous fixed value of 2 seconds.
     - In addition to decreasing long range turrets' damage, Shaft receives a longer charge time in aiming mode at low modifications.
     - These changes to the capacitor augments won't affect Mk7+ as the time will remain the same - 2 and 4 seconds.
-    - Balancing the capacitor augments was necessary due to Shaft’s increased charge time at the lower ranks.
+    - Balancing the capacitor augments was necessary due to Shaft's increased charge time at the lower ranks.
     - Shaft needs a short charge time for dynamic battles at high ranks; however this also makes it too easy at low ranks.
 - Fixed a bug which caused keyboard settings not to be saved if you changed them while inside a battle;
 - Now you need to enter your 2FA one-time code to disable two-factor authentication.
@@ -6440,7 +6452,7 @@ Patch Update #661 - Released 3rd September 2021
   - Their content no longer depends on a player's rank;
     - Their content is:
     - 10 000 crystals - 30 units of repair kit - 100 units of boosted damage, boosted armour and speed boost - 30 mines - 30 batteries - 8 tankoins.
-- Fixed the bug when a player didn’t see what item was received from a container.
+- Fixed the bug when a player didn't see what item was received from a container.
 - Disabled the option to choose the billing country manually. Contact the customer support department to change it. You will need to explain why you want to change it.
 - Anti-cheat system improvements.
 
@@ -6448,39 +6460,42 @@ Patch Update #661 - Released 3rd September 2021
 
 - Carnival — missions and discounts.
 - Starting from 02:00 UTC August 13, till 02:00 UTC August 16 matchmaking battle time duration will be increased to 15 minutes.
-- Hornet’s OD:
+- Hornet's OD:
   - The armor-piercing status effect application duration is decreased to 3 seconds.
-- Smoky’s «Autocannon» augment:
+- Smoky's «Autocannon» augment:
   - Maximum critical damage chance is decreased to 50%;
     - Projectile speed is decreased by 25%;
     - Recoil force is decreased from 33% to 25%.
 - Tesla:
   - Range to connect to a target is decreased by 2 meters;
     - Range to connect to a target from a ball lightning is decreased by 1 meter.
-    - Tesla’s «Dilatory protocol» augment decreases ball lightning range from 50 metres to 40 metres.
+    - Tesla's «Dilatory protocol» augment decreases ball lightning range from 50 metres to 40 metres.
 - Hammer:
   - Few improvements to prevent the bug with Hammer dealing less damage than expected.
 - Improved auto-aim system:
   - Team mates and destroyed tanks are ignored by the system.
 - Improved the way overdrives affect each other:
-  - Wasp’s and Mammoth’s overdrives:
-    - Disable Wasp’s bomb; - Disable dome generator; - Disable Ares’s ball; - Disable Crusader’s icicle in case Crusader was affected by an overdrive while preparing to shoot an icicle.
-    - The following overdrives can disable Tesla’s ball lightning:
-    - Titan’s dome if its generator is placed when a ball is already inside the dome's area. - Mammoth’s AT-field if a ball touches it; - Wasp’s bomb if a ball is inside its zone of effect; - Hunter’s OD if a ball is inside its zone of effect.
+  - Wasp's and Mammoth's overdrives:
+    - Disable Wasp's bomb; - Disable dome generator; - Disable Ares's ball; - Disable Crusader's icicle in case Crusader was affected by an overdrive while preparing to shoot an icicle.
+  - The following overdrives can disable Tesla's ball lightning:
+    - Titan's dome if its generator is placed when a ball is already inside the dome's area.
+    - Mammoth's AT-field if a ball touches it.
+    - Wasp's bomb if a ball is inside its zone of effect.
+    - Hunter's OD if a ball is inside its zone of effect.
 - Fixed the bug where entering a battle with Tesla equipped lead to Tesla being discharged.
 - Fixed the bug with Tesla ball lightning ignoring obstacles.
 - Fixed the bug with hearing sounds of all ball lightning in a battle being launched when entering the battle.
 - Improved Tesla anti-cheat system.
-- Improved Tesla’s behavior with Viking’s OD:
+- Improved Tesla's behavior with Viking's OD:
   - Like other melee range turrets, its range is increased x1.5;
     - Like other melee range turrets, its fire rate is increased by 75%.
 - Improved Tesla ball lightning loading mechanism to improve visual effects of launching a ball lightning.
-- Fixed the bug regarding Crusader’s behavior on mines.
+- Fixed the bug regarding Crusader's behavior on mines.
 
 ### August 6th (Update 657)
 
 - Ultra Weekend - new missions and special events.
-- The «Tesla XT» skin and Tesla’s new «Electroturret» augment have been added to Ultra Containers
+- The «Tesla XT» skin and Tesla's new «Electroturret» augment have been added to Ultra Containers
 - The «Tesla» turret is now available for purchase in the Garage for crystals, together with the following Tesla augments: Acceleration Protocol, Dilatory Protocol and Minus-Field.
 - «Freezing» status effect:
   - Minimum speed of a tank with the «Freezing» status effect applied decreased from 70 to 66%
@@ -6491,7 +6506,7 @@ Patch Update #661 - Released 3rd September 2021
     - Mk1: 150 → 100 (hp); - Mk2: 205.14 → 136.76 (hp); - Mk3: 294.24 → 166.17 (hp); - Mk4: 293.25 → 195.59 (hp); - Mk5: 337.5 → 225 (hp); - Mk6: 381.6 → 254.41 (hp); - Mk7: 436.74 → 291.17 (hp); - Mk7+: 525 → 350 (hp).
     - Maximum chance of critical damage increased from 10 to 20%.
     - Cone angle increased from 25 to 30 deg.
-    - Damage multiplier with Viking’s Overdrive active increased from +200% to +400%.
+    - Damage multiplier with Viking's Overdrive active increased from +200% to +400%.
 - Freeze
   - Range of max damage increased to 10 meters across all modifications.
     - Range of min damage decreased from 15-20 to 12-15 meters.
@@ -6501,12 +6516,12 @@ Patch Update #661 - Released 3rd September 2021
     - Energy consumption decreased from 142 to 125 eng/sec.
     - Freezing power increased from 0.45 sec to 0.6 sec.
     - Cone angle increased from 25 to 30 degrees.
-    - Damage multiplier with Viking’s Overdrive active increased from +200% to +400%.
+    - Damage multiplier with Viking's Overdrive active increased from +200% to +400%.
 - Isida
-  - Damage multiplier with Viking’s Overdrive active increased from +200% to +400%.
+  - Damage multiplier with Viking's Overdrive active increased from +200% to +400%.
 - Hammer
-  - Fixed the bug that caused an abnormally low critical chance for «Dragon’s breath» and «Wyverns Breath» augments.
-    - Critical damage halved for «Dragon’s breath» and «Wyverns Breath» augments:
+  - Fixed the bug that caused an abnormally low critical chance for «Dragon's breath» and «Wyverns Breath» augments.
+    - Critical damage halved for «Dragon's breath» and «Wyverns Breath» augments:
     - Mk1: 540 → 270 (hp); - Mk2: 635.29 → 317.64 (hp); - Mk3: 682.94 → 341.47 (hp); - Mk4: 746.47 → 373.23 (hp); - Mk5: 825.88 → 412.94 (hp); - Mk6: 889.41 → 444.70 (hp); - Mk7: 952.94 → 476.47 (hp); - Mk7+: 1080 → 540 (hp).
 - Magnum:
   - Reload time increased from 5-2 seconds to 6-3 seconds.
@@ -6515,7 +6530,7 @@ Patch Update #661 - Released 3rd September 2021
     - Critical damage decreased from 710-1410 (hp) to 500-1000 (hp).
 - Fixed a bug where if the back of a tank were pressed against a fence, the tank would teleport to another location
 - Fixed a bug where slow projectiles dealt no damage if you rotated your hull.
-- Fixed a bug where stunned tanks weren’t being damaged if they moved from the place where they were stunned.
+- Fixed a bug where stunned tanks weren't being damaged if they moved from the place where they were stunned.
 
 ### July 30th (Update 656)
 
@@ -6532,22 +6547,22 @@ Patch Update #661 - Released 3rd September 2021
 - Freeze:
   - Critical shot deals x3 damage:
     - Mk1: 112,5 → 337,5 (hp); - Mk2: 132,35 → 397,05 (hp); - Mk3: 148,89 → 446,67 (hp); - Mk4: 165,44 → 496,32 (hp); - Mk5: 175,36 → 526,08 (hp); - Mk6: 185,29 → 555,87 (hp); - Mk7: 198,53 → 595,59 (hp); - Mk7+: 225 → 675 (hp).
-    - Freeze’s «Shock freeze» augment decreases damage by 15% instead of 30%.
-- Striker’s «Missile launcher "Uranium"» augment:
+    - Freeze's «Shock freeze» augment decreases damage by 15% instead of 30%.
+- Striker's «Missile launcher "Uranium"» augment:
   - Rocket's reload time is increased by 20% instead of 15%;
     - Salvo reload time increase was removed;
-    - Doesn’t decrease number of rockets in salvo, now it’s 4 instead of 3;
+    - Doesn't decrease number of rockets in salvo, now it's 4 instead of 3;
     - Delay between rockets in salvo being launched is increased, 0.5 sec instead of 0.25 sec.
 - Overdrives:
-  - Hornet’s OD doesn’t let a player get overdrive charge points from battle actions for the time Supercharge effect is applied – 7 seconds;
-    - Fixed the way damage is calculated for Viking’s OD when some augments are equipped;
-    - Vulcan deals x5 damage while Viking’s OD is activated instead of x3.
+  - Hornet's OD doesn't let a player get overdrive charge points from battle actions for the time Supercharge effect is applied – 7 seconds;
+    - Fixed the way damage is calculated for Viking's OD when some augments are equipped;
+    - Vulcan deals x5 damage while Viking's OD is activated instead of x3.
 - Updated shop prices for certain currencies.
 
 ### July 16th (Update 655)
 
 - The Summer Sport Games event and the new «Arms race» game mode are in the game!
-- Added the new Hammer’s «Magnetic Pellets» augment, the last shot in the ammo clip disables the activated supplies of hit enemies.
+- Added the new Hammer's «Magnetic Pellets» augment, the last shot in the ammo clip disables the activated supplies of hit enemies.
 - Added paints for the «Developers VS Players» event.
 - Shaft Changes
   - Critical shot damage is twice more now:
@@ -6556,7 +6571,7 @@ Patch Update #661 - Released 3rd September 2021
     - The «Heavy capacitors» augment let you get full energy shot in 4 seconds instead of 6 seconds.
 - Overdrive Changes:
   - Wasp
-    - Overdrive is now charging 66% faster depending in battle points: 0,99% per battle point instead of 0,6%; - Jammer status effect applied by Wasp’s bomb lasts 6 seconds instead of 3 seconds.
+    - Overdrive is now charging 66% faster depending in battle points: 0,99% per battle point instead of 0,6%; - Jammer status effect applied by Wasp's bomb lasts 6 seconds instead of 3 seconds.
     - Crusader
     - Passive overdrive charging time is now increased from 50 seconds to 70 seconds.
     - Dictator
@@ -6565,9 +6580,9 @@ Patch Update #661 - Released 3rd September 2021
 ### July 9th (Update 654)
 
 - Updated the prices and contents of Tankoin, premium, and gold box bundles in the Shop.
-- «Stun» effect doesn’t make you drop flags or balls anymore.
+- «Stun» effect doesn't make you drop flags or balls anymore.
 - Mammoth now has 100% protection from mines while its overdrive is active.
-- Hammer’s «Blunderbuss» augment no longer increases reload time; now reload time is decreased by 10%
+- Hammer's «Blunderbuss» augment no longer increases reload time; now reload time is decreased by 10%
 - Tesla:
   - Ball lightning speed has been reset to 5 m/s for all modifications.
     - Ball lightning shot delay time was decreased from 0.5 sec to 0.3-0.2 sec.
@@ -6592,7 +6607,7 @@ Patch Update #661 - Released 3rd September 2021
 - «Blaster» drone:
   - Damage inside the effective damage radius was decreased. The drone now destroys the nearest opponent, not all of those who are inside the effective damage radius.
 - Paint scaling for HD hulls was increased to make paints look the same on both SD and HD skins.
-- Improved the in-game announcements system; now, you won’t miss the most important news.
+- Improved the in-game announcements system; now, you won't miss the most important news.
 
 ### July 2nd (Update 653)
 
@@ -6609,7 +6624,7 @@ Patch Update #661 - Released 3rd September 2021
     - Improved shot effects for the Tesla turret.
     - Ball lightning is now affected by the following modificators:
     - Protection:
-      - Boosted armour; - Titan’s dome; - Protection modules.
+      - Boosted armour; - Titan's dome; - Protection modules.
         - Buffs:
       - Boosted damage; - Drones.
     - Chain lightning reload (sec) was increased from 0.85 sec to 0.9 sec.
@@ -6617,8 +6632,8 @@ Patch Update #661 - Released 3rd September 2021
     - The maximum distance between a chain lightning and a ball lightning was increased from 15 - 18 meters to 18 - 21 meters.
     - The maximum distance between a chain lightning and other tanks was decreased from 15 - 18 meters to 12 - 15 meters.
     - Ball lightning projectile speed (m/sec) now depends on upgrades, from 3 m/sec to 5 m/sec.
-    - Tesla’s cone angle (deg) was increased from 15° to 17°.
-    - Hyperion’s supply cooldown reduction was changed from 0 - 30 seconds to 20 - 30 seconds.
+    - Tesla's cone angle (deg) was increased from 15° to 17°.
+    - Hyperion's supply cooldown reduction was changed from 0 - 30 seconds to 20 - 30 seconds.
     - The maximum number of points/flags in MM battles was increased:
     - DM: 30 → 50; - TDM: 70 → 100; - CP: 30 → 50; - CTF: 5 → 7; - ASL: 70 → 100; - RGB: 5 → 7; - TJR: 7 → 10; - SGE: 5 → 7; - JGR: 100 → 100.
 
@@ -6673,7 +6688,7 @@ Patch Update #661 - Released 3rd September 2021
   - Reverse acceleration is decreased from 10-14 to 9-13 to m/s;
     - Weight is decreased from 1800-3600 to 1200-2400 points.
     - The time between activating overdrive and shooting an icicle is increased from 700 to 900 ms.
-    - Icicle’s damage is decreased from 1500-3000 HP to 1000-2000 HP.
+    - Icicle's damage is decreased from 1500-3000 HP to 1000-2000 HP.
 - Ares:
   - Reverse acceleration is decreased from 11-15 to 9-11 m/s;
     - Weight is decreased from 1950-3900 to 1800-3600 points.
@@ -6691,7 +6706,7 @@ Patch Update #661 - Released 3rd September 2021
 ### April 30 (Update 645)
 
 - May Holidays - New missions and special events are already in the game.
-- Added Isida’s «Vampire nanobots» augment to Ultra Containers.
+- Added Isida's «Vampire nanobots» augment to Ultra Containers.
 - Added the experimental special «Daily Tankoin Pass» offer
 - Updated how Supplies and Drones work:
   - Renamed «Double Armor» to «Boosted Armor»
@@ -6710,7 +6725,7 @@ Patch Update #661 - Released 3rd September 2021
 - Changed default volume of damage sounds:
   - The sound of destroying an opponent is now louder;
     - The sound of getting damaged is now quieter.
-- Fixed the bug that didn’t let you save the volume of sound settings.
+- Fixed the bug that didn't let you save the volume of sound settings.
 - Improved the Battle List.
   - Battles you created will have a different colour in the Battle List.
     - After you open a battle, it will have a different colour in the Battle List.
@@ -6720,7 +6735,7 @@ Patch Update #661 - Released 3rd September 2021
 
 - Ultra Weekend - new missions and special events are already in the game.
 - Added the new «Striker Ultra» skin.
-- Added the new Striker’s stunning augment into Ultra Containers.
+- Added the new Striker's stunning augment into Ultra Containers.
 - Made some improvements to critical damage:
   - Fixed some augments that were broken after the critical damage release.
     - Fixed the «Show Damage» setting.
@@ -6732,12 +6747,12 @@ Patch Update #661 - Released 3rd September 2021
 - After you open a battle, it will have a different colour in the battles list.
 - Added sounds for dealing common and critical damage:
 - You can change the volume of the sound for dealing and getting damage separately.
-- Hammer’s «Duplet» augment no longer increases vertical scatter angle.
-- Hammer’s «Blunderbuss» augment now increases vertical scatter angle by 200% and clip reload by 25%.
+- Hammer's «Duplet» augment no longer increases vertical scatter angle.
+- Hammer's «Blunderbuss» augment now increases vertical scatter angle by 200% and clip reload by 25%.
 - Striker reload time has been decreased from 2.2s to 1.7s and from 2.0s to 1.6s.
 - Striker now deals twice as much damage on critical shots than on normal shots.
-- When turning, Hopper is now controlled relative to the hull’s position, not relative to the camera.
-- Hopper’s OD now only applies the stun status effect for 1 second.
+- When turning, Hopper is now controlled relative to the hull's position, not relative to the camera.
+- Hopper's OD now only applies the stun status effect for 1 second.
 - Spectrum A now has 30% resistance instead of 25% and Spectrum M has 25% instead of 22%.
 - Added 4th protection module slot.
 
@@ -6807,7 +6822,7 @@ Patch Update #661 - Released 3rd September 2021
     - When hitting several targets, the same critical damage is applied to all of them;
     - «Round stabilization» augment disables critical damage but also increases default damage by 33%;
     - «Round destabilization» augment either deals increased critical damage (+60%) or deals negligible default damage - 100 HP:
-    - «Hyperspace rounds» augment doesn’t deal critical damage.
+    - «Hyperspace rounds» augment doesn't deal critical damage.
     - «Adrenaline» augment increases both default and critical damage.
 - Mine:
   - Removed default damage range;
@@ -6831,8 +6846,8 @@ Patch Update #661 - Released 3rd September 2021
 
 List of changes:
 
-- Made some changes to Hopper’s overdrive. If you activate it and your tank is destroyed immediately after, your overdrive energy won’t be saved.
-- Changed the time needed to make a Crusader’s icicle. Now it is just 0.7 seconds instead of 1.3 seconds before firing!
+- Made some changes to Hopper's overdrive. If you activate it and your tank is destroyed immediately after, your overdrive energy won't be saved.
+- Changed the time needed to make a Crusader's icicle. Now it is just 0.7 seconds instead of 1.3 seconds before firing!
 - Fixed how the following elements are displayed in the game: «Home» button, protection module slot, notification about receiving rewards for Challenge levels, etc.
 - Fixed alignment and sizes of additional information about the battle time and score.
 - Made MM groups look better
@@ -6850,13 +6865,13 @@ List of changes:
         - Mk1: 810 → 1134 (hp); - Mk2: 972,65 → 1361,71 (hp); - Mk3: 1088,82 → 1524,35 (hp); - Mk4: 1181,76 → 1654,46 (hp); - Mk5: 1274,71 → 1784,59 (hp); - Mk6: 1344,41 → 1882,17 (hp); - Mk7: 1414,12 → 1979,77 (hp); - Mk7+: 1600 → 2240 (hp).
         - Cryo Rounds:
       - Decreased temperature by 100% from minimum temperature for 0.5 seconds. - Loading up before shooting time is increased by 20%: from 1,1 to 1,32 (s) for all modifications.
-    - Railgun’s «Stun rounds» augment:
+    - Railgun's «Stun rounds» augment:
     - Increased stun time from 1 to 2 seconds.
-    - Gauss’s «Electromagnetic salvo» augment:
+    - Gauss's «Electromagnetic salvo» augment:
     - The radius of disabling supplies is decreased from 20 to 14 meters.
-    - Gauss’s «Armor-Piercing Salvo» augment:
+    - Gauss's «Armor-Piercing Salvo» augment:
     - The radius of applying the effect is increased from 0 to 6 meters.
-    - Ares’s overdrive:
+    - Ares's overdrive:
     - Now when the tank is killed at the moment of overdrive start it is possible to leave some charge unspent.
 - The garage now displays Gear Score details for all equipped parts of the tank instead of turret and hull parameters.
 - Added a sound for all pop-up notifications.
@@ -6865,7 +6880,7 @@ List of changes:
 - Friends and clan mates now have different colour nicknames everywhere.
 - Added back the option to disable MM group invites.
 - The window description header in the lobby now shows only the name of the current section.
-- When shooting a tank that has immunity from a status effect you were going to apply, an “Immunity” indicator will appear above the tank.
+- When shooting a tank that has immunity from a status effect you were going to apply, an "Immunity" indicator will appear above the tank.
 - Some fixes of the «Back» button in the battle list.
 
 ### February 18 (Update 637)
@@ -6891,14 +6906,14 @@ List of changes:
     - Berlin— 28 players; - Dusseldorf— 28 players; - Lost Temple— 28 players; - Scope— 28 players; - Kolhoz— 24 players; - Skylark— 20 players.
     - Added an eSports version of some maps so any changes to these maps will not affect eSports:
     - Barda; - Barda ММ; - Bobruisk; - Gubakha; - Iran; - Kungur; - Cologne; - Bridges ММ; - Parma; - Red Alert; - Red Alert ММ; - Tribute ММ; - Forest.
-      - The maps use the Summer theme only; - The amount of players on the map is limited to 14 (7x7); - Added the “eSport” tag in the maps name; - All players can create those maps.
+      - The maps use the Summer theme only; - The amount of players on the map is limited to 14 (7x7); - Added the "eSport" tag in the maps name; - All players can create those maps.
     - When the battle ends, the players are redirected to the end screen, even if they are in the garage/settings/shop.
-    - If there is an active MU sale, a shield with a \[%\] appears on the garage section and on the “Upgrade” button in that section.
+    - If there is an active MU sale, a shield with a \[%\] appears on the garage section and on the "Upgrade" button in that section.
     - If there is an active turret or hull sale, a shield with \[%\] appears on the garage section.
     - Fixed sorting Containers in the garage.
     - Fixed the annoying auto-pause message, which was active even after the player left the battle.
     - Fixed the error where a player got a grey screen after exiting the battle end screen.
-    - Removed the “Vote” option from the battle end screen.
+    - Removed the "Vote" option from the battle end screen.
     - Small changes in the clan section.
 
 ### February 5 (Update 636)
@@ -6948,8 +6963,8 @@ List of changes:
     - Mk7+: 1,8 → 1,7 (s).
 - Now, Hopper accelerates 2 m/s slower and no longer receives an overdrive charge for useful combat actions within 10 seconds of applying the overdrive.
 - Ares gets points for destroying opponents with its overdrive.
-- Hammer’s “Duplet” augment takes 50% longer to reload the magazine relative to the new magazine reload time.
-- Hammer’s “Armor-Piercing Shot” augment no longer gives an acceleration boost of the magazine reload.
+- Hammer's "Duplet" augment takes 50% longer to reload the magazine relative to the new magazine reload time.
+- Hammer's "Armor-Piercing Shot" augment no longer gives an acceleration boost of the magazine reload.
 - Smoky's "Rubberized Rounds" augment allows the projectiles to bounce off walls, twice.
 - Initial velocity of Striker missiles increased by 5 m/s for all modifications.
 - The bug due to which items were not equipped in the garage is now fixed.
@@ -6965,12 +6980,12 @@ List of changes:
 
 ### January 29 (Update 635)
 
-- Smoky’s standard skin received an upgrade to HD.
+- Smoky's standard skin received an upgrade to HD.
 - Added animation, new shot effects and new projectile mechanics.
 - Added new augments for Smoky.
-- A new currency “Shards” for compiling containers is added.
+- A new currency "Shards" for compiling containers is added.
 - Ability to double-click to equip items in the garage is added.
-- “My clan” button is added to the friends list.
+- "My clan" button is added to the friends list.
 - The ability of changing your username for a bunch of tankoins is now finally re-added to the game.
 - Prizes in the form of shards are added to daily missions.
 - An end battle screen before progressing the statistics screen is displayed.
@@ -6995,7 +7010,7 @@ List of changes:
 - Now the size of maps in matchmaking and the number of players in them depend on the player's rank;
 - The number of players in a group now depends on the rank of the player. However, the maximum number of players in a group remains unchanged;
 - The number of players in the group now affects the available maps;
-- An “up” arrow is displayed in the garage for items that have an upgrade available;
+- An "up" arrow is displayed in the garage for items that have an upgrade available;
 - Now a timer for temporary discounts is displayed in the garage;
 - When invited to a PRO-battle, you will get a notification to say whether the battle is available at your rank or not;
 - In the list of battles, the entered text is saved in the battle name field if you return from the battle lobby or from the garage.
@@ -7006,7 +7021,7 @@ List of changes:
   - Crusader is now available for crystals in Garage;
     - Public and Private messages in the chat look different now;
     - Added a notification about reaching the maximum number of friends in the browser version of the game;
-    - Fixed a bug with the battle list: After leaving a battle lobby, search input was being cleared but the filter wasn’t being disabled;
+    - Fixed a bug with the battle list: After leaving a battle lobby, search input was being cleared but the filter wasn't being disabled;
     - Set a 300 characters limit for chat messages;
     - When a player is not able to send a message due to anti-flood system, message sending button is replaced with a timer showing how much time the player needs to wait;
     - Now you can use ESC keyboard button to leave a battle from the battle results screen;
@@ -7106,10 +7121,10 @@ List of changes:
 - Improved scrolling for pop-up windows;
 - Fixed font issues for Polish language;
 - Fixed how the timer is shown for the cooldown window when joining a clan;
-- Fixed how scores and the «Join» button are shown for battles unavailable for player’s rank in the battle list;
+- Fixed how scores and the «Join» button are shown for battles unavailable for player's rank in the battle list;
 - Fixed buttons in the friend search menu;
-- Fixed the description of containers that a player doesn’t have;
-- Fixed the bug where players invited to an MM group would crash if they clicked on the “Complete” button in the missions window;
+- Fixed the description of containers that a player doesn't have;
+- Fixed the bug where players invited to an MM group would crash if they clicked on the "Complete" button in the missions window;
 - Fixed the bug with entering a nickname in the registration window for Firefox browser;
 - Fixed layout of tables when resizing the client window;
 - Fixed showing the sales badge for items you already have;
@@ -7147,10 +7162,10 @@ List of changes:
 - Added a notification for an increased chance of getting items from Ultra Containers.
 - Added showing clan tags to HTML5.
 - Added showing Premium Pass version of ranks in the chats and lobby.
-- Fixed the bug showing a “return to the battle” window after you left the battle.
+- Fixed the bug showing a "return to the battle" window after you left the battle.
 - Fixed the bug that shows the same items multiple times after receiving them from containers.
-- Fixed the bug that doesn’t show Premium Pass as a possible reward from containers when you already have Premium Pass activated.
-- Fixed the bug that shows the sale badge for items which are not available for a tanker’s rank.
+- Fixed the bug that doesn't show Premium Pass as a possible reward from containers when you already have Premium Pass activated.
+- Fixed the bug that shows the sale badge for items which are not available for a tanker's rank.
 - You can now buy «Frost» and «Golden star» paints without having a Premium Pass.
 - Fixed memory leak when a tanker goes from a battle to the lobby or garage or vice versa.
 
@@ -7158,7 +7173,7 @@ List of changes:
 
 - List of changes:
   - Magnum:
-    - Now with default Magnum you can rotate your turret like any other turret; - Now with the «Reinforced gun carriage» augment you can change the angle of elevation; - Changes of Magnum’s characteristics:
+    - Now with default Magnum you can rotate your turret like any other turret; - Now with the «Reinforced gun carriage» augment you can change the angle of elevation; - Changes of Magnum's characteristics:
       - Initial shot angle was increased to 12 for both horizontal and vertical modes; - Min projectile speed (m/sec) was decreased from 35 to 30; - Max projectile speed (m/sec) was decreased from 140 to 130 - Projectile gravitation was decreased from 5.0 to 4.5; - Average splash damage (%) was increased from 30% to 50%.
     - Vulcan:
     - Improved shot effects of Vulcan; - Recovered the «Mysterious Red» shot effect for Vulcan.
@@ -7171,7 +7186,7 @@ List of changes:
 
 - List of changes:
   - You can now refresh your showcase using tankoins.
-    - Fixed how the hover tank’s speed depended on camera POV.
+    - Fixed how the hover tank's speed depended on camera POV.
     - Fixed and added back dust from tracks.
 
 ### August 28 (Update 617)
@@ -7202,12 +7217,12 @@ List of changes:
     - Added «Anisotropic filtering» technology for textures of all hulls and turrets.
     - Search input is not displayed in the Friends screen if you have less than 10 friends or friend requests.
     - Changed the text of an error which is shown when you try to register an account with a nickname that is too short.
-    - “Play” button is not active anymore unless you enter your account credentials.
+    - "Play" button is not active anymore unless you enter your account credentials.
     - The challenge widget now shows a "Completed" text, if you have finished all tiers.
     - The button to buy stars or Premium Pass is not shown any more when you finish a challenge.
-    - If you are invited to a MM group, the “Play” button and buttons responsible for choosing mode are not active.
+    - If you are invited to a MM group, the "Play" button and buttons responsible for choosing mode are not active.
     - The tooltip indicator is not shown when you scroll MM modes to the end.
-    - The “copy link” buttons are visually changed when you copy the link.
+    - The "copy link" buttons are visually changed when you copy the link.
     - Placeholder text is grey now and when you click on Search input, it disappears.
     - Added tooltips for paint rarity categories.
     - Fixed font size of bought cards in the Showcase.
@@ -7219,7 +7234,7 @@ List of changes:
 - List of changes:
   - Updated coinboxes.
     - «Defender» drone:
-    - Decreased double armour’s additional supply power range from +50% → +200% to +25% → +100%; - Increased power-up duration from 15 seconds to 30 seconds.
+    - Decreased double armour's additional supply power range from +50% → +200% to +25% → +100%; - Increased power-up duration from 15 seconds to 30 seconds.
     - «Trickster» drone:
     - Increased effective range from, 15 → 25 metres to 20 → 30 metres; - Increased battle scores from 5 to 10.
     - Twins:
@@ -7231,17 +7246,17 @@ List of changes:
       - Mk1: 50 → 30; - Mk2: 54,61 → 32,77; - Mk3: 56,47 → 33,88; - Mk4: 58,82 → 35,29; - Mk5: 61,76 → 37,06; - Mk6: 63,53 → 38,12; - Mk7: 65,29 → 39,17; - Mk7+: 70 → 42.
     - Viking:
     - Increased overdrive damage.
-    - Twins’s «Stable plasma» augment:
+    - Twins's «Stable plasma» augment:
     - Removed recoil increase; - Added decrease of shots speed by 15%.
-    - Shaft’s «Rapid-fire mode» augment:
+    - Shaft's «Rapid-fire mode» augment:
     - Increased maximum rate of fire from 270 ms to 375 ms. - Energy reload speed decrease is now 50% instead of 40%.
 
 ### June 19 (Update 608)
 
 - List of changes:
-  - “Adrenaline” Augments for all turrets are now available for crystals.
+  - "Adrenaline" Augments for all turrets are now available for crystals.
     - Correction of the in-game balance of turrets and hulls:
-    - “Adrenaline” Augments received an increase to their damage at shorter ranges:
+    - "Adrenaline" Augments received an increase to their damage at shorter ranges:
       - melee range turrets — up to +39%; - short-range turrets — up to +36%; - medium-range turrets — up to +33%; - long-range turrets remain at +30%.
         - Vulcan:
       - Damage per bullet reduced by 12% for all modifications:
@@ -7250,7 +7265,7 @@ List of changes:
       - Increased maximum number of experience points for healing from 12 to 13.
         - Shaft:
       - Energy recovery rate after a sniper shot increased by 40%.
-        - “Rapid-fire mode” Augment for Shaft:
+        - "Rapid-fire mode" Augment for Shaft:
       - Removed the damage penalty in sniping mode; - Slowed the rate of energy recovery after each shot; - Increased the rate of fire.
     - Reduced the number of chat channels for various locales.
     - Added an account in-game activity check before writing in the chat.
@@ -7266,8 +7281,8 @@ List of changes:
     - Returned Ultra Containers with new items.
     - Added the «Crisis» drone into Ultra Containers.
     - Added the «Adrenaline» augment for all turrets into Ultra Containers.
-    - Added Gauss’s «Electromagnetic salvo» into Ultra Containers.
-    - Added Vulcan’s «Rubberized rounds» into Ultra Containers.
+    - Added Gauss's «Electromagnetic salvo» into Ultra Containers.
+    - Added Vulcan's «Rubberized rounds» into Ultra Containers.
     - Added the «Ultra» skin for Hunter and Vulcan into Ultra Containers.
     - Added 3D flags.
     - Added announcements system.
@@ -7275,18 +7290,18 @@ List of changes:
     - Removed «Double damage», «Double armour» and «Speed Boost» supplies from first ranks: Recruit — Sergeant-Major.
     - Minimum rank needed to purchase «Double armour» and «Speed Boost» was decreased by one.
     - Significantly increased loading speed for the first entry to the Garage.
-    - «Hyperion drone»’s enabling supplies consumption was decreased by 2.
+    - «Hyperion drone»'s enabling supplies consumption was decreased by 2.
 
 ### May 29 (Update 605)
 
 - List of changes:
   - Fixed a bug that generated daily missions without rewards.
 - List of changes in the HTML5 version:
-  - Fixed Shaft’s zoom in sniper mode.
+  - Fixed Shaft's zoom in sniper mode.
     - Fixed the battle link copying feature. Now it will be easier to share links between clients.
-    - The “Home/Back” button should always work now.
+    - The "Home/Back" button should always work now.
     - Added news ticker mechanism to show announcements which are too large.
-    - Fixed “Connection lost” window.
+    - Fixed "Connection lost" window.
     - Layout fixes.
 
 ### May 21 (Update 604)
@@ -7301,13 +7316,13 @@ List of changes:
     - The «Defender» drone:
     - Effect duration time was decreased from 20 seconds to 15 seconds; - Now consumes 2 more «Double Armour» supplies; - The recharge time was decreased from 20 seconds to 3 seconds.
 - Changes in the HTML5 version:
-  - Added indication of the status of other players’ overdrives.
+  - Added indication of the status of other players' overdrives.
     - Fixed layout issues.
 
 ### May 8 (Update 601)
 
 - Returned turret and added hull augments to the Garage.
-- Railgun’s «Round stabilization» augment moved to «Rare» category in containers.
+- Railgun's «Round stabilization» augment moved to «Rare» category in containers.
 
 ### April 30 (Update 600)
 
@@ -7343,7 +7358,7 @@ List of changes:
       - Reload time increase is now 15% instead of 20%
         - Augment for Thunder «Subcaliber rounds»:
       - Firing rate increased by 10%.
-        - Augment for Thunder «“Sledgehammer" rounds»:
+        - Augment for Thunder «"Sledgehammer" rounds»:
       - Projectile speed decrease is now 50% instead of 60%.
         - Augment for Railgun «Reinforced aiming transmission»:
       - Vertical autoaim decrease is now 20% instead of 30%.
@@ -7370,12 +7385,12 @@ List of changes:
   - Released 8 hull alterations for Hunter.
     - Now, protection modules no longer decrease freezing (slow-down) and burning (after-burn) effects.
     - Juggernaut has 50% resistance from freezing (slow-down) speed and burning (after-burn) damage.
-    - Titan’s and Wasp’s overdrive:
-    - Titan’s dome no longer protects from freezing (slow-down) and burning (after-burn) effects but still decreases heating damage; - When you place the dome, in addition to disabling other domes, it also disables bombs from Wasp’s overdrive.
-    - Hunter’s overdrive:
+    - Titan's and Wasp's overdrive:
+    - Titan's dome no longer protects from freezing (slow-down) and burning (after-burn) effects but still decreases heating damage; - When you place the dome, in addition to disabling other domes, it also disables bombs from Wasp's overdrive.
+    - Hunter's overdrive:
     - Stun duration increased from 2.7 to 3 seconds; - Supplies disable duration increased from 3 to 5 seconds.
 - List of changes in HTML5:
-  - Triple buffering is now controlled by the player’s browser. Unnecessary framebuffer switches are no longer loaded while rendering, so graphics productivity was increased.
+  - Triple buffering is now controlled by the player's browser. Unnecessary framebuffer switches are no longer loaded while rendering, so graphics productivity was increased.
     - Added a confirmation window for deleting a friend from friends list.
     - Added some translations.
     - Fixed Chinese characters readability in battle chats.
@@ -7395,7 +7410,7 @@ List of changes:
     - Fixed some other texts.
     - Fixed layout problems in the Firefox browser.
     - Fixed how 4 digits are displayed in team score.
-    - The “Invite” button in the menu will not be shown anymore if you don't have at least 1 friend.
+    - The "Invite" button in the menu will not be shown anymore if you don't have at least 1 friend.
     - Battle names are no longer case-sensitive.
 
 ### April 1 (Update 595)
@@ -7415,16 +7430,16 @@ List of changes:
 - List of changes in HTML5:
   - Improved camera behaviour in keyboard mode
     - Fixed lights for drop box zones.
-    - Fixed “Reset all” button in settings.
-    - Fixed the bug when it wasn’t possible to mention player’s nickname second time in chats
+    - Fixed "Reset all" button in settings.
+    - Fixed the bug when it wasn't possible to mention player's nickname second time in chats
     - Added displaying alterations for all tanks in TAB stats
     - Added special indication of helpers in the chat.
-    - Improved context menu when you click on a player’s nickname.
+    - Improved context menu when you click on a player's nickname.
     - Made lights for bushes and trees to be the same as in Flash.
-    - Titan’s dome displaying now depends on «Soft particles» setting.
+    - Titan's dome displaying now depends on «Soft particles» setting.
     - Enter button on NumPad-keyboard also sends message to the chat now.
     - When writing to a specific player in chat all messages of the player are highlighted.
-    - When you go to lobby chats from the clan chat the game doesn’t prompt you to choose a chat channel any more.
+    - When you go to lobby chats from the clan chat the game doesn't prompt you to choose a chat channel any more.
     - When looking for previous chat messages the window is not scrolled any more when new messages appear.
     - Removed «Soft shadows» setting.
     - Returned «Dynamic lights» setting.
@@ -7437,7 +7452,7 @@ List of changes:
     - Added self-destruction activation after changing equipment.
     - Added the Vulcan ultra skin to the Showcase.
     - Added new 3D point bases for «Control Points», «Siege» and «Assault» modes.
-    - Fixed point “capturing” indicator.
+    - Fixed point "capturing" indicator.
     - Added experimental optimized lighting system on the Arena map.
 
 ### February 28 (Update 592)
@@ -7445,28 +7460,28 @@ List of changes:
 - List of changes in HTML5:
   - Added «Special Missions».
     - Fixed the bug with disappearing tank in the Garage
-    - Fixed the “pause” function — tank will not be respawned while your camera is moving to a respawn point if the pause is enabled
+    - Fixed the "pause" function — tank will not be respawned while your camera is moving to a respawn point if the pause is enabled
     - Made battle interface scalable
     - Changes in the interface
 
 ### February 21 (Update 591)
 
 - List of changes:
-  - Changes in Vulcan’s balance:
+  - Changes in Vulcan's balance:
     - Damage per second replaced with damage per projectile; - Average damage significantly increased; - Increased firing rate parameter: time between projectiles reduced from 75ms to 50ms; - Added projectile speed parameter with 250 m/s value; - Decreased barrel startup time to 1 second; - Added ricochets from an inclined surface; - Removed damage penalty during overheat; - Decreased impact and hit force.
-    - Changes in alterations’ parameters:
-    - Vulcan’s «Reinforced aiming transmission»:
+    - Changes in alterations' parameters:
+    - Vulcan's «Reinforced aiming transmission»:
       - Removed turret slowdown rate while shooting.
-        - Vulcan’s «Incendiary band»:
+        - Vulcan's «Incendiary band»:
       - Removed damage penalty; - Added projectile speed penalty; - Each projectile heats tank by 0,07% of maximum overheat temperature.
-        - Vulcan’s «Shooting speed regulator»:
+        - Vulcan's «Shooting speed regulator»:
       - Now decreases firing rate by 15%; - Changed startup and slowdown time penalty to 85% instead of 50%; - Removed time to overheat boost.
         - Added new «Rubberized Rounds» alteration:
       - Increases number of ricochets to 5; - Increases possible ricochet angle from 60 degrees to 10 degrees from normal; - Decreases projectile speed by 25%.
-    - Fixed behavior of damage from Striker’s explosion
+    - Fixed behavior of damage from Striker's explosion
 - Changes in the HTML5 version:
   - New garage.
-    - Fixed Isida’s effects.
+    - Fixed Isida's effects.
     - Improved battle creation interface.
     - Fixed glitches on animated paints.
     - Improved readability of rank icons.
@@ -7482,7 +7497,7 @@ List of changes:
 ### January 31 (Update 588)
 
 - Changes in all versions:
-  - Fixed the bug that decreased effective radius of Striker projectile’s splash
+  - Fixed the bug that decreased effective radius of Striker projectile's splash
 - Changes in Web version:
   - Increased readability of fonts in battles (nicknames, battle chat).
     - Increased quality of rank images
@@ -7510,7 +7525,7 @@ List of changes:
   - Number of modifications for all turrets, hulls and protection modules increased from 4 to 7.
     - Current equipment of players converted according to previously announced new system of modifications:
     - М0 → Mk1, Mk2; - М1 → Mk3, Mk4; - М2 → Mk5, Mk6; - М3 → Mk7.
-    - Number of points for every team mate who benefits from Dictator’s overdrive decreased from 25 to 10.
+    - Number of points for every team mate who benefits from Dictator's overdrive decreased from 25 to 10.
     - Number of points for every team mate who benefits from Mechanic drone decreased from 10 to 7.
 - Changes in the HTML5 version:
   - Product kits available for crystals with discounts are sold only in Showcase.
@@ -7547,7 +7562,7 @@ List of changes:
 
 - List of changes:
   - Added new «Siege» game mode and daily missions for it.
-    - Original Viking Thunder Prime skins are now separate from the re-designed versions (which will now be called “Ultra”). Current owners of these skins will now have both versions (Prime AND Ultra) in their garages.
+    - Original Viking Thunder Prime skins are now separate from the re-designed versions (which will now be called "Ultra"). Current owners of these skins will now have both versions (Prime AND Ultra) in their garages.
     - Removed DM mode from MM battles
 - Changes in the HTML5 version:
   - Your team is now always shown as blue.
@@ -7638,8 +7653,8 @@ List of changes:
 
 - List of changes:
   - Overdrive recharge status remains after a player stops being Juggernaut or rejoins a battle.
-    - The Dome of Titan’s generator is no longer visible in DM modes.
-    - Fixed description of Mammoth and «Missile launcher "Uranium”» Striker’s alteration.
+    - The Dome of Titan's generator is no longer visible in DM modes.
+    - Fixed description of Mammoth and «Missile launcher "Uranium"» Striker's alteration.
 - List of changes in the HTML5 version
   - HTML5 version is now supported in the Firefox browser.
     - Fixed the scores bar in battles with unlimited scores or without a time limit.
@@ -7661,17 +7676,17 @@ List of changes:
     - Wasp's overdrive:
     - Doesn't disable Mammoth's overdrive anymore.
 - Changes in Alterations:
-  - Freeze’s alteration «Shock freeze»:
+  - Freeze's alteration «Shock freeze»:
     - Decreased damage penalty from 50% to 30%; - Freezing rate increased from +100% to +200%.
-    - Striker’s alteration «Missile launcher “Hunter”»:
+    - Striker's alteration «Missile launcher "Hunter"»:
     - Removed maximum projectile speed penalty.
-    - Striker’s alteration «Missile launcher “Cyclone”»:
+    - Striker's alteration «Missile launcher "Cyclone"»:
     - Decreased aiming time penalty from 40% to 30%.
-    - Striker’s alteration «Missile launcher “Uranium”»:
+    - Striker's alteration «Missile launcher "Uranium"»:
     - Decreased number of projectiles from 4 to 2.
-    - Striker’s alteration «Remote rocket explosives»:
+    - Striker's alteration «Remote rocket explosives»:
     - Added max projectile speed limit of 350 m/s.
-    - Vulcan’s alteration «Reinforced aiming transmission»:
+    - Vulcan's alteration «Reinforced aiming transmission»:
     - Decreased vertical auto-aim penalty from 30% to 15%.
     - Vulcan's alteration «Shooting speed regulator»:
     - Decreased damage per second from 20% to 15%.
@@ -7687,10 +7702,10 @@ List of changes:
     - Added "Damage enemy tanks" to daily and weekly missions; - Reduced number of "Finish battles" daily missions.
     - Freeze:
     - Decreased freezing level of the turret from 90% to 20%; - A full energy canister now lasts 0.5 secs longer.
-    - Shaft’s alteration «Heavy capacitors»:
-    - Decreased full reload time from 8 to 6 seconds. - Shaft’s alteration «Light capacitors»: - Decreased full reload time from 2.5 to 2 seconds; - Decreased Maximum aiming damage from 30% to 25%.
+    - Shaft's alteration «Heavy capacitors»:
+    - Decreased full reload time from 8 to 6 seconds. - Shaft's alteration «Light capacitors»: - Decreased full reload time from 2.5 to 2 seconds; - Decreased Maximum aiming damage from 30% to 25%.
     - Juggernaut:
-    - If a juggernaut self-destroys, score points are given to the opponent. Previously they were deducted from your team’s score.
+    - If a juggernaut self-destroys, score points are given to the opponent. Previously they were deducted from your team's score.
 - Changes in the new HTML5: version:
   - Fixed a bug when friend's status (in group / in battle) was shown incorrectly.
     - Multiple changes to user interface and translations.
@@ -7702,7 +7717,7 @@ List of changes:
     - Removed «Team Juggernaut» mode on «Brest» map.
     - Magnum:
     - Reduced average splash damage from 50% to 30%.
-    - Mammoth’s overdrive:
+    - Mammoth's overdrive:
     - Increased range from 7 meters to 7,5 meters; - Increased loading speed from battle points by 20%.
     - Renamed tankoin-containers to coinboxes.
     - Disabled DM mode daily missions.
@@ -7743,15 +7758,15 @@ List of changes:
     - Removed DM Juggernaut more;
     - Added daily missions for the new Team Juggernaut mode;
     - Added tankoin-container;
-    - Decreased time of delay after Viking’s overdrive for some turrets;
+    - Decreased time of delay after Viking's overdrive for some turrets;
     - Removed auto-equip of paints received from containers and challenges;
 - Changes in the new HTML5 version:
   - Fixed reverse driving control settings
     - Added mouse camera control mode while a tank flipped on its side
     - Returned dust from tank tracks
     - Added sorting rare paint alhpabatically
-    - Fixed wrong indication of turret load after Vulcan’s overheating
-    - Decreased sound volume level for turret’s rotation in mouse camera control mode;
+    - Fixed wrong indication of turret load after Vulcan's overheating
+    - Decreased sound volume level for turret's rotation in mouse camera control mode;
     - Fixed a game crash when a bonus box appeared without a parachute
 
 ### September 19 (Update 562)
@@ -7762,7 +7777,7 @@ List of changes:
 - Fixed challenge tier progress bar bug
 - Fixed a bug with drones cooldown after respawning
 - Fixed a bug that allowed players to activate a supply while it was already on
-- Fixed a bug with missing sound of opponents’ supplies activation
+- Fixed a bug with missing sound of opponents' supplies activation
 - Added a sound effect for reloaded supplies
 - Changed location of overdrive indicator: it is now symmetrical with the radar
 - Fixed a FPS problem on Intel HD4000 graphics card
@@ -7796,7 +7811,7 @@ List of changes:
 - Accrual of battle points in DM matchmaking battles:
   - The number of frag points has been reduced from 15 to 10.
     - The self-destruct penalty has been turned off.
-- Fixed the “flying house” bug on the Molotov map.
+- Fixed the "flying house" bug on the Molotov map.
 
 ### July 18 (Update 564)
 
@@ -7805,20 +7820,20 @@ List of changes:
   - Increased aiming recovery time from 1 second to 2 seconds.
 - Freeze:
   - Reduced time of full cylinder discharge from 7 seconds to 6.5 seconds.
-- "Plasma-torch” Alteration for Ricochet:
+- "Plasma-torch" Alteration for Ricochet:
   - Now reduces the speed of projectiles by 50% instead of 66%.
-- “Berserk” Alteration for Ricochet:
+- "Berserk" Alteration for Ricochet:
   - Now increases the power of shots by 30% instead of 80%.
-- “Slugger” Alteration for Hammer "Slugger»:
+- "Slugger" Alteration for Hammer "Slugger»:
   - Now reduces turret rotation speed by 30% instead of 70%.
-- “Dragon’s Breath” Alteration for Hammer:
+- "Dragon's Breath" Alteration for Hammer:
   - Now each pellet heats the target by 0.3% instead of 0.2%.
-- “High-capacity ammo clip” Alteration for Hammer:
+- "High-capacity ammo clip" Alteration for Hammer:
   - Now increases magazine reload time by 15% instead of 35%.
     - Now does not affect the cooldown of shots in the clip.
-- “Duplet” Alteration for Hammer:
+- "Duplet" Alteration for Hammer:
   - Now increases clip reload time by 15% instead of 10%.
-- “Adaptive reload” Alteration for Hammer:
+- "Adaptive reload" Alteration for Hammer:
   - Now, destroying the enemy tank reloads the clip completely.
 - Dictator's Overdrive supply activation effect:
   - Increased range from 15 meters to 20 meters.
@@ -7831,12 +7846,12 @@ List of changes:
     - Reduced cooldown from 10 seconds to 3 seconds.
 - Changes in matchmaking maps:
   - Removed ASL mode from Forest map.
-    - Added a new experimental map called “Archipelago” in DM, TDM, CP modes.
+    - Added a new experimental map called "Archipelago" in DM, TDM, CP modes.
     - Added Molotov in DM, TDM, CP, CTF, RGB, ASL modes.
     - Added Cross map in DM, TDM, CP, CTF, RGB modes.
     - Minor fixes on different maps.
 - Other changes:
-  - Added “Owl” module to the "Anti-camper" protection modules kit
+  - Added "Owl" module to the "Anti-camper" protection modules kit
     - Added 48 hours to the July Challenge and WAR for Space to make up for starting them late.
 
 ### June 13 (Update 556)
@@ -7889,16 +7904,16 @@ List of changes:
     - M3: 529.41 → 158.82;
     - M3 +: 600 → 180.
     - Reduced barrel spin time by 0.5 s for all modifications
-- Vulcan’s "Incendiary band":
+- Vulcan's "Incendiary band":
   - Now reduces damage per second by 20% instead of 10%
-- Vulcan’s "Shooting Speed Regulator":
+- Vulcan's "Shooting Speed Regulator":
   - Now reduces damage per second by 20% instead of 25%
-- Striker’s Missile launcher "Hunter":
+- Striker's Missile launcher "Hunter":
   - Reduced recharge time after volley:
     - M0: 2.5 → 1.5; - M1: 2.25 → 1.35; - M2: 2.11 → 1.27; - M3: 1.97 → 1.18; - M3 +: 1.8 → 1.08
-    - Thunder’s "Subcaliber rounds":
+    - Thunder's "Subcaliber rounds":
     - Removed recoil penalty
-    - Shaft’s "Rapid-fire mode”:
+    - Shaft's "Rapid-fire mode":
     - Now consumes 375 energy per shot instead of 380; - Additionally reduces the energy recovery rate after a shot by 15
 - Drones (all):
   - Now increase turret damage and hull defense by 1% to 5%
@@ -8010,7 +8025,7 @@ List of changes:
     - now increases maximum damage by 90%, and not by 50%; - now reduces minimal damage to 1 hp, and not to 5 hp.
     - Magnum alteration «Mortar»:
     - now mine placed by a shot is active for 30 seconds.
-- Added indication for the player’s alteration above the tank in battle.
+- Added indication for the player's alteration above the tank in battle.
 
 ### October 31 (Update 533)
 
@@ -8047,7 +8062,7 @@ List of changes:
 - Option to rent alterations removed from the game.
 - Gameplay alterations are now unlocked according to ranks, not turret modifications.
 - Now only one gameplay alteration can be equipped for each turret.
-- Now standard color of the turret shot doesn’t rely on its modification.
+- Now standard color of the turret shot doesn't rely on its modification.
 
 ### October 30 (Update 532)
 
@@ -8058,7 +8073,7 @@ List of changes:
     - Added new types of daily missions:
     - activate overdrive in battle; - finish battle; - finish battle in specific mode.
     - 3x hours of Premium as a mission reward was removed from the game.
-    - “Collect supplies” missions can now be completed by activating specific supplies.
+    - "Collect supplies" missions can now be completed by activating specific supplies.
     - Slightly increased the cost of changing daily missions.
 - 9 new drones added for purchase in the Garage.
 - 3 new drone kits added to the Shop:
@@ -8083,8 +8098,8 @@ List of changes:
 ### October 19 (Update 530)
 
 - Changes to drone mechanics:
-  - “Engineer” in addition to its standard mechanic now activates the effect of the picked up supplies for all allies in the battle.
-    - “Mechanic” in addition to its standard mechanic now allows to use Repair Kit even if you have full health.
+  - "Engineer" in addition to its standard mechanic now activates the effect of the picked up supplies for all allies in the battle.
+    - "Mechanic" in addition to its standard mechanic now allows to use Repair Kit even if you have full health.
 - Currently equipped drone is now displayed above your tank in the Garage.
 - The color of the overdrive activation effect is now green for your allies and blue for your enemies.
 
@@ -8101,7 +8116,7 @@ List of changes:
         - increased maximum hit range:
       - М0: 15 → 40; - М1: 17 → 48; - М2: 18 → 52; - М3: 19 → 55; - М3+: 20 → 60.
         - minimal hit radius increased from 4 to 5 meters on all modifications;
-        - added new parameters “average hit radius” and “average hit percentage”.
+        - added new parameters "average hit radius" and "average hit percentage".
       - These settings impact the effectiveness of splash damage: it will become bigger.
     - Shaft:
     - increased minimal aimed damage:
@@ -8156,17 +8171,17 @@ List of changes:
 - Small changes in Matchmaking mechanism:
   - Reduced waiting time for solo players;
     - Improved prediction accuracy for waiting time;
-    - Introduced rank limits for players in battle groups: now all players in the group must be at maximum 5 ranks above or below the group’s creator;
+    - Introduced rank limits for players in battle groups: now all players in the group must be at maximum 5 ranks above or below the group's creator;
     - Fixed the visual indication of game mode for players in battle groups.
 - Friend List updates for Matchmaking:
-  - Added indicators “in battle” and “in battle group” for Friend List;
+  - Added indicators "in battle" and "in battle group" for Friend List;
     - Added option to invite friends into battle group even if they are already in battle.
 - Supply drops:
   - Increased time before the first wave of supply drops from 40 seconds to 120 seconds.
-- The “Battle!” button in Battle List renamed to “Matchmaking”.
+- The "Battle!" button in Battle List renamed to "Matchmaking".
 - Small changes to configuration of Matchmaking version of maps and ASL mode.
 - Added an option to Settings to allow gifts from all players, not just friends.
-- “Fall leaves” animated paint added to containers.
+- "Fall leaves" animated paint added to containers.
 
 ### August 10 (Update 521)
 
@@ -8201,12 +8216,12 @@ List of changes:
 ### July 28 (Update 519)
 
 - Changes to Juggernaut mode:
-  - reduced damage, armor and healing from Juggernaut’s overdrive: on lower ranks -- reduced more, on medium and high ranks -- reduced less.
+  - reduced damage, armor and healing from Juggernaut's overdrive: on lower ranks -- reduced more, on medium and high ranks -- reduced less.
     - added sound for when Juggernaut is destroyed;
-    - Juggernaut’s overdrive now has purple color;
+    - Juggernaut's overdrive now has purple color;
     - fixed several errors in the mode.
-- Removed from the score table at the end of the battle additional crystals indication for players with \*Premium account or Beginner’s Pass.
-  - The summary of all rewards at the end of the battle, including prizes, is now shown in the “Rewards” column.
+- Removed from the score table at the end of the battle additional crystals indication for players with \*Premium account or Beginner's Pass.
+  - The summary of all rewards at the end of the battle, including prizes, is now shown in the "Rewards" column.
 - World Cup 2018 paints removed from the Shop.
 - The low damage percentage for Hammer increased from 10% to 25%.
 - The number of score points for delivering the flag in Matchmaking CTF battles increased from 50 to 100.
@@ -8214,7 +8229,7 @@ List of changes:
 
 ### July 20 (Update 518)
 
-- A new “Juggernaut” mode added to the game (available from the Sergeant rank).
+- A new "Juggernaut" mode added to the game (available from the Sergeant rank).
 - An updated version of Sandal map added to the list of Matchmaking maps.
 - Additional updates for the Matchmaking version of Massacre map.
 - Repair Kit supply now available for purchase from the Recruit rank.
@@ -8223,7 +8238,7 @@ List of changes:
 - Battle List of PRO-battles and PRO Battle Pass now available from Warrant Officer 1.
 - Changes to turret balance:
   - Thunder:
-    - slightly reduced reload time; - considerably increased the distance of maximum damage; - slightly increased the distance of minimal damage; - slightly reduced the impact power of the shot; - increased the power of the splash explosion; - added new parameters “range of average impact” and “percentage of average impact”.
+    - slightly reduced reload time; - considerably increased the distance of maximum damage; - slightly increased the distance of minimal damage; - slightly reduced the impact power of the shot; - increased the power of the splash explosion; - added new parameters "range of average impact" and "percentage of average impact".
     - Shaft:
     - slightly reduced the recharge time between shots while NOT in Sniper mode; - slightly increased the maximum range of shots NOT in Sniper mode. - reduced by two times the range of minimal impact of shots while NOT in Sniper mode; - reduced by two times the percentage of weak impact shots while NOT in Sniper mode; - the amount of energy per shot slightly reduced, and the parameter is no longer upgradable.
 
@@ -8248,14 +8263,14 @@ List of changes:
     - without modifications: (10 → 15), meters; - fully upgraded: (20 → 25), meters.
 - Changed the position of several spawn points, bases and flags on Matchmaking versions of maps Aleksandrovsk, Bridges, Industrial Zone, Kungur, Osa, Tribute, Year 2042.
 - The number of points gained in Matchmaking battles per each captures point in CP decreased from 25 to 15.
-- Updated paint descriptions for “Champion”, “Silver”, “Bronze”, “Acid” and “Gladiator”.
-- Iraq and Palestine added to the list of countries for clan’s selection.
+- Updated paint descriptions for "Champion", "Silver", "Bronze", "Acid" and "Gladiator".
+- Iraq and Palestine added to the list of countries for clan's selection.
 
 ### June 5 (Update 513)
 
 - The size of battle groups in Matchmaking is now limited to 3 players;
 - After creating a battle group protection modules of group members are no longer shown in Matchmaking;
-- Fixed bugs with drones “Trooper” and “Mechanic”;
+- Fixed bugs with drones "Trooper" and "Mechanic";
 - Trooper is no longer triggered during the respawn;
 - Mechanic now applies to all nearby allies a full healing effect of the Repair Kit, and not its own bonus healing effect;
 - Fixed the bug when supply cooldowns would not reset directly after the respawn.
@@ -8263,7 +8278,7 @@ List of changes:
 ### May 18 (Update 511)
 
 - 12 new paints added to containers.
-- New animated paint “Canyon Hero” (can be found in containers).
+- New animated paint "Canyon Hero" (can be found in containers).
 - Flag limit in CTF and score limit in RGB increased from 5 to 7.
 
 ### April 27 (Update 510)
@@ -8273,7 +8288,7 @@ List of changes:
     - Kills limit in DM and score limit in CP reduced from 100 to 50;
     - Flag limit in CTF and score limit in RGB reduced from 10 to 5.
 - Changes to daily mission chains:
-  - Disabled mission chain reset if you don’t complete at least 1 mission a day;
+  - Disabled mission chain reset if you don't complete at least 1 mission a day;
     - Maximum number of chain levels increased from 4 to 10;
     - Reward for the maximum level of the new mission chain system is equal to the reward for the maximum level of mission chains in the old system, with sequential rewards increase on levels in between.
     - Reward for completing the maximum level of mission chains now includes 1 more container.
@@ -8305,8 +8320,8 @@ List of changes:
 - Changes to Assault mode:
   - Blue Team no longer receives score points for controlling the point;
     - Blue Team now gains 1 score point for every destroyed enemy tank.
-- Removed daily mission “Finish 1st in a battle”;
-- Added new daily mission “Finish among top 3 of the winning team in a battle”. Mission can be completed in any mode;
+- Removed daily mission "Finish 1st in a battle";
+- Added new daily mission "Finish among top 3 of the winning team in a battle". Mission can be completed in any mode;
 - Added new effects when opening containers.
 
 ### December 7 (Update 496)
@@ -8318,7 +8333,7 @@ List of changes:
     - The field for sending friend request is moved from the list of sent requests to the Friends List;
     - Enabled auto-removal of friends who are inactive for more than 6 months;
     - Enabled auto-removal of all friends for players who are inactive for more than a year;
-    - All players’ incoming and sent friend requests were cleared once.
+    - All players' incoming and sent friend requests were cleared once.
 - Added new protection against jump hacks to the anti-cheat system;
 - Removed notification for players in battle that a cheater was reported.
 
@@ -8331,8 +8346,8 @@ List of changes:
 - Lobby Screen has been reworked to make it easier to join battles for specific modes.
 - Rank limits for standard (non-PRO) and PRO battles decreased.
 - Battle list now unlocks at the rank of Master Corporal.
-- “PRO Battle” Pass now unlocks at the rank of Master Corporal.
-- “New Players” chat channel and Battle Chat now unlock at the rank of Gefreiter.
+- "PRO Battle" Pass now unlocks at the rank of Master Corporal.
+- "New Players" chat channel and Battle Chat now unlock at the rank of Gefreiter.
 
 ### October 12 (Update 485)
 
@@ -8355,8 +8370,8 @@ List of changes:
 ### August 18 (Update 477)
 
 - All Garage paints are now available from the rank of Recruit.
-- New bundle “All turrets and hulls M0” added to Shop (available from Recruit).
-- Fixed bug with tank’s semi-transparent state during respawn.
+- New bundle "All turrets and hulls M0" added to Shop (available from Recruit).
+- Fixed bug with tank's semi-transparent state during respawn.
 
 ### August 4 (Update 473)
 
@@ -8366,8 +8381,8 @@ List of changes:
     - Available from Gefreiter: Freeze, Isida, Ricochet, Mammoth;
     - Available from Corporal: Hammer, Vulcan, Railgun, Hornet, Viking;
     - Available from Master Corporal: Striker, Magnum, Shaft.
-- 4 kits for beginners (“Almighty”, “Yin-Yang”, “Commando”, “Universal soldier”) no longer available to purchase.
-- Fixed bug with the Beginner’s Pass.
+- 4 kits for beginners ("Almighty", "Yin-Yang", "Commando", "Universal soldier") no longer available to purchase.
+- Fixed bug with the Beginner's Pass.
 
 ### July 13 (Update 470)
 
@@ -8378,9 +8393,9 @@ List of changes:
 
 ### July 12 (Update 469)
 
-- New feature - “Overdrive” added to the game.
+- New feature - "Overdrive" added to the game.
   - This Overdrive activates all 5 supplies (except gold boxes) for you and your teammates nearby;
-    - “Overdrive ON/OFF” option added to PRO Battle settings;
+    - "Overdrive ON/OFF" option added to PRO Battle settings;
     - Overdrive is turned off by default in format battles, except Parkour.
 - Changes to Repair Kit mechanic:
   - Initially Repair Kit instantly restores 1000 HP and reduces burning and freezing effects, and then additionally restores 3000 hit points over 3 seconds;
@@ -8402,15 +8417,15 @@ List of changes:
     - Respawn delay time increased from 2 sec to 4 sec
 - New sounds and effects for supplies panel.
 - Now you will be able to see the amount of hit points restored by friendly Isida or with picked up Repair Kit.
-- Changing paint while being in a battle now doesn’t cause immediate self-destructing.
+- Changing paint while being in a battle now doesn't cause immediate self-destructing.
   - New paint applies only after next respawn.
 - New key bindings for Overdrive and Quick Garage added to Settings.
   - Now you will be able to open Garage while being in a battle by pressing a key.
-- Fixed bugs in “Odnoklassniki” app.
+- Fixed bugs in "Odnoklassniki" app.
 
 ### July 6 (Update 467)
 
-- “Promo Codes” option added to Shop (Under “Other” section).
+- "Promo Codes" option added to Shop (Under "Other" section).
 - Fixed bug with invisible tank parts.
 
 ### May 26 (Update 461)
@@ -8434,20 +8449,20 @@ List of changes:
 
 ### April 21 (Update 456)
 
-- Balance changes for Firebird, "Compact tanks" alteration, Isida, Hammer, “Slugger” alteration, Smoky, Striker, Thunder and Magnum.
+- Balance changes for Firebird, "Compact tanks" alteration, Isida, Hammer, "Slugger" alteration, Smoky, Striker, Thunder and Magnum.
 - Additional Daily Bonus in Premium Account:
   - Given to Premium tankers only;
     - Given every day following the day when Premium is activated, and as long as Premium is active;
-    - User must log into the game to receive the daily bonus. Bonuses on days when the user doesn’t login are lost.;
+    - User must log into the game to receive the daily bonus. Bonuses on days when the user doesn't login are lost.;
     - Consists of 2500 crystals, 3 Repair Kits and 10 of each of the other supplies (with the exception of Gold Boxes);
     - Bonus will be the same for all ranks.
 - New Daily Mission types:
-  - “Earn crystals” and “Earn crystals in a mode”;
+  - "Earn crystals" and "Earn crystals in a mode";
     - To complete the mission, player needs to finish a battle and get a crystal reward;
-    - Bonuses from Premium account and Beginner’s Pass count towards mission progress.
+    - Bonuses from Premium account and Beginner's Pass count towards mission progress.
 - Changes in Communicator:
   - Now the game remembers last opened tab;
-    - “News” tab still opens first when there are unread news items;
+    - "News" tab still opens first when there are unread news items;
     - Minor improvements and bug fixes.
 - New flags for CTF mode.
 - Sound for Magnum powering up extended.
@@ -8460,11 +8475,11 @@ List of changes:
 ### April 14 (Update 455)
 
 - Changes to the lobby chat section:
-  - The lobby chat section has been renamed to “Communicator”;
+  - The lobby chat section has been renamed to "Communicator";
     - The Communicator has 3 tabs: News, Chat and Clan Chat;
     - Players can read the news both current and past news items in the News tab.
-- Fixed some bugs with map previews and “Space” theme.
-- “Space” theme will remain forever for all maps.
+- Fixed some bugs with map previews and "Space" theme.
+- "Space" theme will remain forever for all maps.
 
 ### April 7 (Update 453)
 
@@ -8496,11 +8511,11 @@ List of changes:
 - Rank limits when creating a battle expanded for all ranks.
 - Some bugs with Magnum fixed.
 - Critical errors disabled:
-  - Up until now, when the Tanki Online client received a “strange” instruction, it would spit out a Critical Error and throw you out of the game. With this update, we’ll be disabling the Critical Error (when bugs will go off you will not be disconnected from the server).
+  - Up until now, when the Tanki Online client received a "strange" instruction, it would spit out a Critical Error and throw you out of the game. With this update, we'll be disabling the Critical Error (when bugs will go off you will not be disconnected from the server).
 
 ### March 23 (Update 450)
 
-- New turret “Magnum” released.
+- New turret "Magnum" released.
 - New protection modules with Magnum protection released:
   - Falcon S-C: Magnum;
     - Eagle D-E: Magnum, Shaft;
@@ -8516,22 +8531,22 @@ List of changes:
     - Griffon T-H: Ricochet, Magnum, Shaft.
 - New achievements for Striker and Magnum added to Ratings.
 - New product kits with Magnum added to Shop:
-  - “Unicorn”: Hornet M1 and Magnum M1;
-    - “Archer”: Hunter M1 and Magnum M1;
-    - “Panther”: Dictator M1 and Magnum M1;
-    - “Excalibur”: Viking M2 and Magnum M2;
-    - “Hyacinth”: Mammoth M2 and Magnum M2;
-    - “Ballista”: Hunter M2 and Magnum M2;
-    - “Siegfried”: Hunter M3 and Magnum M3;
-    - “Bertha”: Mammoth M3 and Magnum M3;
-    - “Gustav”: Titan M3 and Magnum M3;
+  - "Unicorn": Hornet M1 and Magnum M1;
+    - "Archer": Hunter M1 and Magnum M1;
+    - "Panther": Dictator M1 and Magnum M1;
+    - "Excalibur": Viking M2 and Magnum M2;
+    - "Hyacinth": Mammoth M2 and Magnum M2;
+    - "Ballista": Hunter M2 and Magnum M2;
+    - "Siegfried": Hunter M3 and Magnum M3;
+    - "Bertha": Mammoth M3 and Magnum M3;
+    - "Gustav": Titan M3 and Magnum M3;
     - These kits will not be available for purchase in Garage.
 - Changes to map pool of auto-created battles:
   - Novel, Lost Temple, Esplanade added;
     - Noise removed.
 - Issue with game loading using Firefox resolved.
 - Improvements in payment error form and handling.
-- “Critical error” optimization.
+- "Critical error" optimization.
 
 ### March 16 (Update 449)
 
@@ -8541,7 +8556,7 @@ List of changes:
     - Values of all parameters (excluding damage) and protection decreased slightly.
 - Changes to damage and protection of all M0, M1, M2 and M3 hulls and turrets:
   - Increase in damage and protection;
-    - Changes don’t apply to M3+ hulls and turrets.
+    - Changes don't apply to M3+ hulls and turrets.
 - Changes to micro-upgrades for all M1 hulls and turrets:
   - Number of steps decreased from 50 to 10;
     - Total step cost halved and equals the cost of the M2 modification of the item;
@@ -8554,8 +8569,8 @@ List of changes:
     - Rent for real money removed.
 - Other changes.
   - Bulk discounts for buying items of the same type removed.
-    - Discounts now don’t apply to product kits.
-    - Garage Info about product kits’ content simplified.
+    - Discounts now don't apply to product kits.
+    - Garage Info about product kits' content simplified.
     - Bonus supplies removed from the kits in the garage.
 
 ### March 2 (Update 445)
@@ -8672,7 +8687,7 @@ List of changes:
 ### December 8
 
 - The maps Magadan, Deck-9 and Canyon have been returned to the game and are only accessible using a Pro Battle Pass or Premium account.
-- Smoky’s critical damage will no longer be affected by distance from target.
+- Smoky's critical damage will no longer be affected by distance from target.
 - The «Battle» button will no longer send players to maps that are unavailable at their rank.
 - Map-specific missions have been removed from the game.
 
@@ -8683,7 +8698,7 @@ List of changes:
 ### November 30 (Update 428)
 
 - Parameter tweaks on Vulcan, Firebird, Compact Cylinders alteration, Freeze, Isida, and the Broadband Transducers alteration.
-- Added "Continue" button — users will be kicked if he/she doesn’t click the "Continue" button when the battle resets.
+- Added "Continue" button — users will be kicked if he/she doesn't click the "Continue" button when the battle resets.
 - Shaft bug fixed.
 - Alert bug fixed.
 - Minor changes in the shop interface.
@@ -8695,7 +8710,7 @@ List of changes:
 ### November 16 (Update 426)
 
 - Implemented system for managing multiple accounts on login
-- Implemented “Battle” button for Quick Battles. The button will automatically send the player to a battle on that server that best fits that player’s rank. Please note that this system:
+- Implemented "Battle" button for Quick Battles. The button will automatically send the player to a battle on that server that best fits that player's rank. Please note that this system:
   - doesn't work for PRO battles (ignores them).
     - sends players only to recently started battles.
     - sends players to maps that are closer to being full.
@@ -8737,7 +8752,7 @@ List of changes:
 
 ### July 29
 
-- DM-tournaments and the “Gold box” supply.
+- DM-tournaments and the "Gold box" supply.
 
 ### July 21
 
@@ -8749,7 +8764,7 @@ List of changes:
 
 ### July 1
 
-- Newbie’s pass, double-click on items in garage and coloured buttons when switching from battle to garage/lobby.
+- Newbie's pass, double-click on items in garage and coloured buttons when switching from battle to garage/lobby.
 
 ### June 23
 
@@ -8964,7 +8979,7 @@ List of changes:
 - Fixed lengths for non-PRO battles
 - Gold box is now dropped 20 seconds after the notification
 - More customization in PRO battles
-- Further changes in Isida’s updated visual effect
+- Further changes in Isida's updated visual effect
 - Ability to disable drop zone marks in settings
 
 ### November 18 (Update 292)
@@ -9002,7 +9017,7 @@ List of changes:
 
 - Ability to switch between servers right in the game
 - Optimization of 3D-engine that lead to a significant decrease in chances of a Fatal Error
-- Player’s rating is no longer displayed
+- Player's rating is no longer displayed
 
 ### August 7 (Update 277)
 
@@ -9039,7 +9054,7 @@ List of changes:
 
 ### February 19 (Update 229)
 
-- Numerous fixes and improvements of the game’s client part. Critical error issue has been fixed.
+- Numerous fixes and improvements of the game's client part. Critical error issue has been fixed.
 
 ### February 14 (Update 227)
 
@@ -9122,7 +9137,7 @@ List of changes:
 
 ### November 21 (Update 193)
 
-- Protections of some paints have been changed: Acid gives 18% from all weapons, Champion’s protections are now 25%.
+- Protections of some paints have been changed: Acid gives 18% from all weapons, Champion's protections are now 25%.
 - Daily gifts are now available from 1 am (UTC+0)
 
 ### October 31 (Update 190)
@@ -9143,7 +9158,7 @@ List of changes:
 
 ### September 2 (Update 181)
 
-- Holiday billboards and a special paint for Tankman’s Day have been added to the game.
+- Holiday billboards and a special paint for Tankman's Day have been added to the game.
 
 ### August 19 (Update 180)
 
@@ -9214,7 +9229,7 @@ List of changes:
 
 ### June 4 (Update 160)
 
-- Tanki Online’s birthday: holiday paint and billboards, changed look of flags, launch of the Discount Week.
+- Tanki Online's birthday: holiday paint and billboards, changed look of flags, launch of the Discount Week.
 
 ### May 16 (Update 154)
 
@@ -9250,7 +9265,7 @@ List of changes:
 
 ### April 16 (Update 143)
 
-- «Team kick by vote» system’s testing has been completed.
+- «Team kick by vote» system's testing has been completed.
 
 ### April 12 (Update 142)
 
@@ -9262,7 +9277,7 @@ List of changes:
 - New product kits have been added.
 - Deep shadows effect (SSAO) has been added.
 - Anti-flood system has been improved.
-- Now it is much easier to select necessary items in the garage thanks to added Drag’n’Sсroll support.
+- Now it is much easier to select necessary items in the garage thanks to added Drag'n'Sсroll support.
 - Now items are equipped automatically after the purchase in your garage.
 - Resource loading has been optimized. You can join a battle a lot faster.
 
@@ -9338,7 +9353,7 @@ List of changes:
 
 ### February 14 (Update 124)
 
-- Holiday «Valentine’s Day».
+- Holiday «Valentine's Day».
 - Billboards and festive paint.
 - 50% Discount on all Firebird grades.
 - Initial achievement set at 200 crystals.
@@ -9668,7 +9683,7 @@ List of changes:
 
 ### April 12
 
-- When you create a battle, the rank limit is now tied to the creator’s rank.
+- When you create a battle, the rank limit is now tied to the creator's rank.
 - The victory conditions selected when creating a battle have been change and the maximum time is 300 minutes, 100 flags and 999 kills.
 - Blocked players can now see the reason why they were blocked, when trying to log into the game.
 
@@ -9776,7 +9791,7 @@ List of changes:
 
 ### August 18
 
-- We have changed the formula of user rating calculating. Now it doesn’t count crystals bought for real money. The rating of all users will be recalculated in two days.
+- We have changed the formula of user rating calculating. Now it doesn't count crystals bought for real money. The rating of all users will be recalculated in two days.
 - We have simplified the game entering mechanics. Now after clicking the Start
 
 button a newcomer enters the battle without registration. There he can meet tankers of Recruit, Private and Gefreiter rank. Such a player automatically gets the nickname RecruitNNNNN, where NNNNN is unique number.
@@ -9823,18 +9838,18 @@ Crystal.
 
 the payment section.
 
-- The PayPal button is temporary removed from the payment section. We’ll start to
+- The PayPal button is temporary removed from the payment section. We'll start to
 
 take PayPal payments again soon.
 
-- Now you can’t skip the nick checking procedure.
+- Now you can't skip the nick checking procedure.
 - The respawn was fixed in the blue team on Noise map.
 - The wall bug was fixed on Scope map.
 - The Paints «Champion» (for Clan Tournament winners) and Acid (for TOF
 
 winners) were given protection against the Shaft.
 
-- Now you can’t shoot from under the bridge right through the slope of
+- Now you can't shoot from under the bridge right through the slope of
 
 the bridge.
 
@@ -9871,7 +9886,7 @@ players soon!
 
 ### April 21
 
-- Now you can’t take the flag lying under the bridge while you are on the bridge.
+- Now you can't take the flag lying under the bridge while you are on the bridge.
 - We have connected Gate2Shop payment system for VISA cards. Now you can make payments all over the world.
 - Maximal amount of players in Massacre map increased from 3 per team in team matches and 6 in Deathmatch to 5 per team and 10 respectively.
 - After temporary outage in-game news alert was turned on again.
@@ -9898,7 +9913,7 @@ players soon!
 ### March 4
 
 - We have enhanced Anti-cheat system.
-- We have installed special billboards, added Holiday paint to the Garage and replaced flags with the bouquets in CTF mode in honour of International Women’s Day, which is celebrated on the 8th of March.
+- We have installed special billboards, added Holiday paint to the Garage and replaced flags with the bouquets in CTF mode in honour of International Women's Day, which is celebrated on the 8th of March.
 - We have corrected the Nitro effect for the frozen tank. Now you will be better able to feel this effect.
 - Four new servers are launched.
 
@@ -9919,26 +9934,26 @@ players soon!
 
 - We connected new emitter for collecting VISA/MasterCard payments — Uniteller.
 - We changed PayPal aggregator. Now we accept PayPal payments through OnlineDengi.
-- Unique gun Smoky XT became more powerful. Now it makes not 16–36 but 26–46 damage points. Also we increased the power of a blow of Smoky XT’s shell to 2.2.
+- Unique gun Smoky XT became more powerful. Now it makes not 16–36 but 26–46 damage points. Also we increased the power of a blow of Smoky XT's shell to 2.2.
 - We fixed «Double crystal» bonus card overview. Now it includes the following info: bonus crystals are not taken into account in referral transfers, in transition to Tanki Online 2.0 they will be counted like ordinary crystals but not like bought ones.
 
 ### February 11
 
-- We’ve added new item in your daily presents — the «Double Crystal» discount card. This card allows you to get double your money’s worth for crystals.
-- You’ll notice holiday billboards and seasonally themed paint in honour of St. Valentine’s Day.
-- We’ve optimized a bit and have lowered the risk annoying of lags even more.
+- We've added new item in your daily presents — the «Double Crystal» discount card. This card allows you to get double your money's worth for crystals.
+- You'll notice holiday billboards and seasonally themed paint in honour of St. Valentine's Day.
+- We've optimized a bit and have lowered the risk annoying of lags even more.
 - The server restart schedule has been changed. Servers 1–7 will restart at 15:00 (UTC +3) with evacuation to servers 8–12.
-- We’ve redesigned the «Buy» button, giving it a fresh look.
+- We've redesigned the «Buy» button, giving it a fresh look.
 - The Chronopay payment system has been temporarily turned off. Our aggregator no longer works with Chornopay, but we are in the process of establishing a direct relationship with Chronopay.
-- We’ve eliminated the error in the Izidia shooting effect.
-- We’ve enhanced the droplist in battle creation.
-- We’ve solved the problem that occurred when a players would gain 1,000,000 points during a battle, but would not achieve the Marshall rank until they re-entered the battle.
-- We’ve also solved the problem of when supply icons blinking even after the effect of the supply was over.
+- We've eliminated the error in the Izidia shooting effect.
+- We've enhanced the droplist in battle creation.
+- We've solved the problem that occurred when a players would gain 1,000,000 points during a battle, but would not achieve the Marshall rank until they re-entered the battle.
+- We've also solved the problem of when supply icons blinking even after the effect of the supply was over.
 
 ### February 3
 
 - One of the errors causing the appearance of so-called «invisibles» has been eliminated
-- All New Year’s decorations including, Christmas trees (which had replaced flags), holiday parachutes, wrapped presents, and holiday-themed billboards have been removed.
+- All New Year's decorations including, Christmas trees (which had replaced flags), holiday parachutes, wrapped presents, and holiday-themed billboards have been removed.
 - An error that made it possible to make infinite use of supplies has been eliminated.
 - The shopping cart icon used for entering payment section has been replaced with a «Buy» button.
 - The garage has been optimized through the use of progressive loading. Upon entering the garage only visible items are loaded, allowing for faster entry. All other information will be loaded when players scroll through item lists.
@@ -9947,7 +9962,7 @@ players soon!
 
 ### February 1
 
-- Overloaded database, caused game instability, was modified. Now all player’s achievements are not only saved but also stored through Redis. This solves a lot of issues. Due to this update search logic in the Hall of Fame is temporarily changed. To find user, you should type his full nickname, not part of it.
+- Overloaded database, caused game instability, was modified. Now all player's achievements are not only saved but also stored through Redis. This solves a lot of issues. Due to this update search logic in the Hall of Fame is temporarily changed. To find user, you should type his full nickname, not part of it.
 
 ### January 28
 
@@ -9960,7 +9975,7 @@ players soon!
 
 - Battle creation form was modified:
   - droplist became longer;
-    - now there is search by first letter in the map’s name;
+    - now there is search by first letter in the map's name;
     - the last chosen map is saved in memory.
 - Tanks, whose sources weren't completely loaded, are marked with grey color in battle statistics (press «Tab» to call it). This helps to solve problem of incomplete sources loading and resists to so-called «invisibles».
 - Error in CTF mode, caused some lags, was eliminated.
@@ -9981,7 +9996,7 @@ players soon!
 
 - New maps: «Courage» by Flanagun and «Valley» by 123egor
 - Winter came to maps «Combe», «Island», «Ping-Pong», «Wolfenstein» and «Fort Knox»
-- Payment bug report system was upgraded. Now when player sends payment bug report, system automatically checks if this payment was successful or not. If it was, player receives confirmation letter. If it wasn’t, tech support team automatically gets task and player receives a letter about that. Note: if player made a few identical payments, it is necessary to specify that in payment bug report form.
+- Payment bug report system was upgraded. Now when player sends payment bug report, system automatically checks if this payment was successful or not. If it was, player receives confirmation letter. If it wasn't, tech support team automatically gets task and player receives a letter about that. Note: if player made a few identical payments, it is necessary to specify that in payment bug report form.
 
 ## 2010
 
@@ -10022,7 +10037,7 @@ players soon!
 
 - Tank is no longer a barrier for Freeze or Firebird streams.
 - If you were forcibly disconnected from server you can not connect to this server for 5 minutes. But you can connect to any other server immediately.
-- «Phantom» problem is solved. Earlier, if user disconnected during loading he became so called «phantom». He was in the list of battle but he wasn’t in the game.
+- «Phantom» problem is solved. Earlier, if user disconnected during loading he became so called «phantom». He was in the list of battle but he wasn't in the game.
 - Added alternate camera behaviour which slightly improves view under low ceilings by pitching camera up. To turn on the mode check «Alternate camera behaviour» option in the settings dialog.
 - Now if player gets automatic ban for flood his chat history is cleared.
 
@@ -10059,7 +10074,7 @@ players soon!
 - Ricochet was rebalanced. All early bought Ricochets put out from the garages and crystals for them returned.
 - Freeze was rebalanced. Now Freeze damages victim from the beginning and freezes it at the same time.
 - Chat was split in Russian and English versions.
-- New function in the chat: deleting chat history by player’s nickname.
+- New function in the chat: deleting chat history by player's nickname.
 - The problem with cutting off hanged up players is solved.
 - The mass and dynamics of Hornet M3 was restored.
 - The problem with tanks bounding during collisions was solved.
@@ -10067,7 +10082,7 @@ players soon!
 - Time checking system for resource loading was added. If resources can not be loaded for certain time the loading will be started from the beginning.
 - Bonus medkit value is changed. Now the medkit found during battle heals 50% of hull HP.
 - Appearance of different Freeze modifications now differs.
-- The problem of displaying previews which don’t correspond to maps was solved.
+- The problem of displaying previews which don't correspond to maps was solved.
 - Now the size of explosion depends on the size of tank.
 
 ### July 30
@@ -10082,7 +10097,7 @@ players soon!
 - New principle of medkit functioning
 - Flag indication is back but text now gradually become transparent and disappear
 - New effect and sound of explosion
-- Isida action is corrected (sometimes it didn’t heal or didn’t damage the target)
+- Isida action is corrected (sometimes it didn't heal or didn't damage the target)
 - Aiming algorithm is changed, enemy flag bearer has maximal priority
 - Speed of unfreezing with Firebird depends on Firebird' modification
 - Speed of Freezing enemy with Freeze depends on Freeze' modification
@@ -10098,10 +10113,10 @@ players soon!
 ### July 13
 
 - These problems were successfully solved:
-  - if game loading was interrupted player didn’t get a gift;
+  - if game loading was interrupted player didn't get a gift;
     - anti-foul language system reacted to the links of battles with «eb» in the name;
     - critical errors in the battles;
-    - clickable battle links containing «?rnd=…" didn’t work;
+    - clickable battle links containing «?rnd=…" didn't work;
     - search system cleared valid search results;
     - click to the battle link from the Garage or Hall of Fame opened information about other battle.
 
@@ -10115,16 +10130,16 @@ players soon!
 - Each hull now has its own weight.
 - Links for the battles in chat channel are clickable now. When you click the link you see the list of battles and information about them.
 - There are new maps: Farm and Noise from Nobius; Massacre and Ping Pong from A_Creature; Atra (idea from JlEHb) and Station from Flanagun.
-- We’ve changed flags indication in battles. Written messages from the center of the screen were taken away. Now all informative symbols are allocated in the bottom right corner.
+- We've changed flags indication in battles. Written messages from the center of the screen were taken away. Now all informative symbols are allocated in the bottom right corner.
 - Different modifications of Hornet, Viking and Mammoth have different appearance now.
-- In the Hall of Fame we’ve improved search system based on player’s nickname. Now a few letters from the nick in the search line disappear if there are not any similarities with search request.
+- In the Hall of Fame we've improved search system based on player's nickname. Now a few letters from the nick in the search line disappear if there are not any similarities with search request.
 - All links in the chat channel are clickable now but when you are trying to proceed the link which is not marked as trusted you get warning.
 - We have made server optimization to reduce the amount of lags.
 - We have changed terminology. The word «Kill» was replaced by «Destroy», «Died» by «Lost», «Suicided» by «Selfdestructed».
-- The problem of e-mail changing when the e-mail wasn’t specified during registration was solved.
-- Twins charges geometry was experimentally reduced. These charges don’t cling to objects now.
+- The problem of e-mail changing when the e-mail wasn't specified during registration was solved.
+- Twins charges geometry was experimentally reduced. These charges don't cling to objects now.
 - E-mails in the chat channel now look like links. Click to the link automatically launches your default e-mail client.
-- We’ve launched bad language checking system for names of battles.
+- We've launched bad language checking system for names of battles.
 - Evacuation system was improved. Battles migrate to other server gradually not overloading receiving server with great amount of players at a time.
 - Hornet M1 hull price cut to 1350 crystals.
 
@@ -10140,7 +10155,7 @@ players soon!
 - Different Dictator modifications have different appearances now.
 - Each Isida modification got its own shooting effect color.
 - The problem with e-mail confirmation has been successfully resolved.
-- We launched the second part of the account protection system. If you specified an e-mail in your account you will see the button «Change e-mail and password» instead of standard form for e-mail and password changing. When you click this button you get the e-mail with the link forwarding you to the page with the form for e-mail and password changing. If you didn’t specify an e-mail you can make changes right in the Settings menu without confirmation.
+- We launched the second part of the account protection system. If you specified an e-mail in your account you will see the button «Change e-mail and password» instead of standard form for e-mail and password changing. When you click this button you get the e-mail with the link forwarding you to the page with the form for e-mail and password changing. If you didn't specify an e-mail you can make changes right in the Settings menu without confirmation.
 - Now you can enter no-supplies battle for one-time payment in the amount of 50 crystals.
 - One month no-supplies battles pass price cut. Now it costs 500 crystals only.
 - There are new maps: 2042 by GT-Razer, Island by Figishe, Combe by Figishe, Desert by Figishe, Gravity by M0ONL1ght, Pass by Figishe, Deck-9 by M0ONL1ght, Canyon by M0ONL1ght, Polygon by Figishe and Plato by Figishe.
@@ -10150,7 +10165,7 @@ players soon!
 - Now a nick is checked against prohibited words during registration;
 - Public command #feedback added — it is a switch to the system of ideas and suggestions feedback.tankionline.com;
 - Hash is changed with password change now;
-- Anti-foul language system doesn’t ban users anymore. It replaces forbidden words to symbols \*\*\* now;
+- Anti-foul language system doesn't ban users anymore. It replaces forbidden words to symbols \*\*\* now;
 - New system of evacuation implemented: now the battle will switch to another server with all the players in it during restart;
 - Changed one of alternative buttons — (similar to Del), now Ctrl+ is the analog of Del;
 - Candidate moderators can give 5-minute bans now.
@@ -10183,7 +10198,7 @@ players soon!
 - Different appearance for grades of Smoky, Wasp and Isida
 - Different effect of shots for grades of Smoky
 - New priorities for Isida. The highest priority for healing damaged teammate, middle priority for enemy and the lowest priority for «healthy» teammate.
-- Alternative keys for some actions: Del, PgUp \], PgDown \[.
+- Alternative keys for some actions: Del, PgUp, PgDown .
 - New chat command available for all players #updates — link to «Patch Notes / Updates».
 - New maps: Промзона/Industrial Zone by GT-Razer, Зона / Zone by M0ONL1ght, Тишина / Silence by Figishe
 - All players will be moved to another server when restart is launched.
@@ -10259,7 +10274,7 @@ players soon!
 - Now you can invite friends to the game through email.
 - Payment systems Yandex. Dengi and Webmoney were moved to another payment aggregator (2Pay). But you still can pay through the former aggregator (OnlineDengi).
 - Now if you, for some reason, lost connection with the game (being in the battle), you can return without loosing your achievements. Time to return into the battle — 2 minutes.
-- Changed algorithm of anti-foul language system. Within some period of time there can be false responses, since we’re perfecting the system. If you have examples of false responses please send them to help@tankionline.com
+- Changed algorithm of anti-foul language system. Within some period of time there can be false responses, since we're perfecting the system. If you have examples of false responses please send them to help@tankionline.com
 - Changed algorithm of anti-flood system, now anti-flood follows typing of similar symbols in a row in one message.
 - Flags finally have taken their stand.
 - Fixed bug of mismatch between number of players in the battle list and battle info (9/11).
@@ -10271,7 +10286,7 @@ players soon!
 
 ### January 14
 
-- Eliminated a vulnerability that allowed to increase the speed in battles (aka speed hack). Now if you somehow speed up the tank, you’ll be automatically kicked from the battle.
+- Eliminated a vulnerability that allowed to increase the speed in battles (aka speed hack). Now if you somehow speed up the tank, you'll be automatically kicked from the battle.
 
 ### January 12
 
@@ -10282,11 +10297,11 @@ players soon!
 
 ### December 31
 
-- It’s the New Year’s eve, and all the guns have gone crazy!
+- It's the New Year's eve, and all the guns have gone crazy!
 
 ### December, 30
 
-- Fixed an issue with Isida’s healing action. Previously, healing was done in percent and not in HP.
+- Fixed an issue with Isida's healing action. Previously, healing was done in percent and not in HP.
 - Added an option to enable/disable the battle chat. If the combat chat is turned off, messages will not be displayed. However, you may press enter to view all the messages you missed as well as to write one yourself.
 
 ### December 29
@@ -10310,15 +10325,15 @@ players soon!
 - Flags were temporarily turned into fir-trees
 - Introduced system of automatic change of capital letters into lowercase ones
 - Fixed bug of damaging through walls with the help of Firebird
-- The principle of pause mode has been changed. The pause mode is activated by pressing P or Pause button. If a tank has been destroyed while pause is active, the tank doesn’t spawn until the pause mode is disabled. In the beginning of a new round all tanks are spawned regardless of active pause.
-- In Chat when entering #plans appears conversion into clickable link to the corresponding Forum thread. in Chat #plans is displayed as Задачи и планы разработчиков in Russian localization and Developers’ missions and plans in English one
+- The principle of pause mode has been changed. The pause mode is activated by pressing P or Pause button. If a tank has been destroyed while pause is active, the tank doesn't spawn until the pause mode is disabled. In the beginning of a new round all tanks are spawned regardless of active pause.
+- In Chat when entering #plans appears conversion into clickable link to the corresponding Forum thread. in Chat #plans is displayed as Задачи и планы разработчиков in Russian localization and Developers' missions and plans in English one
 - Maps Wolfenstein and Fort Knox were temporarily disconnected to be prepared for winter
 
 ### December 18
 
 - In Chat when entering #faq or #rules appears conversion into clickable link to the corresponding Forum thread. In Chat #faq is displayed as FAQ for Russian and English localization, and #rules is displayed as Правила in Russian localization and Rules in the English one
 - In Chat the links to the forum are clickable
-- Own tank doesn’t have now nick and rank indication next to health/charge indication stripes
+- Own tank doesn't have now nick and rank indication next to health/charge indication stripes
 - Fixed bug of single-use items use of a tank in inactive (translucent) mode
 - Fixed bug of First Aid single use when having full health
 - Added new maps: Cross from eras, Skylark from DJ_Efreitor, Wolfenstein from GrUm, Fort Knox from GrUm, Bobruisk from DJ_Efreitor.
@@ -10335,7 +10350,7 @@ players soon!
 ### December 3
 
 - Added three maps: Serpuhov from DukePlatinum, Siege from Stefman, Short Bridge from eras
-- The pause was added to the game, now during respawn you don’t leave transparent mode until you start being active. The pause is limited by autokick for inactivity (5 minutes)
+- The pause was added to the game, now during respawn you don't leave transparent mode until you start being active. The pause is limited by autokick for inactivity (5 minutes)
 - Plasma spheres were visually reduced
 - The colour of the sky is now blue-grey
 - Now a golden box with 1000 crystals can appear in battles with bigger funds
@@ -10359,7 +10374,7 @@ players soon!
 
 - Adopted Russian localization
 - Now in the Garage you can purchase «DoubleScore» which will double your points. Lifetime — 6 or 72 hours from the moment of purchasing
-- Alterations in CTF mode: for returning the flag you’ll be granted with extra points, for flag-carrier destruction your score will be doubled
+- Alterations in CTF mode: for returning the flag you'll be granted with extra points, for flag-carrier destruction your score will be doubled
 - Improved antiflood system
 - Fear Machine renamed to Railgun
 - Changed payment aggregator for VISA/MasterCard. Now we take payments from all over the world
@@ -10382,7 +10397,7 @@ players soon!
 
 - Now payment through Web Money allows entering five-place number of crystals
 - Any method of payment allows using your nick
-- Double Damage renamed to Double Power because of the new gun Isida. Now it doesn’t matter what gun you use — Double Power will reinforce any gun.
+- Double Damage renamed to Double Power because of the new gun Isida. Now it doesn't matter what gun you use — Double Power will reinforce any gun.
 
 ### October 8
 
@@ -10410,7 +10425,7 @@ players soon!
 ### September 28
 
 - Added new weapon. Code name — Isida, cures friends and exhausts enemies (at the same time restores own tank).
-- Rewrote server part, now there shouldn’t be any lags and the server should sustain about 2000 players (buzzes possible — fixing in process)
+- Rewrote server part, now there shouldn't be any lags and the server should sustain about 2000 players (buzzes possible — fixing in process)
 - Changed physics of barriers (breaks in walls can be shot through)
 - Added opportunity to throw away flag with the help of «F» key. The flag is thrown to where the tank is situated. Besides within 5 minutes the tank cannot pick up the flag again
 - Changed camera actions. Excluded camera falling into the tank, saved acceptable view in case of close barriers
@@ -10448,7 +10463,7 @@ players soon!
 - Added map from DukePlatinum: Solikamsk
 - Added map from ZeRUS: Ergach (will be renamed to Kolhoz)
 - CTF mode is available for all maps
-- Changed format of messages about flags (user’s name is indicated) in CTF
+- Changed format of messages about flags (user's name is indicated) in CTF
 - Altered repeated activation of single-use items
 - Altered bug leading to spontaneous shot after respawn
 - Altered incorrect blinking of limited score indicator in the battle
@@ -10485,7 +10500,7 @@ players soon!
 The list of blocked users is kept in Shared Objects, so if you enter the game from the other computer – it won't work.
 
 - Improvements in firebird
-- Added alternative “T”-key to activate team chat
+- Added alternative "T"-key to activate team chat
 - Altered messages color scheme in CTF mode. Positive messages for the team are yellow, negative ones - green.
 - Various bugs corrections
 
@@ -10505,7 +10520,7 @@ The list of blocked users is kept in Shared Objects, so if you enter the game fr
 
 ### July 31
 
-- Added game mode “Capture the Flag”
+- Added game mode "Capture the Flag"
 - Added new maps (author: niak_ris): Red Alert, Parma
 - Improved special effect of Fear Machine shot
 - If Fear Machine hits several goals every next goal gets less harm
@@ -10513,9 +10528,9 @@ The list of blocked users is kept in Shared Objects, so if you enter the game fr
 - Plasma speed is decreased
 - Intensified return from Smoky with upgrade
 - Altered system of prize distribution in team battles (there is consolation prize, calculation depends on points, doubly-proportionally to deposit)
-- In settings added possibility to activate adaptive choice of fps flash. In some cases it helps to lessen effect of operation “persistance”
+- In settings added possibility to activate adaptive choice of fps flash. In some cases it helps to lessen effect of operation "persistance"
 - In settings added possibility to disconnect background sound in the battle
-- Added alternative key of tower centration - “/”
+- Added alternative key of tower centration - "/"
 
 ### July, 17
 
@@ -10584,7 +10599,7 @@ The list of blocked users is kept in Shared Objects, so if you enter the game fr
 ### June, 29
 
 - Viewport size remains the same between sessions
-- Altered texture of “stronger hit” bonus
+- Altered texture of "stronger hit" bonus
 - Game fund is invisible in unlimited battles
 - Overloaded maps are always marked in gray
 - Corrected Kungur map to prevent its boarder crossing
@@ -10594,7 +10609,7 @@ The list of blocked users is kept in Shared Objects, so if you enter the game fr
 - Improved rank slider under creation of a battle
 - Now single-use items timer resets after death
 - Added info about speed into frames descriptions
-- Now if the flag “remember me” is set in registration window, correct name is given under second login
+- Now if the flag "remember me" is set in registration window, correct name is given under second login
 - Now rail-gun shot is delayed
 - In settings added possibility to invert rotation keys under moving back
 - Slightly corrected physical pattern of tank to decrease cases of sticking on hills

@@ -1,6 +1,6 @@
 # Tanki Online Damage Chart
 
-[English](./README.md) | [简体中文](./README_zh.md) | [Русский](./README_ru.md)
+[English](./README.md) │ [简体中文](./README_zh.md) │ [Русский](./README_ru.md)
 
 A small React tool for comparing Tanki Online turret damage over a fixed 10-second window.
 
@@ -117,7 +117,7 @@ src/
 
 ## Data Source
 
-The current values are based on [Tanki Wiki](https://en.tankiwiki.com/) data for June 4th, 2026 (Update 832).
+The current values are based on [Encyclopedia of the game «Tanki Online»](https://en.tankiwiki.com/) data for June 4th, 2026 (Update 832).
 
 ## License
 
