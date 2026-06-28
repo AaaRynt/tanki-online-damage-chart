@@ -79,29 +79,28 @@ export function TTK({
   if (!showTTK) return null
 
   return (
-    <section className="border-border flex h-[calc(100%-3rem)] min-h-0 w-136 min-w-99 flex-col overflow-hidden rounded-lg border bg-(--color-cover) shadow-md backdrop-blur-md">
+    <section className="border-border flex h-[calc(100%-2.5rem)] w-lg flex-col overflow-hidden rounded-lg border bg-(--color-cover) shadow-md backdrop-blur-md">
       <ScrollArea.Root className="min-h-0 flex-1 overflow-hidden">
         <ScrollArea.Viewport className="h-full w-full">
           <table className="w-full border-separate border-spacing-0 text-left text-sm">
             <thead className="bg-background sticky top-0">
               <tr>
-                <th scope="col" className="border-border border-b p-2 text-left font-medium">
+                <th scope="col" className="border-border w-0 border-b p-2 text-left font-medium">
                   Turret
                 </th>
                 {HULL_REFERENCE_LINES.map(({ protection, label }) => {
                   const isActive = protection === sortProtection
-
                   return (
                     <th
                       key={protection}
                       scope="col"
                       aria-sort={isActive ? 'ascending' : 'none'}
-                      className="border-border border-b font-medium hover:cursor-pointer"
+                      className="border-border h-8 border-b font-medium hover:cursor-pointer"
                       onClick={() => setSortProtection(protection)}
                     >
                       <button
                         type="button"
-                        className={`h-full w-full rounded-md p-2 text-center transition-colors hover:cursor-pointer hover:bg-white/2 ${
+                        className={`flex h-full w-full items-center justify-center rounded-md transition-colors hover:cursor-pointer hover:bg-white/2 ${
                           isActive ? 'text-primary-foreground' : 'text-foreground'
                         }`}
                         onClick={(event) => {

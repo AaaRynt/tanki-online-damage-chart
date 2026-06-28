@@ -24,7 +24,7 @@ export function Grid({
   handleSelected: (turretName: TTurretName) => void
 }) {
   return (
-    <div className="flex flex-row gap-5">
+    <div className="absolute z-2 flex flex-row gap-5">
       <Row turretArr={meleeRangeTurrets} selected={selected} handleSelected={handleSelected} />
       <Row turretArr={mediumRangeTurrets} selected={selected} handleSelected={handleSelected} />
       <Row turretArr={longRangeTurrets} selected={selected} handleSelected={handleSelected} />

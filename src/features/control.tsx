@@ -48,7 +48,7 @@ function debounce<TArgs extends unknown[]>(
 
 export function Control({ factor, setFactor, showTooltip, setShowTooltip, showTTK, setShowTTK }: TControlProps) {
   return (
-    <section className="absolute right-8 bottom-4 flex w-full items-center justify-end gap-2">
+    <section className="absolute right-8 bottom-2 flex w-full items-center justify-end gap-2">
       <Factor factor={factor} setFactor={setFactor} />
       <MySwitch name="Tooltip" boolean={showTooltip} handle={setShowTooltip} />
       <MySwitch name="TTK" boolean={showTTK} handle={setShowTTK} />
@@ -104,7 +104,7 @@ function Factor({ factor, setFactor }: TFactorProps) {
         type="number"
         value={factorValue}
         onChange={setFactorChange}
-        className="border-foreground focus-visible:ring-primary-foreground/60 w-20 rounded-md border bg-(--color-cover) pl-2 text-sm font-medium outline-none focus-visible:ring-2"
+        className="border-foreground focus-visible:ring-primary-foreground/60 w-16 rounded-md border bg-(--color-cover) pl-2 text-sm font-medium outline-none focus-visible:ring-2"
         step={0.1}
         min={MIN_FACTOR}
         max={MAX_FACTOR}

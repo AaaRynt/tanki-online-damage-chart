@@ -30,16 +30,12 @@ export function Chart({
   factor?: number
 }) {
   if (selectedTurrets.length === 0) {
-    return (
-      <div className="border-border text-muted-foreground flex h-80 w-full items-center justify-center rounded-xl border">
-        Select turrets to show damage chart
-      </div>
-    )
+    return <Empty />
   }
 
   return (
     <ResponsiveContainer width="100%" height="100%" className="[&_.recharts-surface:focus]:outline-none">
-      <LineChart data={buildChartData(selectedTurrets, factor)} margin={{ top: 8, right: 0, bottom: 8, left: 0 }}>
+      <LineChart data={buildChartData(selectedTurrets, factor)} margin={{ top: 0, right: 0, bottom: 16, left: 0 }}>
         <CartesianGrid stroke="var(--color-border)" vertical={false} />
         <XAxis
           dataKey="time"
@@ -99,9 +95,17 @@ export function Chart({
   )
 }
 
+function Empty() {
+  return (
+    <div className="border-border text-muted-foreground mt-14 mb-11 flex w-full items-center justify-center rounded-xl border bg-cover text-xl">
+      Select turrets to show damage chart...
+    </div>
+  )
+}
+
 function TurretLegend({ selectedTurrets }: { selectedTurrets: TTurrets[] }) {
   return (
-    <div className="flex flex-wrap justify-center gap-4">
+    <div className="mx-auto flex h-8 max-w-180 flex-wrap justify-center gap-x-4 gap-y-2">
       {selectedTurrets.map((turret) => (
         <div key={turret.name} className="flex items-center gap-1 text-sm">
           <span className="h-0.5 w-4" style={{ backgroundColor: turret.color }} />
