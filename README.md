@@ -77,19 +77,19 @@ Each turret has a `reloadTime` array. The values are interpreted as relative int
 Examples:
 
 ```ts
-;[0, 1.1, -1]
+[0, 1.1, -1]
 ```
 
 Attacks at `0s`, then repeats the last normal interval forever: `1.1s`, `2.2s`, `3.3s`, and so on.
 
 ```ts
-;[1.2, 3.7, -1]
+[1.2, 3.7, -1]
 ```
 
 The first attack happens after `1.2s`, then repeats `3.7s`.
 
 ```ts
-;[0, 1, 2, -2]
+[0, 1, 2, -2]
 ```
 
 Repeats the whole interval cycle after the initial sequence. If the sequence starts with `0`, that first `0` means the turret is initially loaded and is not repeated in later cycles.
